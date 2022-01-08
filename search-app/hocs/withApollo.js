@@ -1,6 +1,7 @@
 // lib/withApollo.js
 import withApollo from 'next-with-apollo';
 import { InMemoryCache, ApolloProvider, ApolloClient } from '@apollo/client'
+import { Helmet } from 'react-helmet'
 
 export default withApollo(
   ({ initialState }) => {
@@ -12,9 +13,14 @@ export default withApollo(
   {
     render: ({ Page, props }) => {
       return (
-        <ApolloProvider client={props.apollo}>
-          <Page {...props} />
-        </ApolloProvider>
+        <div>
+            <Helmet>
+                <title>This Little Corner Searcher</title>
+            </Helmet>
+            <ApolloProvider client={props.apollo}>
+              <Page {...props} />
+            </ApolloProvider>
+        </div>
       );
     }
   }

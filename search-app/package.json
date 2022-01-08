@@ -24,7 +24,8 @@
     "next-with-apollo": "^5.1.0",
     "qs": "^6.10.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-helmet": "6.1.0"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",

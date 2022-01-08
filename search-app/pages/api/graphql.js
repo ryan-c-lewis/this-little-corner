@@ -29,7 +29,7 @@ const searchkitConfig = {
             must: [
               {
                 query_string: {
-                  query: query,
+                  query: '"' + query + '"',
                   fields: ['title','description','transcript_full']
                 }
               }
