@@ -3,6 +3,7 @@ import cors from 'micro-cors'
 
 import {
   MultiMatchQuery,
+  CustomQuery,
   RefinementSelectFacet,
   RangeFacet,
   SearchkitSchema,
@@ -20,13 +21,28 @@ const searchkitConfig = {
   sortOptions: [
     { id: 'date', label: "Date", field: [{"date": "desc"}], defaultOption: true},
   ],
-  query: new MultiMatchQuery({ fields: ['title','description','transcript_full'] }),
-  facets: [
-    new DateRangeFacet({
-      field: 'date',
-      identifier: 'date',
-      label: 'Date'
+  query: new CustomQuery({
+      queryFn: (query, qm) => {
+        return {
+          bool: {
+            must: [
+              {
+                query_string: {
+                  query: query,
+                  fields: ['title','description','transcript_full']
+                }
+              }
+            ]
+          }
+        }
+      }
     }),
+    facets: [
+      new DateRangeFacet({
+        field: 'date',
+        identifier: 'date',
+        label: 'Date'
+      }),
   ]
 }
 
