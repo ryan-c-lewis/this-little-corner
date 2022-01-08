@@ -36,6 +36,8 @@ export default withApollo(
             postMessageToPlayer(iframe, "playVideo", []);
         }
         function setupCallPlayer() {
+            if (typeof window === 'undefined')
+                return;
             window['jump'] = jump;
         }
         
