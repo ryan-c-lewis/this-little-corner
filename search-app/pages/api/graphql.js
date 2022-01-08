@@ -19,7 +19,8 @@ const searchkitConfig = {
     fields: ['id','channel_id','title','description','url','date','transcript_parts']
   },
   sortOptions: [
-    { id: 'date', label: "Date", field: [{"date": "desc"}], defaultOption: true},
+    { id: 'newest', label: "Newest", field: [{"date": "desc"}], defaultOption: true},
+    { id: 'oldest', label: "Oldest", field: [{"date": "asc"}]},
   ],
   query: new CustomQuery({
       queryFn: (query, qm) => {
@@ -36,14 +37,7 @@ const searchkitConfig = {
           }
         }
       }
-    }),
-    facets: [
-      new DateRangeFacet({
-        field: 'date',
-        identifier: 'date',
-        label: 'Date'
-      }),
-  ]
+    })
 }
 
 const { typeDefs, withSearchkitResolvers, context } = SearchkitSchema({

@@ -109,20 +109,17 @@ const Page = () => {
   const Facets = FacetsList([])
   return (
     <EuiPage>
-      <EuiPageSideBar>
-        <SearchBar loading={loading} />
-        <EuiHorizontalRule margin="m" />
-        <Facets data={data?.results} loading={loading} />
-      </EuiPageSideBar>
       <EuiPageBody component="div">
+        <EuiFlexGroup>
+          <EuiFlexItem grow={1}>
+            <SearchBar loading={loading} />
+          </EuiFlexItem>
+        </EuiFlexGroup>
         <EuiPageHeader>
           <EuiPageHeaderSection>
             <EuiTitle size="l">
               <SelectedFilters data={data?.results} loading={loading} />
             </EuiTitle>
-          </EuiPageHeaderSection>
-          <EuiPageHeaderSection>
-            <ResetSearchButton loading={loading} />
           </EuiPageHeaderSection>
         </EuiPageHeader>
         <EuiPageContent>
