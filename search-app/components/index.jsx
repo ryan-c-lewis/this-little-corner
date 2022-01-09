@@ -71,8 +71,9 @@ const query = gql`
           ... on ResultHit {
             id
             fields {
-              id
+              video_id
               channel_id
+              channel_name
               title
               url
               description

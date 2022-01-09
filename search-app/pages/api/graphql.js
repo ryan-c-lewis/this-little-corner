@@ -16,7 +16,7 @@ const searchkitConfig = {
   host: process.env.ES_HOST || 'http://localhost:9200',
   index: 'this_little_corner',
   hits: {
-    fields: ['id','channel_id','title','description','url','date','transcript_parts']
+    fields: ['video_id','channel_id','channel_name','title','description','url','date','transcript_parts']
   },
   sortOptions: [
     { id: 'newest', label: "Newest", field: [{"date": "desc"}], defaultOption: true},
@@ -67,8 +67,9 @@ const server = new ApolloServer({
     }
 
     type HitFields {
-      id: String,
+      video_id: String,
       channel_id: String,
+      channel_name: String,
       title: String,
       description: String,
       url: String,

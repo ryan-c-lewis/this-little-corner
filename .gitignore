@@ -132,3 +132,5 @@ dmypy.json
 node_modules/
 .next/
 elasticsearch/
+install.txt
+secrets.txt
