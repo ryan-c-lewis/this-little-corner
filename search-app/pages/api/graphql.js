@@ -13,10 +13,10 @@ import {
 } from '@searchkit/schema'
 
 const searchkitConfig = {
-  host: process.env.ES_HOST || 'http://localhost:9200',
+  host: 'http://localhost:9200',
   index: 'this_little_corner',
   hits: {
-    fields: ['video_id','channel_id','channel_name','title','description','url','date','transcript_parts']
+    fields: ['video_id','channel_id','channel_name','title','description','url','date','transcript_parts','transcript_parts_clean']
   },
   sortOptions: [
     { id: 'newest', label: "Newest", field: [{"date": "desc"}], defaultOption: true},
@@ -74,7 +74,8 @@ const server = new ApolloServer({
       description: String,
       url: String,
       date: String,
-      transcript_parts: [TranscriptPart]
+      transcript_parts: [TranscriptPart],
+      transcript_parts_clean: [TranscriptPart]
     }
 
     type ResultHit implements SKHit {

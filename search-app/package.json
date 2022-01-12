@@ -5,9 +5,11 @@
   "main": "index.js",
   "author": "Joseph McElroy <phoey1@gmail.com>",
   "license": "MIT",
+  "homepage": ".",
   "scripts": {
-    "build": "next build",
-    "start": "next"
+    "dev": "next -p 80",
+    "build": "set \"INLINE_RUNTIME_CHUNK=false\" && next build",
+    "start": "next start"
   },
   "dependencies": {
     "@apollo/client": "^3.3.11",

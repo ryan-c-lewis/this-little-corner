@@ -1,6 +1,6 @@
 import { withSearchkit, withSearchkitRouting } from '@searchkit/client'
 import dynamic from 'next/dynamic'
-import withApollo from '../hocs/withApollo'
+import withApollo from '../hocs/withapollo'
 import '@elastic/eui/dist/eui_theme_light.css'
 
 const Search = dynamic(() => import('../components/index'), { ssr: false })

@@ -138,14 +138,21 @@ def index_channel(elastic, name, channel_id):
     print('Found all the videos.')
 
     n = 0
+    already_indexed_in_a_row = 0
     for video in playlist.videos:
         n += 1
         video_id = video['id']
         video_title = video['title']
 
         if already_exists(es, video_id):
+            already_indexed_in_a_row += 1
+            if already_indexed_in_a_row >= 5:
+                print(f'Probably the rest will already be indexed. Moving on...')
+                break
             print(f'Already indexed video {n} of {len(playlist.videos)} ({video_title})')
             continue
+
+        already_indexed_in_a_row = 0
 
         try:
             video_url = video['link'].split('&')[0]
@@ -180,9 +187,22 @@ if __name__ == '__main__':
     es = connect_elasticsearch()
     if es is not None:
         create_index(es)
-        #index_channel(es, 'Paul VanderKlay', 'UCGsDIP_K6J6VSTqlq-9IPlg')
-        #index_channel(es, 'Randos United', 'UCEzWTLDYmL8soRdQec9Fsjw')
-        #index_channel(es, 'The Meaning Code', 'UCgp_r6WlBwDSJrP43Mz07GQ')
+        index_channel(es, 'The Andromist', 'UCIAtCuzdvgNJvSYILnHtdWA')
+        index_channel(es, 'Bridges of Meaning Hub', 'UCiJmdXTb76i8eIPXdJyf8ZQ')
+        index_channel(es, 'Michael Sartori', 'UC8SErJkYnDsYGh1HxoZkl-g')
+        index_channel(es, 'The Information Addict', 'UCM9Z05vuQhMEwsV03u6DrLA')
+        index_channel(es, 'Mary Kochan', 'UC2leFZRD0ZlQDQxpR2Zd8oA')
+        index_channel(es, 'Grail Country', 'UCsi_x8c12NW9FR7LL01QXKA')
+        index_channel(es, 'Paul Anleitner', 'UC2yCyOMUeem-cYwliC-tLJg')
+        index_channel(es, 'Jacob', 'UCprytROeCztMOMe8plyJRMg')
+        index_channel(es, 'Chad the Alcoholic', 'UCuex29iuR-bNNMZZXTw4JpQ')
+        index_channel(es, 'The Chris Show', 'UClIDP7_Kzv_7tDQjTv9EhrA')
+        index_channel(es, 'Andrea with the Bangs', 'UCeWWxwzgLYUbfjWowXhVdYw')
+        index_channel(es, 'Rebel Wisdom', 'UCFQ6Gptuq-sLflbJ4YY3Umw')
+        index_channel(es, 'Transfigured', 'UCg7Ed0lecvko58ibuX1XHng')
+        index_channel(es, 'Paul VanderKlay', 'UCGsDIP_K6J6VSTqlq-9IPlg')
+        index_channel(es, 'Randos United', 'UCEzWTLDYmL8soRdQec9Fsjw')
+        index_channel(es, 'The Meaning Code', 'UCgp_r6WlBwDSJrP43Mz07GQ')
         index_channel(es, 'The Symbolic World', 'UCtCTSf3UwRU14nYWr_xm-dQ')
         index_channel(es, 'John Vervaeke', 'UCpqDUjTsof-kTNpnyWper_Q')
         index_channel(es, 'Jordan Peterson', 'UCL_f53ZEJxp8TtlOkHwMV9Q')

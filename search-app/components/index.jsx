@@ -1,5 +1,5 @@
 import { gql, useQuery } from '@apollo/client'
-import { HitsList } from './searchkit/Hits'
+import { HitsList } from './searchkit/hits'
 import { useSearchkitVariables } from '@searchkit/client'
 import {
   FacetsList,
@@ -27,6 +27,16 @@ import {
   EuiFlexItem
 } from '@elastic/eui'
 import { useEffect } from 'react'
+
+const GetResultsTitle = (data) => {
+  if (data == null)
+    return "";
+  
+  if (data?.results.summary.query !== "")
+    return "Found " + data.results.summary.total + " videos that discuss \"" + data.results.summary.query + "\"";
+  else
+    return data?.results.summary.total + " videos to search through";
+}
 
 const query = gql`
   query resultSet($query: String, $filters: [SKFiltersSet], $page: SKPageInput, $sortBy: String) {
@@ -113,6 +123,10 @@ const Page = () => {
       <EuiPageBody component="div">
         <EuiFlexGroup>
           <EuiFlexItem grow={1}>
+            <EuiTitle size="l">
+              <h2>THIS LITTLE CORNER OF THE INTERNET</h2>
+            </EuiTitle>
+            <div style={{"paddingBottom": 20}}>Search through youtube transcripts to find things that people have discussed.<br/>The relevant parts of the transcript will show on the right side.<br/>Click on parts of the transcript to jump to that moment in the video.</div>
             <SearchBar loading={loading} />
           </EuiFlexItem>
         </EuiFlexGroup>
@@ -127,7 +141,7 @@ const Page = () => {
           <EuiPageContentHeader>
             <EuiPageContentHeaderSection>
               <EuiTitle size="s">
-                <h2>{data?.results.summary.total} Results</h2>
+                <h2>{GetResultsTitle(data)}</h2>
               </EuiTitle>
             </EuiPageContentHeaderSection>
             <EuiPageContentHeaderSection>
