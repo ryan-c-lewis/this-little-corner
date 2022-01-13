@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Primitives;
 using SearchServer.RequestHandlers;
 
 namespace SearchServer
@@ -31,9 +32,9 @@ namespace SearchServer
                     string response = new HomepageRequestHandler().GetResponse();
                     await context.Response.WriteAsync(response);
                 });
-                endpoints.MapGet("/api/search/{query}", async context =>
+                endpoints.MapGet("/api/search", async context =>
                 {
-                    string query = context.GetRouteValue("query")?.ToString();
+                    string query = context.Request.Query["q"];
                     string response = new SearchRequestHandler(query).GetResponse();
                     await context.Response.WriteAsync(response);
                 });

@@ -8,7 +8,7 @@ namespace SearchServer
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls("http://*:5001")
+                .UseUrls("http://*:51407")
                 .UseStartup<Startup>()
                 .Build();
 

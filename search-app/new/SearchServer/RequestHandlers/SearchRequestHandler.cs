@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Newtonsoft.Json;
 using SearchServer.Model;
 
@@ -16,6 +17,11 @@ namespace SearchServer.RequestHandlers
         public string GetResponse()
         {
             IEnumerable<Video> results = ElasticManager.Instance.Search(_query);
+            foreach (Video result in results)
+            {
+                result.transcript_full = null;
+                result.transcript_parts = result.transcript_parts.Take(20);
+            }
             return JsonConvert.SerializeObject(results);
         }
     }
