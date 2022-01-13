@@ -19,12 +19,12 @@ const renderApp = () => {
   );
 };
 
-if (module.hot) {
+if ((module as any).hot) {
   const reRenderApp = () => {
     renderApp();
   };
 
-  module.hot.accept('./containers/App', () => {
+  (module as any).hot.accept('./containers/App', () => {
     setImmediate(() => {
       reRenderApp();
     });

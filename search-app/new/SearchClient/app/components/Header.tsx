@@ -17,7 +17,7 @@ export default class Header extends React.Component<IHeaderProps, any> {
   render() {
     return (
       <header className='header'>
-          <h1>todos</h1>
+          <h1>This Little Corner of the Internet</h1>
           <SearchQueryInput newTodo={true}
                             onSave={this.handleSearch}
                             placeholder='What are you looking for?' />
