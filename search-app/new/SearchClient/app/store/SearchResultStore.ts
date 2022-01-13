@@ -1,32 +1,21 @@
 ﻿import { observable, action, computed } from 'mobx';
-import { TodoItem } from '../model/TodoItem';
+import { SearchResultModel } from '../model/SearchResultModel';
 import { todosApi } from '../apiclient';
 
-export class TodoStore {
+export class SearchResultStore {
 
-  @observable todos: TodoItem[] = [];
+  @observable results: SearchResultModel[] = [];
 
   @observable isLoading: boolean = false;
 
-  @computed get activeTodoCount(): number {
-		return this.todos.reduce(
-			(sum, todo) => sum + (todo.completed ? 0 : 1),
-			0
-		)
-	}
-
-	@computed get completedCount(): number {
-		return this.todos.length - this.activeTodoCount;
-	}
-
-  @action loadTodos(): Promise<any> {
+  @action loadInitialWhatever(): Promise<any> {
     return new Promise<any>(() => {});
   }
 
-  @action search(todo: string): Promise<any> {
-    return todosApi.search(todo)
+  @action search(query: string): Promise<any> {
+    return todosApi.search(query)
       .then(action((data: any) => {
-        this.todos.push(new TodoItem(data));
+        this.results = data.map(x => new SearchResultModel(x));
       }));
   }
 

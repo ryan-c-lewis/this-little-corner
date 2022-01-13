@@ -1,29 +1,29 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
 import classNames from "classnames";
-import { TodoFilter } from '../store/AppState';
+import { SearchFilter } from '../store/AppState';
 
 const FILTER_TITLES = {
-  [TodoFilter.All]: 'All',
-  [TodoFilter.Active]: 'Active',
-  [TodoFilter.Completed]: 'Completed'
+  [SearchFilter.All]: 'All',
+  [SearchFilter.Active]: 'Active',
+  [SearchFilter.Completed]: 'Completed'
 };
 
 interface IFooterProps {
   markedCount: number,
   unmarkedCount: number,
-  filter: TodoFilter,
+  filter: SearchFilter,
   onClearMarked(): void,
-  onShow(filter: TodoFilter): void
+  onShow(filter: SearchFilter): void
 }
 
 @observer
 export default class Footer extends React.Component<IFooterProps, {}> {
 
   render() {
-    const filters: TodoFilter[] = Object.keys(TodoFilter)
-      .filter(key => !isNaN(Number(TodoFilter[key])))
-      .map(key => TodoFilter[key]);
+    const filters: SearchFilter[] = Object.keys(SearchFilter)
+      .filter(key => !isNaN(Number(SearchFilter[key])))
+      .map(key => SearchFilter[key]);
     return (
       <footer className='footer'>
         {this.renderTodoCount()}
@@ -50,7 +50,7 @@ export default class Footer extends React.Component<IFooterProps, {}> {
     );
   }
 
-  renderFilterLink(filter: TodoFilter) {
+  renderFilterLink(filter: SearchFilter) {
     const title = FILTER_TITLES[filter];
     const { filter: selectedFilter, onShow } = this.props;
 

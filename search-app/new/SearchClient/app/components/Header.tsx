@@ -1,16 +1,16 @@
 import * as React from 'react';
-import TodoTextInput from './TodoTextInput';
-import { TodoStore } from '../store/TodoStore';
+import SearchQueryInput from './SearchQueryInput';
+import { SearchResultStore } from '../store/SearchResultStore';
 
 interface IHeaderProps {
-  todoStore: TodoStore
+  searchResultStore: SearchResultStore
 }
 
 export default class Header extends React.Component<IHeaderProps, any> {
 
   handleSearch = (text: string) => {
     if (text.length !== 0) {
-      this.props.todoStore.search(text);
+      this.props.searchResultStore.search(text);
     }
   }
 
@@ -18,9 +18,9 @@ export default class Header extends React.Component<IHeaderProps, any> {
     return (
       <header className='header'>
           <h1>todos</h1>
-          <TodoTextInput newTodo={true}
-                         onSave={this.handleSearch}
-                         placeholder='What are you looking for?' />
+          <SearchQueryInput newTodo={true}
+                            onSave={this.handleSearch}
+                            placeholder='What are you looking for?' />
       </header>
     );
   }

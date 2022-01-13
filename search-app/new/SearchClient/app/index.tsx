@@ -3,17 +3,17 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { AppState } from './store/AppState';
-import { TodoStore } from './store/TodoStore';
+import { SearchResultStore } from './store/SearchResultStore';
 
 const appState = new AppState();
-const todoStore = new TodoStore();
+const todoStore = new SearchResultStore();
 
 const renderApp = () => {
   const App = require('./containers/App').default;
 
   ReactDOM.render(
     <AppContainer>
-      <App appState={appState} todoStore={todoStore} />
+      <App appState={appState} searchResultStore={todoStore} />
     </AppContainer>,
     document.getElementById('root')
   );

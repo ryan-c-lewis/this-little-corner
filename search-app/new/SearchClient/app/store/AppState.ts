@@ -5,19 +5,19 @@ useStrict(true);
 export class AppState {
 
   constructor() {
-    this.currentTodoFilter = TodoFilter.All;
+    this.currentSearchFilter = SearchFilter.All;
   }
 
-  @observable public currentTodoFilter: TodoFilter;
+  @observable public currentSearchFilter: SearchFilter;
 
   @action
-  setTodoFilter(filter: TodoFilter) {
-    this.currentTodoFilter = filter;
+  setTodoFilter(filter: SearchFilter) {
+    this.currentSearchFilter = filter;
   }
 
 }
 
-export enum TodoFilter {
+export enum SearchFilter {
   All,
   Active,
   Completed

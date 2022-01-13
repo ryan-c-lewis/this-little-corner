@@ -9,11 +9,11 @@ interface ITodoTextInputProps {
   placeholder?: string
 }
 
-interface ITodoTextInputState {
+interface ISearchQueryInputState {
   text: string
 }
 
-export default class TodoTextInput extends React.Component<ITodoTextInputProps, ITodoTextInputState> {
+export default class SearchQueryInput extends React.Component<ITodoTextInputProps, ISearchQueryInputState> {
 
   constructor(props, context) {
     super(props, context);

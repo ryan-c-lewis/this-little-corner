@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
@@ -24,6 +25,7 @@ namespace SearchServer
             }
             
             app.UseRouting();
+            app.UseCors(x => x.AllowAnyOrigin());
             
             app.UseEndpoints(endpoints =>
             {

@@ -1,22 +1,22 @@
 import * as React from 'react';
 import { Provider } from 'mobx-react';
-import TodoApp from './TodoApp';
+import SearchApp from './SearchApp';
 import DevTools from 'mobx-react-devtools'
 import { AppState } from '../store/AppState';
-import { TodoStore } from '../store/TodoStore';
+import { SearchResultStore } from '../store/SearchResultStore';
 
 interface IRootProps {
   appState: AppState,
-  todoStore: TodoStore
+  searchResultStore: SearchResultStore
 }
 
 export default class Root extends React.Component<IRootProps, void> {
   render() {
-    const { appState, todoStore } = this.props;
+    const { appState, searchResultStore } = this.props;
     return (
-      <Provider appState={appState} todoStore={todoStore}>
+      <Provider appState={appState} searchResultStore={searchResultStore}>
         <div>
-          <TodoApp appState={appState} todoStore={todoStore} />
+          <SearchApp appState={appState} searchResultStore={searchResultStore} />
           <DevTools />
         </div>
       </Provider>
