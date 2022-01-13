@@ -12,14 +12,10 @@ interface ISearchAppProps {
 @observer
 export default class SearchApp extends React.Component<ISearchAppProps, {}> {
 
-  componentDidMount() {
-    if (this.props.searchResultStore.init) {
-      this.props.searchResultStore.init();
-    }
-  }
-
   render() {
     const { appState, searchResultStore } = this.props;
+
+    this.props.searchResultStore.init()
 
     return (
       <div>

@@ -12,11 +12,18 @@ export class SearchResultStore {
   @observable isLoading: boolean = false;
 
   @action init() {
-    // do whatever here I guess
+    this.newSearch("");
   }
 
   @action newSearch(query: string): Promise<any> {
     return this.search(new SearchRequestModel({query: query}));
+  }
+
+  @action goToPage(page: number): Promise<any> {
+    return this.search(new SearchRequestModel({
+      query: this.lastRequest.query,
+      page: page,
+      pageSize: this.lastRequest.pageSize}));
   }
 
   @action search(request: SearchRequestModel): Promise<any> {

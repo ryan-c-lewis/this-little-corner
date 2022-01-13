@@ -2,7 +2,7 @@ import {SearchResultItemModel} from "./SearchResultItemModel";
 
 export class SearchResultModel {
   items: SearchResultItemModel[];
-  total: number;
+  totalResults: number;
   totalPages: number;
   currentPage: number;
 
@@ -13,7 +13,7 @@ export class SearchResultModel {
   public toJs(): any {
     return {
       items: this.items,
-      total: this.total,
+      totalResults: this.totalResults,
       totalPages: this.totalPages,
       currentPage: this.currentPage
     }

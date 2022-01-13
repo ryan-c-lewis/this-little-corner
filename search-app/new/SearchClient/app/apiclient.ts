@@ -33,6 +33,6 @@ const requests = {
 export const searchAPI = {
   search: (request: SearchRequestModel) => requests.get('/api/search?'
       + 'q=' + request.query
-      + '&page=' + request.currentPage
+      + '&page=' + request.page
       + '&size=' + request.pageSize),
 }

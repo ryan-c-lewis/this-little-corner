@@ -1,6 +1,6 @@
 export class SearchRequestModel {
   query: string = "";
-  currentPage: number = 0;
+  page: number = 0;
   pageSize: number = 10;
 
   public constructor(init?:Partial<SearchRequestModel>) {
@@ -10,7 +10,7 @@ export class SearchRequestModel {
   public toJs(): any {
     return {
       query: this.query,
-      currentPage: this.currentPage,
+      page: this.page,
       pageSize: this.pageSize
     }
   }

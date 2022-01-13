@@ -39,14 +39,18 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
     }
   }
 
+  changePage = (newPage: number) => {
+    this.props.searchResultStore.goToPage(newPage);
+  }
+
   render() {
     const { searchResultStore, appState } = this.props;
 
     const GetResultsTitle = () => {
       if (searchResultStore.result == null)
         return "";
-      let query = "change this";
-      let total = 5;
+      let query = searchResultStore.lastRequest.query;
+      let total = searchResultStore.result.totalResults;
 
       if (query !== "")
         return "Found " + total + " videos that discuss \"" + query + "\"";
@@ -55,7 +59,19 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
     }
 
 
-    const HitsList = () => (
+    const Pagination = () => (
+        <EuiPagination
+            aria-label="Pagination"
+            pageCount={searchResultStore.result?.totalPages}
+            activePage={searchResultStore.result?.currentPage}
+            onPageClick={(page) => {
+              this.changePage(page);
+            }}
+        />
+    )
+
+
+    const ResultsList = () => (
         <>
           {searchResultStore.result?.items.map((hit) => (
               <EuiFlexGroup gutterSize="xl" key={hit.video_id}>
@@ -111,6 +127,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                   <EuiTitle size="s">
                     <h2>{GetResultsTitle()}</h2>
                   </EuiTitle>
+                  <Pagination/>
                 </EuiPageContentHeaderSection>
                 <EuiPageContentHeaderSection>
                   <EuiFlexGroup>
@@ -121,17 +138,8 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                 </EuiPageContentHeaderSection>
               </EuiPageContentHeader>
               <EuiPageContentBody>
-                <HitsList />
-                <EuiFlexGroup justifyContent="spaceAround">
-                  <EuiPagination
-                      aria-label="Pagination"
-                      pageCount={searchResultStore.result?.totalPages}
-                      activePage={searchResultStore.result?.currentPage}
-                      onPageClick={(page) => {
-                        alert(page);
-                      }}
-                  />
-                </EuiFlexGroup>
+                <ResultsList />
+                <Pagination/>
               </EuiPageContentBody>
             </EuiPageContent>
           </EuiPageBody>

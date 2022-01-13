@@ -7,6 +7,8 @@ import { SearchResultStore } from './store/SearchResultStore';
 const appState = new AppState();
 const todoStore = new SearchResultStore();
 
+require("@elastic/eui/dist/eui_theme_light.css");
+
 const renderApp = () => {
   const App = require('./containers/App').default;
 

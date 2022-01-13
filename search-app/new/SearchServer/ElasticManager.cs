@@ -25,16 +25,18 @@ namespace SearchServer
 
         public SearchResult Search(SearchRequest request)
         {
+            int startIndex = request.Page * request.PageSize;
             var response = _client.Search<SearchResultItem>(s => s
                 .Query(q => q.QueryString(t => t.Query(request.Query)))
-                .From(request.Page)
-                .Size(request.PageSize));
+                .From(startIndex)
+                .Size(request.PageSize)
+                .Sort(q => q.Descending(u => u.date))); // TODO make sort toggleable
             return new SearchResult
             {
                 items = response.Documents.ToList(),
                 totalResults = response.Total,
                 totalPages = (long)Math.Ceiling((double)response.Total / request.PageSize),
-                currentPage = (long)((double)(request.Page * request.PageSize) / request.PageSize),
+                currentPage = (long)((double)startIndex / request.PageSize),
             };
         }
     }
