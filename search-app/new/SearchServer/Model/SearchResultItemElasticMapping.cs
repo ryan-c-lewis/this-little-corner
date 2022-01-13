@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SearchServer.Model
 {
-    public class SearchResultItem
+    public class SearchResultItemElasticMapping
     {
         public string video_id { get; set; }
         public string channel_id { get; set; }
@@ -14,6 +14,9 @@ namespace SearchServer.Model
         public string description { get; set; }
         public double duration { get; set; }
         public string transcript_full { get; set; }
-        public IEnumerable<TranscriptPart> transcript_parts { get; set; }
+        public List<TranscriptPart> transcript_parts { get; set; }
+        
+        // TODO this wants to be a separate class
+        public List<TranscriptPartGroup> transcriptPartGroups { get; set; }
     }
 }

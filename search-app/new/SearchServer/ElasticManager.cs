@@ -26,7 +26,7 @@ namespace SearchServer
         public SearchResult Search(SearchRequest request)
         {
             int startIndex = request.Page * request.PageSize;
-            var response = _client.Search<SearchResultItem>(s => s
+            var response = _client.Search<SearchResultItemElasticMapping>(s => s
                 .Query(q => q.QueryString(t => t.Query(request.Query)))
                 .From(startIndex)
                 .Size(request.PageSize)

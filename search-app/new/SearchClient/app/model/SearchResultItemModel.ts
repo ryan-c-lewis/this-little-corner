@@ -1,4 +1,5 @@
 import { observable } from 'mobx';
+import {TranscriptPartGroupModel} from "./TranscriptPartGroupModel";
 
 export class SearchResultItemModel {
   video_id: string;
@@ -9,6 +10,7 @@ export class SearchResultItemModel {
   date: string;
   description: string;
   duration: number;
+  transcriptPartGroups: TranscriptPartGroupModel[];
 
   public constructor(init?:Partial<SearchResultItemModel>) {
     Object.assign(this, init);
@@ -23,7 +25,8 @@ export class SearchResultItemModel {
       url: this.url,
       date: this.date,
       description: this.description,
-      duration: this.duration
+      duration: this.duration,
+      transcriptPartGroups: this.transcriptPartGroups
     }
   }
 }

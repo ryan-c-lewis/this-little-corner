@@ -1,4 +1,5 @@
 import {SearchResultItemModel} from "./SearchResultItemModel";
+import {TranscriptPartGroupModel} from "./TranscriptPartGroupModel";
 
 export class SearchResultModel {
   items: SearchResultItemModel[];

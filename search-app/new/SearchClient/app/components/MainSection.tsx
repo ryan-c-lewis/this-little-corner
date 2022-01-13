@@ -58,6 +58,33 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
         return total + " videos to search through";
     }
 
+    function postMessageToPlayer(iframe, func, args) {
+      iframe.contentWindow.postMessage(JSON.stringify({
+        'event': 'command',
+        'func': func,
+        'args': args || []
+      }), '*');
+    }
+    function pauseAllExcept(iframeToIgnore) {
+      var i, frames;
+      frames = document.getElementsByTagName("iframe");
+      for (i = 0; i < frames.length; ++i) {
+        if (frames[i] === iframeToIgnore)
+          continue;
+        postMessageToPlayer(frames[i], "pauseVideo", []);
+      }
+    }
+    function jump(id, time) {
+      let iframe = document.getElementById(id);
+      pauseAllExcept(iframe);
+      postMessageToPlayer(iframe, "seekTo", [time, true]);
+      postMessageToPlayer(iframe, "playVideo", []);
+    }
+    function setupCallPlayer() {
+      if (typeof window === 'undefined')
+        return;
+      window['jump'] = jump;
+    }
 
     const Pagination = () => (
         <EuiPagination
@@ -73,6 +100,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
 
     const ResultsList = () => (
         <>
+          {setupCallPlayer()}
           {searchResultStore.result?.items.map((hit) => (
               <EuiFlexGroup gutterSize="xl" key={hit.video_id}>
                 <EuiFlexItem>
@@ -92,17 +120,17 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                   allowFullScreen />
                         </EuiFlexItem>
-                        {/*<EuiFlexItem grow={4}>*/}
-                        {/*  <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>*/}
-                        {/*    {GetMatchingPartsOfTranscript(data?.results.summary.query, hit.fields.transcript_parts).map((set) => (*/}
-                        {/*        <div style={{'paddingBottom': 20}}>*/}
-                        {/*          {set.map((part) => (*/}
-                        {/*              <a href={"javascript:jump('video_" + hit.fields.video_id + "', " + part.start + ");"} key={part.start}><span>{part.text} </span></a>*/}
-                        {/*          ))}*/}
-                        {/*        </div>*/}
-                        {/*    ))}*/}
-                        {/*  </div>*/}
-                        {/*</EuiFlexItem>*/}
+                        <EuiFlexItem grow={4}>
+                          <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
+                            {hit.transcriptPartGroups?.map((group) => (
+                                <div style={{'paddingBottom': 20}}>
+                                  {group.transcriptParts.map((part) => (
+                                      <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}><span>{part.text} </span></a>
+                                  ))}
+                                </div>
+                            ))}
+                          </div>
+                        </EuiFlexItem>
                       </EuiFlexGroup>
                     </EuiFlexItem>
                   </EuiFlexGroup>
@@ -117,9 +145,19 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
         <EuiPage>
           <EuiPageBody component="div">
             <EuiPageHeader>
+              <h1>This Little Corner of the Internet</h1>
+            </EuiPageHeader>
+          <EuiPageHeader>
+            <h3>
+              Search through youtube transcripts to find things that people have discussed.<br/>
+              The relevant parts of the transcript will show on the right side.<br/>
+              Click on parts of the transcript to jump to that moment in the video.
+            </h3>
+          </EuiPageHeader>
+            <EuiPageHeader>
               <SearchQueryInput newTodo={true}
                                 onSave={this.handleSearch}
-                                placeholder='What are you looking for?' />
+                                placeholder='Search' />
             </EuiPageHeader>
             <EuiPageContent>
               <EuiPageContentHeader>
