@@ -1,5 +1,7 @@
 import * as React from 'react';
 import classNames from "classnames";
+import {EuiSearchBar} from "@elastic/eui/src/components/search_bar/search_bar";
+import {EuiFieldSearch} from "@elastic/eui";
 
 interface ITodoTextInputProps {
   onSave(text: string): void,
@@ -21,15 +23,15 @@ export default class SearchQueryInput extends React.Component<ITodoTextInputProp
       text: this.props.text || ''
     };
   }
+  
+  loading = false;
 
-  handleSubmit = (e) => {
-    const text = e.target.value.trim();
-    if (e.which === 13) {
+  handleSubmit = (value) => {
+    const text = value.trim();
       this.props.onSave(text);
-      if (this.props.newTodo) {
-        this.setState({ text: '' });
-      }
-    }
+      // if (this.props.newTodo) {
+      //   this.setState({ text: '' });
+      // }
   }
 
   handleChange = (e) => {
@@ -44,18 +46,27 @@ export default class SearchQueryInput extends React.Component<ITodoTextInputProp
 
   render() {
     return (
-      <input 
-          className={classNames({
-              'edit': this.props.editing,
-              'new-todo': this.props.newTodo
-             })}
-             type='text'
-             placeholder={this.props.placeholder}
-             autoFocus={true}
-             value={this.state.text}
-             onBlur={this.handleBlur}
-             onChange={this.handleChange}
-             onKeyDown={this.handleSubmit} />
+        <EuiFieldSearch
+            placeholder="Search"
+            value={this.state.text}
+            onChange={this.handleChange}
+            isLoading={this.loading}
+            onSearch={this.handleSubmit}
+            isClearable
+            aria-label="Search"
+        />
+      // <input 
+      //     className={classNames({
+      //         'edit': this.props.editing,
+      //         'new-todo': this.props.newTodo
+      //        })}
+      //        type='text'
+      //        placeholder={this.props.placeholder}
+      //        autoFocus={true}
+      //        value={this.state.text}
+      //        onBlur={this.handleBlur}
+      //        onChange={this.handleChange}
+      //        onKeyDown={this.handleSubmit} />
     );
   }
 }

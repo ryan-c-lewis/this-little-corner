@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { AppState } from './store/AppState';
 import { SearchResultStore } from './store/SearchResultStore';
+import './style/style.css'
 
 const appState = new AppState();
 const todoStore = new SearchResultStore();

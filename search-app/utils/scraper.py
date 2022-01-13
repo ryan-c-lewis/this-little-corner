@@ -187,6 +187,7 @@ if __name__ == '__main__':
     es = connect_elasticsearch()
     if es is not None:
         create_index(es)
+        index_channel(es, 'Grizwald Grim', 'UCAqTQ5yLHHH44XWwWXLkvHQ')
         index_channel(es, 'Colton Kirby', 'UC6Tvr9mBXNaAxLGRA_sUSRA')
         index_channel(es, 'The Andromist', 'UCIAtCuzdvgNJvSYILnHtdWA')
         index_channel(es, 'Bridges of Meaning Hub', 'UCiJmdXTb76i8eIPXdJyf8ZQ')

@@ -43,6 +43,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
   }
 
   changePage = (newPage: number) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     this.props.searchResultStore.goToPage(newPage);
   }
 
@@ -121,10 +122,10 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
         <>
           {setupCallPlayer()}
           {searchResultStore.result?.items.map((hit) => (
-              <EuiFlexGroup gutterSize="xl" key={hit.video_id}>
+              <EuiFlexGroup>
                 <EuiFlexItem>
-                  <EuiFlexGroup>
-                    <EuiFlexItem grow={4}>
+                  <EuiFlexGroup gutterSize="xl" key={hit.video_id}>
+                    <EuiFlexItem grow={10}>
                       <EuiTitle size="xs">
                         <div>
                           <h4>{hit.title}</h4>
@@ -132,25 +133,25 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                           <h6>{hit.date}</h6>
                         </div>
                       </EuiTitle>
-                      <EuiFlexGroup>
-                        <EuiFlexItem grow={4}>
-                          <iframe id={"video_" + hit.video_id} width="560" height="315" src={"https://www.youtube.com/embed/" + hit.video_id + "?enablejsapi=1"}
-                                  title="YouTube video player" frameBorder="0"
-                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                  allowFullScreen />
-                        </EuiFlexItem>
-                        <EuiFlexItem grow={4}>
-                          <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
-                            {hit.transcriptPartGroups?.map((group) => (
-                                <div style={{'paddingBottom': 20}}>
-                                  {group.transcriptParts.map((part) => (
-                                      <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}><span>{part.text} </span></a>
-                                  ))}
-                                </div>
-                            ))}
-                          </div>
-                        </EuiFlexItem>
-                      </EuiFlexGroup>
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                  <EuiFlexGroup>
+                    <EuiFlexItem grow={5}>
+                      <iframe id={"video_" + hit.video_id} width="560" height="315" src={"https://www.youtube.com/embed/" + hit.video_id + "?enablejsapi=1"}
+                              title="YouTube video player" frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen />
+                    </EuiFlexItem>
+                    <EuiFlexItem grow={5}>
+                      <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
+                        {hit.transcriptPartGroups?.map((group) => (
+                            <div style={{'paddingBottom': 20}}>
+                              {group.transcriptParts.map((part) => (
+                                  <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}><span>{part.text} </span></a>
+                              ))}
+                            </div>
+                        ))}
+                      </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
                 </EuiFlexItem>
@@ -163,46 +164,35 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
     return (
         <EuiPage>
           <EuiPageBody component="div">
-            <EuiPageHeader>
-              <h1>This Little Corner of the Internet</h1>
+            {/*<EuiPageHeader>*/}
               {/*<EuiSuperSelect*/}
               {/*    options={sortOptions}*/}
               {/*    valueOfSelected={value}*/}
               {/*    onChange={(value) => changeSort(value)}*/}
               {/*/>*/}
-            </EuiPageHeader>
-          <EuiPageHeader>
-            <h3>
-              Search through youtube transcripts to find things that people have discussed.<br/>
-              The relevant parts of the transcript will show on the right side.<br/>
-              Click on parts of the transcript to jump to that moment in the video.
-            </h3>
-          </EuiPageHeader>
+            {/*</EuiPageHeader>*/}
             <EuiPageHeader>
-              <SearchQueryInput newTodo={true}
-                                onSave={this.handleSearch}
-                                placeholder='Search' />
+              <EuiFlexGroup justifyContent="spaceAround">
+                <SearchQueryInput newTodo={true}
+                                  onSave={this.handleSearch}
+                                  placeholder='Search' />
+              </EuiFlexGroup>
             </EuiPageHeader>
             <EuiPageContent>
-              <EuiPageContentHeader>
-                <EuiPageContentHeaderSection>
-                  <EuiTitle size="s">
+              <EuiFlexGroup>
+                <EuiFlexItem>
                     <h2>{GetResultsTitle()}</h2>
-                  </EuiTitle>
-                  <Pagination/>
-                </EuiPageContentHeaderSection>
-                <EuiPageContentHeaderSection>
-                  <EuiFlexGroup>
-                    <EuiFlexItem grow={1}>
-                      {/*<SortingSelector data={data?.results} loading={loading} />*/}
-                    </EuiFlexItem>
-                  </EuiFlexGroup>
-                </EuiPageContentHeaderSection>
-              </EuiPageContentHeader>
+                </EuiFlexItem>
+              </EuiFlexGroup>
+              <EuiFlexGroup justifyContent="spaceAround">
+                <Pagination/>
+              </EuiFlexGroup>
               <EuiPageContentBody>
                 <ResultsList />
-                <Pagination/>
               </EuiPageContentBody>
+              <EuiFlexGroup justifyContent="spaceAround">
+                <Pagination/>
+              </EuiFlexGroup>
             </EuiPageContent>
           </EuiPageBody>
         </EuiPage>
