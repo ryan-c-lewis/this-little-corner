@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { observer } from 'mobx-react'
-import Header from '../components/Header';
 import MainSection from '../components/MainSection';
 import { SearchResultStore } from '../store/SearchResultStore';
 import { AppState } from '../store/AppState';
@@ -14,8 +13,8 @@ interface ISearchAppProps {
 export default class SearchApp extends React.Component<ISearchAppProps, {}> {
 
   componentDidMount() {
-    if (this.props.searchResultStore.loadInitialWhatever) {
-      this.props.searchResultStore.loadInitialWhatever();
+    if (this.props.searchResultStore.init) {
+      this.props.searchResultStore.init();
     }
   }
 
@@ -24,7 +23,6 @@ export default class SearchApp extends React.Component<ISearchAppProps, {}> {
 
     return (
       <div>
-        <Header searchResultStore={searchResultStore} />
         <MainSection appState={appState} searchResultStore={searchResultStore} />
       </div>
     );

@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Elasticsearch.Net;
 using Nest;
 using SearchServer.Model;
+using SearchRequest = SearchServer.Model.SearchRequest;
 
 namespace SearchServer
 {
@@ -21,10 +23,19 @@ namespace SearchServer
             _client = new ElasticClient(settings);
         }
 
-        public IEnumerable<Video> Search(string query)
+        public SearchResult Search(SearchRequest request)
         {
-            var response = _client.Search<Video>(s => s.Query(q => q.QueryString(t => t.Query(query))));
-            return response.Documents;
+            var response = _client.Search<SearchResultItem>(s => s
+                .Query(q => q.QueryString(t => t.Query(request.Query)))
+                .From(request.Page)
+                .Size(request.PageSize));
+            return new SearchResult
+            {
+                items = response.Documents.ToList(),
+                totalResults = response.Total,
+                totalPages = (long)Math.Ceiling((double)response.Total / request.PageSize),
+                currentPage = (long)((double)(request.Page * request.PageSize) / request.PageSize),
+            };
         }
     }
 }

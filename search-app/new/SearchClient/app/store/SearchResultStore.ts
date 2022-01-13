@@ -1,41 +1,29 @@
 ﻿import { observable, action, computed } from 'mobx';
 import { SearchResultModel } from '../model/SearchResultModel';
-import { todosApi } from '../apiclient';
+import { searchAPI } from '../apiclient';
+import {SearchRequestModel} from "../model/SearchRequestModel";
 
 export class SearchResultStore {
 
-  @observable results: SearchResultModel[] = [];
+  @observable lastRequest: SearchRequestModel;
+  
+  @observable result: SearchResultModel;
 
   @observable isLoading: boolean = false;
 
-  @action loadInitialWhatever(): Promise<any> {
-    return new Promise<any>(() => {});
+  @action init() {
+    // do whatever here I guess
   }
 
-  @action search(query: string): Promise<any> {
-    return todosApi.search(query)
+  @action newSearch(query: string): Promise<any> {
+    return this.search(new SearchRequestModel({query: query}));
+  }
+
+  @action search(request: SearchRequestModel): Promise<any> {
+    return searchAPI.search(request)
       .then(action((data: any) => {
-        this.results = data.map(x => new SearchResultModel(x));
+        this.result = data;
+        this.lastRequest = request;
       }));
-  }
-
-  @action editTodo(id: number, title: string): Promise<any> {
-    return new Promise<any>(() => {});
-  }
-
-  @action deleteTodo(id: number): Promise<any> {
-    return new Promise<any>(() => {});
-  }
-
-  @action toggleCompleted(id: number): Promise<any> {
-    return new Promise<any>(() => {});
-  }
-
-  @action markAllCompleted(): Promise<any> {
-    return new Promise<any>(() => {});
-  }
-
-  @action clearCompleted(): Promise<any> {
-    return new Promise<any>(() => {});
   }
 }

@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Primitives;
+using Newtonsoft.Json;
+using SearchServer.Model;
 using SearchServer.RequestHandlers;
 
 namespace SearchServer
@@ -37,8 +39,13 @@ namespace SearchServer
                 endpoints.MapGet("/api/search", async context =>
                 {
                     string query = context.Request.Query["q"];
-                    string response = new SearchRequestHandler(query).GetResponse();
-                    await context.Response.WriteAsync(response);
+                    int.TryParse(context.Request.Query["page"], out int page);
+                    int.TryParse(context.Request.Query["size"], out int size);
+                    
+                    var request = new SearchRequest {Query = query, Page = page, PageSize = size};
+                    var result = new SearchRequestHandler().GetResponse(request);
+                    string jsonResult = JsonConvert.SerializeObject(result);
+                    await context.Response.WriteAsync(jsonResult);
                 });
             });
         }

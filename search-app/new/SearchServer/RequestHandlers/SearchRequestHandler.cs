@@ -1,28 +1,19 @@
-using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
 using SearchServer.Model;
 
 namespace SearchServer.RequestHandlers
 {
     public class SearchRequestHandler
     {
-        private readonly string _query;
-        
-        public SearchRequestHandler(string query)
+        public SearchResult GetResponse(SearchRequest request)
         {
-            _query = query;
-        }
-
-        public string GetResponse()
-        {
-            IEnumerable<Video> results = ElasticManager.Instance.Search(_query);
-            foreach (Video result in results)
+            SearchResult result = ElasticManager.Instance.Search(request);
+            foreach (SearchResultItem item in result.items)
             {
-                result.transcript_full = null;
-                result.transcript_parts = result.transcript_parts.Take(20);
+                item.transcript_full = null;
+                item.transcript_parts = item.transcript_parts.Take(20);
             }
-            return JsonConvert.SerializeObject(results);
+            return result;
         }
     }
 }

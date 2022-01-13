@@ -1,4 +1,5 @@
 import axios from 'axios';
+import {SearchRequestModel} from "./model/SearchRequestModel";
 
 // __API_URL_ comes from webpack DefinePlugin
 declare const __API_URL__: string;
@@ -29,6 +30,9 @@ const requests = {
     .catch(handleErrors)
 };
 
-export const todosApi = {
-  search: (query: string) => requests.get('/api/search?q=' + query),
+export const searchAPI = {
+  search: (request: SearchRequestModel) => requests.get('/api/search?'
+      + 'q=' + request.query
+      + '&page=' + request.currentPage
+      + '&size=' + request.pageSize),
 }

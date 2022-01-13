@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { observer, inject } from 'mobx-react';
-import { SearchResultModel as SearchResultModel } from '../model/SearchResultModel';
+import { SearchResultItemModel as SearchResultModel } from '../model/SearchResultItemModel';
 import { SearchResultStore } from '../store/SearchResultStore';
 
 interface ISearchResultProps {
