@@ -17,9 +17,12 @@ import {
   EuiHorizontalRule,
   EuiButtonGroup,
   EuiFlexGroup,
-  EuiFlexItem, EuiPagination
+  EuiFlexItem,
+  EuiPagination,
+  EuiSuperSelect
 } from '@elastic/eui'
 import SearchQueryInput from "./SearchQueryInput";
+import {useState} from "react";
 
 interface IMainSectionProps {
   appState: AppState,
@@ -45,6 +48,22 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
 
   render() {
     const { searchResultStore, appState } = this.props;
+
+    // const sortOptions = [
+    //   {
+    //     value: 'newer',
+    //     inputDisplay: 'Newer',
+    //   },
+    //   {
+    //     value: 'older',
+    //     inputDisplay: 'Older',
+    //   }];
+    // const [value, setValue] = useState(sortOptions[0].value);
+    //
+    // const changeSort = (newValue) => {
+    //   setValue(newValue);
+    //   searchResultStore.changeSort(newValue);
+    // };
 
     const GetResultsTitle = () => {
       if (searchResultStore.result == null)
@@ -146,6 +165,11 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
           <EuiPageBody component="div">
             <EuiPageHeader>
               <h1>This Little Corner of the Internet</h1>
+              {/*<EuiSuperSelect*/}
+              {/*    options={sortOptions}*/}
+              {/*    valueOfSelected={value}*/}
+              {/*    onChange={(value) => changeSort(value)}*/}
+              {/*/>*/}
             </EuiPageHeader>
           <EuiPageHeader>
             <h3>

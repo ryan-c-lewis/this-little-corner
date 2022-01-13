@@ -22,7 +22,16 @@ export class SearchResultStore {
   @action goToPage(page: number): Promise<any> {
     return this.search(new SearchRequestModel({
       query: this.lastRequest.query,
+      sort: this.lastRequest.sort,
       page: page,
+      pageSize: this.lastRequest.pageSize}));
+  }
+
+  @action changeSort(newValue: string): Promise<any> {
+    return this.search(new SearchRequestModel({
+      query: this.lastRequest.query,
+      sort: newValue,
+      page: 0,
       pageSize: this.lastRequest.pageSize}));
   }
 

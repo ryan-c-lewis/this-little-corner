@@ -30,7 +30,9 @@ namespace SearchServer
                 .Query(q => q.QueryString(t => t.Query(request.Query)))
                 .From(startIndex)
                 .Size(request.PageSize)
-                .Sort(q => q.Descending(u => u.date))); // TODO make sort toggleable
+                .Sort(q => request.Sort == "older"
+                    ? q.Ascending(u => u.date)
+                    : q.Descending(u => u.date)));
             return new SearchResult
             {
                 items = response.Documents.ToList(),
