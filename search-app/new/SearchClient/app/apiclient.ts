@@ -31,9 +31,15 @@ const requests = {
 };
 
 export const searchAPI = {
-  search: (request: SearchRequestModel) => requests.get('/api/search?'
-      + 'q=' + request.query
-      + '&sort=' + request.sort
-      + '&page=' + request.page
-      + '&size=' + request.pageSize),
+  search: (request: SearchRequestModel) => {
+    const { protocol, pathname, host } = window.location;
+    const newQuery = 'q=' + request.query
+        + '&sort=' + request.sort
+        + '&page=' + request.page
+        + '&size=' + request.pageSize;
+    const newUrl = protocol + '//' + host + pathname + '?' + newQuery;
+    return requests.get('/api/search?' + newQuery).finally(() => {
+        window.history.pushState({}, '', newUrl);
+      })
+    }
 }

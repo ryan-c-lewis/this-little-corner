@@ -29,9 +29,6 @@ export default class SearchQueryInput extends React.Component<ITodoTextInputProp
   handleSubmit = (value) => {
     const text = value.trim();
       this.props.onSave(text);
-      // if (this.props.newTodo) {
-      //   this.setState({ text: '' });
-      // }
   }
 
   handleChange = (e) => {

@@ -11,8 +11,8 @@ export class SearchResultStore {
 
   @observable isLoading: boolean = false;
 
-  @action init() {
-    this.newSearch("");
+  @action init(initialRequest: SearchRequestModel): Promise<any> {
+    return this.search(initialRequest);
   }
 
   @action newSearch(query: string): Promise<any> {

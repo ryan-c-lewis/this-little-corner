@@ -25,13 +25,16 @@ namespace SearchServer
 
         public SearchResult Search(SearchRequest request)
         {
+            string query = string.IsNullOrEmpty(request.Query)
+                ? ""
+                : "\"" + request.Query + "\"";
             int startIndex = request.Page * request.PageSize;
             var response = _client.Search<SearchResultItemElasticMapping>(s => s
                 .Query(q => q
                     .Bool(b => b
                         .Must(m => m
                             .QueryString(qs => qs
-                                .Query("\"" + request.Query + "\"")))))
+                                .Query(query)))))
                 .From(startIndex)
                 .Size(request.PageSize)
                 .Sort(q => request.Sort == "older"
