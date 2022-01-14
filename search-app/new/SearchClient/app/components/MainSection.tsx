@@ -23,6 +23,7 @@ import {
 } from '@elastic/eui'
 import SearchQueryInput from "./SearchQueryInput";
 import {useState} from "react";
+import SortSelect from "./SortSelect";
 
 interface IMainSectionProps {
   appState: AppState,
@@ -49,22 +50,6 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
 
   render() {
     const { searchResultStore, appState } = this.props;
-
-    // const sortOptions = [
-    //   {
-    //     value: 'newer',
-    //     inputDisplay: 'Newer',
-    //   },
-    //   {
-    //     value: 'older',
-    //     inputDisplay: 'Older',
-    //   }];
-    // const [value, setValue] = useState(sortOptions[0].value);
-    //
-    // const changeSort = (newValue) => {
-    //   setValue(newValue);
-    //   searchResultStore.changeSort(newValue);
-    // };
 
     const GetResultsTitle = () => {
       if (searchResultStore.result == null)
@@ -129,25 +114,28 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
         <>
           {setupCallPlayer()}
           {searchResultStore.result?.items.map((hit) => (
-              <EuiFlexGroup>
+              <EuiFlexGroup key={hit.video_id}>
                 <EuiFlexItem>
-                  <EuiFlexGroup gutterSize="xl" key={hit.video_id}>
+                  <EuiFlexGroup gutterSize="xl">
                     <EuiFlexItem grow={10}>
                       <EuiTitle size="xs">
                         <div>
                           <h4>{hit.title}</h4>
                           <h6>{hit.channel_name}</h6>
-                          <h6>{hit.date}</h6>
+                          <h6>{hit.date.split('T')[0]}</h6>
                         </div>
                       </EuiTitle>
                     </EuiFlexItem>
                   </EuiFlexGroup>
                   <EuiFlexGroup>
                     <EuiFlexItem grow={5}>
-                      <iframe id={"video_" + hit.video_id} width="560" height="315" src={"https://www.youtube.com/embed/" + hit.video_id + "?enablejsapi=1"}
-                              title="YouTube video player" frameBorder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen />
+                      <div className="video-container">
+                        <iframe id={"video_" + hit.video_id} src={"https://www.youtube.com/embed/" + hit.video_id + "?enablejsapi=1"}
+                                title="YouTube video player" frameBorder="0"
+                                // style={{maxWidth:"560", maxHeight:"315" }}
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen />
+                      </div>
                     </EuiFlexItem>
                     <EuiFlexItem grow={5}>
                       <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
@@ -179,13 +167,6 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
     return (
         <EuiPage>
           <EuiPageBody component="div">
-            {/*<EuiPageHeader>*/}
-              {/*<EuiSuperSelect*/}
-              {/*    options={sortOptions}*/}
-              {/*    valueOfSelected={value}*/}
-              {/*    onChange={(value) => changeSort(value)}*/}
-              {/*/>*/}
-            {/*</EuiPageHeader>*/}
             <EuiPageHeader>
               <EuiFlexGroup justifyContent="spaceAround">
                 <SearchQueryInput newTodo={true}
@@ -195,9 +176,14 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
             </EuiPageHeader>
             <EuiPageContent>
               <EuiPageContentBody>
-                <EuiFlexGroup>
-                  <EuiFlexItem>
-                    <h2>{GetResultsTitle()}</h2>
+                <EuiFlexGroup justifyContent="spaceBetween">
+                  <EuiFlexItem grow={false}>
+                    <EuiTitle size="l">
+                      <h1>{GetResultsTitle()}</h1>
+                    </EuiTitle>
+                  </EuiFlexItem>
+                  <EuiFlexItem grow={false} style={{'width': '200px'}}>
+                    <SortSelect searchResultStore={this.props.searchResultStore}/>
                   </EuiFlexItem>
                 </EuiFlexGroup>
                 <EuiFlexGroup justifyContent="spaceAround">

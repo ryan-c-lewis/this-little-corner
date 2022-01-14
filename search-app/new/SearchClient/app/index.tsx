@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { AppState } from './store/AppState';
 import { SearchResultStore } from './store/SearchResultStore';
-//import '@elastic/eui/dist/eui_theme_light.css' // this isn't the version i want so i copy-pasta'd to mine for now
+import './style/eui_theme_light.css' //import '@elastic/eui/dist/eui_theme_light.css' // this isn't the version i want so i copy-pasta'd to mine for now
 import './style/style.css'
 
 const appState = new AppState();
