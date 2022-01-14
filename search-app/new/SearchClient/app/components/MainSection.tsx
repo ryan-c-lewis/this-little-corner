@@ -77,6 +77,13 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
       else
         return total + " videos to search through";
     }
+    
+    const ToTimestamp = (raw: number) => {
+      let pretty = new Date(raw * 1000).toISOString().substr(12, 7);
+      if (pretty.startsWith('0:')) // don't include hour if 00
+        pretty = pretty.substr(2);
+      return pretty;
+    }
 
     function postMessageToPlayer(iframe, func, args) {
       iframe.contentWindow.postMessage(JSON.stringify({
@@ -145,11 +152,19 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                     <EuiFlexItem grow={5}>
                       <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
                         {hit.transcriptPartGroups?.map((group) => (
-                            <div style={{'paddingBottom': 20}}>
-                              {group.transcriptParts.map((part) => (
-                                  <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}><span>{part.text} </span></a>
-                              ))}
-                            </div>
+                            <>
+                              <div style={{'paddingBottom': 20}}>
+                                {group.transcriptParts.map((part) => (
+                                    <div>
+                                      <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}>{ToTimestamp(part.start)}</a>
+                                      <span> - {part.text}</span>
+                                    </div>
+                                ))}
+                              </div>
+                              <div style={{'paddingBottom': 20}}>
+                                ...
+                              </div>
+                            </>
                         ))}
                       </div>
                     </EuiFlexItem>
@@ -179,15 +194,15 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
               </EuiFlexGroup>
             </EuiPageHeader>
             <EuiPageContent>
-              <EuiFlexGroup>
-                <EuiFlexItem>
-                    <h2>{GetResultsTitle()}</h2>
-                </EuiFlexItem>
-              </EuiFlexGroup>
-              <EuiFlexGroup justifyContent="spaceAround">
-                <Pagination/>
-              </EuiFlexGroup>
               <EuiPageContentBody>
+                <EuiFlexGroup>
+                  <EuiFlexItem>
+                    <h2>{GetResultsTitle()}</h2>
+                  </EuiFlexItem>
+                </EuiFlexGroup>
+                <EuiFlexGroup justifyContent="spaceAround">
+                  <Pagination/>
+                </EuiFlexGroup>
                 <ResultsList />
               </EuiPageContentBody>
               <EuiFlexGroup justifyContent="spaceAround">
