@@ -1,9 +1,8 @@
 import axios from 'axios';
 import {SearchRequestModel} from "./model/SearchRequestModel";
 
-// __API_URL_ comes from webpack DefinePlugin
-declare const __API_URL__: string;
-const apiUrl: string = __API_URL__;
+const { protocol, host } = window.location;
+const apiUrl = protocol + '//' + host.split(':')[0]
 
 const handleErrors = err => {
   console.error(err);
