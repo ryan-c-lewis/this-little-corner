@@ -21,8 +21,8 @@ export default class SearchApp extends React.Component<ISearchAppProps, {}> {
     this.props.searchResultStore.init(new SearchRequestModel({
       sort: query.get('sort') ?? 'newer',
       query: query.get('q') ?? '',
-      pageSize: parseInt(query.get('size')) ?? 0,
-      page: parseInt(query.get('page')) ?? 0}));
+      pageSize: parseInt(query.get('size') ?? '10'),
+      page: parseInt(query.get('page') ?? '0')}));
 
     return (
       <div>

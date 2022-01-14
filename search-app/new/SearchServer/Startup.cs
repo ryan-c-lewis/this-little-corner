@@ -1,11 +1,11 @@
+using System;
+using System.IO;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
 using SearchServer.Model;
 using SearchServer.RequestHandlers;
@@ -29,13 +29,10 @@ namespace SearchServer
             app.UseRouting();
             app.UseCors(x => x.AllowAnyOrigin());
             
+            app.ServeFiles();
+            
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    string response = new HomepageRequestHandler().GetResponse();
-                    await context.Response.WriteAsync(response);
-                });
                 endpoints.MapGet("/api/search", async context =>
                 {
                     string query = context.Request.Query["q"];
@@ -49,6 +46,32 @@ namespace SearchServer
                     await context.Response.WriteAsync(jsonResult);
                 });
             });
+        }
+    }
+
+    public static class StartupExtensions
+    {
+        internal static void ServeFiles(this IApplicationBuilder app, string path = "dist")
+        {
+            try
+            {
+                string staticFilesPath = Path.Join(Path.GetDirectoryName(typeof(Startup).Assembly.Location), path);
+                var fileServerOptions = new FileServerOptions()
+                {
+                    EnableDefaultFiles = true,
+                    EnableDirectoryBrowsing = false,
+                    RequestPath = new PathString(string.Empty),
+                    FileProvider = new PhysicalFileProvider(staticFilesPath)
+                };
+
+                fileServerOptions.StaticFileOptions.ServeUnknownFileTypes = true;
+
+                app.UseFileServer(fileServerOptions);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("ERROR - Can't serve static files");
+            }
         }
     }
 }
