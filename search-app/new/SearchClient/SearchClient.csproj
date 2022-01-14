@@ -7,6 +7,23 @@
 
     <ItemGroup>
       <Content Remove="package-lock.json" />
+      <Content Remove="build\**" />
+      <Content Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="build\**" />
+      <Compile Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="build\**" />
+      <EmbeddedResource Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="build\**" />
+      <None Remove="dist\**" />
     </ItemGroup>
 
 </Project>
