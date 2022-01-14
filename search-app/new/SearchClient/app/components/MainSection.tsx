@@ -19,7 +19,8 @@ import {
   EuiFlexGroup,
   EuiFlexItem,
   EuiPagination,
-  EuiSuperSelect
+  EuiSuperSelect,
+  EuiSpacer
 } from '@elastic/eui'
 import SearchQueryInput from "./SearchQueryInput";
 import {useState} from "react";
@@ -157,6 +158,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
+                  <EuiSpacer />
                 </EuiFlexItem>
               </EuiFlexGroup>
           ))}
@@ -189,6 +191,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
                 <EuiFlexGroup justifyContent="spaceAround">
                   <Pagination/>
                 </EuiFlexGroup>
+                <EuiSpacer />
                 <ResultsList />
               </EuiPageContentBody>
               <EuiFlexGroup justifyContent="spaceAround">
