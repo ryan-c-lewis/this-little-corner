@@ -56,11 +56,6 @@ module.exports = function (env) {
       filename: '[name]' + outputFileTemplateSuffix + '.js',
       chunkFilename: '[id]' + outputFileTemplateSuffix + '.js'
     };
-    config.plugins.push(new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      filename: 'vendor' + outputFileTemplateSuffix + '.js',
-      minChunks: Infinity
-    }));
   } else { // dev 
     config.devServer = {
       contentBase: './build',
@@ -80,11 +75,6 @@ module.exports = function (env) {
       path: path.join(__dirname, 'build'),
       filename: '[name].js'
     };
-    config.plugins.push(new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      filename: 'vendor.js',
-      minChunks: Infinity
-    }))
   }
 
   return config;
