@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchServer", "SearchServe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchClient", "SearchClient\SearchClient.csproj", "{FCFE0670-E483-478D-BC35-C7379ACBD2AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analysis", "Analysis\Analysis.csproj", "{FAECA588-1EA2-4BCE-86B2-9BB11504022E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FCFE0670-E483-478D-BC35-C7379ACBD2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCFE0670-E483-478D-BC35-C7379ACBD2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCFE0670-E483-478D-BC35-C7379ACBD2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAECA588-1EA2-4BCE-86B2-9BB11504022E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAECA588-1EA2-4BCE-86B2-9BB11504022E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAECA588-1EA2-4BCE-86B2-9BB11504022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAECA588-1EA2-4BCE-86B2-9BB11504022E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
