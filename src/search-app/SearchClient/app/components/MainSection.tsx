@@ -40,7 +40,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
 
   handleSearch = (text: string) => {
     if (text.length !== 0) {
-      this.props.searchResultStore.newSearch(text);
+      return this.props.searchResultStore.newSearch(text);
     }
   }
 
@@ -171,9 +171,7 @@ export default class MainSection extends React.Component<IMainSectionProps, {}> 
           <EuiPageBody component="div">
             <EuiPageHeader>
               <EuiFlexGroup justifyContent="spaceAround">
-                <SearchQueryInput newTodo={true}
-                                  onSave={this.handleSearch}
-                                  placeholder='Search' />
+                <SearchQueryInput onSave={this.handleSearch} />
               </EuiFlexGroup>
             </EuiPageHeader>
             <EuiPageContent>

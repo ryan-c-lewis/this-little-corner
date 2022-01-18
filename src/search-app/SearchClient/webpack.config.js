@@ -58,7 +58,7 @@ module.exports = function (env) {
     };
   } else { // dev 
     config.devServer = {
-      contentBase: './build',
+      static: './build',
       host: 'localhost',
       port: 3000
     };

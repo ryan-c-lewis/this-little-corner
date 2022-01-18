@@ -5,21 +5,23 @@
   "license": "MIT",
   "repository": "https://github.com/martijnboland/VSReact",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js --hot --progress --colors --devtool source-map",
-    "build": "webpack --config webpack.config.js --progress --profile --color",
-    "prod": "webpack --env NODE_ENV=production --config webpack.config.js --progress --color"
+    "start": "webpack-dev-server --mode=development --config webpack.config.js --hot --progress --color --devtool source-map",
+    "build": "webpack --mode=development --config webpack.config.js --progress --profile --color",
+    "prod": "webpack --env NODE_ENV=production --config webpack.config.js --contentBaseprogress --color"
   },
   "dependencies": {
     "@elastic/datemath": "^5.0.3",
     "@emotion/react": "^11.7.1",
     "enzyme": "^3.11.0",
     "moment": "^2.29.1",
-    "react-router": "^6.2.1"
+    "react-router": "^6.2.1",
+    "throttle-debounce": "^3.0.1"
   },
   "devDependencies": {
     "@elastic/eui": "^44.0.0",
     "@types/node": "^12.12.28",
     "@types/react": "^16.9.21",
+    "@types/react-autosuggest": "^10.1.5",
     "@types/react-dom": "^16.9.5",
     "@types/react-redux": "^7.1.7",
     "awesome-typescript-loader": "^3.2.1",
@@ -32,6 +34,7 @@
     "mobx-react-devtools": "^4.2.15",
     "raw-loader": "^0.5.1",
     "react": "^16.12.0",
+    "react-autosuggest": "^10.1.0",
     "react-dom": "^16.12.0",
     "react-hot-loader": "^3.0.0-beta.1",
     "react-redux": "^7.2.0",
