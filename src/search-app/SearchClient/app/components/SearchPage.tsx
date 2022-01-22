@@ -161,7 +161,7 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
           <EuiPageBody component="div">
             <EuiPageHeader>
               <EuiFlexGroup justifyContent="spaceAround">
-                <SearchQueryInput onSave={this.handleSearch} />
+                <SearchQueryInput appState={appState} onSave={this.handleSearch} />
               </EuiFlexGroup>
             </EuiPageHeader>
             <EuiPageContent>
