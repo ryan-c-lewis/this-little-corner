@@ -38,7 +38,10 @@ export const searchAPI = {
         + '&size=' + request.pageSize;
     const newUrl = protocol + '//' + host + pathname + '?' + newQuery;
     return requests.get('/api/search?' + newQuery).finally(() => {
-        window.history.pushState({}, '', newUrl);
+        const query = new URLSearchParams(window.location.search);
+        const view = query.get('view') ?? 'search';
+        if (view === 'search')
+          window.history.pushState({}, '', newUrl);
       })
     }
 }

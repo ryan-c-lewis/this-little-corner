@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Provider } from 'mobx-react';
-import SearchApp from './SearchApp';
-import { AppState } from '../store/AppState';
+import {Provider} from 'mobx-react';
+import {AppState} from '../store/AppState';
 import { SearchResultStore } from '../store/SearchResultStore';
+import PageContainer from "./PageContainer";
 
 interface IRootProps {
   appState: AppState,
@@ -12,11 +12,10 @@ interface IRootProps {
 export default class Root extends React.Component<IRootProps, void> {
   render() {
     const { appState, searchResultStore } = this.props;
+    
     return (
       <Provider appState={appState} searchResultStore={searchResultStore}>
-        <div>
-          <SearchApp appState={appState} searchResultStore={searchResultStore} />
-        </div>
+        <PageContainer appState={appState} searchResultStore={searchResultStore} />
       </Provider>
     );
   }

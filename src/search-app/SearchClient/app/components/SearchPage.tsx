@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { observer } from 'mobx-react';
-import { AppState, SearchFilter } from '../store/AppState';
+import { AppState } from '../store/AppState';
 import { SearchResultStore } from '../store/SearchResultStore';
 
 import {
@@ -8,40 +8,30 @@ import {
   EuiPageBody,
   EuiPageContent,
   EuiPageContentBody,
-  EuiPageContentHeader,
-  EuiPageContentHeaderSection,
   EuiPageHeader,
-  EuiPageHeaderSection,
-  EuiPageSideBar,
   EuiTitle,
-  EuiHorizontalRule,
-  EuiButtonGroup,
   EuiFlexGroup,
   EuiFlexItem,
   EuiPagination,
-  EuiSuperSelect,
   EuiSpacer
 } from '@elastic/eui'
 import SearchQueryInput from "./SearchQueryInput";
-import {useState} from "react";
 import SortSelect from "./SortSelect";
 
-interface IMainSectionProps {
+interface ISearchPageProps {
   appState: AppState,
   searchResultStore: SearchResultStore
 }
 
 @observer
-export default class MainSection extends React.Component<IMainSectionProps, {}> {
+export default class SearchPage extends React.Component<ISearchPageProps, {}> {
 
   constructor(props, context) {
     super(props, context);
   }
 
   handleSearch = (text: string) => {
-    if (text.length !== 0) {
-      return this.props.searchResultStore.newSearch(text);
-    }
+    return this.props.searchResultStore.newSearch(text);
   }
 
   changePage = (newPage: number) => {

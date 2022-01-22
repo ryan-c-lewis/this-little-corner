@@ -1,24 +1,33 @@
-﻿import { observable, action, useStrict } from 'mobx';
-
-useStrict(true);
+﻿import { observable } from 'mobx';
 
 export class AppState {
 
   constructor() {
-    this.currentSearchFilter = SearchFilter.All;
+    const query = new URLSearchParams(window.location.search);
+
+    let view = query.get('view') ?? 'search';
+    if (view === 'glossary')
+      this.currentPageType = PageTypes.Glossary;
+    else
+      this.currentPageType = PageTypes.Search;
   }
+  
+  @observable public currentPageType: PageTypes;
+  
+  changePage(newPage: PageTypes) {
+    this.currentPageType = newPage;
 
-  @observable public currentSearchFilter: SearchFilter;
-
-  @action
-  setTodoFilter(filter: SearchFilter) {
-    this.currentSearchFilter = filter;
+    const { protocol, pathname, host } = window.location;
+    let newSearch = '';
+    if (this.currentPageType === PageTypes.Glossary)
+      newSearch = '?view=glossary'
+          
+    const newUrl = protocol + '//' + host + pathname + newSearch;
+    window.history.pushState({}, '', newUrl);
   }
-
 }
 
-export enum SearchFilter {
-  All,
-  Active,
-  Completed
+export enum PageTypes {
+  Search,
+  Glossary
 }

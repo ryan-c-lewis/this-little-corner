@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { observer } from 'mobx-react'
-import MainSection from '../components/MainSection';
+import SearchPage from '../components/SearchPage';
 import { SearchResultStore } from '../store/SearchResultStore';
 import { AppState } from '../store/AppState';
 import {SearchRequestModel} from "../model/SearchRequestModel";
+import MenuBar from "../components/MenuBar";
 
 interface ISearchAppProps {
   appState: AppState,
@@ -26,7 +27,7 @@ export default class SearchApp extends React.Component<ISearchAppProps, {}> {
 
     return (
       <div>
-        <MainSection appState={appState} searchResultStore={searchResultStore} />
+        <SearchPage appState={appState} searchResultStore={searchResultStore} />
       </div>
     );
   }
