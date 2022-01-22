@@ -1,21 +1,30 @@
 import * as React from 'react';
-import {Provider} from 'mobx-react';
-import {AppState} from '../store/AppState';
+import {observer, Provider} from 'mobx-react';
+import {AppState, PageTypes} from '../store/AppState';
 import { SearchResultStore } from '../store/SearchResultStore';
-import PageContainer from "./PageContainer";
+import MenuBar from "../components/MenuBar";
+import GlossaryPage from "./GlossaryPage";
+import SearchPage from "./SearchPage";
 
 interface IRootProps {
   appState: AppState,
   searchResultStore: SearchResultStore
 }
 
-export default class Root extends React.Component<IRootProps, void> {
+@observer
+export default class Root extends React.Component<IRootProps, {}> {
   render() {
     const { appState, searchResultStore } = this.props;
     
     return (
       <Provider appState={appState} searchResultStore={searchResultStore}>
-        <PageContainer appState={appState} searchResultStore={searchResultStore} />
+        <div>
+          <MenuBar appState={appState}/>
+          {this.props.appState.currentPageType === PageTypes.Glossary
+              ? <GlossaryPage appState={appState} /> : ""}
+          {this.props.appState.currentPageType === PageTypes.Search
+              ? <SearchPage appState={appState} searchResultStore={searchResultStore} /> : ""}
+        </div>
       </Provider>
     );
   }

@@ -1,9 +1,9 @@
 {
-  "name": "vsreact",
-  "version": "1.2.0",
-  "description": "VS 2015 and React",
+  "name": "this-little-corner",
+  "version": "1.0.0",
+  "description": "Website to organize Bridges of Meaning content",
   "license": "MIT",
-  "repository": "https://github.com/martijnboland/VSReact",
+  "repository": "https://github.com/ryan-c-lewis/this-little-corner",
   "scripts": {
     "start": "webpack-dev-server --mode=development --config webpack.config.js --hot --progress --color --devtool source-map",
     "build": "webpack --mode=development --config webpack.config.js --progress --profile --color",
@@ -24,7 +24,7 @@
     "@types/react-autosuggest": "^10.1.5",
     "@types/react-dom": "^16.9.5",
     "@types/react-redux": "^7.1.7",
-    "awesome-typescript-loader": "^3.2.1",
+    "awesome-typescript-loader": "^5.0.0",
     "axios": "^0.16.2",
     "classnames": "^2.3.1",
     "core-js": "^2.4.1",

@@ -15,8 +15,9 @@ import {
   EuiPagination,
   EuiSpacer
 } from '@elastic/eui'
-import SearchQueryInput from "./SearchQueryInput";
-import SortSelect from "./SortSelect";
+import SearchQueryInput from "../components/SearchQueryInput";
+import SortSelect from "../components/SortSelect";
+import {SearchRequestModel} from "../model/SearchRequestModel";
 
 interface ISearchPageProps {
   appState: AppState,
@@ -41,6 +42,14 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
 
   render() {
     const { searchResultStore, appState } = this.props;
+
+    const query = new URLSearchParams(window.location.search);
+
+    this.props.searchResultStore.init(new SearchRequestModel({
+      sort: query.get('sort') ?? 'newer',
+      query: query.get('q') ?? '',
+      pageSize: parseInt(query.get('size') ?? '10'),
+      page: parseInt(query.get('page') ?? '0')}));
 
     const GetResultsTitle = () => {
       if (searchResultStore.result == null)

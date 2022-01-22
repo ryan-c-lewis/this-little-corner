@@ -7,14 +7,14 @@ import './style/eui_theme_light.css' //import '@elastic/eui/dist/eui_theme_light
 import './style/style.css'
 
 const appState = new AppState();
-const todoStore = new SearchResultStore();
+const searchResultStore = new SearchResultStore();
 
 const renderApp = () => {
   const App = require('./containers/App').default;
 
   ReactDOM.render(
     <AppContainer>
-      <App appState={appState} searchResultStore={todoStore} />
+      <App appState={appState} searchResultStore={searchResultStore} />
     </AppContainer>,
     document.getElementById('root')
   );
