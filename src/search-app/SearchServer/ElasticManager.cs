@@ -48,5 +48,13 @@ namespace SearchServer
                 currentPage = (long)((double)startIndex / request.PageSize),
             };
         }
+        
+        public SearchResultItemElasticMapping SearchForOneVideo(string videoId)
+        {
+            var response = _client.Search<SearchResultItemElasticMapping>(s => s
+                .Query(q => q
+                    .Match(m => m.Field(f => f.video_id).Query(videoId))));
+            return response.Documents.Any() ? response.Documents.First() : null;
+        }
     }
 }

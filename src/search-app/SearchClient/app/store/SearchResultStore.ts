@@ -2,6 +2,8 @@
 import { SearchResultModel } from '../model/SearchResultModel';
 import { searchAPI } from '../apiclient';
 import {SearchRequestModel} from "../model/SearchRequestModel";
+import {TranscriptPartGroupModel} from "../model/TranscriptPartGroupModel";
+import {TranscriptPartModel} from "../model/TranscriptPartModel";
 
 export class SearchResultStore {
 
@@ -41,5 +43,12 @@ export class SearchResultStore {
         this.result = data;
         this.lastRequest = request;
       }));
+  }
+  
+  @action seeFullTranscript(video_id: string) {
+    searchAPI.getFullTranscript(video_id)
+        .then(action((data: any) => {
+          this.result.items = this.result.items.map(x => x.video_id ? data : x);
+        }));
   }
 }

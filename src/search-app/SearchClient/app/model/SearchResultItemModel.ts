@@ -10,6 +10,7 @@ export class SearchResultItemModel {
   date: string;
   description: string;
   duration: number;
+  @observable
   transcriptPartGroups: TranscriptPartGroupModel[];
 
   public constructor(init?:Partial<SearchResultItemModel>) {

@@ -7,7 +7,7 @@ namespace SearchServer.RequestHandlers
     {
         public SearchResult GetResponse(SearchRequest request)
         {
-            DataTracker.LogQuery(request.Query);
+            DataTracker.Log("QUERY: " + request.Query);
             SearchResult result = ElasticManager.Instance.Search(request);
             return CleanUp(request, result);
         }

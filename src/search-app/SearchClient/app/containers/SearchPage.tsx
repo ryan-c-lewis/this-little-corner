@@ -30,6 +30,15 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
   constructor(props, context) {
     super(props, context);
   }
+  
+  componentWillMount() {
+    const query = new URLSearchParams(window.location.search);
+    this.props.searchResultStore.init(new SearchRequestModel({
+      sort: query.get('sort') ?? 'newer',
+      query: query.get('q') ?? '',
+      pageSize: parseInt(query.get('size') ?? '10'),
+      page: parseInt(query.get('page') ?? '0')}));
+  }
 
   handleSearch = (text: string) => {
     return this.props.searchResultStore.newSearch(text);
@@ -40,16 +49,12 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
     this.props.searchResultStore.goToPage(newPage);
   }
 
+  seeFullTranscript = (video_id: string) => {
+    this.props.searchResultStore.seeFullTranscript(video_id);
+  }
+
   render() {
     const { searchResultStore, appState } = this.props;
-
-    const query = new URLSearchParams(window.location.search);
-
-    this.props.searchResultStore.init(new SearchRequestModel({
-      sort: query.get('sort') ?? 'newer',
-      query: query.get('q') ?? '',
-      pageSize: parseInt(query.get('size') ?? '10'),
-      page: parseInt(query.get('page') ?? '0')}));
 
     const GetResultsTitle = () => {
       if (searchResultStore.result == null)
@@ -154,6 +159,10 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                               </div>
                             </>
                         ))}
+                        {/*{hit.transcriptPartGroups?.length > 0 ? */}
+                        {/*<div style={{'paddingBottom': 20}}>*/}
+                        {/*  <a onClick={() => this.seeFullTranscript(hit.video_id)}>(see full transcript)</a>*/}
+                        {/*</div> : ''}*/}
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>

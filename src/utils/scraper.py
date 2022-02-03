@@ -187,6 +187,7 @@ if __name__ == '__main__':
     es = connect_elasticsearch()
     if es is not None:
         create_index(es)
+        index_channel(es, 'The Common Toad', 'UC-QiBn6GsM3JZJAeAQpaGAA')
         index_channel(es, 'A Quality Existence', 'UC6vg0HkKKlgsWk-3HfV-vnw')
         index_channel(es, 'Grizwald Grim', 'UCAqTQ5yLHHH44XWwWXLkvHQ')
         index_channel(es, 'Colton Kirby', 'UC6Tvr9mBXNaAxLGRA_sUSRA')

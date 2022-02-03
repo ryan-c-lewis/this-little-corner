@@ -43,5 +43,9 @@ export const searchAPI = {
         if (view === 'search')
           window.history.pushState({}, '', newUrl);
       })
-    }
+  },
+
+  getFullTranscript: (video_id: string) => {
+    return requests.get('/api/transcript?video_id=' + video_id);
+  }
 }

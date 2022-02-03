@@ -45,6 +45,16 @@ namespace SearchServer
                     string jsonResult = JsonConvert.SerializeObject(result);
                     await context.Response.WriteAsync(jsonResult);
                 });
+                
+                endpoints.MapGet("/api/transcript", async context =>
+                {
+                    string videoId = context.Request.Query["video_id"];
+                    if (string.IsNullOrEmpty(videoId))
+                        throw new Exception("video_id not set");
+                    SearchResultItemElasticMapping result = new TranscriptRequestHandler().GetResponse(videoId);
+                    string jsonResult = JsonConvert.SerializeObject(result);
+                    await context.Response.WriteAsync(jsonResult);
+                });
             });
         }
     }

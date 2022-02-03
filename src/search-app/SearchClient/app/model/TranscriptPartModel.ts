@@ -1,4 +1,7 @@
+import {observable} from "mobx";
+
 export class TranscriptPartModel {
+  @observable
   text: string;
   start: number;
   duration: number;
