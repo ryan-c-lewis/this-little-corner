@@ -4,6 +4,7 @@ namespace SearchServer.Model
     {
         public string Query { get; set; }
         public string Sort { get; set; }
+        public string Channel { get; set; }
         public int Page { get; set; }
         public int PageSize { get; set; }
     }

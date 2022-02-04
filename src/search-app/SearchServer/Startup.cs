@@ -37,10 +37,11 @@ namespace SearchServer
                 {
                     string query = context.Request.Query["q"];
                     string sort = context.Request.Query["sort"];
+                    string channel = context.Request.Query["channel"];
                     int.TryParse(context.Request.Query["page"], out int page);
                     int.TryParse(context.Request.Query["size"], out int size);
                     
-                    var request = new SearchRequest {Query = query, Sort = sort, Page = page, PageSize = size};
+                    var request = new SearchRequest {Query = query, Sort = sort, Channel = channel, Page = page, PageSize = size};
                     var result = new SearchRequestHandler().GetResponse(request);
                     string jsonResult = JsonConvert.SerializeObject(result);
                     await context.Response.WriteAsync(jsonResult);

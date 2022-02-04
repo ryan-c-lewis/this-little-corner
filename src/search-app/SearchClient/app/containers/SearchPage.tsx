@@ -18,6 +18,7 @@ import {
 import SearchQueryInput from "../components/SearchQueryInput";
 import SortSelect from "../components/SortSelect";
 import {SearchRequestModel} from "../model/SearchRequestModel";
+import ChannelSelect from "../components/ChannelSelect";
 
 interface ISearchPageProps {
   appState: AppState,
@@ -35,13 +36,14 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
     const query = new URLSearchParams(window.location.search);
     this.props.searchResultStore.init(new SearchRequestModel({
       sort: query.get('sort') ?? 'newer',
+      channel: query.get('channel') ?? 'all',
       query: query.get('q') ?? '',
       pageSize: parseInt(query.get('size') ?? '10'),
       page: parseInt(query.get('page') ?? '0')}));
   }
 
   handleSearch = (text: string) => {
-    return this.props.searchResultStore.newSearch(text);
+    return this.props.searchResultStore.changeQuery(text);
   }
 
   changePage = (newPage: number) => {
@@ -191,6 +193,7 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                     </EuiTitle>
                   </EuiFlexItem>
                   <EuiFlexItem grow={false} style={{'width': '200px'}}>
+                    <ChannelSelect searchResultStore={this.props.searchResultStore}/>
                     <SortSelect searchResultStore={this.props.searchResultStore}/>
                   </EuiFlexItem>
                 </EuiFlexGroup>

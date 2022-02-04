@@ -2,8 +2,6 @@
 import { SearchResultModel } from '../model/SearchResultModel';
 import { searchAPI } from '../apiclient';
 import {SearchRequestModel} from "../model/SearchRequestModel";
-import {TranscriptPartGroupModel} from "../model/TranscriptPartGroupModel";
-import {TranscriptPartModel} from "../model/TranscriptPartModel";
 
 export class SearchResultStore {
 
@@ -17,15 +15,21 @@ export class SearchResultStore {
     return this.search(initialRequest);
   }
 
-  @action newSearch(query: string): Promise<any> {
-    return this.search(new SearchRequestModel({query: query}));
-  }
-
   @action goToPage(page: number): Promise<any> {
     return this.search(new SearchRequestModel({
       query: this.lastRequest.query,
       sort: this.lastRequest.sort,
+      channel: this.lastRequest.channel,
       page: page,
+      pageSize: this.lastRequest.pageSize}));
+  }
+
+  @action changeQuery(newValue: string): Promise<any> {
+    return this.search(new SearchRequestModel({
+      query: newValue,
+      sort: this.lastRequest.sort,
+      channel: this.lastRequest.channel,
+      page: 0,
       pageSize: this.lastRequest.pageSize}));
   }
 
@@ -33,6 +37,16 @@ export class SearchResultStore {
     return this.search(new SearchRequestModel({
       query: this.lastRequest.query,
       sort: newValue,
+      channel: this.lastRequest.channel,
+      page: 0,
+      pageSize: this.lastRequest.pageSize}));
+  }
+
+  @action changeChannel(newValue: string): Promise<any> {
+    return this.search(new SearchRequestModel({
+      query: this.lastRequest.query,
+      sort: this.lastRequest.sort,
+      channel: newValue,
       page: 0,
       pageSize: this.lastRequest.pageSize}));
   }

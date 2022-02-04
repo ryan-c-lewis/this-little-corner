@@ -2,7 +2,6 @@ import * as React from 'react';
 import {EuiSuperSelect} from "@elastic/eui";
 import {useState} from "react";
 import {SearchResultStore} from "../store/SearchResultStore";
-import {AppState} from "../store/AppState";
 
 interface ISortSelectorProps {
   searchResultStore: SearchResultStore
@@ -13,14 +12,16 @@ export default function(props: ISortSelectorProps) {
   const sortOptions = [
     {
       value: 'newer',
-      inputDisplay: 'Newer',
+      inputDisplay: 'Sort by Newest',
     },
     {
       value: 'older',
-      inputDisplay: 'Older',
+      inputDisplay: 'Sort by Oldest',
     }];
 
-  const [value, setValue] = useState(sortOptions[0].value);
+  const query = new URLSearchParams(window.location.search);
+  const initialValue = query.get('sort') ?? sortOptions[0].value;
+  const [value, setValue] = useState(initialValue);
 
   const changeSort = (newValue) => {
     setValue(newValue);

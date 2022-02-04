@@ -29,12 +29,19 @@ namespace SearchServer
                 ? ""
                 : "\"" + request.Query + "\"";
             int startIndex = request.Page * request.PageSize;
+            
             var response = _client.Search<SearchResultItemElasticMapping>(s => s
                 .Query(q => q
                     .Bool(b => b
-                        .Must(m => m
-                            .QueryString(qs => qs
-                                .Query(query)))))
+                        .Must(
+                            m => m.QueryString(qs => qs.Query(query)),
+                            m =>
+                            {
+                                if (string.IsNullOrEmpty(request.Channel) || request.Channel == "all")
+                                    return m;
+                                return m.Match(x => x.Field("channel_id").Query(request.Channel));
+                            }
+                        )))
                 .From(startIndex)
                 .Size(request.PageSize)
                 .Sort(q => request.Sort == "older"
@@ -56,5 +63,9 @@ namespace SearchServer
                     .Match(m => m.Field(f => f.video_id).Query(videoId))));
             return response.Documents.Any() ? response.Documents.First() : null;
         }
+    }
+    
+    public static class ElasticManagerExtensions {
+    
     }
 }

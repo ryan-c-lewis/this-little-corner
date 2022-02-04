@@ -34,6 +34,7 @@ export const searchAPI = {
     const { protocol, pathname, host } = window.location;
     const newQuery = 'q=' + request.query
         + '&sort=' + request.sort
+        + '&channel=' + request.channel
         + '&page=' + request.page
         + '&size=' + request.pageSize;
     const newUrl = protocol + '//' + host + pathname + '?' + newQuery;
