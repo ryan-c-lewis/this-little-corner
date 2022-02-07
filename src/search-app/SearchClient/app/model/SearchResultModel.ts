@@ -3,7 +3,6 @@ import {TranscriptPartGroupModel} from "./TranscriptPartGroupModel";
 import {observable} from "mobx";
 
 export class SearchResultModel {
-  @observable
   items: SearchResultItemModel[];
   totalResults: number;
   totalPages: number;

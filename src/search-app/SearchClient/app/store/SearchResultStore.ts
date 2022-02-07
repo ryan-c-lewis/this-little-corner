@@ -1,7 +1,10 @@
-﻿import { observable, action, computed } from 'mobx';
+﻿import {observable, action, computed, ObservableMap, IObservableArray} from 'mobx';
 import { SearchResultModel } from '../model/SearchResultModel';
 import { searchAPI } from '../apiclient';
 import {SearchRequestModel} from "../model/SearchRequestModel";
+import {SearchResultItemModel} from "../model/SearchResultItemModel";
+import {TranscriptPartGroupModel} from "../model/TranscriptPartGroupModel";
+import {ObservableArray} from "mobx/lib/types/observablearray";
 
 export class SearchResultStore {
 
@@ -53,7 +56,7 @@ export class SearchResultStore {
 
   @action search(request: SearchRequestModel): Promise<any> {
     return searchAPI.search(request)
-      .then(action((data: any) => {
+      .then(action((data: SearchResultModel) => {
         this.result = data;
         this.lastRequest = request;
       }));
@@ -61,8 +64,17 @@ export class SearchResultStore {
   
   @action seeFullTranscript(video_id: string) {
     searchAPI.getFullTranscript(video_id)
-        .then(action((data: any) => {
-          this.result.items = this.result.items.map(x => x.video_id ? data : x);
+        .then(action((data: SearchResultItemModel) => {
+          
+          let items = this.result.items.map(x => x.video_id === video_id ? data : x);
+          this.result = new SearchResultModel({items: items});
+          
+          // TODO: i can't figure out how to make just the transcriptData update properly. But that would be better, because updating the whole result forces the video to reload.
+          // this.result.items.map(x => {
+          //   if (x.video_id === video_id) {
+          //     x.transcriptData = data.transcriptData;
+          //   }
+          // });
         }));
   }
 }

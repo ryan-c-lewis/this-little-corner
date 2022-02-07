@@ -9,9 +9,12 @@ namespace SearchServer.RequestHandlers
         {
             DataTracker.Log("TRANSCRIPT: " + videoId);
             SearchResultItemElasticMapping result = ElasticManager.Instance.SearchForOneVideo(videoId);
-            result.transcriptPartGroups = new List<TranscriptPartGroup>
+            result.transcriptData = new TranscriptData
             {
-                new TranscriptPartGroup {transcriptParts = result.transcript_parts}
+                transcriptPartGroups = new List<TranscriptPartGroup>
+                {
+                    new TranscriptPartGroup {transcriptParts = result.transcript_parts}
+                }
             };
             return result;
         }

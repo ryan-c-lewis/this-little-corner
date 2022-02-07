@@ -56,7 +56,7 @@ namespace SearchServer.RequestHandlers
                 }
 
                 item.transcript_parts = new List<TranscriptPart>();
-                item.transcriptPartGroups = groups;
+                item.transcriptData = new TranscriptData {transcriptPartGroups = groups};
             }
 
             return result;

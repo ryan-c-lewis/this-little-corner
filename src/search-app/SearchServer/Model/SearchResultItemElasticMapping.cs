@@ -17,6 +17,6 @@ namespace SearchServer.Model
         public List<TranscriptPart> transcript_parts { get; set; }
         
         // TODO this wants to be a separate class
-        public List<TranscriptPartGroup> transcriptPartGroups { get; set; }
+        public TranscriptData transcriptData { get; set; }
     }
 }

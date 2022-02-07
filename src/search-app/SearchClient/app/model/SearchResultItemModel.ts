@@ -1,5 +1,6 @@
-import { observable } from 'mobx';
+import {computed, IObservableArray, observable} from 'mobx';
 import {TranscriptPartGroupModel} from "./TranscriptPartGroupModel";
+import {TranscriptDataModel} from "./TranscriptDataModel";
 
 export class SearchResultItemModel {
   video_id: string;
@@ -10,8 +11,7 @@ export class SearchResultItemModel {
   date: string;
   description: string;
   duration: number;
-  @observable
-  transcriptPartGroups: TranscriptPartGroupModel[];
+  transcriptData: TranscriptDataModel;
 
   public constructor(init?:Partial<SearchResultItemModel>) {
     Object.assign(this, init);
@@ -27,7 +27,7 @@ export class SearchResultItemModel {
       date: this.date,
       description: this.description,
       duration: this.duration,
-      transcriptPartGroups: this.transcriptPartGroups
+      transcriptData: this.transcriptData
     }
   }
 }

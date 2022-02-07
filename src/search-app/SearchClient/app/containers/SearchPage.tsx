@@ -19,6 +19,8 @@ import SearchQueryInput from "../components/SearchQueryInput";
 import SortSelect from "../components/SortSelect";
 import {SearchRequestModel} from "../model/SearchRequestModel";
 import ChannelSelect from "../components/ChannelSelect";
+import {TranscriptPartGroupModel} from "../model/TranscriptPartGroupModel";
+import {ObservableArray} from "mobx/lib/types/observablearray";
 
 interface ISearchPageProps {
   appState: AppState,
@@ -146,11 +148,11 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                     </EuiFlexItem>
                     <EuiFlexItem grow={5}>
                       <div style={{'maxHeight': 315, 'overflowY': 'auto'}}>
-                        {hit.transcriptPartGroups?.map((group) => (
-                            <>
+                        {hit.transcriptData?.transcriptPartGroups.map((group) => (
+                            <div key={'transcript_group_' + hit.video_id + '_' + group.transcriptParts[0].start}>
                               <div style={{'paddingBottom': 20}}>
                                 {group.transcriptParts.map((part) => (
-                                    <div>
+                                    <div key={'transcript_part_' + hit.video_id + '_' + part.start}>
                                       <a href={"javascript:jump('video_" + hit.video_id + "', " + part.start + ");"} key={part.start}>{ToTimestamp(part.start)}</a>
                                       <span> - {part.text}</span>
                                     </div>
@@ -159,12 +161,11 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                               <div style={{'paddingBottom': 20}}>
                                 ...
                               </div>
-                            </>
+                            </div>
                         ))}
-                        {/*{hit.transcriptPartGroups?.length > 0 ? */}
-                        {/*<div style={{'paddingBottom': 20}}>*/}
-                        {/*  <a onClick={() => this.seeFullTranscript(hit.video_id)}>(see full transcript)</a>*/}
-                        {/*</div> : ''}*/}
+                        <div style={{'paddingBottom': 20}}>
+                          <a onClick={() => this.seeFullTranscript(hit.video_id)}>(see full transcript)</a>
+                        </div>
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>

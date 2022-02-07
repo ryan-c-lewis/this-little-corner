@@ -9,7 +9,7 @@ interface ISearchQueryInputProps {
 }
 
 interface ISearchQueryInputState {
-  value: '',
+  value: string,
   suggestions: any[]
 }
 
@@ -17,8 +17,10 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
 
   constructor(props, context) {
     super(props, context);
+    const query = new URLSearchParams(window.location.search);
+    const initialValue = query.get('q') ?? '';
     this.state = {
-      value: '',
+      value: initialValue,
       suggestions: []
     };
   }
