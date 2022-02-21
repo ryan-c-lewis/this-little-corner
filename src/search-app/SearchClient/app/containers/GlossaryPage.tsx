@@ -71,10 +71,12 @@ export default class GlossaryPage extends React.Component<IGlossaryAppProps, {}>
                 </EuiFlexGroup>
                 <Term title={"4 Kinds of Knowing (Propositional, Procedural, Perspectival, Participatory)"} videos={['Gyx5tyFttfA']}/>
                 <Term title={"Agent and Arena"} videos={['yy47YzvGniQ?start=1824', 'Q8NrCR4ifoo?start=1148']}/>
+                <Term title={"Bullshit"} videos={['syWfyTMzSSw?start=2044', '54l8_ewcOlY?start=335']}/>
                 <Term title={"Combinatorial Explosion"} videos={['6V1eMvGGcXQ?start=529', 'JZogi3h3pbA?start=1159', '9j5O-tnaFzE']}/>
                 <Term title={"Dialogos"} videos={['FdZlQYtIJ0Q?start=4417', 'bPy6W-c5_9Y?start=1474']}/>
                 <Term title={"Distributed Cognition"} videos={['54l8_ewcOlY?start=2030', '2fUY046brGM?start=2950']}/>
                 <Term title={"Dominance Hierarchies"} videos={['EN2lyN7rM4E?start=418', 'RcmWssTLFv0?start=2522', '0cLLFSdKZLI?start=480']}/>
+                <Term title={"Egregore"} videos={['PpWxe1kGOTA?start=2504', '4IjW16FCpkA?start=892']} />
                 <Term title={"Emergence versus Emanation"} videos={['ZxKPl0IYzOA?start=2617', 'MhkCYrhzPQk?start=2934', 'N1byG4RqoTg?start=2630']} />
                 <Term title={"Explored Territory and Unexplored Territory (Known and Unknown, Order and Chaos)"} videos={['6Rd10PQVsGs?start=2137', 'EN2lyN7rM4E?start=4006']}/>
                 <Term title={"Garments of Skin"} videos={['-drIcL5bkpk?start=225', 'zXOdlIXDsr8?start=806', 'k4W0b-hmG1E']} />
@@ -87,6 +89,7 @@ export default class GlossaryPage extends React.Component<IGlossaryAppProps, {}>
                 <Term title={"Psychotechnologies"} videos={['2PGglfl5j_I?start=1333', 'KnAT3cBr6EA?start=146']} />
                 <Term title={"Recursive Relevance Realization"} videos={['syWfyTMzSSw?start=1223', 'hz3mEYdJEvY?start=4125']} />
                 <Term title={"Relevance Realization"} videos={['WpVVcVRkLok?start=67', '2PGglfl5j_I?start=432']} />
+                <Term title={"Religion that is not a Religion"} videos={['440NV0eer00']} />
                 <Term title={"Salience Landscape"} videos={['syWfyTMzSSw?start=774', '2PGglfl5j_I?start=731']} />
                 <Term title={"Secret Sacred Self"} videos={['uJYbU9yMPLE?start=6047', 'qvWHODDj4jQ?start=3408']} />
                 <Term title={"Sense Making"} videos={['BtkwF5qA6uE?start=65', 'AZyyKX8jsZc?start=3090']} />

@@ -135,6 +135,7 @@ def index_channel(elastic, name, channel_id):
     while playlist.hasMoreVideos:
         print(f'Videos Retrieved: {len(playlist.videos)}')
         playlist.getNextVideos()
+        break  # only need to get all videos the first time indexing a channel
     print('Found all the videos.')
 
     n = 0
