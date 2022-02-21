@@ -1,1 +1,227 @@
-{"video_id": "-4lqnBeoA6Y", "channel_id": "UClIDP7_Kzv_7tDQjTv9EhrA", "channel_name": "Chris Petkau", "title": "Baby Butterfly", "url": "https://www.youtube.com/watch?v=-4lqnBeoA6Y", "date": "2021-10-19", "description": "", "duration": 232, "transcript_parts": [{"text": "[Music]", "start": 2.71, "duration": 3.12}, {"text": "is", "start": 7.759, "duration": 3.0}, {"text": "don't run home", "start": 20.96, "duration": 4.04}, {"text": "cause you know", "start": 30.0, "duration": 5.559}, {"text": "you know", "start": 32.32, "duration": 3.239}, {"text": "there's", "start": 48.32, "duration": 3.0}, {"text": "[Music]", "start": 60.23, "duration": 3.27}, {"text": "cause you", "start": 65.68, "duration": 2.479}, {"text": "know you know", "start": 68.2, "duration": 4.239}, {"text": "[Music]", "start": 72.56, "duration": 4.2}, {"text": "baby butterfly", "start": 79.28, "duration": 3.4}, {"text": "rock bottom hit me in the face", "start": 93.68, "duration": 4.64}, {"text": "you don't know how good that tastes the", "start": 96.4, "duration": 4.64}, {"text": "devil already knows my name", "start": 98.32, "duration": 4.32}, {"text": "but i've been trying to find a better", "start": 101.04, "duration": 3.84}, {"text": "way stretch my imagination over the sky", "start": 102.64, "duration": 5.839}, {"text": "over space and time into positive vibes", "start": 104.88, "duration": 7.12}, {"text": "i know i'm alive and i see the divine", "start": 108.479, "duration": 5.28}, {"text": "my wings are growing you can see them", "start": 112.0, "duration": 3.28}, {"text": "poking through the holes in my shirt", "start": 113.759, "duration": 4.0}, {"text": "they behind joking you not if", "start": 115.28, "duration": 4.799}, {"text": "it's risky war let your mind limbo do", "start": 117.759, "duration": 4.081}, {"text": "your legs give out to the clock won't", "start": 120.079, "duration": 4.481}, {"text": "tick and the memory changes so much pain", "start": 121.84, "duration": 4.639}, {"text": "we can't erase it but now you're", "start": 124.56, "duration": 4.0}, {"text": "breaking now you're breaking out your", "start": 126.479, "duration": 4.901}, {"text": "cocoon baby", "start": 128.56, "duration": 7.19}, {"text": "[Music]", "start": 131.38, "duration": 4.37}, {"text": "[Music]", "start": 138.56, "duration": 3.379}, {"text": "baby", "start": 148.48, "duration": 6.709}, {"text": "[Music]", "start": 150.46, "duration": 4.729}, {"text": "amazing", "start": 162.239, "duration": 8.48}, {"text": "[Music]", "start": 164.85, "duration": 5.869}, {"text": "[Applause]", "start": 174.59, "duration": 4.649}, {"text": "ladies", "start": 176.239, "duration": 3.0}, {"text": "[Music]", "start": 184.5, "duration": 5.22}, {"text": "so", "start": 187.92, "duration": 10.279}, {"text": "[Music]", "start": 189.72, "duration": 8.479}, {"text": "[Music]", "start": 201.0, "duration": 3.09}, {"text": "oh", "start": 204.56, "duration": 3.0}, {"text": "there's", "start": 214.48, "duration": 3.0}, {"text": "[Music]", "start": 217.85, "duration": 3.11}, {"text": "bye", "start": 230.48, "duration": 3.0}]}
+{
+ "video_id": "-4lqnBeoA6Y",
+ "channel_id": "UClIDP7_Kzv_7tDQjTv9EhrA",
+ "channel_name": "Chris Petkau",
+ "title": "Baby Butterfly",
+ "url": "https://www.youtube.com/watch?v=-4lqnBeoA6Y",
+ "date": "2021-10-19",
+ "description": "",
+ "duration": 232,
+ "transcript_parts": [
+  {
+   "text": "[Music]",
+   "start": 2.71,
+   "duration": 3.12
+  },
+  {
+   "text": "is",
+   "start": 7.759,
+   "duration": 3.0
+  },
+  {
+   "text": "don't run home",
+   "start": 20.96,
+   "duration": 4.04
+  },
+  {
+   "text": "cause you know",
+   "start": 30.0,
+   "duration": 5.559
+  },
+  {
+   "text": "you know",
+   "start": 32.32,
+   "duration": 3.239
+  },
+  {
+   "text": "there's",
+   "start": 48.32,
+   "duration": 3.0
+  },
+  {
+   "text": "[Music]",
+   "start": 60.23,
+   "duration": 3.27
+  },
+  {
+   "text": "cause you",
+   "start": 65.68,
+   "duration": 2.479
+  },
+  {
+   "text": "know you know",
+   "start": 68.2,
+   "duration": 4.239
+  },
+  {
+   "text": "[Music]",
+   "start": 72.56,
+   "duration": 4.2
+  },
+  {
+   "text": "baby butterfly",
+   "start": 79.28,
+   "duration": 3.4
+  },
+  {
+   "text": "rock bottom hit me in the face",
+   "start": 93.68,
+   "duration": 4.64
+  },
+  {
+   "text": "you don't know how good that tastes the",
+   "start": 96.4,
+   "duration": 4.64
+  },
+  {
+   "text": "devil already knows my name",
+   "start": 98.32,
+   "duration": 4.32
+  },
+  {
+   "text": "but i've been trying to find a better",
+   "start": 101.04,
+   "duration": 3.84
+  },
+  {
+   "text": "way stretch my imagination over the sky",
+   "start": 102.64,
+   "duration": 5.839
+  },
+  {
+   "text": "over space and time into positive vibes",
+   "start": 104.88,
+   "duration": 7.12
+  },
+  {
+   "text": "i know i'm alive and i see the divine",
+   "start": 108.479,
+   "duration": 5.28
+  },
+  {
+   "text": "my wings are growing you can see them",
+   "start": 112.0,
+   "duration": 3.28
+  },
+  {
+   "text": "poking through the holes in my shirt",
+   "start": 113.759,
+   "duration": 4.0
+  },
+  {
+   "text": "they behind joking you not if",
+   "start": 115.28,
+   "duration": 4.799
+  },
+  {
+   "text": "it's risky war let your mind limbo do",
+   "start": 117.759,
+   "duration": 4.081
+  },
+  {
+   "text": "your legs give out to the clock won't",
+   "start": 120.079,
+   "duration": 4.481
+  },
+  {
+   "text": "tick and the memory changes so much pain",
+   "start": 121.84,
+   "duration": 4.639
+  },
+  {
+   "text": "we can't erase it but now you're",
+   "start": 124.56,
+   "duration": 4.0
+  },
+  {
+   "text": "breaking now you're breaking out your",
+   "start": 126.479,
+   "duration": 4.901
+  },
+  {
+   "text": "cocoon baby",
+   "start": 128.56,
+   "duration": 7.19
+  },
+  {
+   "text": "[Music]",
+   "start": 131.38,
+   "duration": 4.37
+  },
+  {
+   "text": "[Music]",
+   "start": 138.56,
+   "duration": 3.379
+  },
+  {
+   "text": "baby",
+   "start": 148.48,
+   "duration": 6.709
+  },
+  {
+   "text": "[Music]",
+   "start": 150.46,
+   "duration": 4.729
+  },
+  {
+   "text": "amazing",
+   "start": 162.239,
+   "duration": 8.48
+  },
+  {
+   "text": "[Music]",
+   "start": 164.85,
+   "duration": 5.869
+  },
+  {
+   "text": "[Applause]",
+   "start": 174.59,
+   "duration": 4.649
+  },
+  {
+   "text": "ladies",
+   "start": 176.239,
+   "duration": 3.0
+  },
+  {
+   "text": "[Music]",
+   "start": 184.5,
+   "duration": 5.22
+  },
+  {
+   "text": "so",
+   "start": 187.92,
+   "duration": 10.279
+  },
+  {
+   "text": "[Music]",
+   "start": 189.72,
+   "duration": 8.479
+  },
+  {
+   "text": "[Music]",
+   "start": 201.0,
+   "duration": 3.09
+  },
+  {
+   "text": "oh",
+   "start": 204.56,
+   "duration": 3.0
+  },
+  {
+   "text": "there's",
+   "start": 214.48,
+   "duration": 3.0
+  },
+  {
+   "text": "[Music]",
+   "start": 217.85,
+   "duration": 3.11
+  },
+  {
+   "text": "bye",
+   "start": 230.48,
+   "duration": 3.0
+  }
+ ]
+}
