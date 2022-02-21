@@ -39,7 +39,7 @@ def es_iterate_all_documents(elastic_object, index, pagesize=250, **kwargs):
 def save_all_documents(elastic):
     for doc in es_iterate_all_documents(elastic, index_name):
         doc.pop('transcript_full', None)
-        doc_as_json = json.dumps(doc)
+        doc_as_json = json.dumps(doc, indent=1)
         file_path = '../data/video_metadata/' + doc['channel_id'] + '/' + doc['video_id'] + '.json'
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, 'w') as file:
