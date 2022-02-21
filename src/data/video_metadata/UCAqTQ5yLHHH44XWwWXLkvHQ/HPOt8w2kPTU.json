@@ -1,1 +1,37 @@
-{"video_id": "HPOt8w2kPTU", "channel_id": "UCAqTQ5yLHHH44XWwWXLkvHQ", "channel_name": "Grizwald Grim", "title": "We Love You, but ...", "url": "https://www.youtube.com/watch?v=HPOt8w2kPTU", "date": "2022-01-01", "description": "", "duration": 14, "transcript_parts": [{"text": "hi we love you very very much", "start": 0.0, "duration": 6.96}, {"text": "but we're gonna need you to get these", "start": 4.48, "duration": 5.28}, {"text": "little injections of gene editing", "start": 6.96, "duration": 5.12}, {"text": "to keep everybody else safe", "start": 9.76, "duration": 5.759}, {"text": "but we love you", "start": 12.08, "duration": 3.439}]}
+{
+ "video_id": "HPOt8w2kPTU",
+ "channel_id": "UCAqTQ5yLHHH44XWwWXLkvHQ",
+ "channel_name": "Grizwald Grim",
+ "title": "We Love You, but ...",
+ "url": "https://www.youtube.com/watch?v=HPOt8w2kPTU",
+ "date": "2022-01-01",
+ "description": "",
+ "duration": 14,
+ "transcript_parts": [
+  {
+   "text": "hi we love you very very much",
+   "start": 0.0,
+   "duration": 6.96
+  },
+  {
+   "text": "but we're gonna need you to get these",
+   "start": 4.48,
+   "duration": 5.28
+  },
+  {
+   "text": "little injections of gene editing",
+   "start": 6.96,
+   "duration": 5.12
+  },
+  {
+   "text": "to keep everybody else safe",
+   "start": 9.76,
+   "duration": 5.759
+  },
+  {
+   "text": "but we love you",
+   "start": 12.08,
+   "duration": 3.439
+  }
+ ]
+}

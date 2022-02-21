@@ -1,0 +1,2377 @@
+{
+ "video_id": "UokzG4bgApE",
+ "channel_id": "UC6vg0HkKKlgsWk-3HfV-vnw",
+ "channel_name": "A Quality Existence",
+ "title": "More PVK, Pageau & Vervake Plus Viewer Comments, Poincare and...Quality!",
+ "url": "https://www.youtube.com/watch?v=UokzG4bgApE",
+ "date": "2019-08-15",
+ "description": "Jonathan Pageau kindly invited me onto his channel for a conversation - which was so enjoyable and eye-opening. Paul VanderKlay did a great response video. I'm just having some reflections on that, plus talking about some concepts that this conversation made me think about, and elaborating on some other ideas, chaos (dynamical systems) theory, the train metaphor in Zamm, more on Poincare, romanticism, and reflecting more on John Vervaeke's work.",
+ "duration": 1355,
+ "transcript_parts": [
+  {
+   "text": "[Music]",
+   "start": 0.33,
+   "duration": 4.32
+  },
+  {
+   "text": "[Music]",
+   "start": 6.76,
+   "duration": 4.37
+  },
+  {
+   "text": "hi there so I've had a great time in the",
+   "start": 16.09,
+   "duration": 5.38
+  },
+  {
+   "text": "past couple of days seeing the reactions",
+   "start": 19.34,
+   "duration": 4.47
+  },
+  {
+   "text": "and comments to my talk with Jonathon",
+   "start": 21.47,
+   "duration": 5.219
+  },
+  {
+   "text": "Pasha a couple of people think I'm a",
+   "start": 23.81,
+   "duration": 4.859
+  },
+  {
+   "text": "hippie which is which is pretty funny",
+   "start": 26.689,
+   "duration": 5.73
+  },
+  {
+   "text": "but I guess they have a point in one",
+   "start": 28.669,
+   "duration": 6.151
+  },
+  {
+   "text": "regard like Sylvan bear I'm a big fan of",
+   "start": 32.419,
+   "duration": 5.811
+  },
+  {
+   "text": "zap comix and that's a commenter on",
+   "start": 34.82,
+   "duration": 6.72
+  },
+  {
+   "text": "paul's paul van der clays response to",
+   "start": 38.23,
+   "duration": 5.739
+  },
+  {
+   "text": "that video so Robert Crumb did a",
+   "start": 41.54,
+   "duration": 5.34
+  },
+  {
+   "text": "fabulous genesis graphic novel by the",
+   "start": 43.969,
+   "duration": 5.611
+  },
+  {
+   "text": "way it's real it's a real classic",
+   "start": 46.88,
+   "duration": 6.0
+  },
+  {
+   "text": "I enjoyed Paul's reaction video a lot he",
+   "start": 49.58,
+   "duration": 4.8
+  },
+  {
+   "text": "really got it right I thought the",
+   "start": 52.88,
+   "duration": 4.17
+  },
+  {
+   "text": "problem we spiritual secular types are",
+   "start": 54.38,
+   "duration": 6.06
+  },
+  {
+   "text": "having with the big G and I guess my",
+   "start": 57.05,
+   "duration": 5.31
+  },
+  {
+   "text": "underlying framework is maybe I don't",
+   "start": 60.44,
+   "duration": 4.859
+  },
+  {
+   "text": "want to relinquish metaphysical control",
+   "start": 62.36,
+   "duration": 5.78
+  },
+  {
+   "text": "even though that control is obviously a",
+   "start": 65.299,
+   "duration": 4.71
+  },
+  {
+   "text": "complete illusion",
+   "start": 68.14,
+   "duration": 7.24
+  },
+  {
+   "text": "I mean quality is pre intellectual I'm",
+   "start": 70.009,
+   "duration": 8.161
+  },
+  {
+   "text": "so grateful to Jonathan Petro for having",
+   "start": 75.38,
+   "duration": 5.25
+  },
+  {
+   "text": "me on his channel but I do have a couple",
+   "start": 78.17,
+   "duration": 5.52
+  },
+  {
+   "text": "of regrets and one of them is I didn't I",
+   "start": 80.63,
+   "duration": 4.89
+  },
+  {
+   "text": "really wanted to express my appreciation",
+   "start": 83.69,
+   "duration": 6.45
+  },
+  {
+   "text": "for his artwork he's just such a stellar",
+   "start": 85.52,
+   "duration": 6.12
+  },
+  {
+   "text": "you know he's just such an excellent",
+   "start": 90.14,
+   "duration": 5.01
+  },
+  {
+   "text": "artist and but I guess I did think that",
+   "start": 91.64,
+   "duration": 6.3
+  },
+  {
+   "text": "that that classic piece of medieval art",
+   "start": 95.15,
+   "duration": 6.3
+  },
+  {
+   "text": "was his because his work is as good as",
+   "start": 97.94,
+   "duration": 7.05
+  },
+  {
+   "text": "that obviously so I guess that's kind of",
+   "start": 101.45,
+   "duration": 5.13
+  },
+  {
+   "text": "a compliment in a way and the other",
+   "start": 104.99,
+   "duration": 5.309
+  },
+  {
+   "text": "thing that I regret is as I wanted to",
+   "start": 106.58,
+   "duration": 6.96
+  },
+  {
+   "text": "make a comparison between or at least",
+   "start": 110.299,
+   "duration": 6.75
+  },
+  {
+   "text": "mention how important the mountain the",
+   "start": 113.54,
+   "duration": 6.36
+  },
+  {
+   "text": "the symbolism of the mountain is in zen",
+   "start": 117.049,
+   "duration": 3.961
+  },
+  {
+   "text": "and the art of motorcycle maintenance",
+   "start": 119.9,
+   "duration": 4.89
+  },
+  {
+   "text": "because anyone who's even listened to or",
+   "start": 121.01,
+   "duration": 5.85
+  },
+  {
+   "text": "watched one or two of Jonathan's videos",
+   "start": 124.79,
+   "duration": 4.41
+  },
+  {
+   "text": "will probably pick up on how important",
+   "start": 126.86,
+   "duration": 5.34
+  },
+  {
+   "text": "the symbolism of the mountain is in in",
+   "start": 129.2,
+   "duration": 7.53
+  },
+  {
+   "text": "traditional Christian symbolism it",
+   "start": 132.2,
+   "duration": 6.959
+  },
+  {
+   "text": "figures prominently and into the zen and",
+   "start": 136.73,
+   "duration": 3.78
+  },
+  {
+   "text": "the art of motorcycle maintenance for",
+   "start": 139.159,
+   "duration": 2.851
+  },
+  {
+   "text": "example the high country of the mind",
+   "start": 140.51,
+   "duration": 3.349
+  },
+  {
+   "text": "where he goes to figure stuff out",
+   "start": 142.01,
+   "duration": 3.759
+  },
+  {
+   "text": "Beartooth pass",
+   "start": 143.859,
+   "duration": 4.24
+  },
+  {
+   "text": "a particular place that that has",
+   "start": 145.769,
+   "duration": 6.09
+  },
+  {
+   "text": "mystical qualities the mountain he's",
+   "start": 148.099,
+   "duration": 6.041
+  },
+  {
+   "text": "going to be climbing in chapters coming",
+   "start": 151.859,
+   "duration": 5.19
+  },
+  {
+   "text": "up for the Indian pilgrimage when he's",
+   "start": 154.14,
+   "duration": 5.849
+  },
+  {
+   "text": "in India which compares the climbing",
+   "start": 157.049,
+   "duration": 6.511
+  },
+  {
+   "text": "experience of a non-believer to that of",
+   "start": 159.989,
+   "duration": 6.991
+  },
+  {
+   "text": "a believer and also when he when he",
+   "start": 163.56,
+   "duration": 6.149
+  },
+  {
+   "text": "loses his mind he uses the metaphor of",
+   "start": 166.98,
+   "duration": 4.979
+  },
+  {
+   "text": "rocks coming loose at the top of the",
+   "start": 169.709,
+   "duration": 5.67
+  },
+  {
+   "text": "mountain and plummeting down and causing",
+   "start": 171.959,
+   "duration": 7.411
+  },
+  {
+   "text": "an avalanche so but the good thing is",
+   "start": 175.379,
+   "duration": 5.521
+  },
+  {
+   "text": "that opens up an opportunity for",
+   "start": 179.37,
+   "duration": 4.53
+  },
+  {
+   "text": "comparison video between Jonathan's view",
+   "start": 180.9,
+   "duration": 4.619
+  },
+  {
+   "text": "of the mountain the traditional",
+   "start": 183.9,
+   "duration": 3.149
+  },
+  {
+   "text": "Christian view of the mountain compared",
+   "start": 185.519,
+   "duration": 3.211
+  },
+  {
+   "text": "to pier six and I think that that will",
+   "start": 187.049,
+   "duration": 7.5
+  },
+  {
+   "text": "be a lot of fun another thing and I know",
+   "start": 188.73,
+   "duration": 7.709
+  },
+  {
+   "text": "I show a lot of books all the time it's",
+   "start": 194.549,
+   "duration": 4.461
+  },
+  {
+   "text": "not to demonstrate how intelligent I am",
+   "start": 196.439,
+   "duration": 7.681
+  },
+  {
+   "text": "because I'm not but it's - it's because",
+   "start": 199.01,
+   "duration": 8.92
+  },
+  {
+   "text": "I have a tendency to over read a few",
+   "start": 204.12,
+   "duration": 7.949
+  },
+  {
+   "text": "books and get really hung up on them and",
+   "start": 207.93,
+   "duration": 7.38
+  },
+  {
+   "text": "of course and then use them to inform a",
+   "start": 212.069,
+   "duration": 4.621
+  },
+  {
+   "text": "lot of stuff I don't know if that's good",
+   "start": 215.31,
+   "duration": 2.819
+  },
+  {
+   "text": "or bad but that's just the way it is and",
+   "start": 216.69,
+   "duration": 4.019
+  },
+  {
+   "text": "this chaos book is one of them and so",
+   "start": 218.129,
+   "duration": 5.661
+  },
+  {
+   "text": "let's I this has really been been",
+   "start": 220.709,
+   "duration": 9.59
+  },
+  {
+   "text": "bugging me so there's something called",
+   "start": 223.79,
+   "duration": 10.36
+  },
+  {
+   "text": "the chaos theory has a whole lot of of",
+   "start": 230.299,
+   "duration": 6.041
+  },
+  {
+   "text": "ways of expressing itself in its",
+   "start": 234.15,
+   "duration": 6.32
+  },
+  {
+   "text": "dynamical Systems Theory and this is",
+   "start": 236.34,
+   "duration": 8.569
+  },
+  {
+   "text": "Edwin Lawrence is one of the great great",
+   "start": 240.47,
+   "duration": 8.169
+  },
+  {
+   "text": "theorists using dynamical systems there",
+   "start": 244.909,
+   "duration": 5.95
+  },
+  {
+   "text": "to explain dynamical systems theory this",
+   "start": 248.639,
+   "duration": 5.791
+  },
+  {
+   "text": "here I hope you can see it is what they",
+   "start": 250.859,
+   "duration": 8.34
+  },
+  {
+   "text": "call the Lorenz waterwheel and what",
+   "start": 254.43,
+   "duration": 8.85
+  },
+  {
+   "text": "happens is water steadily streams and it",
+   "start": 259.199,
+   "duration": 7.521
+  },
+  {
+   "text": "turns the wheel in a in a predictable",
+   "start": 263.28,
+   "duration": 9.889
+  },
+  {
+   "text": "systematic way but when when the water",
+   "start": 266.72,
+   "duration": 9.249
+  },
+  {
+   "text": "when it becomes too fast when it becomes",
+   "start": 273.169,
+   "duration": 4.241
+  },
+  {
+   "text": "too chaotic",
+   "start": 275.969,
+   "duration": 6.211
+  },
+  {
+   "text": "the wheel the wheel actually reverses so",
+   "start": 277.41,
+   "duration": 8.67
+  },
+  {
+   "text": "think about the topsy-turvy world of",
+   "start": 282.18,
+   "duration": 6.81
+  },
+  {
+   "text": "peer sick in chapter 14 and think about",
+   "start": 286.08,
+   "duration": 6.36
+  },
+  {
+   "text": "Jonathan pathos upside down fragmented",
+   "start": 288.99,
+   "duration": 7.41
+  },
+  {
+   "text": "chaotic world I think I I don't I can't",
+   "start": 292.44,
+   "duration": 5.7
+  },
+  {
+   "text": "draw a conclusion obviously but really",
+   "start": 296.4,
+   "duration": 3.15
+  },
+  {
+   "text": "that's kind of interesting thing to",
+   "start": 298.14,
+   "duration": 4.74
+  },
+  {
+   "text": "think about so and then of course the",
+   "start": 299.55,
+   "duration": 5.07
+  },
+  {
+   "text": "book that I'm always bringing up that's",
+   "start": 302.88,
+   "duration": 5.37
+  },
+  {
+   "text": "this one so one reason I find this",
+   "start": 304.62,
+   "duration": 5.16
+  },
+  {
+   "text": "really interesting okay let me just show",
+   "start": 308.25,
+   "duration": 3.84
+  },
+  {
+   "text": "you really quickly something that one",
+   "start": 309.78,
+   "duration": 5.66
+  },
+  {
+   "text": "would need to know about about putnams",
+   "start": 312.09,
+   "duration": 10.92
+  },
+  {
+   "text": "work is that this this is the state",
+   "start": 315.44,
+   "duration": 14.35
+  },
+  {
+   "text": "space of of personality this self-esteem",
+   "start": 323.01,
+   "duration": 11.13
+  },
+  {
+   "text": "goes up this way energy goes this way",
+   "start": 329.79,
+   "duration": 9.24
+  },
+  {
+   "text": "and this is and oh all the way back to",
+   "start": 334.14,
+   "duration": 8.07
+  },
+  {
+   "text": "front is emotion so these are these",
+   "start": 339.03,
+   "duration": 5.67
+  },
+  {
+   "text": "represent I hope you can see it the",
+   "start": 342.21,
+   "duration": 7.22
+  },
+  {
+   "text": "different the different states that",
+   "start": 344.7,
+   "duration": 6.99
+  },
+  {
+   "text": "let's just say this is a particular",
+   "start": 349.43,
+   "duration": 7.0
+  },
+  {
+   "text": "person who there's a creative person and",
+   "start": 351.69,
+   "duration": 6.51
+  },
+  {
+   "text": "you can see how the different states",
+   "start": 356.43,
+   "duration": 5.55
+  },
+  {
+   "text": "cycle in this this line demonstrates the",
+   "start": 358.2,
+   "duration": 6.93
+  },
+  {
+   "text": "cycling of the states of you know that",
+   "start": 361.98,
+   "duration": 4.89
+  },
+  {
+   "text": "the Fraga the different parts of their",
+   "start": 365.13,
+   "duration": 6.59
+  },
+  {
+   "text": "personality grief creativity passion",
+   "start": 366.87,
+   "duration": 10.77
+  },
+  {
+   "text": "anger etc depression so what's really",
+   "start": 371.72,
+   "duration": 10.12
+  },
+  {
+   "text": "interesting is that the states this is",
+   "start": 377.64,
+   "duration": 8.07
+  },
+  {
+   "text": "another Lorenz Lorenz diagram this is",
+   "start": 381.84,
+   "duration": 7.71
+  },
+  {
+   "text": "the state space plot of Lorenz butterfly",
+   "start": 385.71,
+   "duration": 6.63
+  },
+  {
+   "text": "equations so these are these are strange",
+   "start": 389.55,
+   "duration": 12.2
+  },
+  {
+   "text": "attractors and they these they create I",
+   "start": 392.34,
+   "duration": 13.079
+  },
+  {
+   "text": "can't explain this all really because I",
+   "start": 401.75,
+   "duration": 6.91
+  },
+  {
+   "text": "don't know well enough but what happens",
+   "start": 405.419,
+   "duration": 5.851
+  },
+  {
+   "text": "is that when you're in particular",
+   "start": 408.66,
+   "duration": 4.5
+  },
+  {
+   "text": "this is just this is in dynamical",
+   "start": 411.27,
+   "duration": 5.1
+  },
+  {
+   "text": "Systems Theory so this is this is how",
+   "start": 413.16,
+   "duration": 9.09
+  },
+  {
+   "text": "this is the pattern of state switching",
+   "start": 416.37,
+   "duration": 8.4
+  },
+  {
+   "text": "and personality you switch from one",
+   "start": 422.25,
+   "duration": 5.64
+  },
+  {
+   "text": "state to another via these strange",
+   "start": 424.77,
+   "duration": 6.48
+  },
+  {
+   "text": "attractors which are the states so you",
+   "start": 427.89,
+   "duration": 5.25
+  },
+  {
+   "text": "remain here in a while and there is an",
+   "start": 431.25,
+   "duration": 5.97
+  },
+  {
+   "text": "actual systematic switch to another",
+   "start": 433.14,
+   "duration": 5.79
+  },
+  {
+   "text": "strange attractor which will be another",
+   "start": 437.22,
+   "duration": 6.75
+  },
+  {
+   "text": "state of mind so so Putnam is using is",
+   "start": 438.93,
+   "duration": 9.99
+  },
+  {
+   "text": "saying that this dynamical this",
+   "start": 443.97,
+   "duration": 8.0
+  },
+  {
+   "text": "dynamical pattern is what governs our",
+   "start": 448.92,
+   "duration": 5.37
+  },
+  {
+   "text": "personality basically it's at the bottom",
+   "start": 451.97,
+   "duration": 4.06
+  },
+  {
+   "text": "of it because we go from one state to",
+   "start": 454.29,
+   "duration": 6.3
+  },
+  {
+   "text": "another through this dynamical systems",
+   "start": 456.03,
+   "duration": 8.13
+  },
+  {
+   "text": "pattern I'm still just figuring that out",
+   "start": 460.59,
+   "duration": 5.46
+  },
+  {
+   "text": "so so that's the best I could do for the",
+   "start": 464.16,
+   "duration": 7.47
+  },
+  {
+   "text": "time being so remember that Verve a key",
+   "start": 466.05,
+   "duration": 9.89
+  },
+  {
+   "text": "of course this is in this is in Episode",
+   "start": 471.63,
+   "duration": 9.45
+  },
+  {
+   "text": "six uses Alicia herreros theory of",
+   "start": 475.94,
+   "duration": 13.03
+  },
+  {
+   "text": "dynamical systems to to demonstrate how",
+   "start": 481.08,
+   "duration": 13.02
+  },
+  {
+   "text": "things develop and grow and and this is",
+   "start": 488.97,
+   "duration": 7.52
+  },
+  {
+   "text": "in advance of Newton's causality in",
+   "start": 494.1,
+   "duration": 5.07
+  },
+  {
+   "text": "dynamical systems you have causal events",
+   "start": 496.49,
+   "duration": 6.28
+  },
+  {
+   "text": "and you have constraints that make the",
+   "start": 499.17,
+   "duration": 6.75
+  },
+  {
+   "text": "conditions for potentiality so I think",
+   "start": 502.77,
+   "duration": 5.7
+  },
+  {
+   "text": "the Train metaphor in Pierce aghh can",
+   "start": 505.92,
+   "duration": 5.46
+  },
+  {
+   "text": "can be linked to this first of all let",
+   "start": 508.47,
+   "duration": 4.38
+  },
+  {
+   "text": "me just read the Train section it's a",
+   "start": 511.38,
+   "duration": 3.63
+  },
+  {
+   "text": "little long so I'm sorry I've edited out",
+   "start": 512.85,
+   "duration": 5.28
+  },
+  {
+   "text": "some stuff that that doesn't matter for",
+   "start": 515.01,
+   "duration": 5.46
+  },
+  {
+   "text": "what we're using it for now but I want",
+   "start": 518.13,
+   "duration": 4.2
+  },
+  {
+   "text": "to just put the Train metaphor out there",
+   "start": 520.47,
+   "duration": 3.78
+  },
+  {
+   "text": "because I described it in the pouch",
+   "start": 522.33,
+   "duration": 3.53
+  },
+  {
+   "text": "Ovidio but I just want to read it",
+   "start": 524.25,
+   "duration": 3.87
+  },
+  {
+   "text": "because I think it's really important to",
+   "start": 525.86,
+   "duration": 4.57
+  },
+  {
+   "text": "understanding for understanding what",
+   "start": 528.12,
+   "duration": 5.7
+  },
+  {
+   "text": "piercing meant and remember that I'm",
+   "start": 530.43,
+   "duration": 5.19
+  },
+  {
+   "text": "going to use the language of zen and the",
+   "start": 533.82,
+   "duration": 3.36
+  },
+  {
+   "text": "art of motorcycle natives but remember",
+   "start": 535.62,
+   "duration": 5.91
+  },
+  {
+   "text": "later in sin lila the the term romantic",
+   "start": 537.18,
+   "duration": 6.42
+  },
+  {
+   "text": "knowledge becomes dynamic quality and",
+   "start": 541.53,
+   "duration": 3.4
+  },
+  {
+   "text": "classic knowledge",
+   "start": 543.6,
+   "duration": 4.66
+  },
+  {
+   "text": "become static static patterns of value",
+   "start": 544.93,
+   "duration": 7.23
+  },
+  {
+   "text": "or static quality in my mind now is an",
+   "start": 548.26,
+   "duration": 7.17
+  },
+  {
+   "text": "image of a huge long railroad train one",
+   "start": 552.16,
+   "duration": 6.27
+  },
+  {
+   "text": "of those 120 boxcar jobs that cross the",
+   "start": 555.43,
+   "duration": 6.12
+  },
+  {
+   "text": "prairies all the time with lumber and",
+   "start": 558.43,
+   "duration": 5.4
+  },
+  {
+   "text": "vegetables going east with automobiles",
+   "start": 561.55,
+   "duration": 4.229
+  },
+  {
+   "text": "and other manufactured goods going west",
+   "start": 563.83,
+   "duration": 4.53
+  },
+  {
+   "text": "I want to call this train knowledge and",
+   "start": 565.779,
+   "duration": 4.651
+  },
+  {
+   "text": "subdivided into two parts classical",
+   "start": 568.36,
+   "duration": 3.87
+  },
+  {
+   "text": "classic knowledge and romantic knowledge",
+   "start": 570.43,
+   "duration": 4.349
+  },
+  {
+   "text": "in terms of the analogy classic",
+   "start": 572.23,
+   "duration": 3.93
+  },
+  {
+   "text": "knowledge the knowledge taught by the",
+   "start": 574.779,
+   "duration": 3.06
+  },
+  {
+   "text": "Church of Reason remember if you want to",
+   "start": 576.16,
+   "duration": 3.63
+  },
+  {
+   "text": "know about the Church of Reason it's in",
+   "start": 577.839,
+   "duration": 4.471
+  },
+  {
+   "text": "chapter 14 I talked about it in my video",
+   "start": 579.79,
+   "duration": 6.12
+  },
+  {
+   "text": "on part 1 the knowledge taught by Church",
+   "start": 582.31,
+   "duration": 5.7
+  },
+  {
+   "text": "of Reason is the engine and all the",
+   "start": 585.91,
+   "duration": 4.41
+  },
+  {
+   "text": "boxcars all of them and everything",
+   "start": 588.01,
+   "duration": 3.87
+  },
+  {
+   "text": "that's in them if you subdivide the",
+   "start": 590.32,
+   "duration": 3.24
+  },
+  {
+   "text": "train into parts you will find no",
+   "start": 591.88,
+   "duration": 3.87
+  },
+  {
+   "text": "romantic knowledge anywhere and unless",
+   "start": 593.56,
+   "duration": 3.99
+  },
+  {
+   "text": "you're careful it's easy to make the",
+   "start": 595.75,
+   "duration": 4.68
+  },
+  {
+   "text": "presumption that all the train that",
+   "start": 597.55,
+   "duration": 5.52
+  },
+  {
+   "text": "that's all the train there is because",
+   "start": 600.43,
+   "duration": 6.03
+  },
+  {
+   "text": "there isn't this isn't because romantic",
+   "start": 603.07,
+   "duration": 4.86
+  },
+  {
+   "text": "knowledge is non-existent or even",
+   "start": 606.46,
+   "duration": 4.29
+  },
+  {
+   "text": "unimportant it's just that so far the",
+   "start": 607.93,
+   "duration": 4.8
+  },
+  {
+   "text": "definition of the Train is static and",
+   "start": 610.75,
+   "duration": 4.89
+  },
+  {
+   "text": "purposeless this is two whole dimensions",
+   "start": 612.73,
+   "duration": 5.64
+  },
+  {
+   "text": "of existence it's two whole ways of",
+   "start": 615.64,
+   "duration": 5.79
+  },
+  {
+   "text": "looking at the Train romantic quality in",
+   "start": 618.37,
+   "duration": 5.46
+  },
+  {
+   "text": "terms of this analogy isn't any part of",
+   "start": 621.43,
+   "duration": 4.14
+  },
+  {
+   "text": "the Train it's the leading edge of the",
+   "start": 623.83,
+   "duration": 3.81
+  },
+  {
+   "text": "Train the two-dimensional surface of no",
+   "start": 625.57,
+   "duration": 4.29
+  },
+  {
+   "text": "real significance unless you understand",
+   "start": 627.64,
+   "duration": 4.86
+  },
+  {
+   "text": "that the Train isn't a static entity at",
+   "start": 629.86,
+   "duration": 5.64
+  },
+  {
+   "text": "all the Train really isn't a train if it",
+   "start": 632.5,
+   "duration": 5.04
+  },
+  {
+   "text": "can't go anywhere the process of",
+   "start": 635.5,
+   "duration": 5.0
+  },
+  {
+   "text": "examining the terrain is subdividing it",
+   "start": 637.54,
+   "duration": 6.69
+  },
+  {
+   "text": "into parts were inadvertently we've",
+   "start": 640.5,
+   "duration": 5.89
+  },
+  {
+   "text": "inadvertently stopped it so it really",
+   "start": 644.23,
+   "duration": 3.84
+  },
+  {
+   "text": "isn't a train that we are examining",
+   "start": 646.39,
+   "duration": 3.87
+  },
+  {
+   "text": "that's what we're stuck the real train",
+   "start": 648.07,
+   "duration": 4.019
+  },
+  {
+   "text": "of knowledge isn't a static entity that",
+   "start": 650.26,
+   "duration": 3.3
+  },
+  {
+   "text": "can be stopped and subdivided it's",
+   "start": 652.089,
+   "duration": 3.361
+  },
+  {
+   "text": "always going somewhere on a track called",
+   "start": 653.56,
+   "duration": 4.26
+  },
+  {
+   "text": "quality and that engine and all those",
+   "start": 655.45,
+   "duration": 4.86
+  },
+  {
+   "text": "120 boxcars are never going anywhere",
+   "start": 657.82,
+   "duration": 5.28
+  },
+  {
+   "text": "except where the track of quality takes",
+   "start": 660.31,
+   "duration": 4.74
+  },
+  {
+   "text": "them and romantic quality the leading",
+   "start": 663.1,
+   "duration": 3.45
+  },
+  {
+   "text": "edge of the engine takes them along that",
+   "start": 665.05,
+   "duration": 4.979
+  },
+  {
+   "text": "track romantic quality is the cutting",
+   "start": 666.55,
+   "duration": 5.58
+  },
+  {
+   "text": "edge of experience it's the leading edge",
+   "start": 670.029,
+   "duration": 4.261
+  },
+  {
+   "text": "of the train of knowledge that keeps the",
+   "start": 672.13,
+   "duration": 3.84
+  },
+  {
+   "text": "whole train on track traditional",
+   "start": 674.29,
+   "duration": 3.51
+  },
+  {
+   "text": "knowledge is only the collective memory",
+   "start": 675.97,
+   "duration": 2.369
+  },
+  {
+   "text": "of where",
+   "start": 677.8,
+   "duration": 2.88
+  },
+  {
+   "text": "leading edge has been at the leading",
+   "start": 678.339,
+   "duration": 4.951
+  },
+  {
+   "text": "edge there are no subjects no objects",
+   "start": 680.68,
+   "duration": 4.649
+  },
+  {
+   "text": "only the track of quality ahead and if",
+   "start": 683.29,
+   "duration": 3.659
+  },
+  {
+   "text": "you have north no formal way of",
+   "start": 685.329,
+   "duration": 3.38
+  },
+  {
+   "text": "evaluating no way of acknowledging",
+   "start": 686.949,
+   "duration": 6.36
+  },
+  {
+   "text": "quality the entire train has no way of",
+   "start": 688.709,
+   "duration": 7.06
+  },
+  {
+   "text": "knowing where to go okay this to think",
+   "start": 693.309,
+   "duration": 4.83
+  },
+  {
+   "text": "for a moment about Verve a keys when he",
+   "start": 695.769,
+   "duration": 4.401
+  },
+  {
+   "text": "was talking about Alessi karara's",
+   "start": 698.139,
+   "duration": 5.43
+  },
+  {
+   "text": "potentiality and kind of apply that you",
+   "start": 700.17,
+   "duration": 5.469
+  },
+  {
+   "text": "don't have pure reason you have pure",
+   "start": 703.569,
+   "duration": 5.24
+  },
+  {
+   "text": "confusion the leading edge is where",
+   "start": 705.639,
+   "duration": 6.0
+  },
+  {
+   "text": "absolutely all the action is the leading",
+   "start": 708.809,
+   "duration": 4.931
+  },
+  {
+   "text": "edge contains all the infinite",
+   "start": 711.639,
+   "duration": 4.11
+  },
+  {
+   "text": "possibilities of the future it contains",
+   "start": 713.74,
+   "duration": 4.8
+  },
+  {
+   "text": "all the history of the past where else",
+   "start": 715.749,
+   "duration": 4.56
+  },
+  {
+   "text": "could they be contained the past cannot",
+   "start": 718.54,
+   "duration": 3.87
+  },
+  {
+   "text": "remember the past the future cannot",
+   "start": 720.309,
+   "duration": 3.69
+  },
+  {
+   "text": "generate the future the cutting edge",
+   "start": 722.41,
+   "duration": 4.08
+  },
+  {
+   "text": "this instant right now is always nothing",
+   "start": 723.999,
+   "duration": 4.471
+  },
+  {
+   "text": "less than the totality of everything",
+   "start": 726.49,
+   "duration": 5.73
+  },
+  {
+   "text": "there is you see that sort of a mystical",
+   "start": 728.47,
+   "duration": 5.52
+  },
+  {
+   "text": "way of looking at things in the now but",
+   "start": 732.22,
+   "duration": 3.839
+  },
+  {
+   "text": "it's not mystical at all when you put it",
+   "start": 733.99,
+   "duration": 4.529
+  },
+  {
+   "text": "in this context so so that's another",
+   "start": 736.059,
+   "duration": 3.871
+  },
+  {
+   "text": "thing that's really interesting about",
+   "start": 738.519,
+   "duration": 5.48
+  },
+  {
+   "text": "piercing is this ability to to come to",
+   "start": 739.93,
+   "duration": 8.879
+  },
+  {
+   "text": "infuse the mystical ephemeral romantic",
+   "start": 743.999,
+   "duration": 8.02
+  },
+  {
+   "text": "with the structural classic and so think",
+   "start": 748.809,
+   "duration": 5.161
+  },
+  {
+   "text": "about what again let's go back to what",
+   "start": 752.019,
+   "duration": 3.391
+  },
+  {
+   "text": "John Drake you said about causal events",
+   "start": 753.97,
+   "duration": 4.529
+  },
+  {
+   "text": "and constraints dynamic quality is a pre",
+   "start": 755.41,
+   "duration": 7.229
+  },
+  {
+   "text": "intellectual instant event the Train are",
+   "start": 758.499,
+   "duration": 7.741
+  },
+  {
+   "text": "the Train is the constraints moving",
+   "start": 762.639,
+   "duration": 5.851
+  },
+  {
+   "text": "forward on the track of quality the",
+   "start": 766.24,
+   "duration": 6.12
+  },
+  {
+   "text": "quality event causes the tree branch the",
+   "start": 768.49,
+   "duration": 5.819
+  },
+  {
+   "text": "tree branch to branch its leaves out",
+   "start": 772.36,
+   "duration": 5.219
+  },
+  {
+   "text": "towards the Sun and the Sun allows the",
+   "start": 774.309,
+   "duration": 5.46
+  },
+  {
+   "text": "tree to grow this is romantic quality",
+   "start": 777.579,
+   "duration": 5.43
+  },
+  {
+   "text": "guiding the leaves which are organized",
+   "start": 779.769,
+   "duration": 7.68
+  },
+  {
+   "text": "classically and the quality helps the",
+   "start": 783.009,
+   "duration": 10.221
+  },
+  {
+   "text": "structure transform and grow because it",
+   "start": 787.449,
+   "duration": 9.271
+  },
+  {
+   "text": "directs it's the stimulus towards the",
+   "start": 793.23,
+   "duration": 6.789
+  },
+  {
+   "text": "Sun dynamic quality is how these static",
+   "start": 796.72,
+   "duration": 5.459
+  },
+  {
+   "text": "patterns the leaves are updated how the",
+   "start": 800.019,
+   "duration": 5.43
+  },
+  {
+   "text": "tree grows the stimulus is romantic or",
+   "start": 802.179,
+   "duration": 6.061
+  },
+  {
+   "text": "dynamic and the structure is classic or",
+   "start": 805.449,
+   "duration": 4.121
+  },
+  {
+   "text": "static",
+   "start": 808.24,
+   "duration": 4.83
+  },
+  {
+   "text": "and I think there's something in here",
+   "start": 809.57,
+   "duration": 6.569
+  },
+  {
+   "text": "this may be the way I can link Putnam",
+   "start": 813.07,
+   "duration": 6.879
+  },
+  {
+   "text": "and Pearson which is really grating at",
+   "start": 816.139,
+   "duration": 10.01
+  },
+  {
+   "text": "me I really want to do that and so",
+   "start": 819.949,
+   "duration": 8.911
+  },
+  {
+   "text": "remember that in putnams book again the",
+   "start": 826.149,
+   "duration": 4.841
+  },
+  {
+   "text": "dynamic switches of personality is that",
+   "start": 828.86,
+   "duration": 4.469
+  },
+  {
+   "text": "if the strange attractor in chaos theory",
+   "start": 830.99,
+   "duration": 4.5
+  },
+  {
+   "text": "so paul van der clay said he ordered",
+   "start": 833.329,
+   "duration": 3.841
+  },
+  {
+   "text": "that book and i can't wait to hear what",
+   "start": 835.49,
+   "duration": 2.82
+  },
+  {
+   "text": "he has to say he's going to be",
+   "start": 837.17,
+   "duration": 3.21
+  },
+  {
+   "text": "pleasantly surprised by this book in",
+   "start": 838.31,
+   "duration": 3.54
+  },
+  {
+   "text": "other ways but i'm not i'm not going to",
+   "start": 840.38,
+   "duration": 5.399
+  },
+  {
+   "text": "give it away so another thing about",
+   "start": 841.85,
+   "duration": 6.84
+  },
+  {
+   "text": "their cat this is all coming together",
+   "start": 845.779,
+   "duration": 6.331
+  },
+  {
+   "text": "another thing about chaos theory that is",
+   "start": 848.69,
+   "duration": 8.639
+  },
+  {
+   "text": "so interesting and fractals so most",
+   "start": 852.11,
+   "duration": 6.75
+  },
+  {
+   "text": "people know i mean a lot of people know",
+   "start": 857.329,
+   "duration": 5.851
+  },
+  {
+   "text": "fractals are fractals are i I don't know",
+   "start": 858.86,
+   "duration": 5.969
+  },
+  {
+   "text": "well enough how to explain how they",
+   "start": 863.18,
+   "duration": 4.62
+  },
+  {
+   "text": "originated but the point of fractals is",
+   "start": 864.829,
+   "duration": 4.831
+  },
+  {
+   "text": "that they are the same pattern all the",
+   "start": 867.8,
+   "duration": 4.519
+  },
+  {
+   "text": "way down and all the way up that it's an",
+   "start": 869.66,
+   "duration": 7.47
+  },
+  {
+   "text": "invariant invariant structure an",
+   "start": 872.319,
+   "duration": 7.151
+  },
+  {
+   "text": "invariant pattern all the way down all",
+   "start": 877.13,
+   "duration": 4.62
+  },
+  {
+   "text": "the way up for infinity basically so",
+   "start": 879.47,
+   "duration": 4.229
+  },
+  {
+   "text": "that has a lot of implications in terms",
+   "start": 881.75,
+   "duration": 9.74
+  },
+  {
+   "text": "of some of the things that occur in in",
+   "start": 883.699,
+   "duration": 12.811
+  },
+  {
+   "text": "religion so like like the reason that",
+   "start": 891.49,
+   "duration": 8.92
+  },
+  {
+   "text": "the pazzo brothers use that metaphor",
+   "start": 896.51,
+   "duration": 6.84
+  },
+  {
+   "text": "that analogy for what they're talking",
+   "start": 900.41,
+   "duration": 4.89
+  },
+  {
+   "text": "about because God is in everything and",
+   "start": 903.35,
+   "duration": 5.039
+  },
+  {
+   "text": "God creates everything the whole and the",
+   "start": 905.3,
+   "duration": 5.46
+  },
+  {
+   "text": "particular you see this pattern come up",
+   "start": 908.389,
+   "duration": 4.981
+  },
+  {
+   "text": "all the time for example in Tao in the",
+   "start": 910.76,
+   "duration": 5.61
+  },
+  {
+   "text": "Tao to chain the Tao is the great void",
+   "start": 913.37,
+   "duration": 5.04
+  },
+  {
+   "text": "that is the mother of ten thousand",
+   "start": 916.37,
+   "duration": 5.88
+  },
+  {
+   "text": "things and it's very similar in tier six",
+   "start": 918.41,
+   "duration": 5.729
+  },
+  {
+   "text": "metaphysics equality which is you know",
+   "start": 922.25,
+   "duration": 3.689
+  },
+  {
+   "text": "the way that it's conceptualized later",
+   "start": 924.139,
+   "duration": 4.671
+  },
+  {
+   "text": "in Lila that the smallest non organic",
+   "start": 925.939,
+   "duration": 5.431
+  },
+  {
+   "text": "particle in the cosmos has it has a",
+   "start": 928.81,
+   "duration": 5.17
+  },
+  {
+   "text": "quality detector and it builds from that",
+   "start": 931.37,
+   "duration": 6.17
+  },
+  {
+   "text": "all the way up to where we are now",
+   "start": 933.98,
+   "duration": 5.909
+  },
+  {
+   "text": "dynamic quality is omnipresent",
+   "start": 937.54,
+   "duration": 4.899
+  },
+  {
+   "text": "omniscient and omnipotent omnipotent if",
+   "start": 939.889,
+   "duration": 3.331
+  },
+  {
+   "text": "you want to put it",
+   "start": 942.439,
+   "duration": 2.4
+  },
+  {
+   "text": "that way it's always been there so I",
+   "start": 943.22,
+   "duration": 3.479
+  },
+  {
+   "text": "know what what solvent Claire would say",
+   "start": 944.839,
+   "duration": 4.771
+  },
+  {
+   "text": "about that it's all the way above and",
+   "start": 946.699,
+   "duration": 6.901
+  },
+  {
+   "text": "all the way at the very bottom also in",
+   "start": 949.61,
+   "duration": 7.68
+  },
+  {
+   "text": "in the response video Paul mentioned the",
+   "start": 953.6,
+   "duration": 7.62
+  },
+  {
+   "text": "romantic so I'm reading zen and the art",
+   "start": 957.29,
+   "duration": 5.7
+  },
+  {
+   "text": "of motorcycle maintenance again because",
+   "start": 961.22,
+   "duration": 3.989
+  },
+  {
+   "text": "I need to pick out some particular stuff",
+   "start": 962.99,
+   "duration": 4.829
+  },
+  {
+   "text": "for a project coming up in a couple",
+   "start": 965.209,
+   "duration": 5.281
+  },
+  {
+   "text": "weeks so I just came across this quote",
+   "start": 967.819,
+   "duration": 5.46
+  },
+  {
+   "text": "this is angry this is about long Wonka a",
+   "start": 970.49,
+   "duration": 5.849
+  },
+  {
+   "text": "who I hardly know about this is a true",
+   "start": 973.279,
+   "duration": 4.711
+  },
+  {
+   "text": "aesthetic feeling which all",
+   "start": 976.339,
+   "duration": 4.17
+  },
+  {
+   "text": "mathematicians know Pankhuri said but of",
+   "start": 977.99,
+   "duration": 4.769
+  },
+  {
+   "text": "which the profane are so ignorant as",
+   "start": 980.509,
+   "duration": 7.741
+  },
+  {
+   "text": "often to be tempted to smile but it is",
+   "start": 982.759,
+   "duration": 7.56
+  },
+  {
+   "text": "this harmony this beauty that is at the",
+   "start": 988.25,
+   "duration": 3.87
+  },
+  {
+   "text": "center of it all so Parker I made it",
+   "start": 990.319,
+   "duration": 3.75
+  },
+  {
+   "text": "clear he was not speaking of romantic",
+   "start": 992.12,
+   "duration": 3.779
+  },
+  {
+   "text": "beauty the beauty of appearances which",
+   "start": 994.069,
+   "duration": 4.08
+  },
+  {
+   "text": "strikes the senses he meant classic",
+   "start": 995.899,
+   "duration": 4.831
+  },
+  {
+   "text": "beauty which comes from the harmonious",
+   "start": 998.149,
+   "duration": 4.831
+  },
+  {
+   "text": "order of the parts and which pure",
+   "start": 1000.73,
+   "duration": 4.89
+  },
+  {
+   "text": "intelligence can grasp think about what",
+   "start": 1002.98,
+   "duration": 4.89
+  },
+  {
+   "text": "Vicky says about intelligence which",
+   "start": 1005.62,
+   "duration": 5.459
+  },
+  {
+   "text": "gives structure to romantic beauty and",
+   "start": 1007.87,
+   "duration": 6.509
+  },
+  {
+   "text": "without which life would be only vague",
+   "start": 1011.079,
+   "duration": 6.151
+  },
+  {
+   "text": "and fleeting a dream from which one",
+   "start": 1014.379,
+   "duration": 5.94
+  },
+  {
+   "text": "could not distinguish one's own one's",
+   "start": 1017.23,
+   "duration": 6.06
+  },
+  {
+   "text": "dreams because there would be no basis",
+   "start": 1020.319,
+   "duration": 5.52
+  },
+  {
+   "text": "for making that distinction it is the",
+   "start": 1023.29,
+   "duration": 5.009
+  },
+  {
+   "text": "quest of the special class of beauty the",
+   "start": 1025.839,
+   "duration": 4.381
+  },
+  {
+   "text": "sense of harmony of the cosmos which",
+   "start": 1028.299,
+   "duration": 4.201
+  },
+  {
+   "text": "makes us choose the facts most fitting",
+   "start": 1030.22,
+   "duration": 4.199
+  },
+  {
+   "text": "to contribute to this harmony it is not",
+   "start": 1032.5,
+   "duration": 4.35
+  },
+  {
+   "text": "the facts for the relations of things",
+   "start": 1034.419,
+   "duration": 4.201
+  },
+  {
+   "text": "that results in the universal harmony",
+   "start": 1036.85,
+   "duration": 4.65
+  },
+  {
+   "text": "that is the sole objective reality so a",
+   "start": 1038.62,
+   "duration": 5.789
+  },
+  {
+   "text": "lot of implications there and and you",
+   "start": 1041.5,
+   "duration": 5.339
+  },
+  {
+   "text": "can see the issue taken with Verve a key",
+   "start": 1044.409,
+   "duration": 4.861
+  },
+  {
+   "text": "of the romantics that that is fake vague",
+   "start": 1046.839,
+   "duration": 4.501
+  },
+  {
+   "text": "and fleeting they have woowoo but they",
+   "start": 1049.27,
+   "duration": 3.75
+  },
+  {
+   "text": "don't have structure and you need both",
+   "start": 1051.34,
+   "duration": 4.11
+  },
+  {
+   "text": "and that is what zen and the art of",
+   "start": 1053.02,
+   "duration": 4.44
+  },
+  {
+   "text": "motorcycle maintenance is about in a lot",
+   "start": 1055.45,
+   "duration": 6.81
+  },
+  {
+   "text": "of ways oh and by the way guess who's",
+   "start": 1057.46,
+   "duration": 6.839
+  },
+  {
+   "text": "considered the founder of dynamical",
+   "start": 1062.26,
+   "duration": 3.0
+  },
+  {
+   "text": "Systems Theory",
+   "start": 1064.299,
+   "duration": 3.421
+  },
+  {
+   "text": "oh we've clunk of a so you see how",
+   "start": 1065.26,
+   "duration": 5.76
+  },
+  {
+   "text": "things are lining up here now I want to",
+   "start": 1067.72,
+   "duration": 5.88
+  },
+  {
+   "text": "go into some viewer comments so there's",
+   "start": 1071.02,
+   "duration": 5.01
+  },
+  {
+   "text": "a viewer called Mary coach on",
+   "start": 1073.6,
+   "duration": 4.94
+  },
+  {
+   "text": "I hope I'm pronouncing her name right",
+   "start": 1076.03,
+   "duration": 5.73
+  },
+  {
+   "text": "who has been on Paul Van der clays",
+   "start": 1078.54,
+   "duration": 5.44
+  },
+  {
+   "text": "channel and she's very smart and helpful",
+   "start": 1081.76,
+   "duration": 4.77
+  },
+  {
+   "text": "and she's helping me with understanding",
+   "start": 1083.98,
+   "duration": 5.1
+  },
+  {
+   "text": "some of the Christian concepts but she's",
+   "start": 1086.53,
+   "duration": 4.35
+  },
+  {
+   "text": "also reading my mind because I was",
+   "start": 1089.08,
+   "duration": 3.93
+  },
+  {
+   "text": "watching the dialogue when a dialogue",
+   "start": 1090.88,
+   "duration": 4.65
+  },
+  {
+   "text": "between Paul and Jonathan first came out",
+   "start": 1093.01,
+   "duration": 4.08
+  },
+  {
+   "text": "Jonathan said something that was so",
+   "start": 1095.53,
+   "duration": 4.56
+  },
+  {
+   "text": "piercing and I made a note of it and",
+   "start": 1097.09,
+   "duration": 5.46
+  },
+  {
+   "text": "minutes later I got an alert that Mary",
+   "start": 1100.09,
+   "duration": 4.53
+  },
+  {
+   "text": "left me a comment that I should pay",
+   "start": 1102.55,
+   "duration": 5.67
+  },
+  {
+   "text": "attention to that exact part and so",
+   "start": 1104.62,
+   "duration": 6.27
+  },
+  {
+   "text": "another thing lately I've been I've been",
+   "start": 1108.22,
+   "duration": 4.38
+  },
+  {
+   "text": "working on understanding Pierce's",
+   "start": 1110.89,
+   "duration": 3.81
+  },
+  {
+   "text": "relationship with rationality and he",
+   "start": 1112.6,
+   "duration": 4.41
+  },
+  {
+   "text": "said the rationality itself needs to be",
+   "start": 1114.7,
+   "duration": 5.22
+  },
+  {
+   "text": "updated and I was struggling to figure",
+   "start": 1117.01,
+   "duration": 4.44
+  },
+  {
+   "text": "out what that means and I realized we're",
+   "start": 1119.92,
+   "duration": 5.16
+  },
+  {
+   "text": "not we're not any longer in need of the",
+   "start": 1121.45,
+   "duration": 5.88
+  },
+  {
+   "text": "type of rationality that excludes the",
+   "start": 1125.08,
+   "duration": 5.13
+  },
+  {
+   "text": "subjective it sees only the objective as",
+   "start": 1127.33,
+   "duration": 5.91
+  },
+  {
+   "text": "true I mean its rationality as a whole",
+   "start": 1130.21,
+   "duration": 5.58
+  },
+  {
+   "text": "what we need is a rationality that gives",
+   "start": 1133.24,
+   "duration": 6.39
+  },
+  {
+   "text": "coherence and the other day I noticed",
+   "start": 1135.79,
+   "duration": 6.12
+  },
+  {
+   "text": "that Mary left me a comment that said",
+   "start": 1139.63,
+   "duration": 5.18
+  },
+  {
+   "text": "for the ancient Greeks rationality is",
+   "start": 1141.91,
+   "duration": 6.66
+  },
+  {
+   "text": "intelligibility mind-reader so I just",
+   "start": 1144.81,
+   "duration": 7.72
+  },
+  {
+   "text": "had to share that the second common ii",
+   "start": 1148.57,
+   "duration": 6.3
+  },
+  {
+   "text": "viewer who is making important comments",
+   "start": 1152.53,
+   "duration": 5.96
+  },
+  {
+   "text": "is of course legal over who goes by the",
+   "start": 1154.87,
+   "duration": 7.35
+  },
+  {
+   "text": "who goes by the handles 77 lee LG and he",
+   "start": 1158.49,
+   "duration": 5.59
+  },
+  {
+   "text": "has some supplemental material on",
+   "start": 1162.22,
+   "duration": 4.35
+  },
+  {
+   "text": "chapter 14 part 2 which i neglected to",
+   "start": 1164.08,
+   "duration": 5.25
+  },
+  {
+   "text": "mention where he points out additional",
+   "start": 1166.57,
+   "duration": 4.47
+  },
+  {
+   "text": "stuff that I missed including what he",
+   "start": 1169.33,
+   "duration": 3.93
+  },
+  {
+   "text": "characterizes to be the best line in the",
+   "start": 1171.04,
+   "duration": 3.99
+  },
+  {
+   "text": "book so I'm not going to tell you what",
+   "start": 1173.26,
+   "duration": 3.24
+  },
+  {
+   "text": "that issue go look at what he says",
+   "start": 1175.03,
+   "duration": 3.33
+  },
+  {
+   "text": "definitely read his comments because",
+   "start": 1176.5,
+   "duration": 3.9
+  },
+  {
+   "text": "remember he's not only a piercing expert",
+   "start": 1178.36,
+   "duration": 3.63
+  },
+  {
+   "text": "they he's really adept at understanding",
+   "start": 1180.4,
+   "duration": 5.46
+  },
+  {
+   "text": "the route and the geography instead in",
+   "start": 1181.99,
+   "duration": 5.46
+  },
+  {
+   "text": "the art of motorcycle maintenance so he",
+   "start": 1185.86,
+   "duration": 5.07
+  },
+  {
+   "text": "adds an additional dimension of interest",
+   "start": 1187.45,
+   "duration": 9.63
+  },
+  {
+   "text": "to the narrative part of the book so",
+   "start": 1190.93,
+   "duration": 8.24
+  },
+  {
+   "text": "this is really useful for understanding",
+   "start": 1197.08,
+   "duration": 6.57
+  },
+  {
+   "text": "the chapter and speaking of commentators",
+   "start": 1199.17,
+   "duration": 6.61
+  },
+  {
+   "text": "there's another viewer called Moe Deeb",
+   "start": 1203.65,
+   "duration": 5.31
+  },
+  {
+   "text": "who understands this stuff inside and",
+   "start": 1205.78,
+   "duration": 3.84
+  },
+  {
+   "text": "out and he's been",
+   "start": 1208.96,
+   "duration": 3.09
+  },
+  {
+   "text": "really helpful and clarified some of",
+   "start": 1209.62,
+   "duration": 7.32
+  },
+  {
+   "text": "Pierce's work to to people making",
+   "start": 1212.05,
+   "duration": 7.5
+  },
+  {
+   "text": "comments in the murky increase in the",
+   "start": 1216.94,
+   "duration": 4.05
+  },
+  {
+   "text": "comments section and sometimes I'll see",
+   "start": 1219.55,
+   "duration": 3.33
+  },
+  {
+   "text": "a calming oh my god how am i good as for",
+   "start": 1220.99,
+   "duration": 4.2
+  },
+  {
+   "text": "that fortunately he comes in and does it",
+   "start": 1222.88,
+   "duration": 7.32
+  },
+  {
+   "text": "he's his style is a little don't get mad",
+   "start": 1225.19,
+   "duration": 8.06
+  },
+  {
+   "text": "at me Modi his style is a little cryptic",
+   "start": 1230.2,
+   "duration": 5.4
+  },
+  {
+   "text": "so you have to read it a couple of times",
+   "start": 1233.25,
+   "duration": 4.059
+  },
+  {
+   "text": "sometimes to get what he's saying but",
+   "start": 1235.6,
+   "duration": 3.78
+  },
+  {
+   "text": "you can't but but just let go over it a",
+   "start": 1237.309,
+   "duration": 4.62
+  },
+  {
+   "text": "couple of times and and you'll get it",
+   "start": 1239.38,
+   "duration": 4.77
+  },
+  {
+   "text": "and you'll get it in a way that really",
+   "start": 1241.929,
+   "duration": 5.041
+  },
+  {
+   "text": "clarifies things and he'll if you don't",
+   "start": 1244.15,
+   "duration": 3.96
+  },
+  {
+   "text": "understand what he's saying he'll",
+   "start": 1246.97,
+   "duration": 4.74
+  },
+  {
+   "text": "clarify he's very good about that so the",
+   "start": 1248.11,
+   "duration": 7.319
+  },
+  {
+   "text": "last thing I wanted to say Paul said the",
+   "start": 1251.71,
+   "duration": 7.34
+  },
+  {
+   "text": "meaning crisis is in the secular world",
+   "start": 1255.429,
+   "duration": 6.151
+  },
+  {
+   "text": "and I haven't really thought about this",
+   "start": 1259.05,
+   "duration": 4.33
+  },
+  {
+   "text": "so you could say there are some major",
+   "start": 1261.58,
+   "duration": 3.99
+  },
+  {
+   "text": "problems in the Islamic world for",
+   "start": 1263.38,
+   "duration": 6.27
+  },
+  {
+   "text": "example in Africa in Hindu India and",
+   "start": 1265.57,
+   "duration": 6.09
+  },
+  {
+   "text": "they may be suffering from poverty war",
+   "start": 1269.65,
+   "duration": 5.13
+  },
+  {
+   "text": "unrest inequality but do these societies",
+   "start": 1271.66,
+   "duration": 8.399
+  },
+  {
+   "text": "let do these people like meaning that's",
+   "start": 1274.78,
+   "duration": 7.649
+  },
+  {
+   "text": "an interesting question I think of I",
+   "start": 1280.059,
+   "duration": 4.651
+  },
+  {
+   "text": "think of Jonathan Fazio a story he told",
+   "start": 1282.429,
+   "duration": 5.071
+  },
+  {
+   "text": "about living in a poor African village",
+   "start": 1284.71,
+   "duration": 5.67
+  },
+  {
+   "text": "and every corner there was a church that",
+   "start": 1287.5,
+   "duration": 4.97
+  },
+  {
+   "text": "someone had including his neighbor",
+   "start": 1290.38,
+   "duration": 4.77
+  },
+  {
+   "text": "broadcasting the gospel on the",
+   "start": 1292.47,
+   "duration": 4.75
+  },
+  {
+   "text": "loudspeaker for hours on end to his",
+   "start": 1295.15,
+   "duration": 5.58
+  },
+  {
+   "text": "congregation which is one boy and",
+   "start": 1297.22,
+   "duration": 6.15
+  },
+  {
+   "text": "Jonathan Petro said when I was talking",
+   "start": 1300.73,
+   "duration": 3.87
+  },
+  {
+   "text": "about you know the fake it till you make",
+   "start": 1303.37,
+   "duration": 5.73
+  },
+  {
+   "text": "it thing where where were I was talking",
+   "start": 1304.6,
+   "duration": 4.98
+  },
+  {
+   "text": "about",
+   "start": 1309.1,
+   "duration": 3.75
+  },
+  {
+   "text": "do you need to be all the way in in",
+   "start": 1309.58,
+   "duration": 5.099
+  },
+  {
+   "text": "order to be a true Christian and he said",
+   "start": 1312.85,
+   "duration": 4.98
+  },
+  {
+   "text": "you may not need as much as you think to",
+   "start": 1314.679,
+   "duration": 6.901
+  },
+  {
+   "text": "start the journey so fires Blaise Pascal",
+   "start": 1317.83,
+   "duration": 5.97
+  },
+  {
+   "text": "reading ringing in my ears I think it's",
+   "start": 1321.58,
+   "duration": 4.17
+  },
+  {
+   "text": "partially from looking at Oh Jonathan",
+   "start": 1323.8,
+   "duration": 4.259
+  },
+  {
+   "text": "for Vicki's video on that but there's a",
+   "start": 1325.75,
+   "duration": 6.809
+  },
+  {
+   "text": "reason Pascal is presenting himself in",
+   "start": 1328.059,
+   "duration": 6.451
+  },
+  {
+   "text": "my salience to landscape",
+   "start": 1332.559,
+   "duration": 6.751
+  },
+  {
+   "text": "so I hope that made sense and I will see",
+   "start": 1334.51,
+   "duration": 7.34
+  },
+  {
+   "text": "you next time",
+   "start": 1339.31,
+   "duration": 2.54
+  },
+  {
+   "text": "[Music]",
+   "start": 1344.52,
+   "duration": 3.12
+  },
+  {
+   "text": "you",
+   "start": 1351.72,
+   "duration": 2.06
+  }
+ ]
+}
