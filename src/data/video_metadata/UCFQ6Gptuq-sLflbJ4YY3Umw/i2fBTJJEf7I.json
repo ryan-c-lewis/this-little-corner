@@ -1,1 +1,4342 @@
-{"video_id": "i2fBTJJEf7I", "channel_id": "UCFQ6Gptuq-sLflbJ4YY3Umw", "channel_name": "Rebel Wisdom", "title": "The Cancelling of Slate Star Codex, with Tom Chivers", "url": "https://www.youtube.com/watch?v=i2fBTJJEf7I", "date": "2021-02-18", "description": "At the weekend, the New York Times published a long awaited article about one of the world's most celebrated blogs, Slate Star Codex, a central node of the influential rationalist community.\n\nCalled 'Silicon Valley's Safe Space', it was widely criticised as an inaccurate hit piece: https://www.nytimes.com/2021/02/13/technology/slate-star-codex-rationalists.html\n\nThis is an interview with Tom Chivers, the writer of 'The Rationalist's Guide to the Galaxy', on the backstory to the controversy.\n\nWhat does this say about the ongoing crisis of journalism, and tensions with the tech sector.\n\nThe New Yorker wrote a more well-received piece on SSC here: https://www.newyorker.com/culture/annals-of-inquiry/slate-star-codex-and-silicon-valleys-war-against-the-media\n\nTo join Rebel Wisdom's Digital Campfire, check out: https://rebelwisdom.co.uk/plans", "duration": 1621, "transcript_parts": [{"text": "[Music]", "start": 0.19, "duration": 2.79}, {"text": "tom welcome", "start": 5.6, "duration": 5.2}, {"text": "thank you hello um yes welcome me yes", "start": 6.72, "duration": 5.999}, {"text": "awesome so we're going to talk about the", "start": 10.8, "duration": 3.2}, {"text": "recent", "start": 12.719, "duration": 4.721}, {"text": "uh the slate star codex blog there was a", "start": 14.0, "duration": 4.88}, {"text": "i mean it's a backstory we have to fill", "start": 17.44, "duration": 3.44}, {"text": "in a lot of gaps because this goes back", "start": 18.88, "duration": 3.92}, {"text": "at least sort of six to eight months", "start": 20.88, "duration": 4.88}, {"text": "but just a few days ago the new york", "start": 22.8, "duration": 5.36}, {"text": "times brought out a long-awaited piece", "start": 25.76, "duration": 5.439}, {"text": "about the blog slate star codex", "start": 28.16, "duration": 6.399}, {"text": "and this is a very high profile blog", "start": 31.199, "duration": 5.2}, {"text": "especially in the rationalist community", "start": 34.559, "duration": 3.201}, {"text": "and we'll kind of explain why that's", "start": 36.399, "duration": 2.32}, {"text": "significant", "start": 37.76, "duration": 3.119}, {"text": "who the rationalists are and it's", "start": 38.719, "duration": 3.281}, {"text": "probably fair to say it's one of the", "start": 40.879, "duration": 2.801}, {"text": "most influential blogs in the world", "start": 42.0, "duration": 2.719}, {"text": "would that be fair", "start": 43.68, "duration": 2.96}, {"text": "yeah i mean yeah depend depending on how", "start": 44.719, "duration": 3.601}, {"text": "you define blog i suppose but yes yes i", "start": 46.64, "duration": 3.759}, {"text": "think that is probably true yeah", "start": 48.32, "duration": 4.559}, {"text": "yeah and thank you for joining me you", "start": 50.399, "duration": 4.401}, {"text": "are literally the man who wrote the book", "start": 52.879, "duration": 3.2}, {"text": "on the rationalists", "start": 54.8, "duration": 3.599}, {"text": "yes yes i did yes just to summarize", "start": 56.079, "duration": 4.48}, {"text": "maybe about why this is significant", "start": 58.399, "duration": 4.48}, {"text": "for me it taps into many different", "start": 60.559, "duration": 3.281}, {"text": "issues", "start": 62.879, "duration": 3.441}, {"text": "um it's about sort of the decline of the", "start": 63.84, "duration": 4.24}, {"text": "traditional media or the tensions of the", "start": 66.32, "duration": 3.6}, {"text": "traditional media versus kind of the", "start": 68.08, "duration": 4.88}, {"text": "upstart alternative media", "start": 69.92, "duration": 4.559}, {"text": "it's a very influential important", "start": 72.96, "duration": 2.88}, {"text": "community the rationalists which we'll", "start": 74.479, "duration": 2.64}, {"text": "talk about in a bit", "start": 75.84, "duration": 2.959}, {"text": "and as you pointed out in a really good", "start": 77.119, "duration": 3.281}, {"text": "piece you wrote for unheard", "start": 78.799, "duration": 3.521}, {"text": "it's also about a kind of way of dealing", "start": 80.4, "duration": 3.44}, {"text": "with ideas we don't like", "start": 82.32, "duration": 3.04}, {"text": "whether we engage with them or whether", "start": 83.84, "duration": 3.44}, {"text": "we kind of whether we don't", "start": 85.36, "duration": 4.32}, {"text": "and the art of persuasion which you", "start": 87.28, "duration": 4.4}, {"text": "argue is something that is quite rare", "start": 89.68, "duration": 4.24}, {"text": "in that piece should we tell the", "start": 91.68, "duration": 4.32}, {"text": "backstory first just to fill in the gaps", "start": 93.92, "duration": 5.44}, {"text": "last june well", "start": 96.0, "duration": 4.479}, {"text": "it was very obvious that this", "start": 99.36, "duration": 2.88}, {"text": "rationalist community scott and scott", "start": 100.479, "duration": 2.881}, {"text": "alexander in particular", "start": 102.24, "duration": 3.28}, {"text": "but uh you know the the rationalist", "start": 103.36, "duration": 3.439}, {"text": "community more widely", "start": 105.52, "duration": 4.639}, {"text": "had done a lot better than most people", "start": 106.799, "duration": 6.241}, {"text": "at predicting um or sort of preparing", "start": 110.159, "duration": 4.481}, {"text": "for the covert pandemic they were ahead", "start": 113.04, "duration": 2.56}, {"text": "of everyone on", "start": 114.64, "duration": 4.079}, {"text": "masks or masks are a good idea um this", "start": 115.6, "duration": 4.799}, {"text": "is probably aerosol transmitted rather", "start": 118.719, "duration": 2.241}, {"text": "than", "start": 120.399, "duration": 2.32}, {"text": "foam right transmitted or it does they", "start": 120.96, "duration": 3.6}, {"text": "just made you know shutting borders", "start": 122.719, "duration": 2.801}, {"text": "might be a good idea that's", "start": 124.56, "duration": 4.399}, {"text": "the they um they made they did the sort", "start": 125.52, "duration": 3.84}, {"text": "of", "start": 128.959, "duration": 1.92}, {"text": "they had the sort of numerical thinking", "start": 129.36, "duration": 2.8}, {"text": "and the sort of quantified thinking that", "start": 130.879, "duration": 2.881}, {"text": "made them able to do these judgments", "start": 132.16, "duration": 3.84}, {"text": "much better and that attracted interest", "start": 133.76, "duration": 4.0}, {"text": "and this guy from new york times cade", "start": 136.0, "duration": 2.48}, {"text": "metz", "start": 137.76, "duration": 4.559}, {"text": "as a tech reporter there he", "start": 138.48, "duration": 6.72}, {"text": "um got interested in that people have", "start": 142.319, "duration": 4.321}, {"text": "said to him look there this blog status", "start": 145.2, "duration": 2.64}, {"text": "playstyle codex got these interesting", "start": 146.64, "duration": 3.599}, {"text": "people it's um", "start": 147.84, "duration": 4.479}, {"text": "uh you know and it's been out ahead of", "start": 150.239, "duration": 3.041}, {"text": "all the covered stuff", "start": 152.319, "duration": 2.961}, {"text": "and it's worth um paying attention to", "start": 153.28, "duration": 3.84}, {"text": "that and so he went and he started tried", "start": 155.28, "duration": 3.12}, {"text": "to started speaking to a rationalist he", "start": 157.12, "duration": 2.16}, {"text": "came and spoke to me", "start": 158.4, "duration": 3.76}, {"text": "he tried to speak to scott scott did sp", "start": 159.28, "duration": 3.36}, {"text": "exchange", "start": 162.16, "duration": 2.88}, {"text": "emails with him i don't think spoken", "start": 162.64, "duration": 4.239}, {"text": "person i've spoken on the phone", "start": 165.04, "duration": 5.68}, {"text": "but and i think the um", "start": 166.879, "duration": 6.72}, {"text": "and this was as far as i was concerned", "start": 170.72, "duration": 3.92}, {"text": "it was looking like it was going to be", "start": 173.599, "duration": 1.761}, {"text": "quite a", "start": 174.64, "duration": 2.8}, {"text": "a positive piece but then something", "start": 175.36, "duration": 3.519}, {"text": "happened which was", "start": 177.44, "duration": 4.0}, {"text": "new york times said you if you remember", "start": 178.879, "duration": 3.921}, {"text": "scott alexander is a pseudonym it's a", "start": 181.44, "duration": 1.92}, {"text": "sort of", "start": 182.8, "duration": 3.359}, {"text": "thin pseudonym it's just his first and", "start": 183.36, "duration": 3.84}, {"text": "middle names and", "start": 186.159, "duration": 2.641}, {"text": "if you put in a bit of effort it's quite", "start": 187.2, "duration": 4.16}, {"text": "easy to work out his real name", "start": 188.8, "duration": 4.24}, {"text": "but new york times said well we're going", "start": 191.36, "duration": 3.68}, {"text": "to reveal your real name", "start": 193.04, "duration": 5.199}, {"text": "and scott alexander said well that's a", "start": 195.04, "duration": 4.8}, {"text": "terrible idea because i am a", "start": 198.239, "duration": 3.521}, {"text": "psychiatrist and i need to maintain a", "start": 199.84, "duration": 3.28}, {"text": "relationship with my patients", "start": 201.76, "duration": 4.479}, {"text": "um and if my name is splashed all over", "start": 203.12, "duration": 3.759}, {"text": "the internet", "start": 206.239, "duration": 2.321}, {"text": "that becomes harder which has been", "start": 206.879, "duration": 2.881}, {"text": "proved to be the case with for other", "start": 208.56, "duration": 3.759}, {"text": "psychiatrists in the past and struck me", "start": 209.76, "duration": 4.08}, {"text": "as a pretty reasonable", "start": 212.319, "duration": 3.521}, {"text": "point of view but the new york times", "start": 213.84, "duration": 3.119}, {"text": "said no we must name you", "start": 215.84, "duration": 3.2}, {"text": "it's just a policy there was some back", "start": 216.959, "duration": 3.121}, {"text": "and forth over whether that is actually", "start": 219.04, "duration": 2.0}, {"text": "their policy because i don't seem to", "start": 220.08, "duration": 2.48}, {"text": "name everyone but anyway you know", "start": 221.04, "duration": 6.8}, {"text": "by the by um and so scott", "start": 222.56, "duration": 5.28}, {"text": "i i think he's fair to say panicked or", "start": 227.92, "duration": 3.76}, {"text": "certainly got spooked", "start": 229.68, "duration": 5.68}, {"text": "and took down his entire blog", "start": 231.68, "duration": 7.6}, {"text": "five what seven years of work and um", "start": 235.36, "duration": 5.76}, {"text": "uh put up a post instead saying uh", "start": 239.28, "duration": 2.959}, {"text": "they're going to dox me and it's", "start": 241.12, "duration": 2.64}, {"text": "threatening my safety and i", "start": 242.239, "duration": 4.481}, {"text": "am basically you know i'm scared so i'm", "start": 243.76, "duration": 4.8}, {"text": "dumb i'm taking it all off the internet", "start": 246.72, "duration": 2.879}, {"text": "until", "start": 248.56, "duration": 4.48}, {"text": "um until this goes away", "start": 249.599, "duration": 7.36}, {"text": "uh and then i think in a really", "start": 253.04, "duration": 6.08}, {"text": "basic tactical era i think i've really", "start": 256.959, "duration": 4.881}, {"text": "i'm for sure he is disappointed like", "start": 259.12, "duration": 4.24}, {"text": "i think he regrets this he said in a", "start": 261.84, "duration": 3.359}, {"text": "piece that he regrets it anyway", "start": 263.36, "duration": 6.48}, {"text": "um he then asked his readers to email", "start": 265.199, "duration": 7.201}, {"text": "cavemets and cavemets his editor the", "start": 269.84, "duration": 4.32}, {"text": "tech editor at the new york times to say", "start": 272.4, "duration": 2.56}, {"text": "please don't", "start": 274.16, "duration": 2.64}, {"text": "dox him and of course that means you get", "start": 274.96, "duration": 4.239}, {"text": "some poor people get 5000 emails in", "start": 276.8, "duration": 5.04}, {"text": "their inbox the next day and it's just", "start": 279.199, "duration": 4.0}, {"text": "anyway from there it was suddenly you've", "start": 281.84, "duration": 2.72}, {"text": "got an antagonistic relationship there's", "start": 283.199, "duration": 2.321}, {"text": "also", "start": 284.56, "duration": 3.359}, {"text": "an issue that there are quite a lot of", "start": 285.52, "duration": 3.92}, {"text": "people on the internet who really don't", "start": 287.919, "duration": 2.961}, {"text": "like slate star codex", "start": 289.44, "duration": 4.56}, {"text": "um uh the blog let's play star codex and", "start": 290.88, "duration": 4.319}, {"text": "scott alexander and they", "start": 294.0, "duration": 4.4}, {"text": "and they were sort of", "start": 295.199, "duration": 5.361}, {"text": "whispering they were they then became", "start": 298.4, "duration": 3.92}, {"text": "contacts with cavemets and saying look", "start": 300.56, "duration": 3.12}, {"text": "he's actually you know", "start": 302.32, "duration": 3.12}, {"text": "suggesting that he's actually linked to", "start": 303.68, "duration": 4.64}, {"text": "all bunch of scientific racists and", "start": 305.44, "duration": 4.56}, {"text": "uh he's actually men's rights activists", "start": 308.32, "duration": 2.8}, {"text": "and neo-reactionaries and all these", "start": 310.0, "duration": 2.639}, {"text": "things which", "start": 311.12, "duration": 5.44}, {"text": "are i would either say false or true in", "start": 312.639, "duration": 5.521}, {"text": "a misleading way but you know that's", "start": 316.56, "duration": 3.199}, {"text": "that's an argument for further down the", "start": 318.16, "duration": 2.08}, {"text": "line", "start": 319.759, "duration": 4.241}, {"text": "um uh and then this whole massive row", "start": 320.24, "duration": 5.519}, {"text": "broke out this was last june", "start": 324.0, "duration": 3.28}, {"text": "other other media organizations", "start": 325.759, "duration": 2.88}, {"text": "including you know got involved there", "start": 327.28, "duration": 2.56}, {"text": "new york new yorker wrote a really", "start": 328.639, "duration": 2.641}, {"text": "interesting piece about the whole thing", "start": 329.84, "duration": 2.96}, {"text": "and then everything went quiet for seven", "start": 331.28, "duration": 3.12}, {"text": "or eight months scott", "start": 332.8, "duration": 5.44}, {"text": "alexander quit his job out of all this", "start": 334.4, "duration": 4.96}, {"text": "thing he decided what the sensible thing", "start": 338.24, "duration": 2.239}, {"text": "to do was to quit his job as a", "start": 339.36, "duration": 2.24}, {"text": "psychiatrist", "start": 340.479, "duration": 2.801}, {"text": "set up his own practice run it", "start": 341.6, "duration": 3.12}, {"text": "differently and move his blogging thing", "start": 343.28, "duration": 3.04}, {"text": "to substance so that he could get", "start": 344.72, "duration": 2.8}, {"text": "money and not worry about making money", "start": 346.32, "duration": 2.4}, {"text": "from things so totally reordered his", "start": 347.52, "duration": 3.04}, {"text": "life so he was not no longer afraid to", "start": 348.72, "duration": 2.479}, {"text": "put", "start": 350.56, "duration": 2.24}, {"text": "his real name out there put his real", "start": 351.199, "duration": 3.361}, {"text": "name out there about", "start": 352.8, "duration": 3.04}, {"text": "three weeks ago or something like that", "start": 354.56, "duration": 3.28}, {"text": "or a month ago and then um", "start": 355.84, "duration": 4.24}, {"text": "and restarted on sub stack still", "start": 357.84, "duration": 3.04}, {"text": "blogging", "start": 360.08, "duration": 2.8}, {"text": "and then that all done then the new york", "start": 360.88, "duration": 3.96}, {"text": "times finally published its piece", "start": 362.88, "duration": 5.2}, {"text": "saying this is the guy's name", "start": 364.84, "duration": 5.16}, {"text": "and uh he shut off his blog and it was", "start": 368.08, "duration": 4.0}, {"text": "all but when the new york times piece", "start": 370.0, "duration": 3.039}, {"text": "came out it was all a bit of an", "start": 372.08, "duration": 2.16}, {"text": "anti-climax and it wasn't", "start": 373.039, "duration": 3.921}, {"text": "actually that much there except a few", "start": 374.24, "duration": 4.239}, {"text": "somewhat", "start": 376.96, "duration": 3.6}, {"text": "to my mind guilt by association smears", "start": 378.479, "duration": 4.401}, {"text": "you know like this guy once", "start": 380.56, "duration": 4.56}, {"text": "mentioned uh charles murray on his blog", "start": 382.88, "duration": 4.8}, {"text": "that sort of thing and it felt", "start": 385.12, "duration": 4.0}, {"text": "it felt like a bit of a damp squib in", "start": 387.68, "duration": 3.04}, {"text": "the end but yeah so that's what i think", "start": 389.12, "duration": 3.519}, {"text": "i think that's where we are now i think", "start": 390.72, "duration": 3.36}, {"text": "in your piece you said that you had", "start": 392.639, "duration": 2.4}, {"text": "actually spoken", "start": 394.08, "duration": 3.6}, {"text": "to to scott and recommended that he", "start": 395.039, "duration": 3.041}, {"text": "speak", "start": 397.68, "duration": 3.519}, {"text": "to cavemets at the time that you", "start": 398.08, "duration": 4.959}, {"text": "you thought you thought it was going to", "start": 401.199, "duration": 3.12}, {"text": "be a positive piece", "start": 403.039, "duration": 4.561}, {"text": "i did yeah i am", "start": 404.319, "duration": 6.72}, {"text": "i don't know whether i misjudged i i i", "start": 407.6, "duration": 6.24}, {"text": "i i emailed scott or i had an exchange", "start": 411.039, "duration": 3.681}, {"text": "of emails with scott", "start": 413.84, "duration": 4.4}, {"text": "and i had um a", "start": 414.72, "duration": 6.4}, {"text": "uh and posted posted some things on the", "start": 418.24, "duration": 4.88}, {"text": "slate star codex subreddit and things", "start": 421.12, "duration": 4.24}, {"text": "and just sort of discussed it", "start": 423.12, "duration": 5.359}, {"text": "because i i i don't know i i may be that", "start": 425.36, "duration": 4.88}, {"text": "i'm total rube right and i just got", "start": 428.479, "duration": 3.521}, {"text": "absolutely taken like a sucker", "start": 430.24, "duration": 3.76}, {"text": "but i did not get i got the impression", "start": 432.0, "duration": 3.52}, {"text": "from speaking to mets that", "start": 434.0, "duration": 5.12}, {"text": "um he was really interested in", "start": 435.52, "duration": 8.239}, {"text": "how the rationalists had been", "start": 439.12, "duration": 6.72}, {"text": "sort of so far out out ahead on covert", "start": 443.759, "duration": 3.041}, {"text": "and things and that was", "start": 445.84, "duration": 1.919}, {"text": "you know i think that's really", "start": 446.8, "duration": 3.44}, {"text": "interesting because these are it just", "start": 447.759, "duration": 3.041}, {"text": "they're", "start": 450.24, "duration": 2.72}, {"text": "these were not it's not a community of", "start": 450.8, "duration": 3.679}, {"text": "epidemiologists or virologists or", "start": 452.96, "duration": 2.32}, {"text": "anything", "start": 454.479, "duration": 3.201}, {"text": "it's a community of smart generalist who", "start": 455.28, "duration": 3.759}, {"text": "are comfortable with numbers and who", "start": 457.68, "duration": 2.0}, {"text": "could look", "start": 459.039, "duration": 2.56}, {"text": "who did some you know really basic", "start": 459.68, "duration": 3.44}, {"text": "things like look at an exponential trend", "start": 461.599, "duration": 2.081}, {"text": "and expand", "start": 463.12, "duration": 2.079}, {"text": "extend that extra exponential trend", "start": 463.68, "duration": 3.6}, {"text": "upwards you know and say well if this", "start": 465.199, "duration": 3.361}, {"text": "carries on we should be really worried", "start": 467.28, "duration": 2.96}, {"text": "about it when other people would", "start": 468.56, "duration": 4.079}, {"text": "you know and it's really i think that is", "start": 470.24, "duration": 4.48}, {"text": "a really interesting", "start": 472.639, "duration": 3.521}, {"text": "there's a really interesting discussion", "start": 474.72, "duration": 3.28}, {"text": "there about", "start": 476.16, "duration": 3.12}, {"text": "knowledge and expertise and the", "start": 478.0, "duration": 2.8}, {"text": "difference between expertise and", "start": 479.28, "duration": 2.88}, {"text": "forecasting ability", "start": 480.8, "duration": 3.36}, {"text": "i think that's a fascinating topic which", "start": 482.16, "duration": 3.439}, {"text": "i would love", "start": 484.16, "duration": 3.599}, {"text": "someone to really go into great in great", "start": 485.599, "duration": 3.841}, {"text": "depth there was also", "start": 487.759, "duration": 4.481}, {"text": "i mean because the new yorker wrote this", "start": 489.44, "duration": 3.12}, {"text": "piece", "start": 492.24, "duration": 1.679}, {"text": "this really sort of well balanced and", "start": 492.56, "duration": 2.88}, {"text": "interesting piece about six months ago", "start": 493.919, "duration": 2.641}, {"text": "which was neither fawning to the", "start": 495.44, "duration": 2.8}, {"text": "rationalists nor", "start": 496.56, "duration": 3.84}, {"text": "you know it was no not nor uncharitable", "start": 498.24, "duration": 3.12}, {"text": "it was", "start": 500.4, "duration": 4.479}, {"text": "and i feel like the new new york times", "start": 501.36, "duration": 6.08}, {"text": "when its piece came out", "start": 504.879, "duration": 3.921}, {"text": "it couldn't just write the same piece in", "start": 507.44, "duration": 3.12}, {"text": "new york i had six months ago", "start": 508.8, "duration": 4.18}, {"text": "and say it was um uh", "start": 510.56, "duration": 3.599}, {"text": "[Music]", "start": 512.98, "duration": 2.7}, {"text": "that's what we're doing now it had it", "start": 514.159, "duration": 2.88}, {"text": "had to come with some new angle so i", "start": 515.68, "duration": 1.599}, {"text": "think", "start": 517.039, "duration": 3.92}, {"text": "that's why the it went down on the um", "start": 517.279, "duration": 6.56}, {"text": "uh guilt by association stuff but also", "start": 520.959, "duration": 3.44}, {"text": "on", "start": 523.839, "duration": 3.841}, {"text": "most of the pieces seem to be about", "start": 524.399, "duration": 3.281}, {"text": "about how the blog was deleted and how", "start": 527.839, "duration": 3.361}, {"text": "you know then", "start": 530.32, "duration": 2.32}, {"text": "and now it's come back and some people", "start": 531.2, "duration": 2.96}, {"text": "send emails to cadence and i don't know", "start": 532.64, "duration": 3.52}, {"text": "it felt like very um", "start": 534.16, "duration": 3.359}, {"text": "it felt like they didn't have very much", "start": 536.16, "duration": 2.48}, {"text": "to say but they felt they had to say it", "start": 537.519, "duration": 2.481}, {"text": "anyway i don't think he went in there", "start": 538.64, "duration": 1.84}, {"text": "with him", "start": 540.0, "duration": 3.68}, {"text": "with the intention of a hatchet job", "start": 540.48, "duration": 5.039}, {"text": "i think he went in there trying to write", "start": 543.68, "duration": 3.52}, {"text": "about an interesting group of people who", "start": 545.519, "duration": 2.161}, {"text": "have", "start": 547.2, "duration": 3.44}, {"text": "had this interesting um sort of been out", "start": 547.68, "duration": 3.92}, {"text": "there ahead of", "start": 550.64, "duration": 5.52}, {"text": "the game on covid and i think that uh", "start": 551.6, "duration": 7.04}, {"text": "for reasons which i both which i", "start": 556.16, "duration": 3.28}, {"text": "understand", "start": 558.64, "duration": 4.56}, {"text": "um and to some yeah to it", "start": 559.44, "duration": 5.36}, {"text": "to some extent sympathize with insofar", "start": 563.2, "duration": 3.199}, {"text": "as it was this sort of mutual antagonism", "start": 564.8, "duration": 2.4}, {"text": "thing and a lot of", "start": 566.399, "duration": 3.12}, {"text": "burning bridges on both sides and a lot", "start": 567.2, "duration": 3.6}, {"text": "of people who weren't", "start": 569.519, "duration": 4.32}, {"text": "scott alexander throwing around a lot of", "start": 570.8, "duration": 5.28}, {"text": "you know the journalists are all evil", "start": 573.839, "duration": 3.12}, {"text": "and we're all caught", "start": 576.08, "duration": 2.16}, {"text": "doing hatchet jobs it became this", "start": 576.959, "duration": 3.44}, {"text": "mutually antagonistic thing and then", "start": 578.24, "duration": 3.44}, {"text": "it was always going to be a somewhat", "start": 580.399, "duration": 3.041}, {"text": "antagonistic antagonistic piece after", "start": 581.68, "duration": 2.08}, {"text": "that", "start": 583.44, "duration": 1.839}, {"text": "i mean i'm interested in this tension", "start": 583.76, "duration": 3.28}, {"text": "between", "start": 585.279, "duration": 4.161}, {"text": "the and we're talking about the links to", "start": 587.04, "duration": 3.84}, {"text": "the tech companies here as well and this", "start": 589.44, "duration": 2.88}, {"text": "also feeds into the", "start": 590.88, "duration": 3.36}, {"text": "the growing tension between the tech", "start": 592.32, "duration": 3.36}, {"text": "companies and especially the new york", "start": 594.24, "duration": 2.4}, {"text": "times but", "start": 595.68, "duration": 5.279}, {"text": "tech journalists more generally where", "start": 596.64, "duration": 6.08}, {"text": "and i think at the root of this is that", "start": 600.959, "duration": 3.521}, {"text": "journalists believe that they", "start": 602.72, "duration": 3.28}, {"text": "should be the gatekeepers about what", "start": 604.48, "duration": 4.16}, {"text": "people should", "start": 606.0, "duration": 5.2}, {"text": "where what ideas should be part of the", "start": 608.64, "duration": 4.319}, {"text": "conversation and what shouldn't be", "start": 611.2, "duration": 4.72}, {"text": "and that was kind of the subtext of that", "start": 612.959, "duration": 4.401}, {"text": "of that piece", "start": 615.92, "duration": 3.68}, {"text": "was oh he's talked to these people he's", "start": 617.36, "duration": 4.08}, {"text": "engaged in these ideas", "start": 619.6, "duration": 4.72}, {"text": "and and that's very very anti both the", "start": 621.44, "duration": 4.56}, {"text": "rationalists and also the sort of", "start": 624.32, "duration": 3.519}, {"text": "the the dominant sort of strain of kind", "start": 626.0, "duration": 4.48}, {"text": "of maybe ideological libertarianism in", "start": 627.839, "duration": 4.401}, {"text": "silicon valley as well", "start": 630.48, "duration": 5.12}, {"text": "and i feel like that way of", "start": 632.24, "duration": 5.039}, {"text": "that sort of gatekeeping role of the", "start": 635.6, "duration": 3.44}, {"text": "media that is increasingly being lost", "start": 637.279, "duration": 5.12}, {"text": "is sort of for me that seems like a", "start": 639.04, "duration": 5.84}, {"text": "defunct strategy because we're never", "start": 642.399, "duration": 4.0}, {"text": "going to get the genie back in the box", "start": 644.88, "duration": 3.28}, {"text": "the nature of kind of alternative media", "start": 646.399, "duration": 3.521}, {"text": "or decentralized media means", "start": 648.16, "duration": 4.08}, {"text": "we now have a much wider marketplace of", "start": 649.92, "duration": 3.359}, {"text": "ideas", "start": 652.24, "duration": 3.599}, {"text": "and the whole the whole way of saying", "start": 653.279, "duration": 4.321}, {"text": "you mustn't talk to this person you", "start": 655.839, "duration": 3.201}, {"text": "mustn't think about this or you mustn't", "start": 657.6, "duration": 2.4}, {"text": "engage with this", "start": 659.04, "duration": 2.56}, {"text": "just isn't going to work anymore so i", "start": 660.0, "duration": 3.839}, {"text": "think i think in a broader strategy we", "start": 661.6, "duration": 4.239}, {"text": "have to engage with bad ideas", "start": 663.839, "duration": 4.401}, {"text": "or we have to engage with kind of ideas", "start": 665.839, "duration": 4.321}, {"text": "that are beyond the mainstream if only", "start": 668.24, "duration": 2.4}, {"text": "to say", "start": 670.16, "duration": 4.32}, {"text": "why they're not why they're disreputable", "start": 670.64, "duration": 5.84}, {"text": "or why they won't work or why they", "start": 674.48, "duration": 4.4}, {"text": "they're they're wrong whereas the the", "start": 676.48, "duration": 4.0}, {"text": "the media i think still has this idea", "start": 678.88, "duration": 3.84}, {"text": "that we can kind of circumscribe the", "start": 680.48, "duration": 3.44}, {"text": "the bounds of thought and the", "start": 682.72, "duration": 2.48}, {"text": "journalists are the right ones to do", "start": 683.92, "duration": 2.0}, {"text": "that", "start": 685.2, "duration": 2.16}, {"text": "as you say there is there are lots of", "start": 685.92, "duration": 3.039}, {"text": "other ways the information get around", "start": 687.36, "duration": 3.599}, {"text": "and i think there is an element of the", "start": 688.959, "duration": 3.281}, {"text": "in the media of thinking", "start": 690.959, "duration": 2.961}, {"text": "that well this is somehow bad this is", "start": 692.24, "duration": 3.839}, {"text": "you know we we were before filtering", "start": 693.92, "duration": 4.4}, {"text": "the the acceptable versions of these of", "start": 696.079, "duration": 3.841}, {"text": "this information to you", "start": 698.32, "duration": 4.16}, {"text": "and now and yeah any idiot with a", "start": 699.92, "duration": 3.599}, {"text": "wordpress account", "start": 702.48, "duration": 3.919}, {"text": "or a twitter account", "start": 703.519, "duration": 2.88}, {"text": "but i think i don't know insofar as", "start": 708.56, "duration": 4.399}, {"text": "journalists do believe that", "start": 711.519, "duration": 2.961}, {"text": "they overestimate their own ability to", "start": 712.959, "duration": 3.041}, {"text": "filter things well because like we are", "start": 714.48, "duration": 2.72}, {"text": "no", "start": 716.0, "duration": 4.48}, {"text": "cleverer or better on the whole than any", "start": 717.2, "duration": 4.8}, {"text": "reasonably smart group of people you", "start": 720.48, "duration": 3.44}, {"text": "know and i think", "start": 722.0, "duration": 5.6}, {"text": "um uh and i think that is", "start": 723.92, "duration": 5.2}, {"text": "we're misjudging our own abilities if we", "start": 727.6, "duration": 3.6}, {"text": "think that we we are the only safe route", "start": 729.12, "duration": 3.6}, {"text": "from where through which these ideas can", "start": 731.2, "duration": 2.639}, {"text": "be filtered and i think that", "start": 732.72, "duration": 3.76}, {"text": "actually things like the rationalist", "start": 733.839, "duration": 3.68}, {"text": "approach are", "start": 736.48, "duration": 2.56}, {"text": "i think it's really useful when when", "start": 737.519, "duration": 2.961}, {"text": "when they go and sort of look", "start": 739.04, "duration": 2.96}, {"text": "investigate these things in", "start": 740.48, "duration": 3.44}, {"text": "in depth in a way that mainstream", "start": 742.0, "duration": 4.24}, {"text": "journalism isn't set up to do", "start": 743.92, "duration": 4.8}, {"text": "you couldn't have a 30 000 word new york", "start": 746.24, "duration": 4.159}, {"text": "times piece about the ideas of the", "start": 748.72, "duration": 2.64}, {"text": "reactionaries it just", "start": 750.399, "duration": 2.481}, {"text": "wouldn't it wouldn't fit like that you", "start": 751.36, "duration": 4.08}, {"text": "couldn't make that go anywhere in", "start": 752.88, "duration": 5.44}, {"text": "and and the the idea and there's also i", "start": 755.44, "duration": 3.199}, {"text": "mean", "start": 758.32, "duration": 2.959}, {"text": "we have in journalism we have sort of", "start": 758.639, "duration": 3.921}, {"text": "traditions which", "start": 761.279, "duration": 4.401}, {"text": "are hard to get out of but are also not", "start": 762.56, "duration": 4.32}, {"text": "always easy to justify when you're", "start": 765.68, "duration": 2.48}, {"text": "coming to them fresh like", "start": 766.88, "duration": 3.519}, {"text": "you never write i am not sure about this", "start": 768.16, "duration": 5.04}, {"text": "very easily in a in a news article or a", "start": 770.399, "duration": 3.601}, {"text": "um", "start": 773.2, "duration": 2.96}, {"text": "uh or certainly a comment piece you have", "start": 774.0, "duration": 3.68}, {"text": "to sort of present this god-like", "start": 776.16, "duration": 3.76}, {"text": "status of omniscience like i i come to", "start": 777.68, "duration": 5.12}, {"text": "you with my tablets from the mountain", "start": 779.92, "duration": 4.08}, {"text": "and one of the great things about the", "start": 782.8, "duration": 2.4}, {"text": "rationalist community is they will write", "start": 784.0, "duration": 3.04}, {"text": "blog posts saying i'm i'm only 60", "start": 785.2, "duration": 3.12}, {"text": "confidence in this i'm not sure if i've", "start": 787.04, "duration": 2.72}, {"text": "understood it correctly you know and", "start": 788.32, "duration": 2.48}, {"text": "there's much more", "start": 789.76, "duration": 4.079}, {"text": "and i and they they they don't take it", "start": 790.8, "duration": 4.159}, {"text": "from a totally different", "start": 793.839, "duration": 4.641}, {"text": "point of view that is not bred by", "start": 794.959, "duration": 4.801}, {"text": "three you know two centuries of", "start": 798.48, "duration": 2.56}, {"text": "journalistic tradition and it's just", "start": 799.76, "duration": 2.56}, {"text": "some people making it fresh and then", "start": 801.04, "duration": 2.0}, {"text": "they make", "start": 802.32, "duration": 1.68}, {"text": "that i'm sure they make a lot of the", "start": 803.04, "duration": 2.799}, {"text": "same mistakes that we would make without", "start": 804.0, "duration": 3.04}, {"text": "you know looks a lot of the reasons", "start": 805.839, "duration": 2.56}, {"text": "these truly journalistic traditions have", "start": 807.04, "duration": 3.599}, {"text": "sprung up for a reason but they also", "start": 808.399, "duration": 3.921}, {"text": "bring in new fresh ways of doing it", "start": 810.639, "duration": 4.0}, {"text": "which i think are really useful and i", "start": 812.32, "duration": 4.16}, {"text": "so yes this is a very long way of saying", "start": 814.639, "duration": 2.801}, {"text": "yes i absolutely agree there is a", "start": 816.48, "duration": 1.919}, {"text": "gatekeeper aspect", "start": 817.44, "duration": 4.32}, {"text": "media partly that is um a a matter of", "start": 818.399, "duration": 4.641}, {"text": "just how the media was before there", "start": 821.76, "duration": 2.48}, {"text": "wasn't any other way for information to", "start": 823.04, "duration": 2.159}, {"text": "get around", "start": 824.24, "duration": 4.0}, {"text": "but there is a tendency to think that it", "start": 825.199, "duration": 5.361}, {"text": "is not that it is more than just an", "start": 828.24, "duration": 3.52}, {"text": "accident of history and that we are", "start": 830.56, "duration": 2.719}, {"text": "somehow meant to be doing it and we are", "start": 831.76, "duration": 2.8}, {"text": "the best ones to do it and i'm not sure", "start": 833.279, "duration": 2.161}, {"text": "that's true at all", "start": 834.56, "duration": 3.44}, {"text": "the piece as we said was called silicon", "start": 835.44, "duration": 4.24}, {"text": "valley safe space and kind of gave the", "start": 838.0, "duration": 3.12}, {"text": "idea that it was", "start": 839.68, "duration": 3.68}, {"text": "if not an ideological monoculture than", "start": 841.12, "duration": 3.44}, {"text": "at least", "start": 843.36, "duration": 3.68}, {"text": "specifically hostile to social justice", "start": 844.56, "duration": 3.68}, {"text": "ideas", "start": 847.04, "duration": 3.84}, {"text": "do you think that was a fair summary of", "start": 848.24, "duration": 3.039}, {"text": "the", "start": 850.88, "duration": 2.639}, {"text": "rationalist perspective or that blog in", "start": 851.279, "duration": 4.321}, {"text": "particular", "start": 853.519, "duration": 4.961}, {"text": "no no i i definitely don't i think i", "start": 855.6, "duration": 5.76}, {"text": "think if you do um", "start": 858.48, "duration": 2.88}, {"text": "because they're nerds right they do", "start": 862.32, "duration": 4.0}, {"text": "surveys um the less wrong", "start": 864.0, "duration": 4.24}, {"text": "blog and slate star codex did annual", "start": 866.32, "duration": 3.199}, {"text": "surveys of their readers", "start": 868.24, "duration": 4.88}, {"text": "for years um i don't i couldn't really i", "start": 869.519, "duration": 4.481}, {"text": "couldn't work out", "start": 873.12, "duration": 2.88}, {"text": "the find out 2020 data very easily i had", "start": 874.0, "duration": 3.36}, {"text": "a look at it recently but um", "start": 876.0, "duration": 4.88}, {"text": "2019 data had uh", "start": 877.36, "duration": 6.32}, {"text": "liberals and several self-described", "start": 880.88, "duration": 3.12}, {"text": "social", "start": 883.68, "duration": 4.159}, {"text": "democrats and liberals you know the um", "start": 884.0, "duration": 6.399}, {"text": "uh so left what americans were called", "start": 887.839, "duration": 4.0}, {"text": "liberals and british people left i think", "start": 890.399, "duration": 2.641}, {"text": "you know democrats", "start": 891.839, "duration": 4.401}, {"text": "outnumbered conservatives self-described", "start": 893.04, "duration": 4.4}, {"text": "by eight to one", "start": 896.24, "duration": 3.76}, {"text": "that was like there was about half as", "start": 897.44, "duration": 4.48}, {"text": "many libertarians as there were liberals", "start": 900.0, "duration": 3.279}, {"text": "so they were a non-trivial number but", "start": 901.92, "duration": 2.8}, {"text": "they were still", "start": 903.279, "duration": 3.601}, {"text": "a small minority the rule is you can", "start": 904.72, "duration": 4.08}, {"text": "discuss almost anything they'll ban you", "start": 906.88, "duration": 2.24}, {"text": "for", "start": 908.8, "duration": 2.0}, {"text": "certain topics but in the state", "start": 909.12, "duration": 3.2}, {"text": "psychotic thing you can as long as you", "start": 910.8, "duration": 2.399}, {"text": "are polite", "start": 912.32, "duration": 4.0}, {"text": "and um not trying to start a fight then", "start": 913.199, "duration": 3.76}, {"text": "you are", "start": 916.32, "duration": 1.92}, {"text": "not broadly allowed to talk about", "start": 916.959, "duration": 3.921}, {"text": "anything and that", "start": 918.24, "duration": 4.24}, {"text": "leads to a very rare situation where you", "start": 920.88, "duration": 2.8}, {"text": "get people who disagree with each other", "start": 922.48, "duration": 1.919}, {"text": "and", "start": 923.68, "duration": 2.8}, {"text": "sort of talking in the same space and", "start": 924.399, "duration": 3.601}, {"text": "then if you are someone who's just used", "start": 926.48, "duration": 3.039}, {"text": "to never seeing", "start": 928.0, "duration": 4.56}, {"text": "anyone talk saying well i think feminism", "start": 929.519, "duration": 3.601}, {"text": "is a", "start": 932.56, "duration": 2.8}, {"text": "you know the online feminism has has", "start": 933.12, "duration": 3.839}, {"text": "gone wrong or is a bad thing or whatever", "start": 935.36, "duration": 2.96}, {"text": "you know", "start": 936.959, "duration": 3.361}, {"text": "then even seeing one will leap out at", "start": 938.32, "duration": 3.84}, {"text": "you and that will be like that's what i", "start": 940.32, "duration": 3.759}, {"text": "remember from the 500 comments the three", "start": 942.16, "duration": 3.44}, {"text": "that said that", "start": 944.079, "duration": 4.241}, {"text": "you know it's got that on it and um and", "start": 945.6, "duration": 4.08}, {"text": "then you think well this", "start": 948.32, "duration": 3.36}, {"text": "you know just by the workings of the", "start": 949.68, "duration": 3.36}, {"text": "availability heuristic you know just the", "start": 951.68, "duration": 2.399}, {"text": "workings of your mind that'll be what", "start": 953.04, "duration": 2.159}, {"text": "you remember and that'll be what you", "start": 954.079, "duration": 2.081}, {"text": "think of as the whole", "start": 955.199, "duration": 4.56}, {"text": "there's the whole um sort of tenor of", "start": 956.16, "duration": 3.84}, {"text": "the", "start": 959.759, "duration": 1.841}, {"text": "of the debate and there's the other side", "start": 960.0, "duration": 3.199}, {"text": "as well which is if you are not allowed", "start": 961.6, "duration": 2.239}, {"text": "to say", "start": 963.199, "duration": 2.56}, {"text": "certain discuss certain topics a lot of", "start": 963.839, "duration": 3.12}, {"text": "the areas", "start": 965.759, "duration": 2.481}, {"text": "but you are allowed to as long as you're", "start": 966.959, "duration": 2.88}, {"text": "polite in this area then you will then", "start": 968.24, "duration": 2.8}, {"text": "people who aren't allowed to discuss", "start": 969.839, "duration": 2.961}, {"text": "ideas elsewhere will tend to come there", "start": 971.04, "duration": 5.52}, {"text": "yeah and i think i share a little bit of", "start": 972.8, "duration": 6.479}, {"text": "like i i'm not a free speech absolutist", "start": 976.56, "duration": 3.68}, {"text": "i see a lot of that", "start": 979.279, "duration": 4.0}, {"text": "especially on youtube and i think that", "start": 980.24, "duration": 4.88}, {"text": "the tech companies do need to take more", "start": 983.279, "duration": 3.92}, {"text": "responsibility for example with", "start": 985.12, "duration": 4.24}, {"text": "um some more more sort of journalistic", "start": 987.199, "duration": 3.601}, {"text": "and curatorial", "start": 989.36, "duration": 3.52}, {"text": "moderation responsibilities i do share", "start": 990.8, "duration": 3.12}, {"text": "some of the", "start": 992.88, "duration": 2.8}, {"text": "concerns that are being expressed by the", "start": 993.92, "duration": 3.919}, {"text": "sort of more journalistic side but i", "start": 995.68, "duration": 3.68}, {"text": "also think that it's a losing battle if", "start": 997.839, "duration": 2.8}, {"text": "you're trying to", "start": 999.36, "duration": 4.32}, {"text": "circumstrive certain topics as off as", "start": 1000.639, "duration": 4.56}, {"text": "off the table because that that", "start": 1003.68, "duration": 3.92}, {"text": "that horse has bolted i think we need to", "start": 1005.199, "duration": 3.76}, {"text": "kind of act", "start": 1007.6, "duration": 3.2}, {"text": "knowing that that horse has bolted there", "start": 1008.959, "duration": 3.201}, {"text": "was a really interesting tweet that i", "start": 1010.8, "duration": 2.24}, {"text": "saw", "start": 1012.16, "duration": 2.479}, {"text": "um where someone talked about the", "start": 1013.04, "duration": 3.599}, {"text": "off-ramp so there's a lot of talk about", "start": 1014.639, "duration": 3.921}, {"text": "the on-ramp to bad ideas", "start": 1016.639, "duration": 3.601}, {"text": "and i think this is sort of this was the", "start": 1018.56, "duration": 4.0}, {"text": "tone of that piece was the", "start": 1020.24, "duration": 4.48}, {"text": "rationalists are an on-ramp to bad ideas", "start": 1022.56, "duration": 3.44}, {"text": "because they engage with these other", "start": 1024.72, "duration": 2.88}, {"text": "communities that have more reprehensible", "start": 1026.0, "duration": 2.559}, {"text": "ideas", "start": 1027.6, "duration": 2.719}, {"text": "but at this point the point was made is", "start": 1028.559, "duration": 3.681}, {"text": "we don't talk a lot about the off-ramp", "start": 1030.319, "duration": 3.76}, {"text": "and yet the off-ramp has to exist as", "start": 1032.24, "duration": 4.24}, {"text": "well and i remember there were even some", "start": 1034.079, "duration": 4.321}, {"text": "studies that were done into the effect", "start": 1036.48, "duration": 2.64}, {"text": "of", "start": 1038.4, "duration": 2.159}, {"text": "i think this was specifically jordan", "start": 1039.12, "duration": 3.12}, {"text": "peterson's ideas", "start": 1040.559, "duration": 3.841}, {"text": "but they they tracked kind of comments", "start": 1042.24, "duration": 4.319}, {"text": "and and basically concluded that people", "start": 1044.4, "duration": 3.519}, {"text": "had gone from", "start": 1046.559, "duration": 2.881}, {"text": "watching jordan peterson's content to", "start": 1047.919, "duration": 3.201}, {"text": "watching more extreme content", "start": 1049.44, "duration": 3.04}, {"text": "then if you look to the methodology and", "start": 1051.12, "duration": 2.64}, {"text": "that may be true that may not be true", "start": 1052.48, "duration": 2.24}, {"text": "we're not sure", "start": 1053.76, "duration": 4.159}, {"text": "but they didn't check the other way", "start": 1054.72, "duration": 5.68}, {"text": "so they didn't do so it basically was", "start": 1057.919, "duration": 3.521}, {"text": "only looking at one", "start": 1060.4, "duration": 4.48}, {"text": "at one side of that of that equation and", "start": 1061.44, "duration": 4.64}, {"text": "a lot of people who follow jordan", "start": 1064.88, "duration": 3.36}, {"text": "peterson's content would say that", "start": 1066.08, "duration": 5.839}, {"text": "he has de-radicalized people", "start": 1068.24, "duration": 6.559}, {"text": "as well and there's no the the study", "start": 1071.919, "duration": 3.76}, {"text": "only looked at the", "start": 1074.799, "duration": 2.88}, {"text": "the on-ramp effectively and this is", "start": 1075.679, "duration": 3.281}, {"text": "really interesting i think because this", "start": 1077.679, "duration": 2.641}, {"text": "is what you're pointing to in your piece", "start": 1078.96, "duration": 2.24}, {"text": "is", "start": 1080.32, "duration": 2.96}, {"text": "you have to engage with these ideas you", "start": 1081.2, "duration": 3.2}, {"text": "have to kind of", "start": 1083.28, "duration": 4.639}, {"text": "potentially persuade people away from", "start": 1084.4, "duration": 6.32}, {"text": "from them otherwise like what do you", "start": 1087.919, "duration": 4.241}, {"text": "make of that kind of like the off-ramp", "start": 1090.72, "duration": 2.319}, {"text": "as an idea just", "start": 1092.16, "duration": 3.28}, {"text": "i think it's really important i think", "start": 1093.039, "duration": 3.441}, {"text": "yeah we're talking about", "start": 1095.44, "duration": 2.64}, {"text": "uh were you talking about persuasion we", "start": 1096.48, "duration": 3.199}, {"text": "were and the idea of the uh", "start": 1098.08, "duration": 4.0}, {"text": "the the one of the things i love about", "start": 1099.679, "duration": 4.081}, {"text": "slave star codex is writing is that it", "start": 1102.08, "duration": 2.64}, {"text": "will try and", "start": 1103.76, "duration": 2.88}, {"text": "approach people who disagree with the", "start": 1104.72, "duration": 3.199}, {"text": "point it's making and say look", "start": 1106.64, "duration": 2.88}, {"text": "you know it's not just boo out group", "start": 1107.919, "duration": 3.041}, {"text": "it's not saying look how you know aren't", "start": 1109.52, "duration": 2.96}, {"text": "you smart for already agree with me", "start": 1110.96, "duration": 2.959}, {"text": "there's look here is something which you", "start": 1112.48, "duration": 3.199}, {"text": "probably don't agree with i will try to", "start": 1113.919, "duration": 3.12}, {"text": "change your mind so this ties back to", "start": 1115.679, "duration": 2.88}, {"text": "what you're saying about the um", "start": 1117.039, "duration": 3.201}, {"text": "extremism thing or at least the you know", "start": 1118.559, "duration": 3.12}, {"text": "the people see it as", "start": 1120.24, "duration": 2.799}, {"text": "people see it and it's always the left", "start": 1121.679, "duration": 3.36}, {"text": "that sees this as this sort of gateway", "start": 1123.039, "duration": 3.361}, {"text": "drug slippery slope", "start": 1125.039, "duration": 3.361}, {"text": "everyone will will read an article", "start": 1126.4, "duration": 3.519}, {"text": "saying perhaps", "start": 1128.4, "duration": 4.639}, {"text": "um jezebel behave badly at some point", "start": 1129.919, "duration": 3.361}, {"text": "and", "start": 1133.039, "duration": 1.681}, {"text": "therefore they'll slide from there into", "start": 1133.28, "duration": 2.88}, {"text": "men's rights activism or whatever you", "start": 1134.72, "duration": 2.0}, {"text": "know", "start": 1136.16, "duration": 2.32}, {"text": "i'm being flippant i shouldn't be but", "start": 1136.72, "duration": 3.28}, {"text": "you know that sort of thing it's all", "start": 1138.48, "duration": 2.8}, {"text": "always going to be the slide from left", "start": 1140.0, "duration": 4.4}, {"text": "to right into into righteous extremism", "start": 1141.28, "duration": 5.92}, {"text": "but the point of slave star codex was it", "start": 1144.4, "duration": 4.96}, {"text": "is trying to persuade everyone to", "start": 1147.2, "duration": 3.92}, {"text": "agree with slate star codex which is", "start": 1149.36, "duration": 3.04}, {"text": "obviously you know as we all are we're", "start": 1151.12, "duration": 1.76}, {"text": "all trying", "start": 1152.4, "duration": 2.24}, {"text": "to dm we want people to agree with it", "start": 1152.88, "duration": 3.039}, {"text": "and so it was it was reaching out to", "start": 1154.64, "duration": 2.08}, {"text": "people on the rights and the", "start": 1155.919, "duration": 2.161}, {"text": "libertarians saying you know actually no", "start": 1156.72, "duration": 2.48}, {"text": "libertarian", "start": 1158.08, "duration": 4.24}, {"text": "you know you can be too libertarian you", "start": 1159.2, "duration": 3.68}, {"text": "get these", "start": 1162.32, "duration": 1.92}, {"text": "if there is you know there are flaws", "start": 1162.88, "duration": 3.039}, {"text": "with these trump voting", "start": 1164.24, "duration": 3.28}, {"text": "trump reaching out trump voters reaching", "start": 1165.919, "duration": 3.441}, {"text": "out and it is it is pulling people", "start": 1167.52, "duration": 4.159}, {"text": "towards this", "start": 1169.36, "duration": 3.76}, {"text": "towards the positions that slate star", "start": 1171.679, "duration": 3.201}, {"text": "codex holds which are not", "start": 1173.12, "duration": 5.84}, {"text": "extremist right-wing and therefore the", "start": 1174.88, "duration": 6.799}, {"text": "the it ends up um it ends up neither", "start": 1178.96, "duration": 4.24}, {"text": "sort of", "start": 1181.679, "duration": 2.88}, {"text": "yes it moves people who are left of", "start": 1183.2, "duration": 3.04}, {"text": "slate star codex right if that is a", "start": 1184.559, "duration": 2.48}, {"text": "meaningful", "start": 1186.24, "duration": 2.08}, {"text": "thing but also move people right to", "start": 1187.039, "duration": 3.281}, {"text": "slave star codex left and it brings you", "start": 1188.32, "duration": 5.52}, {"text": "so yes it has it has this anti-extremism", "start": 1190.32, "duration": 6.8}, {"text": "effect or certainly um it seems likely", "start": 1193.84, "duration": 3.839}, {"text": "to me and", "start": 1197.12, "duration": 2.48}, {"text": "and sky alexander could point to those", "start": 1197.679, "duration": 3.841}, {"text": "people the comments on his", "start": 1199.6, "duration": 4.48}, {"text": "uh anti-trump blog post about it so yes", "start": 1201.52, "duration": 3.279}, {"text": "i think i think the", "start": 1204.08, "duration": 2.32}, {"text": "i think the off-ramp is a real and i", "start": 1204.799, "duration": 2.961}, {"text": "think important phenomenon and i would", "start": 1206.4, "duration": 3.36}, {"text": "love someone to do some sort of", "start": 1207.76, "duration": 4.24}, {"text": "quantification you know of it because i", "start": 1209.76, "duration": 3.36}, {"text": "this is just me", "start": 1212.0, "duration": 2.559}, {"text": "sharing anecdotes but yes i think it is", "start": 1213.12, "duration": 3.12}, {"text": "a real thing and", "start": 1214.559, "duration": 3.281}, {"text": "just before we close is there anything", "start": 1216.24, "duration": 3.439}, {"text": "more that you wanted to say is there", "start": 1217.84, "duration": 2.24}, {"text": "anything", "start": 1219.679, "duration": 2.561}, {"text": "more that people should know about the", "start": 1220.08, "duration": 3.28}, {"text": "rationalists that you", "start": 1222.24, "duration": 4.0}, {"text": "think they probably don't i think the", "start": 1223.36, "duration": 3.439}, {"text": "their", "start": 1226.24, "duration": 2.319}, {"text": "their ability their predictions over", "start": 1226.799, "duration": 3.601}, {"text": "covid their sort of", "start": 1228.559, "duration": 4.401}, {"text": "tendency to be out ahead of the game has", "start": 1230.4, "duration": 4.0}, {"text": "been", "start": 1232.96, "duration": 3.599}, {"text": "really noteworthy as this is the piece", "start": 1234.4, "duration": 3.92}, {"text": "that cade mets i wish she had written", "start": 1236.559, "duration": 4.0}, {"text": "and i think that is very much to do with", "start": 1238.32, "duration": 4.239}, {"text": "this tendency to not", "start": 1240.559, "duration": 5.441}, {"text": "go with a herd you know back in january", "start": 1242.559, "duration": 4.641}, {"text": "last year to", "start": 1246.0, "duration": 4.0}, {"text": "january 2020 the media were all writing", "start": 1247.2, "duration": 4.719}, {"text": "the same pieces of you know don't worry", "start": 1250.0, "duration": 3.52}, {"text": "about", "start": 1251.919, "duration": 3.441}, {"text": "covert worry about the flu don't you", "start": 1253.52, "duration": 3.84}, {"text": "know this you know this is not", "start": 1255.36, "duration": 3.92}, {"text": "it's and and right saying you know if", "start": 1257.36, "duration": 3.199}, {"text": "everyone worrying about", "start": 1259.28, "duration": 4.399}, {"text": "this over over panicking about um covert", "start": 1260.559, "duration": 4.48}, {"text": "there as being", "start": 1263.679, "duration": 2.88}, {"text": "sort of anti-chinese racist and", "start": 1265.039, "duration": 3.841}, {"text": "everything like that and i think", "start": 1266.559, "duration": 4.961}, {"text": "this was because the media and i'm as", "start": 1268.88, "duration": 4.56}, {"text": "guilty as this event as anyone right", "start": 1271.52, "duration": 3.2}, {"text": "you don't want to look like the idiot", "start": 1273.44, "duration": 3.359}, {"text": "who panics you don't want to look the", "start": 1274.72, "duration": 3.04}, {"text": "guy who goes ah", "start": 1276.799, "duration": 2.321}, {"text": "it's all terrible and then nothing", "start": 1277.76, "duration": 3.76}, {"text": "happens it's safe to do", "start": 1279.12, "duration": 4.08}, {"text": "stay with your heard and not not look", "start": 1281.52, "duration": 3.68}, {"text": "like you're", "start": 1283.2, "duration": 4.4}, {"text": "straining outside of it even if an", "start": 1285.2, "duration": 4.32}, {"text": "exponential even if it's a simple", "start": 1287.6, "duration": 3.52}, {"text": "simply following the extra dots on the", "start": 1289.52, "duration": 2.96}, {"text": "exponential curve would have told you", "start": 1291.12, "duration": 2.24}, {"text": "that actually this is going to be around", "start": 1292.48, "duration": 2.079}, {"text": "the world in six weeks you know that", "start": 1293.36, "duration": 3.6}, {"text": "that would have been", "start": 1294.559, "duration": 3.921}, {"text": "should not have been beyond the width of", "start": 1296.96, "duration": 3.52}, {"text": "someone who can do gcse maths right", "start": 1298.48, "duration": 5.28}, {"text": "then and i think the", "start": 1300.48, "duration": 7.439}, {"text": "the ability to follow these arguments", "start": 1303.76, "duration": 5.919}, {"text": "these you know in that case barely an", "start": 1307.919, "duration": 3.681}, {"text": "argument but the maths but", "start": 1309.679, "duration": 3.441}, {"text": "it does involve also some understanding", "start": 1311.6, "duration": 3.04}, {"text": "of sort of some of the theory as well", "start": 1313.12, "duration": 5.76}, {"text": "beyond to logical conclusions and not be", "start": 1314.64, "duration": 8.159}, {"text": "swayed away from them by um", "start": 1318.88, "duration": 7.2}, {"text": "uh groupthink is a dismissive way of", "start": 1322.799, "duration": 4.321}, {"text": "putting it but you know sort of", "start": 1326.08, "duration": 3.04}, {"text": "the social pressures to say to not look", "start": 1327.12, "duration": 3.36}, {"text": "like you're panicking to not look like", "start": 1329.12, "duration": 2.0}, {"text": "you're", "start": 1330.48, "duration": 3.84}, {"text": "scaremongering i felt that that is a", "start": 1331.12, "duration": 5.2}, {"text": "really interesting topic and it is", "start": 1334.32, "duration": 5.28}, {"text": "it is the same mechanism that you see", "start": 1336.32, "duration": 6.88}, {"text": "with their fears by ai i think", "start": 1339.6, "duration": 5.12}, {"text": "and this is what i wrote in the end of", "start": 1343.2, "duration": 3.44}, {"text": "my book is about", "start": 1344.72, "duration": 5.76}, {"text": "um but they when you follow their", "start": 1346.64, "duration": 8.24}, {"text": "arguments about ai it is very hard to", "start": 1350.48, "duration": 6.079}, {"text": "see where they are wrong right it's very", "start": 1354.88, "duration": 3.76}, {"text": "hard to go okay like well you", "start": 1356.559, "duration": 4.641}, {"text": "yeah the the the ai does go wrong in", "start": 1358.64, "duration": 3.44}, {"text": "these ways", "start": 1361.2, "duration": 3.359}, {"text": "it is get rapidly getting more powerful", "start": 1362.08, "duration": 3.599}, {"text": "and", "start": 1364.559, "duration": 4.401}, {"text": "and then you know the um the uh", "start": 1365.679, "duration": 5.041}, {"text": "ai researchers if you interview them do", "start": 1368.96, "duration": 3.92}, {"text": "think you'll probably have superhuman ai", "start": 1370.72, "duration": 2.88}, {"text": "in the next", "start": 1372.88, "duration": 2.24}, {"text": "80 years and you know my children's", "start": 1373.6, "duration": 3.92}, {"text": "lifetime and that it will probably", "start": 1375.12, "duration": 5.6}, {"text": "um and there is a decent chance of", "start": 1377.52, "duration": 4.56}, {"text": "really really terrible outcomes while", "start": 1380.72, "duration": 3.04}, {"text": "also a decent chance of very very", "start": 1382.08, "duration": 5.28}, {"text": "positive outcomes you know um", "start": 1383.76, "duration": 7.039}, {"text": "but there's just as with just as with", "start": 1387.36, "duration": 4.64}, {"text": "covered", "start": 1390.799, "duration": 3.281}, {"text": "um there's this really strong i found it", "start": 1392.0, "duration": 3.52}, {"text": "most i noticed about it myself there's", "start": 1394.08, "duration": 2.8}, {"text": "recently but this is just weird right", "start": 1395.52, "duration": 2.8}, {"text": "this is weird this does not", "start": 1396.88, "duration": 2.799}, {"text": "this is not the sort of thing that i", "start": 1398.32, "duration": 3.359}, {"text": "think is real this is not the sort of", "start": 1399.679, "duration": 3.681}, {"text": "thing that happens in the world but they", "start": 1401.679, "duration": 3.36}, {"text": "all they've done is done the same thing", "start": 1403.36, "duration": 4.4}, {"text": "pretty much extend a trend line out on a", "start": 1405.039, "duration": 3.201}, {"text": "graph", "start": 1407.76, "duration": 2.72}, {"text": "and take some basic theory points and", "start": 1408.24, "duration": 3.76}, {"text": "and for some fairly uncomfortable and", "start": 1410.48, "duration": 2.079}, {"text": "say well", "start": 1412.0, "duration": 2.32}, {"text": "if all these things are true which you", "start": 1412.559, "duration": 3.441}, {"text": "agree with", "start": 1414.32, "duration": 2.96}, {"text": "then you extend it out and you end up", "start": 1416.0, "duration": 3.919}, {"text": "with a disastrous outcome in", "start": 1417.28, "duration": 4.639}, {"text": "50 80 100 years time and we need to do", "start": 1419.919, "duration": 4.961}, {"text": "something about that and i think", "start": 1421.919, "duration": 4.961}, {"text": "that and they they also what it's worth", "start": 1424.88, "duration": 3.84}, {"text": "have been banging on for years about a", "start": 1426.88, "duration": 3.6}, {"text": "bioengineered pandemic being that", "start": 1428.72, "duration": 5.92}, {"text": "that and or being the real", "start": 1430.48, "duration": 7.28}, {"text": "uh other great risk to human uh of human", "start": 1434.64, "duration": 4.48}, {"text": "extinction that an ai and then", "start": 1437.76, "duration": 2.72}, {"text": "also generally the risk of global", "start": 1439.12, "duration": 3.84}, {"text": "pandemics this is stuff they've been", "start": 1440.48, "duration": 5.28}, {"text": "talking about so i think it it is a the", "start": 1442.96, "duration": 4.48}, {"text": "covert stuff is a really good reminder", "start": 1445.76, "duration": 2.88}, {"text": "that actually", "start": 1447.44, "duration": 4.479}, {"text": "this sort of viewpoint that is not as we", "start": 1448.64, "duration": 5.76}, {"text": "as i as the media as humanity has a", "start": 1451.919, "duration": 3.841}, {"text": "tendency to do a sort of", "start": 1454.4, "duration": 6.399}, {"text": "um steering away from ideas that seem", "start": 1455.76, "duration": 6.48}, {"text": "uncomfortable because they're weird or", "start": 1460.799, "duration": 3.041}, {"text": "because they're not you know they're not", "start": 1462.24, "duration": 2.48}, {"text": "what sort of thing we talk about", "start": 1463.84, "duration": 1.6}, {"text": "normally", "start": 1464.72, "duration": 2.4}, {"text": "and don't want to look scared don't look", "start": 1465.44, "duration": 2.88}, {"text": "panicky you don't want to look like", "start": 1467.12, "duration": 1.679}, {"text": "we're", "start": 1468.32, "duration": 3.92}, {"text": "socially um you know outside the hood", "start": 1468.799, "duration": 5.041}, {"text": "sometimes it's really useful having", "start": 1472.24, "duration": 3.2}, {"text": "people around who don't think like that", "start": 1473.84, "duration": 3.52}, {"text": "and who do just take the trend line and", "start": 1475.44, "duration": 2.64}, {"text": "extend it out", "start": 1477.36, "duration": 2.799}, {"text": "and say well no but um hang on this", "start": 1478.08, "duration": 4.479}, {"text": "means that we're all going to be", "start": 1480.159, "duration": 3.841}, {"text": "locked up in our houses in three weeks", "start": 1482.559, "duration": 2.72}, {"text": "time maybe we should be thinking about", "start": 1484.0, "duration": 3.12}, {"text": "that and i think", "start": 1485.279, "duration": 3.681}, {"text": "that should be a bit of a reminder to at", "start": 1487.12, "duration": 3.679}, {"text": "least not dismiss their fears about", "start": 1488.96, "duration": 4.079}, {"text": "stuff like bioengineered pandemics or", "start": 1490.799, "duration": 4.161}, {"text": "ai and the human extinction stuff", "start": 1493.039, "duration": 3.52}, {"text": "because i think it", "start": 1494.96, "duration": 3.28}, {"text": "the same mechanisms are in play in both", "start": 1496.559, "duration": 3.36}, {"text": "places that would be my that'll be what", "start": 1498.24, "duration": 2.72}, {"text": "i would say", "start": 1499.919, "duration": 2.64}, {"text": "since the beginning of rebel wisdom", "start": 1500.96, "duration": 3.12}, {"text": "we've been thinking about how to create", "start": 1502.559, "duration": 3.36}, {"text": "spaces for people to have new kinds of", "start": 1504.08, "duration": 2.959}, {"text": "conversations", "start": 1505.919, "duration": 4.161}, {"text": "around big ideas which is why we've just", "start": 1507.039, "duration": 5.041}, {"text": "launched our digital campfire", "start": 1510.08, "duration": 3.76}, {"text": "which is a central place for people to", "start": 1512.08, "duration": 3.76}, {"text": "gather to find the others", "start": 1513.84, "duration": 4.8}, {"text": "and to make sense together it's a place", "start": 1515.84, "duration": 4.48}, {"text": "to practice the skills we talk about on", "start": 1518.64, "duration": 2.32}, {"text": "the channel", "start": 1520.32, "duration": 2.4}, {"text": "so we have regular sessions that help us", "start": 1520.96, "duration": 3.199}, {"text": "improve our sense making", "start": 1522.72, "duration": 2.88}, {"text": "and also tap into our collective", "start": 1524.159, "duration": 3.361}, {"text": "intelligence and it's all hosted on a", "start": 1525.6, "duration": 2.48}, {"text": "discussion", "start": 1527.52, "duration": 2.32}, {"text": "platform called circle where you can", "start": 1528.08, "duration": 3.599}, {"text": "have conversations around our films and", "start": 1529.84, "duration": 2.719}, {"text": "articles", "start": 1531.679, "duration": 2.721}, {"text": "or on any other topic you're interested", "start": 1532.559, "duration": 3.441}, {"text": "in we've designed it all to be", "start": 1534.4, "duration": 3.36}, {"text": "participatory so you can set up", "start": 1536.0, "duration": 3.44}, {"text": "real-time conversations by creating a", "start": 1537.76, "duration": 2.24}, {"text": "crew", "start": 1539.44, "duration": 2.32}, {"text": "to dive deeper into different topics or", "start": 1540.0, "duration": 3.039}, {"text": "practices", "start": 1541.76, "duration": 2.799}, {"text": "so we've got three different levels of", "start": 1543.039, "duration": 3.441}, {"text": "membership wise rebel", "start": 1544.559, "duration": 5.201}, {"text": "explorer and sensemaker all three levels", "start": 1546.48, "duration": 5.199}, {"text": "have access to the digital campfire on", "start": 1549.76, "duration": 2.799}, {"text": "circle", "start": 1551.679, "duration": 2.961}, {"text": "and the explorers also have access to", "start": 1552.559, "duration": 4.161}, {"text": "the following official rebel wisdom run", "start": 1554.64, "duration": 2.96}, {"text": "sessions", "start": 1556.72, "duration": 3.28}, {"text": "so on mondays we have live sense making", "start": 1557.6, "duration": 3.6}, {"text": "which is a session where we come", "start": 1560.0, "duration": 3.44}, {"text": "together to discuss a hot cultural topic", "start": 1561.2, "duration": 4.32}, {"text": "and then on tuesdays we have our academy", "start": 1563.44, "duration": 3.839}, {"text": "sessions where we have some of the best", "start": 1565.52, "duration": 3.279}, {"text": "facilitators in the world", "start": 1567.279, "duration": 3.76}, {"text": "teaching various skills so for example", "start": 1568.799, "duration": 3.921}, {"text": "collective intelligence practice", "start": 1571.039, "duration": 4.321}, {"text": "facilitation training then on thursday", "start": 1572.72, "duration": 4.4}, {"text": "we have our connection gym", "start": 1575.36, "duration": 3.84}, {"text": "and the sense makers are also invited to", "start": 1577.12, "duration": 4.08}, {"text": "our wednesday sessions which alternates", "start": 1579.2, "duration": 2.56}, {"text": "between", "start": 1581.2, "duration": 3.68}, {"text": "q a and the wisdom gym the q a is with", "start": 1581.76, "duration": 4.72}, {"text": "one of the stars of our films and will", "start": 1584.88, "duration": 3.44}, {"text": "often go up on the channel itself", "start": 1586.48, "duration": 3.6}, {"text": "and the wisdom gym is where we bring in", "start": 1588.32, "duration": 2.88}, {"text": "some of the biggest names in", "start": 1590.08, "duration": 2.719}, {"text": "transformation and growth to share their", "start": 1591.2, "duration": 2.88}, {"text": "practices with us", "start": 1592.799, "duration": 3.12}, {"text": "within circle we've also included a", "start": 1594.08, "duration": 4.079}, {"text": "number of resources that we found useful", "start": 1595.919, "duration": 5.12}, {"text": "so sense making tools meditations", "start": 1598.159, "duration": 5.12}, {"text": "authentic relating games and guides for", "start": 1601.039, "duration": 4.721}, {"text": "how to host your own session", "start": 1603.279, "duration": 4.161}, {"text": "so the most important thing to remember", "start": 1605.76, "duration": 3.84}, {"text": "is that this is an experimental space", "start": 1607.44, "duration": 4.64}, {"text": "and is designed to be participatory so", "start": 1609.6, "duration": 4.0}, {"text": "it's really your space to come in and", "start": 1612.08, "duration": 2.4}, {"text": "make your own", "start": 1613.6, "duration": 8.72}, {"text": "so we'd love to see you there", "start": 1614.48, "duration": 7.84}]}
+{
+ "video_id": "i2fBTJJEf7I",
+ "channel_id": "UCFQ6Gptuq-sLflbJ4YY3Umw",
+ "channel_name": "Rebel Wisdom",
+ "title": "The Cancelling of Slate Star Codex, with Tom Chivers",
+ "url": "https://www.youtube.com/watch?v=i2fBTJJEf7I",
+ "date": "2021-02-18",
+ "description": "At the weekend, the New York Times published a long awaited article about one of the world's most celebrated blogs, Slate Star Codex, a central node of the influential rationalist community.\n\nCalled 'Silicon Valley's Safe Space', it was widely criticised as an inaccurate hit piece: https://www.nytimes.com/2021/02/13/technology/slate-star-codex-rationalists.html\n\nThis is an interview with Tom Chivers, the writer of 'The Rationalist's Guide to the Galaxy', on the backstory to the controversy.\n\nWhat does this say about the ongoing crisis of journalism, and tensions with the tech sector.\n\nThe New Yorker wrote a more well-received piece on SSC here: https://www.newyorker.com/culture/annals-of-inquiry/slate-star-codex-and-silicon-valleys-war-against-the-media\n\nTo join Rebel Wisdom's Digital Campfire, check out: https://rebelwisdom.co.uk/plans",
+ "duration": 1621,
+ "transcript_parts": [
+  {
+   "text": "[Music]",
+   "start": 0.19,
+   "duration": 2.79
+  },
+  {
+   "text": "tom welcome",
+   "start": 5.6,
+   "duration": 5.2
+  },
+  {
+   "text": "thank you hello um yes welcome me yes",
+   "start": 6.72,
+   "duration": 5.999
+  },
+  {
+   "text": "awesome so we're going to talk about the",
+   "start": 10.8,
+   "duration": 3.2
+  },
+  {
+   "text": "recent",
+   "start": 12.719,
+   "duration": 4.721
+  },
+  {
+   "text": "uh the slate star codex blog there was a",
+   "start": 14.0,
+   "duration": 4.88
+  },
+  {
+   "text": "i mean it's a backstory we have to fill",
+   "start": 17.44,
+   "duration": 3.44
+  },
+  {
+   "text": "in a lot of gaps because this goes back",
+   "start": 18.88,
+   "duration": 3.92
+  },
+  {
+   "text": "at least sort of six to eight months",
+   "start": 20.88,
+   "duration": 4.88
+  },
+  {
+   "text": "but just a few days ago the new york",
+   "start": 22.8,
+   "duration": 5.36
+  },
+  {
+   "text": "times brought out a long-awaited piece",
+   "start": 25.76,
+   "duration": 5.439
+  },
+  {
+   "text": "about the blog slate star codex",
+   "start": 28.16,
+   "duration": 6.399
+  },
+  {
+   "text": "and this is a very high profile blog",
+   "start": 31.199,
+   "duration": 5.2
+  },
+  {
+   "text": "especially in the rationalist community",
+   "start": 34.559,
+   "duration": 3.201
+  },
+  {
+   "text": "and we'll kind of explain why that's",
+   "start": 36.399,
+   "duration": 2.32
+  },
+  {
+   "text": "significant",
+   "start": 37.76,
+   "duration": 3.119
+  },
+  {
+   "text": "who the rationalists are and it's",
+   "start": 38.719,
+   "duration": 3.281
+  },
+  {
+   "text": "probably fair to say it's one of the",
+   "start": 40.879,
+   "duration": 2.801
+  },
+  {
+   "text": "most influential blogs in the world",
+   "start": 42.0,
+   "duration": 2.719
+  },
+  {
+   "text": "would that be fair",
+   "start": 43.68,
+   "duration": 2.96
+  },
+  {
+   "text": "yeah i mean yeah depend depending on how",
+   "start": 44.719,
+   "duration": 3.601
+  },
+  {
+   "text": "you define blog i suppose but yes yes i",
+   "start": 46.64,
+   "duration": 3.759
+  },
+  {
+   "text": "think that is probably true yeah",
+   "start": 48.32,
+   "duration": 4.559
+  },
+  {
+   "text": "yeah and thank you for joining me you",
+   "start": 50.399,
+   "duration": 4.401
+  },
+  {
+   "text": "are literally the man who wrote the book",
+   "start": 52.879,
+   "duration": 3.2
+  },
+  {
+   "text": "on the rationalists",
+   "start": 54.8,
+   "duration": 3.599
+  },
+  {
+   "text": "yes yes i did yes just to summarize",
+   "start": 56.079,
+   "duration": 4.48
+  },
+  {
+   "text": "maybe about why this is significant",
+   "start": 58.399,
+   "duration": 4.48
+  },
+  {
+   "text": "for me it taps into many different",
+   "start": 60.559,
+   "duration": 3.281
+  },
+  {
+   "text": "issues",
+   "start": 62.879,
+   "duration": 3.441
+  },
+  {
+   "text": "um it's about sort of the decline of the",
+   "start": 63.84,
+   "duration": 4.24
+  },
+  {
+   "text": "traditional media or the tensions of the",
+   "start": 66.32,
+   "duration": 3.6
+  },
+  {
+   "text": "traditional media versus kind of the",
+   "start": 68.08,
+   "duration": 4.88
+  },
+  {
+   "text": "upstart alternative media",
+   "start": 69.92,
+   "duration": 4.559
+  },
+  {
+   "text": "it's a very influential important",
+   "start": 72.96,
+   "duration": 2.88
+  },
+  {
+   "text": "community the rationalists which we'll",
+   "start": 74.479,
+   "duration": 2.64
+  },
+  {
+   "text": "talk about in a bit",
+   "start": 75.84,
+   "duration": 2.959
+  },
+  {
+   "text": "and as you pointed out in a really good",
+   "start": 77.119,
+   "duration": 3.281
+  },
+  {
+   "text": "piece you wrote for unheard",
+   "start": 78.799,
+   "duration": 3.521
+  },
+  {
+   "text": "it's also about a kind of way of dealing",
+   "start": 80.4,
+   "duration": 3.44
+  },
+  {
+   "text": "with ideas we don't like",
+   "start": 82.32,
+   "duration": 3.04
+  },
+  {
+   "text": "whether we engage with them or whether",
+   "start": 83.84,
+   "duration": 3.44
+  },
+  {
+   "text": "we kind of whether we don't",
+   "start": 85.36,
+   "duration": 4.32
+  },
+  {
+   "text": "and the art of persuasion which you",
+   "start": 87.28,
+   "duration": 4.4
+  },
+  {
+   "text": "argue is something that is quite rare",
+   "start": 89.68,
+   "duration": 4.24
+  },
+  {
+   "text": "in that piece should we tell the",
+   "start": 91.68,
+   "duration": 4.32
+  },
+  {
+   "text": "backstory first just to fill in the gaps",
+   "start": 93.92,
+   "duration": 5.44
+  },
+  {
+   "text": "last june well",
+   "start": 96.0,
+   "duration": 4.479
+  },
+  {
+   "text": "it was very obvious that this",
+   "start": 99.36,
+   "duration": 2.88
+  },
+  {
+   "text": "rationalist community scott and scott",
+   "start": 100.479,
+   "duration": 2.881
+  },
+  {
+   "text": "alexander in particular",
+   "start": 102.24,
+   "duration": 3.28
+  },
+  {
+   "text": "but uh you know the the rationalist",
+   "start": 103.36,
+   "duration": 3.439
+  },
+  {
+   "text": "community more widely",
+   "start": 105.52,
+   "duration": 4.639
+  },
+  {
+   "text": "had done a lot better than most people",
+   "start": 106.799,
+   "duration": 6.241
+  },
+  {
+   "text": "at predicting um or sort of preparing",
+   "start": 110.159,
+   "duration": 4.481
+  },
+  {
+   "text": "for the covert pandemic they were ahead",
+   "start": 113.04,
+   "duration": 2.56
+  },
+  {
+   "text": "of everyone on",
+   "start": 114.64,
+   "duration": 4.079
+  },
+  {
+   "text": "masks or masks are a good idea um this",
+   "start": 115.6,
+   "duration": 4.799
+  },
+  {
+   "text": "is probably aerosol transmitted rather",
+   "start": 118.719,
+   "duration": 2.241
+  },
+  {
+   "text": "than",
+   "start": 120.399,
+   "duration": 2.32
+  },
+  {
+   "text": "foam right transmitted or it does they",
+   "start": 120.96,
+   "duration": 3.6
+  },
+  {
+   "text": "just made you know shutting borders",
+   "start": 122.719,
+   "duration": 2.801
+  },
+  {
+   "text": "might be a good idea that's",
+   "start": 124.56,
+   "duration": 4.399
+  },
+  {
+   "text": "the they um they made they did the sort",
+   "start": 125.52,
+   "duration": 3.84
+  },
+  {
+   "text": "of",
+   "start": 128.959,
+   "duration": 1.92
+  },
+  {
+   "text": "they had the sort of numerical thinking",
+   "start": 129.36,
+   "duration": 2.8
+  },
+  {
+   "text": "and the sort of quantified thinking that",
+   "start": 130.879,
+   "duration": 2.881
+  },
+  {
+   "text": "made them able to do these judgments",
+   "start": 132.16,
+   "duration": 3.84
+  },
+  {
+   "text": "much better and that attracted interest",
+   "start": 133.76,
+   "duration": 4.0
+  },
+  {
+   "text": "and this guy from new york times cade",
+   "start": 136.0,
+   "duration": 2.48
+  },
+  {
+   "text": "metz",
+   "start": 137.76,
+   "duration": 4.559
+  },
+  {
+   "text": "as a tech reporter there he",
+   "start": 138.48,
+   "duration": 6.72
+  },
+  {
+   "text": "um got interested in that people have",
+   "start": 142.319,
+   "duration": 4.321
+  },
+  {
+   "text": "said to him look there this blog status",
+   "start": 145.2,
+   "duration": 2.64
+  },
+  {
+   "text": "playstyle codex got these interesting",
+   "start": 146.64,
+   "duration": 3.599
+  },
+  {
+   "text": "people it's um",
+   "start": 147.84,
+   "duration": 4.479
+  },
+  {
+   "text": "uh you know and it's been out ahead of",
+   "start": 150.239,
+   "duration": 3.041
+  },
+  {
+   "text": "all the covered stuff",
+   "start": 152.319,
+   "duration": 2.961
+  },
+  {
+   "text": "and it's worth um paying attention to",
+   "start": 153.28,
+   "duration": 3.84
+  },
+  {
+   "text": "that and so he went and he started tried",
+   "start": 155.28,
+   "duration": 3.12
+  },
+  {
+   "text": "to started speaking to a rationalist he",
+   "start": 157.12,
+   "duration": 2.16
+  },
+  {
+   "text": "came and spoke to me",
+   "start": 158.4,
+   "duration": 3.76
+  },
+  {
+   "text": "he tried to speak to scott scott did sp",
+   "start": 159.28,
+   "duration": 3.36
+  },
+  {
+   "text": "exchange",
+   "start": 162.16,
+   "duration": 2.88
+  },
+  {
+   "text": "emails with him i don't think spoken",
+   "start": 162.64,
+   "duration": 4.239
+  },
+  {
+   "text": "person i've spoken on the phone",
+   "start": 165.04,
+   "duration": 5.68
+  },
+  {
+   "text": "but and i think the um",
+   "start": 166.879,
+   "duration": 6.72
+  },
+  {
+   "text": "and this was as far as i was concerned",
+   "start": 170.72,
+   "duration": 3.92
+  },
+  {
+   "text": "it was looking like it was going to be",
+   "start": 173.599,
+   "duration": 1.761
+  },
+  {
+   "text": "quite a",
+   "start": 174.64,
+   "duration": 2.8
+  },
+  {
+   "text": "a positive piece but then something",
+   "start": 175.36,
+   "duration": 3.519
+  },
+  {
+   "text": "happened which was",
+   "start": 177.44,
+   "duration": 4.0
+  },
+  {
+   "text": "new york times said you if you remember",
+   "start": 178.879,
+   "duration": 3.921
+  },
+  {
+   "text": "scott alexander is a pseudonym it's a",
+   "start": 181.44,
+   "duration": 1.92
+  },
+  {
+   "text": "sort of",
+   "start": 182.8,
+   "duration": 3.359
+  },
+  {
+   "text": "thin pseudonym it's just his first and",
+   "start": 183.36,
+   "duration": 3.84
+  },
+  {
+   "text": "middle names and",
+   "start": 186.159,
+   "duration": 2.641
+  },
+  {
+   "text": "if you put in a bit of effort it's quite",
+   "start": 187.2,
+   "duration": 4.16
+  },
+  {
+   "text": "easy to work out his real name",
+   "start": 188.8,
+   "duration": 4.24
+  },
+  {
+   "text": "but new york times said well we're going",
+   "start": 191.36,
+   "duration": 3.68
+  },
+  {
+   "text": "to reveal your real name",
+   "start": 193.04,
+   "duration": 5.199
+  },
+  {
+   "text": "and scott alexander said well that's a",
+   "start": 195.04,
+   "duration": 4.8
+  },
+  {
+   "text": "terrible idea because i am a",
+   "start": 198.239,
+   "duration": 3.521
+  },
+  {
+   "text": "psychiatrist and i need to maintain a",
+   "start": 199.84,
+   "duration": 3.28
+  },
+  {
+   "text": "relationship with my patients",
+   "start": 201.76,
+   "duration": 4.479
+  },
+  {
+   "text": "um and if my name is splashed all over",
+   "start": 203.12,
+   "duration": 3.759
+  },
+  {
+   "text": "the internet",
+   "start": 206.239,
+   "duration": 2.321
+  },
+  {
+   "text": "that becomes harder which has been",
+   "start": 206.879,
+   "duration": 2.881
+  },
+  {
+   "text": "proved to be the case with for other",
+   "start": 208.56,
+   "duration": 3.759
+  },
+  {
+   "text": "psychiatrists in the past and struck me",
+   "start": 209.76,
+   "duration": 4.08
+  },
+  {
+   "text": "as a pretty reasonable",
+   "start": 212.319,
+   "duration": 3.521
+  },
+  {
+   "text": "point of view but the new york times",
+   "start": 213.84,
+   "duration": 3.119
+  },
+  {
+   "text": "said no we must name you",
+   "start": 215.84,
+   "duration": 3.2
+  },
+  {
+   "text": "it's just a policy there was some back",
+   "start": 216.959,
+   "duration": 3.121
+  },
+  {
+   "text": "and forth over whether that is actually",
+   "start": 219.04,
+   "duration": 2.0
+  },
+  {
+   "text": "their policy because i don't seem to",
+   "start": 220.08,
+   "duration": 2.48
+  },
+  {
+   "text": "name everyone but anyway you know",
+   "start": 221.04,
+   "duration": 6.8
+  },
+  {
+   "text": "by the by um and so scott",
+   "start": 222.56,
+   "duration": 5.28
+  },
+  {
+   "text": "i i think he's fair to say panicked or",
+   "start": 227.92,
+   "duration": 3.76
+  },
+  {
+   "text": "certainly got spooked",
+   "start": 229.68,
+   "duration": 5.68
+  },
+  {
+   "text": "and took down his entire blog",
+   "start": 231.68,
+   "duration": 7.6
+  },
+  {
+   "text": "five what seven years of work and um",
+   "start": 235.36,
+   "duration": 5.76
+  },
+  {
+   "text": "uh put up a post instead saying uh",
+   "start": 239.28,
+   "duration": 2.959
+  },
+  {
+   "text": "they're going to dox me and it's",
+   "start": 241.12,
+   "duration": 2.64
+  },
+  {
+   "text": "threatening my safety and i",
+   "start": 242.239,
+   "duration": 4.481
+  },
+  {
+   "text": "am basically you know i'm scared so i'm",
+   "start": 243.76,
+   "duration": 4.8
+  },
+  {
+   "text": "dumb i'm taking it all off the internet",
+   "start": 246.72,
+   "duration": 2.879
+  },
+  {
+   "text": "until",
+   "start": 248.56,
+   "duration": 4.48
+  },
+  {
+   "text": "um until this goes away",
+   "start": 249.599,
+   "duration": 7.36
+  },
+  {
+   "text": "uh and then i think in a really",
+   "start": 253.04,
+   "duration": 6.08
+  },
+  {
+   "text": "basic tactical era i think i've really",
+   "start": 256.959,
+   "duration": 4.881
+  },
+  {
+   "text": "i'm for sure he is disappointed like",
+   "start": 259.12,
+   "duration": 4.24
+  },
+  {
+   "text": "i think he regrets this he said in a",
+   "start": 261.84,
+   "duration": 3.359
+  },
+  {
+   "text": "piece that he regrets it anyway",
+   "start": 263.36,
+   "duration": 6.48
+  },
+  {
+   "text": "um he then asked his readers to email",
+   "start": 265.199,
+   "duration": 7.201
+  },
+  {
+   "text": "cavemets and cavemets his editor the",
+   "start": 269.84,
+   "duration": 4.32
+  },
+  {
+   "text": "tech editor at the new york times to say",
+   "start": 272.4,
+   "duration": 2.56
+  },
+  {
+   "text": "please don't",
+   "start": 274.16,
+   "duration": 2.64
+  },
+  {
+   "text": "dox him and of course that means you get",
+   "start": 274.96,
+   "duration": 4.239
+  },
+  {
+   "text": "some poor people get 5000 emails in",
+   "start": 276.8,
+   "duration": 5.04
+  },
+  {
+   "text": "their inbox the next day and it's just",
+   "start": 279.199,
+   "duration": 4.0
+  },
+  {
+   "text": "anyway from there it was suddenly you've",
+   "start": 281.84,
+   "duration": 2.72
+  },
+  {
+   "text": "got an antagonistic relationship there's",
+   "start": 283.199,
+   "duration": 2.321
+  },
+  {
+   "text": "also",
+   "start": 284.56,
+   "duration": 3.359
+  },
+  {
+   "text": "an issue that there are quite a lot of",
+   "start": 285.52,
+   "duration": 3.92
+  },
+  {
+   "text": "people on the internet who really don't",
+   "start": 287.919,
+   "duration": 2.961
+  },
+  {
+   "text": "like slate star codex",
+   "start": 289.44,
+   "duration": 4.56
+  },
+  {
+   "text": "um uh the blog let's play star codex and",
+   "start": 290.88,
+   "duration": 4.319
+  },
+  {
+   "text": "scott alexander and they",
+   "start": 294.0,
+   "duration": 4.4
+  },
+  {
+   "text": "and they were sort of",
+   "start": 295.199,
+   "duration": 5.361
+  },
+  {
+   "text": "whispering they were they then became",
+   "start": 298.4,
+   "duration": 3.92
+  },
+  {
+   "text": "contacts with cavemets and saying look",
+   "start": 300.56,
+   "duration": 3.12
+  },
+  {
+   "text": "he's actually you know",
+   "start": 302.32,
+   "duration": 3.12
+  },
+  {
+   "text": "suggesting that he's actually linked to",
+   "start": 303.68,
+   "duration": 4.64
+  },
+  {
+   "text": "all bunch of scientific racists and",
+   "start": 305.44,
+   "duration": 4.56
+  },
+  {
+   "text": "uh he's actually men's rights activists",
+   "start": 308.32,
+   "duration": 2.8
+  },
+  {
+   "text": "and neo-reactionaries and all these",
+   "start": 310.0,
+   "duration": 2.639
+  },
+  {
+   "text": "things which",
+   "start": 311.12,
+   "duration": 5.44
+  },
+  {
+   "text": "are i would either say false or true in",
+   "start": 312.639,
+   "duration": 5.521
+  },
+  {
+   "text": "a misleading way but you know that's",
+   "start": 316.56,
+   "duration": 3.199
+  },
+  {
+   "text": "that's an argument for further down the",
+   "start": 318.16,
+   "duration": 2.08
+  },
+  {
+   "text": "line",
+   "start": 319.759,
+   "duration": 4.241
+  },
+  {
+   "text": "um uh and then this whole massive row",
+   "start": 320.24,
+   "duration": 5.519
+  },
+  {
+   "text": "broke out this was last june",
+   "start": 324.0,
+   "duration": 3.28
+  },
+  {
+   "text": "other other media organizations",
+   "start": 325.759,
+   "duration": 2.88
+  },
+  {
+   "text": "including you know got involved there",
+   "start": 327.28,
+   "duration": 2.56
+  },
+  {
+   "text": "new york new yorker wrote a really",
+   "start": 328.639,
+   "duration": 2.641
+  },
+  {
+   "text": "interesting piece about the whole thing",
+   "start": 329.84,
+   "duration": 2.96
+  },
+  {
+   "text": "and then everything went quiet for seven",
+   "start": 331.28,
+   "duration": 3.12
+  },
+  {
+   "text": "or eight months scott",
+   "start": 332.8,
+   "duration": 5.44
+  },
+  {
+   "text": "alexander quit his job out of all this",
+   "start": 334.4,
+   "duration": 4.96
+  },
+  {
+   "text": "thing he decided what the sensible thing",
+   "start": 338.24,
+   "duration": 2.239
+  },
+  {
+   "text": "to do was to quit his job as a",
+   "start": 339.36,
+   "duration": 2.24
+  },
+  {
+   "text": "psychiatrist",
+   "start": 340.479,
+   "duration": 2.801
+  },
+  {
+   "text": "set up his own practice run it",
+   "start": 341.6,
+   "duration": 3.12
+  },
+  {
+   "text": "differently and move his blogging thing",
+   "start": 343.28,
+   "duration": 3.04
+  },
+  {
+   "text": "to substance so that he could get",
+   "start": 344.72,
+   "duration": 2.8
+  },
+  {
+   "text": "money and not worry about making money",
+   "start": 346.32,
+   "duration": 2.4
+  },
+  {
+   "text": "from things so totally reordered his",
+   "start": 347.52,
+   "duration": 3.04
+  },
+  {
+   "text": "life so he was not no longer afraid to",
+   "start": 348.72,
+   "duration": 2.479
+  },
+  {
+   "text": "put",
+   "start": 350.56,
+   "duration": 2.24
+  },
+  {
+   "text": "his real name out there put his real",
+   "start": 351.199,
+   "duration": 3.361
+  },
+  {
+   "text": "name out there about",
+   "start": 352.8,
+   "duration": 3.04
+  },
+  {
+   "text": "three weeks ago or something like that",
+   "start": 354.56,
+   "duration": 3.28
+  },
+  {
+   "text": "or a month ago and then um",
+   "start": 355.84,
+   "duration": 4.24
+  },
+  {
+   "text": "and restarted on sub stack still",
+   "start": 357.84,
+   "duration": 3.04
+  },
+  {
+   "text": "blogging",
+   "start": 360.08,
+   "duration": 2.8
+  },
+  {
+   "text": "and then that all done then the new york",
+   "start": 360.88,
+   "duration": 3.96
+  },
+  {
+   "text": "times finally published its piece",
+   "start": 362.88,
+   "duration": 5.2
+  },
+  {
+   "text": "saying this is the guy's name",
+   "start": 364.84,
+   "duration": 5.16
+  },
+  {
+   "text": "and uh he shut off his blog and it was",
+   "start": 368.08,
+   "duration": 4.0
+  },
+  {
+   "text": "all but when the new york times piece",
+   "start": 370.0,
+   "duration": 3.039
+  },
+  {
+   "text": "came out it was all a bit of an",
+   "start": 372.08,
+   "duration": 2.16
+  },
+  {
+   "text": "anti-climax and it wasn't",
+   "start": 373.039,
+   "duration": 3.921
+  },
+  {
+   "text": "actually that much there except a few",
+   "start": 374.24,
+   "duration": 4.239
+  },
+  {
+   "text": "somewhat",
+   "start": 376.96,
+   "duration": 3.6
+  },
+  {
+   "text": "to my mind guilt by association smears",
+   "start": 378.479,
+   "duration": 4.401
+  },
+  {
+   "text": "you know like this guy once",
+   "start": 380.56,
+   "duration": 4.56
+  },
+  {
+   "text": "mentioned uh charles murray on his blog",
+   "start": 382.88,
+   "duration": 4.8
+  },
+  {
+   "text": "that sort of thing and it felt",
+   "start": 385.12,
+   "duration": 4.0
+  },
+  {
+   "text": "it felt like a bit of a damp squib in",
+   "start": 387.68,
+   "duration": 3.04
+  },
+  {
+   "text": "the end but yeah so that's what i think",
+   "start": 389.12,
+   "duration": 3.519
+  },
+  {
+   "text": "i think that's where we are now i think",
+   "start": 390.72,
+   "duration": 3.36
+  },
+  {
+   "text": "in your piece you said that you had",
+   "start": 392.639,
+   "duration": 2.4
+  },
+  {
+   "text": "actually spoken",
+   "start": 394.08,
+   "duration": 3.6
+  },
+  {
+   "text": "to to scott and recommended that he",
+   "start": 395.039,
+   "duration": 3.041
+  },
+  {
+   "text": "speak",
+   "start": 397.68,
+   "duration": 3.519
+  },
+  {
+   "text": "to cavemets at the time that you",
+   "start": 398.08,
+   "duration": 4.959
+  },
+  {
+   "text": "you thought you thought it was going to",
+   "start": 401.199,
+   "duration": 3.12
+  },
+  {
+   "text": "be a positive piece",
+   "start": 403.039,
+   "duration": 4.561
+  },
+  {
+   "text": "i did yeah i am",
+   "start": 404.319,
+   "duration": 6.72
+  },
+  {
+   "text": "i don't know whether i misjudged i i i",
+   "start": 407.6,
+   "duration": 6.24
+  },
+  {
+   "text": "i i emailed scott or i had an exchange",
+   "start": 411.039,
+   "duration": 3.681
+  },
+  {
+   "text": "of emails with scott",
+   "start": 413.84,
+   "duration": 4.4
+  },
+  {
+   "text": "and i had um a",
+   "start": 414.72,
+   "duration": 6.4
+  },
+  {
+   "text": "uh and posted posted some things on the",
+   "start": 418.24,
+   "duration": 4.88
+  },
+  {
+   "text": "slate star codex subreddit and things",
+   "start": 421.12,
+   "duration": 4.24
+  },
+  {
+   "text": "and just sort of discussed it",
+   "start": 423.12,
+   "duration": 5.359
+  },
+  {
+   "text": "because i i i don't know i i may be that",
+   "start": 425.36,
+   "duration": 4.88
+  },
+  {
+   "text": "i'm total rube right and i just got",
+   "start": 428.479,
+   "duration": 3.521
+  },
+  {
+   "text": "absolutely taken like a sucker",
+   "start": 430.24,
+   "duration": 3.76
+  },
+  {
+   "text": "but i did not get i got the impression",
+   "start": 432.0,
+   "duration": 3.52
+  },
+  {
+   "text": "from speaking to mets that",
+   "start": 434.0,
+   "duration": 5.12
+  },
+  {
+   "text": "um he was really interested in",
+   "start": 435.52,
+   "duration": 8.239
+  },
+  {
+   "text": "how the rationalists had been",
+   "start": 439.12,
+   "duration": 6.72
+  },
+  {
+   "text": "sort of so far out out ahead on covert",
+   "start": 443.759,
+   "duration": 3.041
+  },
+  {
+   "text": "and things and that was",
+   "start": 445.84,
+   "duration": 1.919
+  },
+  {
+   "text": "you know i think that's really",
+   "start": 446.8,
+   "duration": 3.44
+  },
+  {
+   "text": "interesting because these are it just",
+   "start": 447.759,
+   "duration": 3.041
+  },
+  {
+   "text": "they're",
+   "start": 450.24,
+   "duration": 2.72
+  },
+  {
+   "text": "these were not it's not a community of",
+   "start": 450.8,
+   "duration": 3.679
+  },
+  {
+   "text": "epidemiologists or virologists or",
+   "start": 452.96,
+   "duration": 2.32
+  },
+  {
+   "text": "anything",
+   "start": 454.479,
+   "duration": 3.201
+  },
+  {
+   "text": "it's a community of smart generalist who",
+   "start": 455.28,
+   "duration": 3.759
+  },
+  {
+   "text": "are comfortable with numbers and who",
+   "start": 457.68,
+   "duration": 2.0
+  },
+  {
+   "text": "could look",
+   "start": 459.039,
+   "duration": 2.56
+  },
+  {
+   "text": "who did some you know really basic",
+   "start": 459.68,
+   "duration": 3.44
+  },
+  {
+   "text": "things like look at an exponential trend",
+   "start": 461.599,
+   "duration": 2.081
+  },
+  {
+   "text": "and expand",
+   "start": 463.12,
+   "duration": 2.079
+  },
+  {
+   "text": "extend that extra exponential trend",
+   "start": 463.68,
+   "duration": 3.6
+  },
+  {
+   "text": "upwards you know and say well if this",
+   "start": 465.199,
+   "duration": 3.361
+  },
+  {
+   "text": "carries on we should be really worried",
+   "start": 467.28,
+   "duration": 2.96
+  },
+  {
+   "text": "about it when other people would",
+   "start": 468.56,
+   "duration": 4.079
+  },
+  {
+   "text": "you know and it's really i think that is",
+   "start": 470.24,
+   "duration": 4.48
+  },
+  {
+   "text": "a really interesting",
+   "start": 472.639,
+   "duration": 3.521
+  },
+  {
+   "text": "there's a really interesting discussion",
+   "start": 474.72,
+   "duration": 3.28
+  },
+  {
+   "text": "there about",
+   "start": 476.16,
+   "duration": 3.12
+  },
+  {
+   "text": "knowledge and expertise and the",
+   "start": 478.0,
+   "duration": 2.8
+  },
+  {
+   "text": "difference between expertise and",
+   "start": 479.28,
+   "duration": 2.88
+  },
+  {
+   "text": "forecasting ability",
+   "start": 480.8,
+   "duration": 3.36
+  },
+  {
+   "text": "i think that's a fascinating topic which",
+   "start": 482.16,
+   "duration": 3.439
+  },
+  {
+   "text": "i would love",
+   "start": 484.16,
+   "duration": 3.599
+  },
+  {
+   "text": "someone to really go into great in great",
+   "start": 485.599,
+   "duration": 3.841
+  },
+  {
+   "text": "depth there was also",
+   "start": 487.759,
+   "duration": 4.481
+  },
+  {
+   "text": "i mean because the new yorker wrote this",
+   "start": 489.44,
+   "duration": 3.12
+  },
+  {
+   "text": "piece",
+   "start": 492.24,
+   "duration": 1.679
+  },
+  {
+   "text": "this really sort of well balanced and",
+   "start": 492.56,
+   "duration": 2.88
+  },
+  {
+   "text": "interesting piece about six months ago",
+   "start": 493.919,
+   "duration": 2.641
+  },
+  {
+   "text": "which was neither fawning to the",
+   "start": 495.44,
+   "duration": 2.8
+  },
+  {
+   "text": "rationalists nor",
+   "start": 496.56,
+   "duration": 3.84
+  },
+  {
+   "text": "you know it was no not nor uncharitable",
+   "start": 498.24,
+   "duration": 3.12
+  },
+  {
+   "text": "it was",
+   "start": 500.4,
+   "duration": 4.479
+  },
+  {
+   "text": "and i feel like the new new york times",
+   "start": 501.36,
+   "duration": 6.08
+  },
+  {
+   "text": "when its piece came out",
+   "start": 504.879,
+   "duration": 3.921
+  },
+  {
+   "text": "it couldn't just write the same piece in",
+   "start": 507.44,
+   "duration": 3.12
+  },
+  {
+   "text": "new york i had six months ago",
+   "start": 508.8,
+   "duration": 4.18
+  },
+  {
+   "text": "and say it was um uh",
+   "start": 510.56,
+   "duration": 3.599
+  },
+  {
+   "text": "[Music]",
+   "start": 512.98,
+   "duration": 2.7
+  },
+  {
+   "text": "that's what we're doing now it had it",
+   "start": 514.159,
+   "duration": 2.88
+  },
+  {
+   "text": "had to come with some new angle so i",
+   "start": 515.68,
+   "duration": 1.599
+  },
+  {
+   "text": "think",
+   "start": 517.039,
+   "duration": 3.92
+  },
+  {
+   "text": "that's why the it went down on the um",
+   "start": 517.279,
+   "duration": 6.56
+  },
+  {
+   "text": "uh guilt by association stuff but also",
+   "start": 520.959,
+   "duration": 3.44
+  },
+  {
+   "text": "on",
+   "start": 523.839,
+   "duration": 3.841
+  },
+  {
+   "text": "most of the pieces seem to be about",
+   "start": 524.399,
+   "duration": 3.281
+  },
+  {
+   "text": "about how the blog was deleted and how",
+   "start": 527.839,
+   "duration": 3.361
+  },
+  {
+   "text": "you know then",
+   "start": 530.32,
+   "duration": 2.32
+  },
+  {
+   "text": "and now it's come back and some people",
+   "start": 531.2,
+   "duration": 2.96
+  },
+  {
+   "text": "send emails to cadence and i don't know",
+   "start": 532.64,
+   "duration": 3.52
+  },
+  {
+   "text": "it felt like very um",
+   "start": 534.16,
+   "duration": 3.359
+  },
+  {
+   "text": "it felt like they didn't have very much",
+   "start": 536.16,
+   "duration": 2.48
+  },
+  {
+   "text": "to say but they felt they had to say it",
+   "start": 537.519,
+   "duration": 2.481
+  },
+  {
+   "text": "anyway i don't think he went in there",
+   "start": 538.64,
+   "duration": 1.84
+  },
+  {
+   "text": "with him",
+   "start": 540.0,
+   "duration": 3.68
+  },
+  {
+   "text": "with the intention of a hatchet job",
+   "start": 540.48,
+   "duration": 5.039
+  },
+  {
+   "text": "i think he went in there trying to write",
+   "start": 543.68,
+   "duration": 3.52
+  },
+  {
+   "text": "about an interesting group of people who",
+   "start": 545.519,
+   "duration": 2.161
+  },
+  {
+   "text": "have",
+   "start": 547.2,
+   "duration": 3.44
+  },
+  {
+   "text": "had this interesting um sort of been out",
+   "start": 547.68,
+   "duration": 3.92
+  },
+  {
+   "text": "there ahead of",
+   "start": 550.64,
+   "duration": 5.52
+  },
+  {
+   "text": "the game on covid and i think that uh",
+   "start": 551.6,
+   "duration": 7.04
+  },
+  {
+   "text": "for reasons which i both which i",
+   "start": 556.16,
+   "duration": 3.28
+  },
+  {
+   "text": "understand",
+   "start": 558.64,
+   "duration": 4.56
+  },
+  {
+   "text": "um and to some yeah to it",
+   "start": 559.44,
+   "duration": 5.36
+  },
+  {
+   "text": "to some extent sympathize with insofar",
+   "start": 563.2,
+   "duration": 3.199
+  },
+  {
+   "text": "as it was this sort of mutual antagonism",
+   "start": 564.8,
+   "duration": 2.4
+  },
+  {
+   "text": "thing and a lot of",
+   "start": 566.399,
+   "duration": 3.12
+  },
+  {
+   "text": "burning bridges on both sides and a lot",
+   "start": 567.2,
+   "duration": 3.6
+  },
+  {
+   "text": "of people who weren't",
+   "start": 569.519,
+   "duration": 4.32
+  },
+  {
+   "text": "scott alexander throwing around a lot of",
+   "start": 570.8,
+   "duration": 5.28
+  },
+  {
+   "text": "you know the journalists are all evil",
+   "start": 573.839,
+   "duration": 3.12
+  },
+  {
+   "text": "and we're all caught",
+   "start": 576.08,
+   "duration": 2.16
+  },
+  {
+   "text": "doing hatchet jobs it became this",
+   "start": 576.959,
+   "duration": 3.44
+  },
+  {
+   "text": "mutually antagonistic thing and then",
+   "start": 578.24,
+   "duration": 3.44
+  },
+  {
+   "text": "it was always going to be a somewhat",
+   "start": 580.399,
+   "duration": 3.041
+  },
+  {
+   "text": "antagonistic antagonistic piece after",
+   "start": 581.68,
+   "duration": 2.08
+  },
+  {
+   "text": "that",
+   "start": 583.44,
+   "duration": 1.839
+  },
+  {
+   "text": "i mean i'm interested in this tension",
+   "start": 583.76,
+   "duration": 3.28
+  },
+  {
+   "text": "between",
+   "start": 585.279,
+   "duration": 4.161
+  },
+  {
+   "text": "the and we're talking about the links to",
+   "start": 587.04,
+   "duration": 3.84
+  },
+  {
+   "text": "the tech companies here as well and this",
+   "start": 589.44,
+   "duration": 2.88
+  },
+  {
+   "text": "also feeds into the",
+   "start": 590.88,
+   "duration": 3.36
+  },
+  {
+   "text": "the growing tension between the tech",
+   "start": 592.32,
+   "duration": 3.36
+  },
+  {
+   "text": "companies and especially the new york",
+   "start": 594.24,
+   "duration": 2.4
+  },
+  {
+   "text": "times but",
+   "start": 595.68,
+   "duration": 5.279
+  },
+  {
+   "text": "tech journalists more generally where",
+   "start": 596.64,
+   "duration": 6.08
+  },
+  {
+   "text": "and i think at the root of this is that",
+   "start": 600.959,
+   "duration": 3.521
+  },
+  {
+   "text": "journalists believe that they",
+   "start": 602.72,
+   "duration": 3.28
+  },
+  {
+   "text": "should be the gatekeepers about what",
+   "start": 604.48,
+   "duration": 4.16
+  },
+  {
+   "text": "people should",
+   "start": 606.0,
+   "duration": 5.2
+  },
+  {
+   "text": "where what ideas should be part of the",
+   "start": 608.64,
+   "duration": 4.319
+  },
+  {
+   "text": "conversation and what shouldn't be",
+   "start": 611.2,
+   "duration": 4.72
+  },
+  {
+   "text": "and that was kind of the subtext of that",
+   "start": 612.959,
+   "duration": 4.401
+  },
+  {
+   "text": "of that piece",
+   "start": 615.92,
+   "duration": 3.68
+  },
+  {
+   "text": "was oh he's talked to these people he's",
+   "start": 617.36,
+   "duration": 4.08
+  },
+  {
+   "text": "engaged in these ideas",
+   "start": 619.6,
+   "duration": 4.72
+  },
+  {
+   "text": "and and that's very very anti both the",
+   "start": 621.44,
+   "duration": 4.56
+  },
+  {
+   "text": "rationalists and also the sort of",
+   "start": 624.32,
+   "duration": 3.519
+  },
+  {
+   "text": "the the dominant sort of strain of kind",
+   "start": 626.0,
+   "duration": 4.48
+  },
+  {
+   "text": "of maybe ideological libertarianism in",
+   "start": 627.839,
+   "duration": 4.401
+  },
+  {
+   "text": "silicon valley as well",
+   "start": 630.48,
+   "duration": 5.12
+  },
+  {
+   "text": "and i feel like that way of",
+   "start": 632.24,
+   "duration": 5.039
+  },
+  {
+   "text": "that sort of gatekeeping role of the",
+   "start": 635.6,
+   "duration": 3.44
+  },
+  {
+   "text": "media that is increasingly being lost",
+   "start": 637.279,
+   "duration": 5.12
+  },
+  {
+   "text": "is sort of for me that seems like a",
+   "start": 639.04,
+   "duration": 5.84
+  },
+  {
+   "text": "defunct strategy because we're never",
+   "start": 642.399,
+   "duration": 4.0
+  },
+  {
+   "text": "going to get the genie back in the box",
+   "start": 644.88,
+   "duration": 3.28
+  },
+  {
+   "text": "the nature of kind of alternative media",
+   "start": 646.399,
+   "duration": 3.521
+  },
+  {
+   "text": "or decentralized media means",
+   "start": 648.16,
+   "duration": 4.08
+  },
+  {
+   "text": "we now have a much wider marketplace of",
+   "start": 649.92,
+   "duration": 3.359
+  },
+  {
+   "text": "ideas",
+   "start": 652.24,
+   "duration": 3.599
+  },
+  {
+   "text": "and the whole the whole way of saying",
+   "start": 653.279,
+   "duration": 4.321
+  },
+  {
+   "text": "you mustn't talk to this person you",
+   "start": 655.839,
+   "duration": 3.201
+  },
+  {
+   "text": "mustn't think about this or you mustn't",
+   "start": 657.6,
+   "duration": 2.4
+  },
+  {
+   "text": "engage with this",
+   "start": 659.04,
+   "duration": 2.56
+  },
+  {
+   "text": "just isn't going to work anymore so i",
+   "start": 660.0,
+   "duration": 3.839
+  },
+  {
+   "text": "think i think in a broader strategy we",
+   "start": 661.6,
+   "duration": 4.239
+  },
+  {
+   "text": "have to engage with bad ideas",
+   "start": 663.839,
+   "duration": 4.401
+  },
+  {
+   "text": "or we have to engage with kind of ideas",
+   "start": 665.839,
+   "duration": 4.321
+  },
+  {
+   "text": "that are beyond the mainstream if only",
+   "start": 668.24,
+   "duration": 2.4
+  },
+  {
+   "text": "to say",
+   "start": 670.16,
+   "duration": 4.32
+  },
+  {
+   "text": "why they're not why they're disreputable",
+   "start": 670.64,
+   "duration": 5.84
+  },
+  {
+   "text": "or why they won't work or why they",
+   "start": 674.48,
+   "duration": 4.4
+  },
+  {
+   "text": "they're they're wrong whereas the the",
+   "start": 676.48,
+   "duration": 4.0
+  },
+  {
+   "text": "the media i think still has this idea",
+   "start": 678.88,
+   "duration": 3.84
+  },
+  {
+   "text": "that we can kind of circumscribe the",
+   "start": 680.48,
+   "duration": 3.44
+  },
+  {
+   "text": "the bounds of thought and the",
+   "start": 682.72,
+   "duration": 2.48
+  },
+  {
+   "text": "journalists are the right ones to do",
+   "start": 683.92,
+   "duration": 2.0
+  },
+  {
+   "text": "that",
+   "start": 685.2,
+   "duration": 2.16
+  },
+  {
+   "text": "as you say there is there are lots of",
+   "start": 685.92,
+   "duration": 3.039
+  },
+  {
+   "text": "other ways the information get around",
+   "start": 687.36,
+   "duration": 3.599
+  },
+  {
+   "text": "and i think there is an element of the",
+   "start": 688.959,
+   "duration": 3.281
+  },
+  {
+   "text": "in the media of thinking",
+   "start": 690.959,
+   "duration": 2.961
+  },
+  {
+   "text": "that well this is somehow bad this is",
+   "start": 692.24,
+   "duration": 3.839
+  },
+  {
+   "text": "you know we we were before filtering",
+   "start": 693.92,
+   "duration": 4.4
+  },
+  {
+   "text": "the the acceptable versions of these of",
+   "start": 696.079,
+   "duration": 3.841
+  },
+  {
+   "text": "this information to you",
+   "start": 698.32,
+   "duration": 4.16
+  },
+  {
+   "text": "and now and yeah any idiot with a",
+   "start": 699.92,
+   "duration": 3.599
+  },
+  {
+   "text": "wordpress account",
+   "start": 702.48,
+   "duration": 3.919
+  },
+  {
+   "text": "or a twitter account",
+   "start": 703.519,
+   "duration": 2.88
+  },
+  {
+   "text": "but i think i don't know insofar as",
+   "start": 708.56,
+   "duration": 4.399
+  },
+  {
+   "text": "journalists do believe that",
+   "start": 711.519,
+   "duration": 2.961
+  },
+  {
+   "text": "they overestimate their own ability to",
+   "start": 712.959,
+   "duration": 3.041
+  },
+  {
+   "text": "filter things well because like we are",
+   "start": 714.48,
+   "duration": 2.72
+  },
+  {
+   "text": "no",
+   "start": 716.0,
+   "duration": 4.48
+  },
+  {
+   "text": "cleverer or better on the whole than any",
+   "start": 717.2,
+   "duration": 4.8
+  },
+  {
+   "text": "reasonably smart group of people you",
+   "start": 720.48,
+   "duration": 3.44
+  },
+  {
+   "text": "know and i think",
+   "start": 722.0,
+   "duration": 5.6
+  },
+  {
+   "text": "um uh and i think that is",
+   "start": 723.92,
+   "duration": 5.2
+  },
+  {
+   "text": "we're misjudging our own abilities if we",
+   "start": 727.6,
+   "duration": 3.6
+  },
+  {
+   "text": "think that we we are the only safe route",
+   "start": 729.12,
+   "duration": 3.6
+  },
+  {
+   "text": "from where through which these ideas can",
+   "start": 731.2,
+   "duration": 2.639
+  },
+  {
+   "text": "be filtered and i think that",
+   "start": 732.72,
+   "duration": 3.76
+  },
+  {
+   "text": "actually things like the rationalist",
+   "start": 733.839,
+   "duration": 3.68
+  },
+  {
+   "text": "approach are",
+   "start": 736.48,
+   "duration": 2.56
+  },
+  {
+   "text": "i think it's really useful when when",
+   "start": 737.519,
+   "duration": 2.961
+  },
+  {
+   "text": "when they go and sort of look",
+   "start": 739.04,
+   "duration": 2.96
+  },
+  {
+   "text": "investigate these things in",
+   "start": 740.48,
+   "duration": 3.44
+  },
+  {
+   "text": "in depth in a way that mainstream",
+   "start": 742.0,
+   "duration": 4.24
+  },
+  {
+   "text": "journalism isn't set up to do",
+   "start": 743.92,
+   "duration": 4.8
+  },
+  {
+   "text": "you couldn't have a 30 000 word new york",
+   "start": 746.24,
+   "duration": 4.159
+  },
+  {
+   "text": "times piece about the ideas of the",
+   "start": 748.72,
+   "duration": 2.64
+  },
+  {
+   "text": "reactionaries it just",
+   "start": 750.399,
+   "duration": 2.481
+  },
+  {
+   "text": "wouldn't it wouldn't fit like that you",
+   "start": 751.36,
+   "duration": 4.08
+  },
+  {
+   "text": "couldn't make that go anywhere in",
+   "start": 752.88,
+   "duration": 5.44
+  },
+  {
+   "text": "and and the the idea and there's also i",
+   "start": 755.44,
+   "duration": 3.199
+  },
+  {
+   "text": "mean",
+   "start": 758.32,
+   "duration": 2.959
+  },
+  {
+   "text": "we have in journalism we have sort of",
+   "start": 758.639,
+   "duration": 3.921
+  },
+  {
+   "text": "traditions which",
+   "start": 761.279,
+   "duration": 4.401
+  },
+  {
+   "text": "are hard to get out of but are also not",
+   "start": 762.56,
+   "duration": 4.32
+  },
+  {
+   "text": "always easy to justify when you're",
+   "start": 765.68,
+   "duration": 2.48
+  },
+  {
+   "text": "coming to them fresh like",
+   "start": 766.88,
+   "duration": 3.519
+  },
+  {
+   "text": "you never write i am not sure about this",
+   "start": 768.16,
+   "duration": 5.04
+  },
+  {
+   "text": "very easily in a in a news article or a",
+   "start": 770.399,
+   "duration": 3.601
+  },
+  {
+   "text": "um",
+   "start": 773.2,
+   "duration": 2.96
+  },
+  {
+   "text": "uh or certainly a comment piece you have",
+   "start": 774.0,
+   "duration": 3.68
+  },
+  {
+   "text": "to sort of present this god-like",
+   "start": 776.16,
+   "duration": 3.76
+  },
+  {
+   "text": "status of omniscience like i i come to",
+   "start": 777.68,
+   "duration": 5.12
+  },
+  {
+   "text": "you with my tablets from the mountain",
+   "start": 779.92,
+   "duration": 4.08
+  },
+  {
+   "text": "and one of the great things about the",
+   "start": 782.8,
+   "duration": 2.4
+  },
+  {
+   "text": "rationalist community is they will write",
+   "start": 784.0,
+   "duration": 3.04
+  },
+  {
+   "text": "blog posts saying i'm i'm only 60",
+   "start": 785.2,
+   "duration": 3.12
+  },
+  {
+   "text": "confidence in this i'm not sure if i've",
+   "start": 787.04,
+   "duration": 2.72
+  },
+  {
+   "text": "understood it correctly you know and",
+   "start": 788.32,
+   "duration": 2.48
+  },
+  {
+   "text": "there's much more",
+   "start": 789.76,
+   "duration": 4.079
+  },
+  {
+   "text": "and i and they they they don't take it",
+   "start": 790.8,
+   "duration": 4.159
+  },
+  {
+   "text": "from a totally different",
+   "start": 793.839,
+   "duration": 4.641
+  },
+  {
+   "text": "point of view that is not bred by",
+   "start": 794.959,
+   "duration": 4.801
+  },
+  {
+   "text": "three you know two centuries of",
+   "start": 798.48,
+   "duration": 2.56
+  },
+  {
+   "text": "journalistic tradition and it's just",
+   "start": 799.76,
+   "duration": 2.56
+  },
+  {
+   "text": "some people making it fresh and then",
+   "start": 801.04,
+   "duration": 2.0
+  },
+  {
+   "text": "they make",
+   "start": 802.32,
+   "duration": 1.68
+  },
+  {
+   "text": "that i'm sure they make a lot of the",
+   "start": 803.04,
+   "duration": 2.799
+  },
+  {
+   "text": "same mistakes that we would make without",
+   "start": 804.0,
+   "duration": 3.04
+  },
+  {
+   "text": "you know looks a lot of the reasons",
+   "start": 805.839,
+   "duration": 2.56
+  },
+  {
+   "text": "these truly journalistic traditions have",
+   "start": 807.04,
+   "duration": 3.599
+  },
+  {
+   "text": "sprung up for a reason but they also",
+   "start": 808.399,
+   "duration": 3.921
+  },
+  {
+   "text": "bring in new fresh ways of doing it",
+   "start": 810.639,
+   "duration": 4.0
+  },
+  {
+   "text": "which i think are really useful and i",
+   "start": 812.32,
+   "duration": 4.16
+  },
+  {
+   "text": "so yes this is a very long way of saying",
+   "start": 814.639,
+   "duration": 2.801
+  },
+  {
+   "text": "yes i absolutely agree there is a",
+   "start": 816.48,
+   "duration": 1.919
+  },
+  {
+   "text": "gatekeeper aspect",
+   "start": 817.44,
+   "duration": 4.32
+  },
+  {
+   "text": "media partly that is um a a matter of",
+   "start": 818.399,
+   "duration": 4.641
+  },
+  {
+   "text": "just how the media was before there",
+   "start": 821.76,
+   "duration": 2.48
+  },
+  {
+   "text": "wasn't any other way for information to",
+   "start": 823.04,
+   "duration": 2.159
+  },
+  {
+   "text": "get around",
+   "start": 824.24,
+   "duration": 4.0
+  },
+  {
+   "text": "but there is a tendency to think that it",
+   "start": 825.199,
+   "duration": 5.361
+  },
+  {
+   "text": "is not that it is more than just an",
+   "start": 828.24,
+   "duration": 3.52
+  },
+  {
+   "text": "accident of history and that we are",
+   "start": 830.56,
+   "duration": 2.719
+  },
+  {
+   "text": "somehow meant to be doing it and we are",
+   "start": 831.76,
+   "duration": 2.8
+  },
+  {
+   "text": "the best ones to do it and i'm not sure",
+   "start": 833.279,
+   "duration": 2.161
+  },
+  {
+   "text": "that's true at all",
+   "start": 834.56,
+   "duration": 3.44
+  },
+  {
+   "text": "the piece as we said was called silicon",
+   "start": 835.44,
+   "duration": 4.24
+  },
+  {
+   "text": "valley safe space and kind of gave the",
+   "start": 838.0,
+   "duration": 3.12
+  },
+  {
+   "text": "idea that it was",
+   "start": 839.68,
+   "duration": 3.68
+  },
+  {
+   "text": "if not an ideological monoculture than",
+   "start": 841.12,
+   "duration": 3.44
+  },
+  {
+   "text": "at least",
+   "start": 843.36,
+   "duration": 3.68
+  },
+  {
+   "text": "specifically hostile to social justice",
+   "start": 844.56,
+   "duration": 3.68
+  },
+  {
+   "text": "ideas",
+   "start": 847.04,
+   "duration": 3.84
+  },
+  {
+   "text": "do you think that was a fair summary of",
+   "start": 848.24,
+   "duration": 3.039
+  },
+  {
+   "text": "the",
+   "start": 850.88,
+   "duration": 2.639
+  },
+  {
+   "text": "rationalist perspective or that blog in",
+   "start": 851.279,
+   "duration": 4.321
+  },
+  {
+   "text": "particular",
+   "start": 853.519,
+   "duration": 4.961
+  },
+  {
+   "text": "no no i i definitely don't i think i",
+   "start": 855.6,
+   "duration": 5.76
+  },
+  {
+   "text": "think if you do um",
+   "start": 858.48,
+   "duration": 2.88
+  },
+  {
+   "text": "because they're nerds right they do",
+   "start": 862.32,
+   "duration": 4.0
+  },
+  {
+   "text": "surveys um the less wrong",
+   "start": 864.0,
+   "duration": 4.24
+  },
+  {
+   "text": "blog and slate star codex did annual",
+   "start": 866.32,
+   "duration": 3.199
+  },
+  {
+   "text": "surveys of their readers",
+   "start": 868.24,
+   "duration": 4.88
+  },
+  {
+   "text": "for years um i don't i couldn't really i",
+   "start": 869.519,
+   "duration": 4.481
+  },
+  {
+   "text": "couldn't work out",
+   "start": 873.12,
+   "duration": 2.88
+  },
+  {
+   "text": "the find out 2020 data very easily i had",
+   "start": 874.0,
+   "duration": 3.36
+  },
+  {
+   "text": "a look at it recently but um",
+   "start": 876.0,
+   "duration": 4.88
+  },
+  {
+   "text": "2019 data had uh",
+   "start": 877.36,
+   "duration": 6.32
+  },
+  {
+   "text": "liberals and several self-described",
+   "start": 880.88,
+   "duration": 3.12
+  },
+  {
+   "text": "social",
+   "start": 883.68,
+   "duration": 4.159
+  },
+  {
+   "text": "democrats and liberals you know the um",
+   "start": 884.0,
+   "duration": 6.399
+  },
+  {
+   "text": "uh so left what americans were called",
+   "start": 887.839,
+   "duration": 4.0
+  },
+  {
+   "text": "liberals and british people left i think",
+   "start": 890.399,
+   "duration": 2.641
+  },
+  {
+   "text": "you know democrats",
+   "start": 891.839,
+   "duration": 4.401
+  },
+  {
+   "text": "outnumbered conservatives self-described",
+   "start": 893.04,
+   "duration": 4.4
+  },
+  {
+   "text": "by eight to one",
+   "start": 896.24,
+   "duration": 3.76
+  },
+  {
+   "text": "that was like there was about half as",
+   "start": 897.44,
+   "duration": 4.48
+  },
+  {
+   "text": "many libertarians as there were liberals",
+   "start": 900.0,
+   "duration": 3.279
+  },
+  {
+   "text": "so they were a non-trivial number but",
+   "start": 901.92,
+   "duration": 2.8
+  },
+  {
+   "text": "they were still",
+   "start": 903.279,
+   "duration": 3.601
+  },
+  {
+   "text": "a small minority the rule is you can",
+   "start": 904.72,
+   "duration": 4.08
+  },
+  {
+   "text": "discuss almost anything they'll ban you",
+   "start": 906.88,
+   "duration": 2.24
+  },
+  {
+   "text": "for",
+   "start": 908.8,
+   "duration": 2.0
+  },
+  {
+   "text": "certain topics but in the state",
+   "start": 909.12,
+   "duration": 3.2
+  },
+  {
+   "text": "psychotic thing you can as long as you",
+   "start": 910.8,
+   "duration": 2.399
+  },
+  {
+   "text": "are polite",
+   "start": 912.32,
+   "duration": 4.0
+  },
+  {
+   "text": "and um not trying to start a fight then",
+   "start": 913.199,
+   "duration": 3.76
+  },
+  {
+   "text": "you are",
+   "start": 916.32,
+   "duration": 1.92
+  },
+  {
+   "text": "not broadly allowed to talk about",
+   "start": 916.959,
+   "duration": 3.921
+  },
+  {
+   "text": "anything and that",
+   "start": 918.24,
+   "duration": 4.24
+  },
+  {
+   "text": "leads to a very rare situation where you",
+   "start": 920.88,
+   "duration": 2.8
+  },
+  {
+   "text": "get people who disagree with each other",
+   "start": 922.48,
+   "duration": 1.919
+  },
+  {
+   "text": "and",
+   "start": 923.68,
+   "duration": 2.8
+  },
+  {
+   "text": "sort of talking in the same space and",
+   "start": 924.399,
+   "duration": 3.601
+  },
+  {
+   "text": "then if you are someone who's just used",
+   "start": 926.48,
+   "duration": 3.039
+  },
+  {
+   "text": "to never seeing",
+   "start": 928.0,
+   "duration": 4.56
+  },
+  {
+   "text": "anyone talk saying well i think feminism",
+   "start": 929.519,
+   "duration": 3.601
+  },
+  {
+   "text": "is a",
+   "start": 932.56,
+   "duration": 2.8
+  },
+  {
+   "text": "you know the online feminism has has",
+   "start": 933.12,
+   "duration": 3.839
+  },
+  {
+   "text": "gone wrong or is a bad thing or whatever",
+   "start": 935.36,
+   "duration": 2.96
+  },
+  {
+   "text": "you know",
+   "start": 936.959,
+   "duration": 3.361
+  },
+  {
+   "text": "then even seeing one will leap out at",
+   "start": 938.32,
+   "duration": 3.84
+  },
+  {
+   "text": "you and that will be like that's what i",
+   "start": 940.32,
+   "duration": 3.759
+  },
+  {
+   "text": "remember from the 500 comments the three",
+   "start": 942.16,
+   "duration": 3.44
+  },
+  {
+   "text": "that said that",
+   "start": 944.079,
+   "duration": 4.241
+  },
+  {
+   "text": "you know it's got that on it and um and",
+   "start": 945.6,
+   "duration": 4.08
+  },
+  {
+   "text": "then you think well this",
+   "start": 948.32,
+   "duration": 3.36
+  },
+  {
+   "text": "you know just by the workings of the",
+   "start": 949.68,
+   "duration": 3.36
+  },
+  {
+   "text": "availability heuristic you know just the",
+   "start": 951.68,
+   "duration": 2.399
+  },
+  {
+   "text": "workings of your mind that'll be what",
+   "start": 953.04,
+   "duration": 2.159
+  },
+  {
+   "text": "you remember and that'll be what you",
+   "start": 954.079,
+   "duration": 2.081
+  },
+  {
+   "text": "think of as the whole",
+   "start": 955.199,
+   "duration": 4.56
+  },
+  {
+   "text": "there's the whole um sort of tenor of",
+   "start": 956.16,
+   "duration": 3.84
+  },
+  {
+   "text": "the",
+   "start": 959.759,
+   "duration": 1.841
+  },
+  {
+   "text": "of the debate and there's the other side",
+   "start": 960.0,
+   "duration": 3.199
+  },
+  {
+   "text": "as well which is if you are not allowed",
+   "start": 961.6,
+   "duration": 2.239
+  },
+  {
+   "text": "to say",
+   "start": 963.199,
+   "duration": 2.56
+  },
+  {
+   "text": "certain discuss certain topics a lot of",
+   "start": 963.839,
+   "duration": 3.12
+  },
+  {
+   "text": "the areas",
+   "start": 965.759,
+   "duration": 2.481
+  },
+  {
+   "text": "but you are allowed to as long as you're",
+   "start": 966.959,
+   "duration": 2.88
+  },
+  {
+   "text": "polite in this area then you will then",
+   "start": 968.24,
+   "duration": 2.8
+  },
+  {
+   "text": "people who aren't allowed to discuss",
+   "start": 969.839,
+   "duration": 2.961
+  },
+  {
+   "text": "ideas elsewhere will tend to come there",
+   "start": 971.04,
+   "duration": 5.52
+  },
+  {
+   "text": "yeah and i think i share a little bit of",
+   "start": 972.8,
+   "duration": 6.479
+  },
+  {
+   "text": "like i i'm not a free speech absolutist",
+   "start": 976.56,
+   "duration": 3.68
+  },
+  {
+   "text": "i see a lot of that",
+   "start": 979.279,
+   "duration": 4.0
+  },
+  {
+   "text": "especially on youtube and i think that",
+   "start": 980.24,
+   "duration": 4.88
+  },
+  {
+   "text": "the tech companies do need to take more",
+   "start": 983.279,
+   "duration": 3.92
+  },
+  {
+   "text": "responsibility for example with",
+   "start": 985.12,
+   "duration": 4.24
+  },
+  {
+   "text": "um some more more sort of journalistic",
+   "start": 987.199,
+   "duration": 3.601
+  },
+  {
+   "text": "and curatorial",
+   "start": 989.36,
+   "duration": 3.52
+  },
+  {
+   "text": "moderation responsibilities i do share",
+   "start": 990.8,
+   "duration": 3.12
+  },
+  {
+   "text": "some of the",
+   "start": 992.88,
+   "duration": 2.8
+  },
+  {
+   "text": "concerns that are being expressed by the",
+   "start": 993.92,
+   "duration": 3.919
+  },
+  {
+   "text": "sort of more journalistic side but i",
+   "start": 995.68,
+   "duration": 3.68
+  },
+  {
+   "text": "also think that it's a losing battle if",
+   "start": 997.839,
+   "duration": 2.8
+  },
+  {
+   "text": "you're trying to",
+   "start": 999.36,
+   "duration": 4.32
+  },
+  {
+   "text": "circumstrive certain topics as off as",
+   "start": 1000.639,
+   "duration": 4.56
+  },
+  {
+   "text": "off the table because that that",
+   "start": 1003.68,
+   "duration": 3.92
+  },
+  {
+   "text": "that horse has bolted i think we need to",
+   "start": 1005.199,
+   "duration": 3.76
+  },
+  {
+   "text": "kind of act",
+   "start": 1007.6,
+   "duration": 3.2
+  },
+  {
+   "text": "knowing that that horse has bolted there",
+   "start": 1008.959,
+   "duration": 3.201
+  },
+  {
+   "text": "was a really interesting tweet that i",
+   "start": 1010.8,
+   "duration": 2.24
+  },
+  {
+   "text": "saw",
+   "start": 1012.16,
+   "duration": 2.479
+  },
+  {
+   "text": "um where someone talked about the",
+   "start": 1013.04,
+   "duration": 3.599
+  },
+  {
+   "text": "off-ramp so there's a lot of talk about",
+   "start": 1014.639,
+   "duration": 3.921
+  },
+  {
+   "text": "the on-ramp to bad ideas",
+   "start": 1016.639,
+   "duration": 3.601
+  },
+  {
+   "text": "and i think this is sort of this was the",
+   "start": 1018.56,
+   "duration": 4.0
+  },
+  {
+   "text": "tone of that piece was the",
+   "start": 1020.24,
+   "duration": 4.48
+  },
+  {
+   "text": "rationalists are an on-ramp to bad ideas",
+   "start": 1022.56,
+   "duration": 3.44
+  },
+  {
+   "text": "because they engage with these other",
+   "start": 1024.72,
+   "duration": 2.88
+  },
+  {
+   "text": "communities that have more reprehensible",
+   "start": 1026.0,
+   "duration": 2.559
+  },
+  {
+   "text": "ideas",
+   "start": 1027.6,
+   "duration": 2.719
+  },
+  {
+   "text": "but at this point the point was made is",
+   "start": 1028.559,
+   "duration": 3.681
+  },
+  {
+   "text": "we don't talk a lot about the off-ramp",
+   "start": 1030.319,
+   "duration": 3.76
+  },
+  {
+   "text": "and yet the off-ramp has to exist as",
+   "start": 1032.24,
+   "duration": 4.24
+  },
+  {
+   "text": "well and i remember there were even some",
+   "start": 1034.079,
+   "duration": 4.321
+  },
+  {
+   "text": "studies that were done into the effect",
+   "start": 1036.48,
+   "duration": 2.64
+  },
+  {
+   "text": "of",
+   "start": 1038.4,
+   "duration": 2.159
+  },
+  {
+   "text": "i think this was specifically jordan",
+   "start": 1039.12,
+   "duration": 3.12
+  },
+  {
+   "text": "peterson's ideas",
+   "start": 1040.559,
+   "duration": 3.841
+  },
+  {
+   "text": "but they they tracked kind of comments",
+   "start": 1042.24,
+   "duration": 4.319
+  },
+  {
+   "text": "and and basically concluded that people",
+   "start": 1044.4,
+   "duration": 3.519
+  },
+  {
+   "text": "had gone from",
+   "start": 1046.559,
+   "duration": 2.881
+  },
+  {
+   "text": "watching jordan peterson's content to",
+   "start": 1047.919,
+   "duration": 3.201
+  },
+  {
+   "text": "watching more extreme content",
+   "start": 1049.44,
+   "duration": 3.04
+  },
+  {
+   "text": "then if you look to the methodology and",
+   "start": 1051.12,
+   "duration": 2.64
+  },
+  {
+   "text": "that may be true that may not be true",
+   "start": 1052.48,
+   "duration": 2.24
+  },
+  {
+   "text": "we're not sure",
+   "start": 1053.76,
+   "duration": 4.159
+  },
+  {
+   "text": "but they didn't check the other way",
+   "start": 1054.72,
+   "duration": 5.68
+  },
+  {
+   "text": "so they didn't do so it basically was",
+   "start": 1057.919,
+   "duration": 3.521
+  },
+  {
+   "text": "only looking at one",
+   "start": 1060.4,
+   "duration": 4.48
+  },
+  {
+   "text": "at one side of that of that equation and",
+   "start": 1061.44,
+   "duration": 4.64
+  },
+  {
+   "text": "a lot of people who follow jordan",
+   "start": 1064.88,
+   "duration": 3.36
+  },
+  {
+   "text": "peterson's content would say that",
+   "start": 1066.08,
+   "duration": 5.839
+  },
+  {
+   "text": "he has de-radicalized people",
+   "start": 1068.24,
+   "duration": 6.559
+  },
+  {
+   "text": "as well and there's no the the study",
+   "start": 1071.919,
+   "duration": 3.76
+  },
+  {
+   "text": "only looked at the",
+   "start": 1074.799,
+   "duration": 2.88
+  },
+  {
+   "text": "the on-ramp effectively and this is",
+   "start": 1075.679,
+   "duration": 3.281
+  },
+  {
+   "text": "really interesting i think because this",
+   "start": 1077.679,
+   "duration": 2.641
+  },
+  {
+   "text": "is what you're pointing to in your piece",
+   "start": 1078.96,
+   "duration": 2.24
+  },
+  {
+   "text": "is",
+   "start": 1080.32,
+   "duration": 2.96
+  },
+  {
+   "text": "you have to engage with these ideas you",
+   "start": 1081.2,
+   "duration": 3.2
+  },
+  {
+   "text": "have to kind of",
+   "start": 1083.28,
+   "duration": 4.639
+  },
+  {
+   "text": "potentially persuade people away from",
+   "start": 1084.4,
+   "duration": 6.32
+  },
+  {
+   "text": "from them otherwise like what do you",
+   "start": 1087.919,
+   "duration": 4.241
+  },
+  {
+   "text": "make of that kind of like the off-ramp",
+   "start": 1090.72,
+   "duration": 2.319
+  },
+  {
+   "text": "as an idea just",
+   "start": 1092.16,
+   "duration": 3.28
+  },
+  {
+   "text": "i think it's really important i think",
+   "start": 1093.039,
+   "duration": 3.441
+  },
+  {
+   "text": "yeah we're talking about",
+   "start": 1095.44,
+   "duration": 2.64
+  },
+  {
+   "text": "uh were you talking about persuasion we",
+   "start": 1096.48,
+   "duration": 3.199
+  },
+  {
+   "text": "were and the idea of the uh",
+   "start": 1098.08,
+   "duration": 4.0
+  },
+  {
+   "text": "the the one of the things i love about",
+   "start": 1099.679,
+   "duration": 4.081
+  },
+  {
+   "text": "slave star codex is writing is that it",
+   "start": 1102.08,
+   "duration": 2.64
+  },
+  {
+   "text": "will try and",
+   "start": 1103.76,
+   "duration": 2.88
+  },
+  {
+   "text": "approach people who disagree with the",
+   "start": 1104.72,
+   "duration": 3.199
+  },
+  {
+   "text": "point it's making and say look",
+   "start": 1106.64,
+   "duration": 2.88
+  },
+  {
+   "text": "you know it's not just boo out group",
+   "start": 1107.919,
+   "duration": 3.041
+  },
+  {
+   "text": "it's not saying look how you know aren't",
+   "start": 1109.52,
+   "duration": 2.96
+  },
+  {
+   "text": "you smart for already agree with me",
+   "start": 1110.96,
+   "duration": 2.959
+  },
+  {
+   "text": "there's look here is something which you",
+   "start": 1112.48,
+   "duration": 3.199
+  },
+  {
+   "text": "probably don't agree with i will try to",
+   "start": 1113.919,
+   "duration": 3.12
+  },
+  {
+   "text": "change your mind so this ties back to",
+   "start": 1115.679,
+   "duration": 2.88
+  },
+  {
+   "text": "what you're saying about the um",
+   "start": 1117.039,
+   "duration": 3.201
+  },
+  {
+   "text": "extremism thing or at least the you know",
+   "start": 1118.559,
+   "duration": 3.12
+  },
+  {
+   "text": "the people see it as",
+   "start": 1120.24,
+   "duration": 2.799
+  },
+  {
+   "text": "people see it and it's always the left",
+   "start": 1121.679,
+   "duration": 3.36
+  },
+  {
+   "text": "that sees this as this sort of gateway",
+   "start": 1123.039,
+   "duration": 3.361
+  },
+  {
+   "text": "drug slippery slope",
+   "start": 1125.039,
+   "duration": 3.361
+  },
+  {
+   "text": "everyone will will read an article",
+   "start": 1126.4,
+   "duration": 3.519
+  },
+  {
+   "text": "saying perhaps",
+   "start": 1128.4,
+   "duration": 4.639
+  },
+  {
+   "text": "um jezebel behave badly at some point",
+   "start": 1129.919,
+   "duration": 3.361
+  },
+  {
+   "text": "and",
+   "start": 1133.039,
+   "duration": 1.681
+  },
+  {
+   "text": "therefore they'll slide from there into",
+   "start": 1133.28,
+   "duration": 2.88
+  },
+  {
+   "text": "men's rights activism or whatever you",
+   "start": 1134.72,
+   "duration": 2.0
+  },
+  {
+   "text": "know",
+   "start": 1136.16,
+   "duration": 2.32
+  },
+  {
+   "text": "i'm being flippant i shouldn't be but",
+   "start": 1136.72,
+   "duration": 3.28
+  },
+  {
+   "text": "you know that sort of thing it's all",
+   "start": 1138.48,
+   "duration": 2.8
+  },
+  {
+   "text": "always going to be the slide from left",
+   "start": 1140.0,
+   "duration": 4.4
+  },
+  {
+   "text": "to right into into righteous extremism",
+   "start": 1141.28,
+   "duration": 5.92
+  },
+  {
+   "text": "but the point of slave star codex was it",
+   "start": 1144.4,
+   "duration": 4.96
+  },
+  {
+   "text": "is trying to persuade everyone to",
+   "start": 1147.2,
+   "duration": 3.92
+  },
+  {
+   "text": "agree with slate star codex which is",
+   "start": 1149.36,
+   "duration": 3.04
+  },
+  {
+   "text": "obviously you know as we all are we're",
+   "start": 1151.12,
+   "duration": 1.76
+  },
+  {
+   "text": "all trying",
+   "start": 1152.4,
+   "duration": 2.24
+  },
+  {
+   "text": "to dm we want people to agree with it",
+   "start": 1152.88,
+   "duration": 3.039
+  },
+  {
+   "text": "and so it was it was reaching out to",
+   "start": 1154.64,
+   "duration": 2.08
+  },
+  {
+   "text": "people on the rights and the",
+   "start": 1155.919,
+   "duration": 2.161
+  },
+  {
+   "text": "libertarians saying you know actually no",
+   "start": 1156.72,
+   "duration": 2.48
+  },
+  {
+   "text": "libertarian",
+   "start": 1158.08,
+   "duration": 4.24
+  },
+  {
+   "text": "you know you can be too libertarian you",
+   "start": 1159.2,
+   "duration": 3.68
+  },
+  {
+   "text": "get these",
+   "start": 1162.32,
+   "duration": 1.92
+  },
+  {
+   "text": "if there is you know there are flaws",
+   "start": 1162.88,
+   "duration": 3.039
+  },
+  {
+   "text": "with these trump voting",
+   "start": 1164.24,
+   "duration": 3.28
+  },
+  {
+   "text": "trump reaching out trump voters reaching",
+   "start": 1165.919,
+   "duration": 3.441
+  },
+  {
+   "text": "out and it is it is pulling people",
+   "start": 1167.52,
+   "duration": 4.159
+  },
+  {
+   "text": "towards this",
+   "start": 1169.36,
+   "duration": 3.76
+  },
+  {
+   "text": "towards the positions that slate star",
+   "start": 1171.679,
+   "duration": 3.201
+  },
+  {
+   "text": "codex holds which are not",
+   "start": 1173.12,
+   "duration": 5.84
+  },
+  {
+   "text": "extremist right-wing and therefore the",
+   "start": 1174.88,
+   "duration": 6.799
+  },
+  {
+   "text": "the it ends up um it ends up neither",
+   "start": 1178.96,
+   "duration": 4.24
+  },
+  {
+   "text": "sort of",
+   "start": 1181.679,
+   "duration": 2.88
+  },
+  {
+   "text": "yes it moves people who are left of",
+   "start": 1183.2,
+   "duration": 3.04
+  },
+  {
+   "text": "slate star codex right if that is a",
+   "start": 1184.559,
+   "duration": 2.48
+  },
+  {
+   "text": "meaningful",
+   "start": 1186.24,
+   "duration": 2.08
+  },
+  {
+   "text": "thing but also move people right to",
+   "start": 1187.039,
+   "duration": 3.281
+  },
+  {
+   "text": "slave star codex left and it brings you",
+   "start": 1188.32,
+   "duration": 5.52
+  },
+  {
+   "text": "so yes it has it has this anti-extremism",
+   "start": 1190.32,
+   "duration": 6.8
+  },
+  {
+   "text": "effect or certainly um it seems likely",
+   "start": 1193.84,
+   "duration": 3.839
+  },
+  {
+   "text": "to me and",
+   "start": 1197.12,
+   "duration": 2.48
+  },
+  {
+   "text": "and sky alexander could point to those",
+   "start": 1197.679,
+   "duration": 3.841
+  },
+  {
+   "text": "people the comments on his",
+   "start": 1199.6,
+   "duration": 4.48
+  },
+  {
+   "text": "uh anti-trump blog post about it so yes",
+   "start": 1201.52,
+   "duration": 3.279
+  },
+  {
+   "text": "i think i think the",
+   "start": 1204.08,
+   "duration": 2.32
+  },
+  {
+   "text": "i think the off-ramp is a real and i",
+   "start": 1204.799,
+   "duration": 2.961
+  },
+  {
+   "text": "think important phenomenon and i would",
+   "start": 1206.4,
+   "duration": 3.36
+  },
+  {
+   "text": "love someone to do some sort of",
+   "start": 1207.76,
+   "duration": 4.24
+  },
+  {
+   "text": "quantification you know of it because i",
+   "start": 1209.76,
+   "duration": 3.36
+  },
+  {
+   "text": "this is just me",
+   "start": 1212.0,
+   "duration": 2.559
+  },
+  {
+   "text": "sharing anecdotes but yes i think it is",
+   "start": 1213.12,
+   "duration": 3.12
+  },
+  {
+   "text": "a real thing and",
+   "start": 1214.559,
+   "duration": 3.281
+  },
+  {
+   "text": "just before we close is there anything",
+   "start": 1216.24,
+   "duration": 3.439
+  },
+  {
+   "text": "more that you wanted to say is there",
+   "start": 1217.84,
+   "duration": 2.24
+  },
+  {
+   "text": "anything",
+   "start": 1219.679,
+   "duration": 2.561
+  },
+  {
+   "text": "more that people should know about the",
+   "start": 1220.08,
+   "duration": 3.28
+  },
+  {
+   "text": "rationalists that you",
+   "start": 1222.24,
+   "duration": 4.0
+  },
+  {
+   "text": "think they probably don't i think the",
+   "start": 1223.36,
+   "duration": 3.439
+  },
+  {
+   "text": "their",
+   "start": 1226.24,
+   "duration": 2.319
+  },
+  {
+   "text": "their ability their predictions over",
+   "start": 1226.799,
+   "duration": 3.601
+  },
+  {
+   "text": "covid their sort of",
+   "start": 1228.559,
+   "duration": 4.401
+  },
+  {
+   "text": "tendency to be out ahead of the game has",
+   "start": 1230.4,
+   "duration": 4.0
+  },
+  {
+   "text": "been",
+   "start": 1232.96,
+   "duration": 3.599
+  },
+  {
+   "text": "really noteworthy as this is the piece",
+   "start": 1234.4,
+   "duration": 3.92
+  },
+  {
+   "text": "that cade mets i wish she had written",
+   "start": 1236.559,
+   "duration": 4.0
+  },
+  {
+   "text": "and i think that is very much to do with",
+   "start": 1238.32,
+   "duration": 4.239
+  },
+  {
+   "text": "this tendency to not",
+   "start": 1240.559,
+   "duration": 5.441
+  },
+  {
+   "text": "go with a herd you know back in january",
+   "start": 1242.559,
+   "duration": 4.641
+  },
+  {
+   "text": "last year to",
+   "start": 1246.0,
+   "duration": 4.0
+  },
+  {
+   "text": "january 2020 the media were all writing",
+   "start": 1247.2,
+   "duration": 4.719
+  },
+  {
+   "text": "the same pieces of you know don't worry",
+   "start": 1250.0,
+   "duration": 3.52
+  },
+  {
+   "text": "about",
+   "start": 1251.919,
+   "duration": 3.441
+  },
+  {
+   "text": "covert worry about the flu don't you",
+   "start": 1253.52,
+   "duration": 3.84
+  },
+  {
+   "text": "know this you know this is not",
+   "start": 1255.36,
+   "duration": 3.92
+  },
+  {
+   "text": "it's and and right saying you know if",
+   "start": 1257.36,
+   "duration": 3.199
+  },
+  {
+   "text": "everyone worrying about",
+   "start": 1259.28,
+   "duration": 4.399
+  },
+  {
+   "text": "this over over panicking about um covert",
+   "start": 1260.559,
+   "duration": 4.48
+  },
+  {
+   "text": "there as being",
+   "start": 1263.679,
+   "duration": 2.88
+  },
+  {
+   "text": "sort of anti-chinese racist and",
+   "start": 1265.039,
+   "duration": 3.841
+  },
+  {
+   "text": "everything like that and i think",
+   "start": 1266.559,
+   "duration": 4.961
+  },
+  {
+   "text": "this was because the media and i'm as",
+   "start": 1268.88,
+   "duration": 4.56
+  },
+  {
+   "text": "guilty as this event as anyone right",
+   "start": 1271.52,
+   "duration": 3.2
+  },
+  {
+   "text": "you don't want to look like the idiot",
+   "start": 1273.44,
+   "duration": 3.359
+  },
+  {
+   "text": "who panics you don't want to look the",
+   "start": 1274.72,
+   "duration": 3.04
+  },
+  {
+   "text": "guy who goes ah",
+   "start": 1276.799,
+   "duration": 2.321
+  },
+  {
+   "text": "it's all terrible and then nothing",
+   "start": 1277.76,
+   "duration": 3.76
+  },
+  {
+   "text": "happens it's safe to do",
+   "start": 1279.12,
+   "duration": 4.08
+  },
+  {
+   "text": "stay with your heard and not not look",
+   "start": 1281.52,
+   "duration": 3.68
+  },
+  {
+   "text": "like you're",
+   "start": 1283.2,
+   "duration": 4.4
+  },
+  {
+   "text": "straining outside of it even if an",
+   "start": 1285.2,
+   "duration": 4.32
+  },
+  {
+   "text": "exponential even if it's a simple",
+   "start": 1287.6,
+   "duration": 3.52
+  },
+  {
+   "text": "simply following the extra dots on the",
+   "start": 1289.52,
+   "duration": 2.96
+  },
+  {
+   "text": "exponential curve would have told you",
+   "start": 1291.12,
+   "duration": 2.24
+  },
+  {
+   "text": "that actually this is going to be around",
+   "start": 1292.48,
+   "duration": 2.079
+  },
+  {
+   "text": "the world in six weeks you know that",
+   "start": 1293.36,
+   "duration": 3.6
+  },
+  {
+   "text": "that would have been",
+   "start": 1294.559,
+   "duration": 3.921
+  },
+  {
+   "text": "should not have been beyond the width of",
+   "start": 1296.96,
+   "duration": 3.52
+  },
+  {
+   "text": "someone who can do gcse maths right",
+   "start": 1298.48,
+   "duration": 5.28
+  },
+  {
+   "text": "then and i think the",
+   "start": 1300.48,
+   "duration": 7.439
+  },
+  {
+   "text": "the ability to follow these arguments",
+   "start": 1303.76,
+   "duration": 5.919
+  },
+  {
+   "text": "these you know in that case barely an",
+   "start": 1307.919,
+   "duration": 3.681
+  },
+  {
+   "text": "argument but the maths but",
+   "start": 1309.679,
+   "duration": 3.441
+  },
+  {
+   "text": "it does involve also some understanding",
+   "start": 1311.6,
+   "duration": 3.04
+  },
+  {
+   "text": "of sort of some of the theory as well",
+   "start": 1313.12,
+   "duration": 5.76
+  },
+  {
+   "text": "beyond to logical conclusions and not be",
+   "start": 1314.64,
+   "duration": 8.159
+  },
+  {
+   "text": "swayed away from them by um",
+   "start": 1318.88,
+   "duration": 7.2
+  },
+  {
+   "text": "uh groupthink is a dismissive way of",
+   "start": 1322.799,
+   "duration": 4.321
+  },
+  {
+   "text": "putting it but you know sort of",
+   "start": 1326.08,
+   "duration": 3.04
+  },
+  {
+   "text": "the social pressures to say to not look",
+   "start": 1327.12,
+   "duration": 3.36
+  },
+  {
+   "text": "like you're panicking to not look like",
+   "start": 1329.12,
+   "duration": 2.0
+  },
+  {
+   "text": "you're",
+   "start": 1330.48,
+   "duration": 3.84
+  },
+  {
+   "text": "scaremongering i felt that that is a",
+   "start": 1331.12,
+   "duration": 5.2
+  },
+  {
+   "text": "really interesting topic and it is",
+   "start": 1334.32,
+   "duration": 5.28
+  },
+  {
+   "text": "it is the same mechanism that you see",
+   "start": 1336.32,
+   "duration": 6.88
+  },
+  {
+   "text": "with their fears by ai i think",
+   "start": 1339.6,
+   "duration": 5.12
+  },
+  {
+   "text": "and this is what i wrote in the end of",
+   "start": 1343.2,
+   "duration": 3.44
+  },
+  {
+   "text": "my book is about",
+   "start": 1344.72,
+   "duration": 5.76
+  },
+  {
+   "text": "um but they when you follow their",
+   "start": 1346.64,
+   "duration": 8.24
+  },
+  {
+   "text": "arguments about ai it is very hard to",
+   "start": 1350.48,
+   "duration": 6.079
+  },
+  {
+   "text": "see where they are wrong right it's very",
+   "start": 1354.88,
+   "duration": 3.76
+  },
+  {
+   "text": "hard to go okay like well you",
+   "start": 1356.559,
+   "duration": 4.641
+  },
+  {
+   "text": "yeah the the the ai does go wrong in",
+   "start": 1358.64,
+   "duration": 3.44
+  },
+  {
+   "text": "these ways",
+   "start": 1361.2,
+   "duration": 3.359
+  },
+  {
+   "text": "it is get rapidly getting more powerful",
+   "start": 1362.08,
+   "duration": 3.599
+  },
+  {
+   "text": "and",
+   "start": 1364.559,
+   "duration": 4.401
+  },
+  {
+   "text": "and then you know the um the uh",
+   "start": 1365.679,
+   "duration": 5.041
+  },
+  {
+   "text": "ai researchers if you interview them do",
+   "start": 1368.96,
+   "duration": 3.92
+  },
+  {
+   "text": "think you'll probably have superhuman ai",
+   "start": 1370.72,
+   "duration": 2.88
+  },
+  {
+   "text": "in the next",
+   "start": 1372.88,
+   "duration": 2.24
+  },
+  {
+   "text": "80 years and you know my children's",
+   "start": 1373.6,
+   "duration": 3.92
+  },
+  {
+   "text": "lifetime and that it will probably",
+   "start": 1375.12,
+   "duration": 5.6
+  },
+  {
+   "text": "um and there is a decent chance of",
+   "start": 1377.52,
+   "duration": 4.56
+  },
+  {
+   "text": "really really terrible outcomes while",
+   "start": 1380.72,
+   "duration": 3.04
+  },
+  {
+   "text": "also a decent chance of very very",
+   "start": 1382.08,
+   "duration": 5.28
+  },
+  {
+   "text": "positive outcomes you know um",
+   "start": 1383.76,
+   "duration": 7.039
+  },
+  {
+   "text": "but there's just as with just as with",
+   "start": 1387.36,
+   "duration": 4.64
+  },
+  {
+   "text": "covered",
+   "start": 1390.799,
+   "duration": 3.281
+  },
+  {
+   "text": "um there's this really strong i found it",
+   "start": 1392.0,
+   "duration": 3.52
+  },
+  {
+   "text": "most i noticed about it myself there's",
+   "start": 1394.08,
+   "duration": 2.8
+  },
+  {
+   "text": "recently but this is just weird right",
+   "start": 1395.52,
+   "duration": 2.8
+  },
+  {
+   "text": "this is weird this does not",
+   "start": 1396.88,
+   "duration": 2.799
+  },
+  {
+   "text": "this is not the sort of thing that i",
+   "start": 1398.32,
+   "duration": 3.359
+  },
+  {
+   "text": "think is real this is not the sort of",
+   "start": 1399.679,
+   "duration": 3.681
+  },
+  {
+   "text": "thing that happens in the world but they",
+   "start": 1401.679,
+   "duration": 3.36
+  },
+  {
+   "text": "all they've done is done the same thing",
+   "start": 1403.36,
+   "duration": 4.4
+  },
+  {
+   "text": "pretty much extend a trend line out on a",
+   "start": 1405.039,
+   "duration": 3.201
+  },
+  {
+   "text": "graph",
+   "start": 1407.76,
+   "duration": 2.72
+  },
+  {
+   "text": "and take some basic theory points and",
+   "start": 1408.24,
+   "duration": 3.76
+  },
+  {
+   "text": "and for some fairly uncomfortable and",
+   "start": 1410.48,
+   "duration": 2.079
+  },
+  {
+   "text": "say well",
+   "start": 1412.0,
+   "duration": 2.32
+  },
+  {
+   "text": "if all these things are true which you",
+   "start": 1412.559,
+   "duration": 3.441
+  },
+  {
+   "text": "agree with",
+   "start": 1414.32,
+   "duration": 2.96
+  },
+  {
+   "text": "then you extend it out and you end up",
+   "start": 1416.0,
+   "duration": 3.919
+  },
+  {
+   "text": "with a disastrous outcome in",
+   "start": 1417.28,
+   "duration": 4.639
+  },
+  {
+   "text": "50 80 100 years time and we need to do",
+   "start": 1419.919,
+   "duration": 4.961
+  },
+  {
+   "text": "something about that and i think",
+   "start": 1421.919,
+   "duration": 4.961
+  },
+  {
+   "text": "that and they they also what it's worth",
+   "start": 1424.88,
+   "duration": 3.84
+  },
+  {
+   "text": "have been banging on for years about a",
+   "start": 1426.88,
+   "duration": 3.6
+  },
+  {
+   "text": "bioengineered pandemic being that",
+   "start": 1428.72,
+   "duration": 5.92
+  },
+  {
+   "text": "that and or being the real",
+   "start": 1430.48,
+   "duration": 7.28
+  },
+  {
+   "text": "uh other great risk to human uh of human",
+   "start": 1434.64,
+   "duration": 4.48
+  },
+  {
+   "text": "extinction that an ai and then",
+   "start": 1437.76,
+   "duration": 2.72
+  },
+  {
+   "text": "also generally the risk of global",
+   "start": 1439.12,
+   "duration": 3.84
+  },
+  {
+   "text": "pandemics this is stuff they've been",
+   "start": 1440.48,
+   "duration": 5.28
+  },
+  {
+   "text": "talking about so i think it it is a the",
+   "start": 1442.96,
+   "duration": 4.48
+  },
+  {
+   "text": "covert stuff is a really good reminder",
+   "start": 1445.76,
+   "duration": 2.88
+  },
+  {
+   "text": "that actually",
+   "start": 1447.44,
+   "duration": 4.479
+  },
+  {
+   "text": "this sort of viewpoint that is not as we",
+   "start": 1448.64,
+   "duration": 5.76
+  },
+  {
+   "text": "as i as the media as humanity has a",
+   "start": 1451.919,
+   "duration": 3.841
+  },
+  {
+   "text": "tendency to do a sort of",
+   "start": 1454.4,
+   "duration": 6.399
+  },
+  {
+   "text": "um steering away from ideas that seem",
+   "start": 1455.76,
+   "duration": 6.48
+  },
+  {
+   "text": "uncomfortable because they're weird or",
+   "start": 1460.799,
+   "duration": 3.041
+  },
+  {
+   "text": "because they're not you know they're not",
+   "start": 1462.24,
+   "duration": 2.48
+  },
+  {
+   "text": "what sort of thing we talk about",
+   "start": 1463.84,
+   "duration": 1.6
+  },
+  {
+   "text": "normally",
+   "start": 1464.72,
+   "duration": 2.4
+  },
+  {
+   "text": "and don't want to look scared don't look",
+   "start": 1465.44,
+   "duration": 2.88
+  },
+  {
+   "text": "panicky you don't want to look like",
+   "start": 1467.12,
+   "duration": 1.679
+  },
+  {
+   "text": "we're",
+   "start": 1468.32,
+   "duration": 3.92
+  },
+  {
+   "text": "socially um you know outside the hood",
+   "start": 1468.799,
+   "duration": 5.041
+  },
+  {
+   "text": "sometimes it's really useful having",
+   "start": 1472.24,
+   "duration": 3.2
+  },
+  {
+   "text": "people around who don't think like that",
+   "start": 1473.84,
+   "duration": 3.52
+  },
+  {
+   "text": "and who do just take the trend line and",
+   "start": 1475.44,
+   "duration": 2.64
+  },
+  {
+   "text": "extend it out",
+   "start": 1477.36,
+   "duration": 2.799
+  },
+  {
+   "text": "and say well no but um hang on this",
+   "start": 1478.08,
+   "duration": 4.479
+  },
+  {
+   "text": "means that we're all going to be",
+   "start": 1480.159,
+   "duration": 3.841
+  },
+  {
+   "text": "locked up in our houses in three weeks",
+   "start": 1482.559,
+   "duration": 2.72
+  },
+  {
+   "text": "time maybe we should be thinking about",
+   "start": 1484.0,
+   "duration": 3.12
+  },
+  {
+   "text": "that and i think",
+   "start": 1485.279,
+   "duration": 3.681
+  },
+  {
+   "text": "that should be a bit of a reminder to at",
+   "start": 1487.12,
+   "duration": 3.679
+  },
+  {
+   "text": "least not dismiss their fears about",
+   "start": 1488.96,
+   "duration": 4.079
+  },
+  {
+   "text": "stuff like bioengineered pandemics or",
+   "start": 1490.799,
+   "duration": 4.161
+  },
+  {
+   "text": "ai and the human extinction stuff",
+   "start": 1493.039,
+   "duration": 3.52
+  },
+  {
+   "text": "because i think it",
+   "start": 1494.96,
+   "duration": 3.28
+  },
+  {
+   "text": "the same mechanisms are in play in both",
+   "start": 1496.559,
+   "duration": 3.36
+  },
+  {
+   "text": "places that would be my that'll be what",
+   "start": 1498.24,
+   "duration": 2.72
+  },
+  {
+   "text": "i would say",
+   "start": 1499.919,
+   "duration": 2.64
+  },
+  {
+   "text": "since the beginning of rebel wisdom",
+   "start": 1500.96,
+   "duration": 3.12
+  },
+  {
+   "text": "we've been thinking about how to create",
+   "start": 1502.559,
+   "duration": 3.36
+  },
+  {
+   "text": "spaces for people to have new kinds of",
+   "start": 1504.08,
+   "duration": 2.959
+  },
+  {
+   "text": "conversations",
+   "start": 1505.919,
+   "duration": 4.161
+  },
+  {
+   "text": "around big ideas which is why we've just",
+   "start": 1507.039,
+   "duration": 5.041
+  },
+  {
+   "text": "launched our digital campfire",
+   "start": 1510.08,
+   "duration": 3.76
+  },
+  {
+   "text": "which is a central place for people to",
+   "start": 1512.08,
+   "duration": 3.76
+  },
+  {
+   "text": "gather to find the others",
+   "start": 1513.84,
+   "duration": 4.8
+  },
+  {
+   "text": "and to make sense together it's a place",
+   "start": 1515.84,
+   "duration": 4.48
+  },
+  {
+   "text": "to practice the skills we talk about on",
+   "start": 1518.64,
+   "duration": 2.32
+  },
+  {
+   "text": "the channel",
+   "start": 1520.32,
+   "duration": 2.4
+  },
+  {
+   "text": "so we have regular sessions that help us",
+   "start": 1520.96,
+   "duration": 3.199
+  },
+  {
+   "text": "improve our sense making",
+   "start": 1522.72,
+   "duration": 2.88
+  },
+  {
+   "text": "and also tap into our collective",
+   "start": 1524.159,
+   "duration": 3.361
+  },
+  {
+   "text": "intelligence and it's all hosted on a",
+   "start": 1525.6,
+   "duration": 2.48
+  },
+  {
+   "text": "discussion",
+   "start": 1527.52,
+   "duration": 2.32
+  },
+  {
+   "text": "platform called circle where you can",
+   "start": 1528.08,
+   "duration": 3.599
+  },
+  {
+   "text": "have conversations around our films and",
+   "start": 1529.84,
+   "duration": 2.719
+  },
+  {
+   "text": "articles",
+   "start": 1531.679,
+   "duration": 2.721
+  },
+  {
+   "text": "or on any other topic you're interested",
+   "start": 1532.559,
+   "duration": 3.441
+  },
+  {
+   "text": "in we've designed it all to be",
+   "start": 1534.4,
+   "duration": 3.36
+  },
+  {
+   "text": "participatory so you can set up",
+   "start": 1536.0,
+   "duration": 3.44
+  },
+  {
+   "text": "real-time conversations by creating a",
+   "start": 1537.76,
+   "duration": 2.24
+  },
+  {
+   "text": "crew",
+   "start": 1539.44,
+   "duration": 2.32
+  },
+  {
+   "text": "to dive deeper into different topics or",
+   "start": 1540.0,
+   "duration": 3.039
+  },
+  {
+   "text": "practices",
+   "start": 1541.76,
+   "duration": 2.799
+  },
+  {
+   "text": "so we've got three different levels of",
+   "start": 1543.039,
+   "duration": 3.441
+  },
+  {
+   "text": "membership wise rebel",
+   "start": 1544.559,
+   "duration": 5.201
+  },
+  {
+   "text": "explorer and sensemaker all three levels",
+   "start": 1546.48,
+   "duration": 5.199
+  },
+  {
+   "text": "have access to the digital campfire on",
+   "start": 1549.76,
+   "duration": 2.799
+  },
+  {
+   "text": "circle",
+   "start": 1551.679,
+   "duration": 2.961
+  },
+  {
+   "text": "and the explorers also have access to",
+   "start": 1552.559,
+   "duration": 4.161
+  },
+  {
+   "text": "the following official rebel wisdom run",
+   "start": 1554.64,
+   "duration": 2.96
+  },
+  {
+   "text": "sessions",
+   "start": 1556.72,
+   "duration": 3.28
+  },
+  {
+   "text": "so on mondays we have live sense making",
+   "start": 1557.6,
+   "duration": 3.6
+  },
+  {
+   "text": "which is a session where we come",
+   "start": 1560.0,
+   "duration": 3.44
+  },
+  {
+   "text": "together to discuss a hot cultural topic",
+   "start": 1561.2,
+   "duration": 4.32
+  },
+  {
+   "text": "and then on tuesdays we have our academy",
+   "start": 1563.44,
+   "duration": 3.839
+  },
+  {
+   "text": "sessions where we have some of the best",
+   "start": 1565.52,
+   "duration": 3.279
+  },
+  {
+   "text": "facilitators in the world",
+   "start": 1567.279,
+   "duration": 3.76
+  },
+  {
+   "text": "teaching various skills so for example",
+   "start": 1568.799,
+   "duration": 3.921
+  },
+  {
+   "text": "collective intelligence practice",
+   "start": 1571.039,
+   "duration": 4.321
+  },
+  {
+   "text": "facilitation training then on thursday",
+   "start": 1572.72,
+   "duration": 4.4
+  },
+  {
+   "text": "we have our connection gym",
+   "start": 1575.36,
+   "duration": 3.84
+  },
+  {
+   "text": "and the sense makers are also invited to",
+   "start": 1577.12,
+   "duration": 4.08
+  },
+  {
+   "text": "our wednesday sessions which alternates",
+   "start": 1579.2,
+   "duration": 2.56
+  },
+  {
+   "text": "between",
+   "start": 1581.2,
+   "duration": 3.68
+  },
+  {
+   "text": "q a and the wisdom gym the q a is with",
+   "start": 1581.76,
+   "duration": 4.72
+  },
+  {
+   "text": "one of the stars of our films and will",
+   "start": 1584.88,
+   "duration": 3.44
+  },
+  {
+   "text": "often go up on the channel itself",
+   "start": 1586.48,
+   "duration": 3.6
+  },
+  {
+   "text": "and the wisdom gym is where we bring in",
+   "start": 1588.32,
+   "duration": 2.88
+  },
+  {
+   "text": "some of the biggest names in",
+   "start": 1590.08,
+   "duration": 2.719
+  },
+  {
+   "text": "transformation and growth to share their",
+   "start": 1591.2,
+   "duration": 2.88
+  },
+  {
+   "text": "practices with us",
+   "start": 1592.799,
+   "duration": 3.12
+  },
+  {
+   "text": "within circle we've also included a",
+   "start": 1594.08,
+   "duration": 4.079
+  },
+  {
+   "text": "number of resources that we found useful",
+   "start": 1595.919,
+   "duration": 5.12
+  },
+  {
+   "text": "so sense making tools meditations",
+   "start": 1598.159,
+   "duration": 5.12
+  },
+  {
+   "text": "authentic relating games and guides for",
+   "start": 1601.039,
+   "duration": 4.721
+  },
+  {
+   "text": "how to host your own session",
+   "start": 1603.279,
+   "duration": 4.161
+  },
+  {
+   "text": "so the most important thing to remember",
+   "start": 1605.76,
+   "duration": 3.84
+  },
+  {
+   "text": "is that this is an experimental space",
+   "start": 1607.44,
+   "duration": 4.64
+  },
+  {
+   "text": "and is designed to be participatory so",
+   "start": 1609.6,
+   "duration": 4.0
+  },
+  {
+   "text": "it's really your space to come in and",
+   "start": 1612.08,
+   "duration": 2.4
+  },
+  {
+   "text": "make your own",
+   "start": 1613.6,
+   "duration": 8.72
+  },
+  {
+   "text": "so we'd love to see you there",
+   "start": 1614.48,
+   "duration": 7.84
+  }
+ ]
+}
