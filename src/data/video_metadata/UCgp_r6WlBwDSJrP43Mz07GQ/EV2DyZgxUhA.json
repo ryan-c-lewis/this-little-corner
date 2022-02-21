@@ -1,1 +1,4502 @@
-{"video_id": "EV2DyZgxUhA", "channel_id": "UCgp_r6WlBwDSJrP43Mz07GQ", "channel_name": "The Meaning Code", "title": "Chris on the Beauty of Calculus, Principles v. Rules, Local Governance", "url": "https://www.youtube.com/watch?v=EV2DyZgxUhA", "date": "2019-10-03", "description": "Conversation with Chris about the principles of calculus and where that pattern shows up throughout our world.\nInfinite divisibility, the method of exhaustion\nReductionism v. the heroic nature of science exploration\nPicasso, \"Art is a lie that makes us realize truth.\"\nArtificial intelligence and the common sense knowledge problem.\nThe frame problem and the category problem.\nPutting it all back together. \nDifferentiating, then integrating.\nChris' conversation with Paul VanderKlay:\n  https://youtu.be/d3aFCtt6HgQ\nPaul VanderKlay's discussion of the frame problem:\n  https://youtu.be/W4kFnshkORY\nHubert Dreyfus on the Frame Problem https://youtu.be/SUZUbYCBtGI\nHubert Dreyfus on Socrates https://youtu.be/LG5nCkcZm-g", "duration": 2720, "transcript_parts": [{"text": "hi Chris yeah okay hi everybody out", "start": 1.76, "duration": 7.66}, {"text": "there today I am talking with Chris who", "start": 5.879, "duration": 7.821}, {"text": "has a company in Canada where he does", "start": 9.42, "duration": 17.55}, {"text": "Kinnear inconsistently about the beauty", "start": 13.7, "duration": 16.239}, {"text": "of calculus I've been thinking about it", "start": 26.97, "duration": 5.129}, {"text": "ever since and just wanting so much to", "start": 29.939, "duration": 4.081}, {"text": "talk to Chris and pick his brain about", "start": 32.099, "duration": 4.951}, {"text": "calculus and get some more ideas on that", "start": 34.02, "duration": 5.94}, {"text": "and then today I was listening to Paul", "start": 37.05, "duration": 6.57}, {"text": "van der clay talk about the frame", "start": 39.96, "duration": 7.56}, {"text": "problem and the category problem and how", "start": 43.62, "duration": 6.18}, {"text": "all of this relates to distributed", "start": 47.52, "duration": 5.82}, {"text": "cognition and I that's something I've", "start": 49.8, "duration": 5.579}, {"text": "thought about for a long time how", "start": 53.34, "duration": 5.19}, {"text": "calculus and the almost infinite", "start": 55.379, "duration": 6.901}, {"text": "divisibility is so similar to the way", "start": 58.53, "duration": 6.809}, {"text": "the universe lays out with the", "start": 62.28, "duration": 4.769}, {"text": "singularity at the beginning of the Big", "start": 65.339, "duration": 3.6}, {"text": "Bang and then now we wrote down two up", "start": 67.049, "duration": 4.201}, {"text": "quarks and down quarks we've divided the", "start": 68.939, "duration": 6.511}, {"text": "universe up into such small parts and or", "start": 71.25, "duration": 6.509}, {"text": "if you think about all the people on the", "start": 75.45, "duration": 6.45}, {"text": "planet and how our distributed wisdom is", "start": 77.759, "duration": 8.011}, {"text": "so much more effective in in governing", "start": 81.9, "duration": 5.52}, {"text": "ourselves and governing others than it", "start": 85.77, "duration": 3.87}, {"text": "is to try to get one person at the top", "start": 87.42, "duration": 4.86}, {"text": "to take care of all that because because", "start": 89.64, "duration": 4.049}, {"text": "we have a different head to our", "start": 92.28, "duration": 5.07}, {"text": "hierarchy so anyway I want to talk about", "start": 93.689, "duration": 8.101}, {"text": "those things and look forward to the", "start": 97.35, "duration": 7.89}, {"text": "conversation and Chris I wonder if you", "start": 101.79, "duration": 5.369}, {"text": "could just reiterate for us the story", "start": 105.24, "duration": 5.669}, {"text": "that you told Paul about your kind of", "start": 107.159, "duration": 7.111}, {"text": "aha moment when you realize the the", "start": 110.909, "duration": 6.06}, {"text": "beauty that resided within calculus and", "start": 114.27, "duration": 4.739}, {"text": "how that kind of remade your world for", "start": 116.969, "duration": 5.881}, {"text": "for your work life giving more import to", "start": 119.009, "duration": 11.581}, {"text": "your work life sure I can I can try so", "start": 122.85, "duration": 9.87}, {"text": "I've been obviously doing engineer for", "start": 130.59, "duration": 2.77}, {"text": "quite a", "start": 132.72, "duration": 2.14}, {"text": "engineering for quite a while you can", "start": 133.36, "duration": 5.82}, {"text": "see I have gray hair and I also have a", "start": 134.86, "duration": 6.18}, {"text": "theology degree and an interest in", "start": 139.18, "duration": 6.0}, {"text": "philosophy I had I had been reading I", "start": 141.04, "duration": 6.24}, {"text": "had been reading Chesterton a fair bit", "start": 145.18, "duration": 4.95}, {"text": "and orthodoxy specifically uh-huh and so", "start": 147.28, "duration": 5.37}, {"text": "this was stuck in my head probably", "start": 150.13, "duration": 6.24}, {"text": "because I'm just fairly pedantic and", "start": 152.65, "duration": 5.67}, {"text": "like to understand things thoroughly", "start": 156.37, "duration": 4.17}, {"text": "when I begin to understand them and chef", "start": 158.32, "duration": 5.67}, {"text": "Justin makes the point repeatedly that", "start": 160.54, "duration": 6.6}, {"text": "it's the it's in some sense is the", "start": 163.99, "duration": 7.37}, {"text": "paradoxes of Christianity that make it", "start": 167.14, "duration": 6.87}, {"text": "that make it fit the world that make it", "start": 171.36, "duration": 7.0}, {"text": "true that a simple rational explanation", "start": 174.01, "duration": 8.1}, {"text": "only extend so far and you can't model", "start": 178.36, "duration": 7.68}, {"text": "the world you can't explain what goes on", "start": 182.11, "duration": 5.85}, {"text": "in our world on almost any level with a", "start": 186.04, "duration": 4.08}, {"text": "simple rational explanation that it's", "start": 187.96, "duration": 3.84}, {"text": "actually the paradoxes that are at the", "start": 190.12, "duration": 3.39}, {"text": "heart of Christianity like the", "start": 191.8, "duration": 5.43}, {"text": "Incarnation and others that actually", "start": 193.51, "duration": 7.38}, {"text": "suit the way we live we breathe or the", "start": 197.23, "duration": 7.47}, {"text": "way we have our being and and that", "start": 200.89, "duration": 5.79}, {"text": "really stuck in my head because it rung", "start": 204.7, "duration": 4.44}, {"text": "true when I read it but I couldn't", "start": 206.68, "duration": 5.309}, {"text": "really map it on to anything and then I", "start": 209.14, "duration": 6.18}, {"text": "was thinking about this one late one", "start": 211.989, "duration": 7.5}, {"text": "night and I realized that calculus works", "start": 215.32, "duration": 7.08}, {"text": "in almost the same way that at the heart", "start": 219.489, "duration": 5.901}, {"text": "of calculus at the inception of calculus", "start": 222.4, "duration": 6.66}, {"text": "there was a paradox and that played it", "start": 225.39, "duration": 5.59}, {"text": "through history it's a history I went", "start": 229.06, "duration": 4.88}, {"text": "into some detail talking to Paul about", "start": 230.98, "duration": 6.03}, {"text": "but you know suffice it to say that at", "start": 233.94, "duration": 4.48}, {"text": "the heart of calculus there's this", "start": 237.01, "duration": 4.5}, {"text": "paradox that we that you actually accept", "start": 238.42, "duration": 7.34}, {"text": "that something can be divided by zero", "start": 241.51, "duration": 8.96}, {"text": "that it can be infinite but then it can", "start": 245.76, "duration": 9.31}, {"text": "be part of a larger equation and this", "start": 250.47, "duration": 6.43}, {"text": "was spotted went back and forth through", "start": 255.07, "duration": 5.88}, {"text": "the 16th and 17th century and eventually", "start": 256.9, "duration": 8.42}, {"text": "settled those that yeah it works and", "start": 260.95, "duration": 6.06}, {"text": "most of modern", "start": 265.32, "duration": 3.64}, {"text": "ecology is based on the fact that it", "start": 267.01, "duration": 6.42}, {"text": "actually works and has driven a lot of", "start": 268.96, "duration": 8.4}, {"text": "the development in modern world so when", "start": 273.43, "duration": 11.25}, {"text": "I saw that I went wow that is really you", "start": 277.36, "duration": 9.09}, {"text": "know when you see two things that are so", "start": 284.68, "duration": 4.71}, {"text": "similar you say well there's something", "start": 286.45, "duration": 5.55}, {"text": "there and because I'm a Christian it was", "start": 289.39, "duration": 4.38}, {"text": "extraordinarily exciting to think about", "start": 292.0, "duration": 4.59}, {"text": "there being something there and even", "start": 293.77, "duration": 6.09}, {"text": "further um you know we Paula died when", "start": 296.59, "duration": 4.59}, {"text": "we spoke we talked a lot about the", "start": 299.86, "duration": 4.64}, {"text": "asymptote which is this this momentary", "start": 301.18, "duration": 6.39}, {"text": "leap to infinity if you like but", "start": 304.5, "duration": 5.71}, {"text": "calculus is something further which is", "start": 307.57, "duration": 6.27}, {"text": "it incorporates a multitude of those it", "start": 310.21, "duration": 6.81}, {"text": "almost systemising that the asymptotic", "start": 313.84, "duration": 8.97}, {"text": "nature of the world so that you let me", "start": 317.02, "duration": 8.72}, {"text": "back up so almost any belief system", "start": 322.81, "duration": 6.45}, {"text": "involves an asymptote like a striving", "start": 325.74, "duration": 5.44}, {"text": "towards the infinite the unattainable", "start": 329.26, "duration": 5.49}, {"text": "it's in Buddhism it's it's in everything", "start": 331.18, "duration": 6.09}, {"text": "even in Judaism you know there's there's", "start": 334.75, "duration": 7.35}, {"text": "a God at the center of worship but it's", "start": 337.27, "duration": 9.26}, {"text": "not distributed but Christianity", "start": 342.1, "duration": 9.21}, {"text": "distributed this so that the you know", "start": 346.53, "duration": 8.44}, {"text": "that in Christian theology it's Christ", "start": 351.31, "duration": 9.6}, {"text": "lives in me and so what I thought was", "start": 354.97, "duration": 8.46}, {"text": "it's only the Christian world that could", "start": 360.91, "duration": 8.16}, {"text": "have accepted calculus and it max not", "start": 363.43, "duration": 9.63}, {"text": "just on to a theism but on to", "start": 369.07, "duration": 7.92}, {"text": "Christianity in particular so anyway so", "start": 373.06, "duration": 5.37}, {"text": "I've been trying to work through this in", "start": 376.99, "duration": 4.7}, {"text": "Y and also do real work mm-hmm", "start": 378.43, "duration": 9.78}, {"text": "for a couple years and you know I was I", "start": 381.69, "duration": 9.22}, {"text": "forget who it was I was listening to", "start": 388.21, "duration": 4.86}, {"text": "that said that once you have an idea", "start": 390.91, "duration": 5.19}, {"text": "that you want to write about or or or", "start": 393.07, "duration": 4.8}, {"text": "think through and talk about you start", "start": 396.1, "duration": 3.42}, {"text": "seeing it everywhere and so then you", "start": 397.87, "duration": 2.42}, {"text": "start seeing it", "start": 399.52, "duration": 3.29}, {"text": "and so I had seen this start seeing the", "start": 400.29, "duration": 4.92}, {"text": "same in almost everything and it seems", "start": 402.81, "duration": 7.86}, {"text": "to pop up again and again and again well", "start": 405.21, "duration": 8.25}, {"text": "where I first stumbled across that idea", "start": 410.67, "duration": 6.6}, {"text": "was outside of calculus and so I've seen", "start": 413.46, "duration": 8.69}, {"text": "it everywhere since then that was 1981", "start": 417.27, "duration": 9.78}, {"text": "1981 yeah I was at a economics", "start": 422.15, "duration": 10.26}, {"text": "conference on Austrian economics mmm-hmm", "start": 427.05, "duration": 8.85}, {"text": "Irving tanaan Hudson New York in this", "start": 432.41, "duration": 8.62}, {"text": "wonderful old vintage old vintage not a", "start": 435.9, "duration": 6.75}, {"text": "mansion exactly but it was an old", "start": 441.03, "duration": 3.27}, {"text": "vintage home with a lot of rooms", "start": 442.65, "duration": 4.65}, {"text": "yeah and it's a place called the", "start": 444.3, "duration": 4.92}, {"text": "foundation for economic education and", "start": 447.3, "duration": 3.36}, {"text": "they would invite people for a one-week", "start": 449.22, "duration": 3.21}, {"text": "seminar in the summer to come there and", "start": 450.66, "duration": 4.38}, {"text": "learn about Austrian economics and great", "start": 452.43, "duration": 4.38}, {"text": "was particularly interested in it", "start": 455.04, "duration": 3.45}, {"text": "because I was a legislator at the time", "start": 456.81, "duration": 5.4}, {"text": "and and I wanted to know more about how", "start": 458.49, "duration": 5.94}, {"text": "to do a good job for my constituents so", "start": 462.21, "duration": 6.57}, {"text": "I went to this conference and one of the", "start": 464.43, "duration": 7.56}, {"text": "professor's there was a guy by the name", "start": 468.78, "duration": 6.57}, {"text": "of Israel Kurtz nur I had reason to look", "start": 471.99, "duration": 5.13}, {"text": "him up lately and I believe he's still", "start": 475.35, "duration": 4.14}, {"text": "alive he was one of the most remarkable", "start": 477.12, "duration": 5.4}, {"text": "minds I've ever run across and he talked", "start": 479.49, "duration": 4.95}, {"text": "about one of these foundational", "start": 482.52, "duration": 3.9}, {"text": "principles of Austrian economics which", "start": 484.44, "duration": 6.96}, {"text": "is that and and I can't flush it out", "start": 486.42, "duration": 6.6}, {"text": "very well right now because I haven't", "start": 491.4, "duration": 3.27}, {"text": "read about this stuff for a long time", "start": 493.02, "duration": 3.27}, {"text": "but the way one of the places where it", "start": 494.67, "duration": 3.96}, {"text": "shows up really clearly is like in the", "start": 496.29, "duration": 5.67}, {"text": "stock market that the stock market works", "start": 498.63, "duration": 5.88}, {"text": "because it's based on the individual", "start": 501.96, "duration": 6.75}, {"text": "decisions of everybody mm-hmm on any one", "start": 504.51, "duration": 8.13}, {"text": "person not it gets a little bit nasty", "start": 508.71, "duration": 6.42}, {"text": "nowadays because some of these big hedge", "start": 512.64, "duration": 5.55}, {"text": "funds are these big conglomerate funds", "start": 515.13, "duration": 6.15}, {"text": "that are in there excuse the results", "start": 518.19, "duration": 6.51}, {"text": "somewhere but but but a market that's", "start": 521.28, "duration": 6.12}, {"text": "purely made up of individuals working on", "start": 524.7, "duration": 5.85}, {"text": "it from their own individual desires", "start": 527.4, "duration": 6.03}, {"text": "wants they they put their own resources", "start": 530.55, "duration": 3.539}, {"text": "they know", "start": 533.43, "duration": 2.61}, {"text": "capabilities they know how far they want", "start": 534.089, "duration": 4.35}, {"text": "to go with things what they want they", "start": 536.04, "duration": 3.479}, {"text": "know what they want to buy what they", "start": 538.439, "duration": 5.221}, {"text": "want to sell and that makes a market", "start": 539.519, "duration": 7.471}, {"text": "that is going to work beautifully and so", "start": 543.66, "duration": 5.159}, {"text": "he was talking about this whole thing", "start": 546.99, "duration": 4.289}, {"text": "about he didn't use this terminology but", "start": 548.819, "duration": 4.08}, {"text": "I see it in some of John Brubaker's", "start": 551.279, "duration": 3.42}, {"text": "videos it's like this distributed", "start": 552.899, "duration": 4.86}, {"text": "cognition right you use this collective", "start": 554.699, "duration": 6.81}, {"text": "wisdom of all the people and and that", "start": 557.759, "duration": 6.95}, {"text": "underneath that is also this idea that", "start": 561.509, "duration": 8.341}, {"text": "society is the most successful societies", "start": 564.709, "duration": 7.031}, {"text": "are the ones where they're based on an", "start": 569.85, "duration": 5.279}, {"text": "internal locus of control not an", "start": 571.74, "duration": 6.449}, {"text": "external locus of control you internally", "start": 575.129, "duration": 4.68}, {"text": "take responsibility for your own", "start": 578.189, "duration": 4.171}, {"text": "behavior your own consequences your own", "start": 579.809, "duration": 5.911}, {"text": "actions in some societies are built on", "start": 582.36, "duration": 7.62}, {"text": "external shame guilt retribution for", "start": 585.72, "duration": 8.52}, {"text": "control for dictators or something like", "start": 589.98, "duration": 6.329}, {"text": "that but a system built on an internal", "start": 594.24, "duration": 3.63}, {"text": "locus of control and personal", "start": 596.309, "duration": 3.421}, {"text": "responsibility and the sanctity of the", "start": 597.87, "duration": 5.12}, {"text": "individual yeah works better with this", "start": 599.73, "duration": 7.709}, {"text": "distributed cognition and local control", "start": 602.99, "duration": 8.05}, {"text": "you know small heap keep the control of", "start": 607.439, "duration": 6.15}, {"text": "things as local as possible strong", "start": 611.04, "duration": 5.58}, {"text": "families strong communities and drive", "start": 613.589, "duration": 5.34}, {"text": "the power down rather than driving the", "start": 616.62, "duration": 8.699}, {"text": "power up right and so that is very core", "start": 618.929, "duration": 9.241}, {"text": "principle in free-market economics and", "start": 625.319, "duration": 5.01}, {"text": "then when you start talking about", "start": 628.17, "duration": 4.259}, {"text": "calculus what you were talking about it", "start": 630.329, "duration": 6.63}, {"text": "they went bingo that's the same exact", "start": 632.429, "duration": 6.96}, {"text": "principle it's the same exact principle", "start": 636.959, "duration": 5.97}, {"text": "and when I heard Steven Strogatz talking", "start": 639.389, "duration": 5.901}, {"text": "about the beauty of calculus and he was", "start": 642.929, "duration": 6.39}, {"text": "explaining the basic fundamental", "start": 645.29, "duration": 7.57}, {"text": "principle of calculus is to divide your", "start": 649.319, "duration": 6.721}, {"text": "taking sections that are would be very", "start": 652.86, "duration": 4.979}, {"text": "difficult to calculate otherwise because", "start": 656.04, "duration": 3.419}, {"text": "they're odd shapes they've got curves", "start": 657.839, "duration": 4.381}, {"text": "and whatnot you know I'd them up into as", "start": 659.459, "duration": 5.37}, {"text": "many small pieces as possible back", "start": 662.22, "duration": 5.82}, {"text": "infinite infinite number of pieces yeah", "start": 664.829, "duration": 5.911}, {"text": "and here's the key you have to put it", "start": 668.04, "duration": 6.69}, {"text": "back together again yeah and what I", "start": 670.74, "duration": 5.76}, {"text": "notice happening with a lot of", "start": 674.73, "duration": 4.2}, {"text": "scientists today is that as they've", "start": 676.5, "duration": 4.889}, {"text": "uncovered another layer and another", "start": 678.93, "duration": 4.079}, {"text": "layer and another layer they've gone", "start": 681.389, "duration": 5.19}, {"text": "from me the organic layer down to the", "start": 683.009, "duration": 5.88}, {"text": "molecular layer down to the atomic layer", "start": 686.579, "duration": 6.031}, {"text": "down to the quark layer and then they", "start": 688.889, "duration": 4.62}, {"text": "just stop there", "start": 692.61, "duration": 2.58}, {"text": "they atomized it all the way down and", "start": 693.509, "duration": 4.711}, {"text": "they say well that's all there is but", "start": 695.19, "duration": 4.949}, {"text": "and you have to put it back together", "start": 698.22, "duration": 5.46}, {"text": "again to get the solution so it cursed", "start": 700.139, "duration": 5.791}, {"text": "to me said they haven't put it back", "start": 703.68, "duration": 4.909}, {"text": "together again yet to find the solution", "start": 705.93, "duration": 6.0}, {"text": "yeah no I think I agree with you 100%", "start": 708.589, "duration": 9.391}, {"text": "that's so true that well so first the", "start": 711.93, "duration": 8.909}, {"text": "methodology of you know dividing things", "start": 717.98, "duration": 4.99}, {"text": "again and again again in mathematics was", "start": 720.839, "duration": 5.641}, {"text": "called the method of exhaustion for very", "start": 722.97, "duration": 4.349}, {"text": "good reason", "start": 726.48, "duration": 4.76}, {"text": "so that if you go back to pre calculus", "start": 727.319, "duration": 6.541}, {"text": "that's the terminology was used I think", "start": 731.24, "duration": 4.5}, {"text": "it was used by the Greeks or the early", "start": 733.86, "duration": 4.61}, {"text": "mathematician so you just keep going", "start": 735.74, "duration": 5.07}, {"text": "can't go any further", "start": 738.47, "duration": 5.739}, {"text": "basically and then your answer is close", "start": 740.81, "duration": 11.11}, {"text": "enough that's right or as a South", "start": 744.209, "duration": 9.481}, {"text": "African engineer I worked with one said", "start": 751.92, "duration": 10.77}, {"text": "good enough for Canada but yeah but what", "start": 753.69, "duration": 11.699}, {"text": "calculus does is it says no you can you", "start": 762.69, "duration": 5.79}, {"text": "can extract not just an answer under", "start": 765.389, "duration": 5.851}, {"text": "this method of exhaustion but you can", "start": 768.48, "duration": 5.64}, {"text": "encapsulate that and extract a principle", "start": 771.24, "duration": 8.13}, {"text": "out of it oh okay right so it is it's", "start": 774.12, "duration": 6.39}, {"text": "exactly what you're saying", "start": 779.37, "duration": 4.319}, {"text": "it puts the atomization back together", "start": 780.51, "duration": 6.449}, {"text": "and we don't we don't see it when we're", "start": 783.689, "duration": 7.95}, {"text": "using it because it's been systemized so", "start": 786.959, "duration": 6.781}, {"text": "could you expand a little bit more on", "start": 791.639, "duration": 4.05}, {"text": "that when you say you could extract not", "start": 793.74, "duration": 6.27}, {"text": "just an answer but a principle yeah so", "start": 795.689, "duration": 5.791}, {"text": "you", "start": 800.01, "duration": 4.38}, {"text": "if you if you drill down like if you are", "start": 801.48, "duration": 5.75}, {"text": "mad and I'm thinking about how do I", "start": 804.39, "duration": 5.1}, {"text": "should have studied math a little bit", "start": 807.23, "duration": 5.02}, {"text": "before this conversation but this is", "start": 809.49, "duration": 5.82}, {"text": "well let me clarify yeah is when you", "start": 812.25, "duration": 5.16}, {"text": "said that the kid what came into my mind", "start": 815.31, "duration": 5.07}, {"text": "right away was when Steven Strogatz and", "start": 817.41, "duration": 6.06}, {"text": "his beauty of calculus message was", "start": 820.38, "duration": 6.2}, {"text": "talking about", "start": 823.47, "duration": 3.11}, {"text": "Maxwell's equations yeah and Maxwell had", "start": 828.83, "duration": 9.73}, {"text": "his equations he had them in algebra and", "start": 833.81, "duration": 8.23}, {"text": "he decided to look at them in calculus", "start": 838.56, "duration": 7.86}, {"text": "so he was reiterating them into calculus", "start": 842.04, "duration": 6.42}, {"text": "I guess you translate from algebra into", "start": 846.42, "duration": 4.86}, {"text": "calculus and as he looked at it in", "start": 848.46, "duration": 4.92}, {"text": "calculus and began manipulating the", "start": 851.28, "duration": 5.94}, {"text": "calculus all of a sudden he saw a new", "start": 853.38, "duration": 7.59}, {"text": "formula and and he said I've seen that", "start": 857.22, "duration": 5.91}, {"text": "formula before it's the speed of light", "start": 860.97, "duration": 6.48}, {"text": "and and all of a sudden then he realized", "start": 863.13, "duration": 6.81}, {"text": "that he was looking at an electrode that", "start": 867.45, "duration": 4.68}, {"text": "light was an electromagnetic wave and so", "start": 869.94, "duration": 4.38}, {"text": "he wasn't just looking at formulas about", "start": 872.13, "duration": 5.55}, {"text": "electric electricity and magnetism he", "start": 874.32, "duration": 5.39}, {"text": "was he had found something entirely new", "start": 877.68, "duration": 5.13}, {"text": "because he was using calculus as his", "start": 879.71, "duration": 5.83}, {"text": "language rather than algebra so is that", "start": 882.81, "duration": 4.35}, {"text": "the kind of thing you mean when you say", "start": 885.54, "duration": 5.43}, {"text": "not not just an answer but a principle", "start": 887.16, "duration": 7.44}, {"text": "yeah that's right so I think so I don't", "start": 890.97, "duration": 5.19}, {"text": "know math I haven't read back the", "start": 894.6, "duration": 4.65}, {"text": "history of Maxwell's developing recently", "start": 896.16, "duration": 5.79}, {"text": "I did go over in it so I maybe it was in", "start": 899.25, "duration": 6.18}, {"text": "Steven Strogatz book actually most", "start": 901.95, "duration": 6.36}, {"text": "recently but what happens is I think", "start": 905.43, "duration": 5.37}, {"text": "what he's talking about there is that", "start": 908.31, "duration": 4.38}, {"text": "when you come up with a governing", "start": 910.8, "duration": 7.68}, {"text": "equation for some set of phenomena in", "start": 912.69, "duration": 8.16}, {"text": "the universe and that's expressed in", "start": 918.48, "duration": 5.88}, {"text": "modern calculus terms out of that", "start": 920.85, "duration": 5.46}, {"text": "equation when you instantiate it when", "start": 924.36, "duration": 5.25}, {"text": "you when you some of the solutions to", "start": 926.31, "duration": 6.21}, {"text": "those equations are actual normal other", "start": 929.61, "duration": 5.58}, {"text": "great equations that allow you to", "start": 932.52, "duration": 8.759}, {"text": "solve a simplified version of that", "start": 935.19, "duration": 11.04}, {"text": "differential equation so and and there's", "start": 941.279, "duration": 6.3}, {"text": "a whole Ashlyn D there's a you know", "start": 946.23, "duration": 2.7}, {"text": "Einstein's theory of general relativity", "start": 947.579, "duration": 5.041}, {"text": "is expressed in in differential", "start": 948.93, "duration": 8.269}, {"text": "equations one solution or one that's one", "start": 952.62, "duration": 7.5}, {"text": "one theory that drops out of that is", "start": 957.199, "duration": 10.18}, {"text": "special relativity okay so the equations", "start": 960.12, "duration": 9.509}, {"text": "of motion are expressed in differential", "start": 967.379, "duration": 5.76}, {"text": "equations you can drop out of that the", "start": 969.629, "duration": 7.56}, {"text": "motion of a specific body and specific", "start": 973.139, "duration": 7.831}, {"text": "time in space are specific loads so", "start": 977.189, "duration": 6.21}, {"text": "that's kind of the echelon of how", "start": 980.97, "duration": 10.83}, {"text": "calculus works so they the equations", "start": 983.399, "duration": 10.141}, {"text": "that people eventually were able to", "start": 991.8, "duration": 3.36}, {"text": "formulate using the principles of", "start": 993.54, "duration": 4.26}, {"text": "calculus are the are what are described", "start": 995.16, "duration": 6.09}, {"text": "as governing equations so yeah by going", "start": 997.8, "duration": 6.24}, {"text": "down to the invisible and then accepting", "start": 1001.25, "duration": 4.41}, {"text": "that they're a little formulate these", "start": 1004.04, "duration": 3.899}, {"text": "governing equations for various", "start": 1005.66, "duration": 5.279}, {"text": "principles and Maxwell's equations of", "start": 1007.939, "duration": 4.471}, {"text": "the theory of relativity there's a few", "start": 1010.939, "duration": 5.82}, {"text": "others around that are are huge in our", "start": 1012.41, "duration": 8.039}, {"text": "in our world now all the stuff I've been", "start": 1016.759, "duration": 6.63}, {"text": "talking about the acceptance of the", "start": 1020.449, "duration": 5.73}, {"text": "infinite they're all very deep either in", "start": 1023.389, "duration": 6.69}, {"text": "the history or in the or the development", "start": 1026.179, "duration": 5.851}, {"text": "of those equations so when you use them", "start": 1030.079, "duration": 4.74}, {"text": "you don't come across that so you mean", "start": 1032.03, "duration": 5.269}, {"text": "it's sort of X that part is axiomatic", "start": 1034.819, "duration": 6.51}, {"text": "Thanks yeah it's just it's it's part of", "start": 1037.299, "duration": 5.591}, {"text": "the development of them it's not", "start": 1041.329, "duration": 3.63}, {"text": "something that you have to you know you", "start": 1042.89, "duration": 3.75}, {"text": "do something you run into but we're", "start": 1044.959, "duration": 5.281}, {"text": "using the equations so you don't you", "start": 1046.64, "duration": 5.279}, {"text": "know you don't necessarily think like", "start": 1050.24, "duration": 4.549}, {"text": "that as you're doing it yeah", "start": 1051.919, "duration": 5.401}, {"text": "you know it probably would make it a lot", "start": 1054.789, "duration": 4.0}, {"text": "easier for young people when they're", "start": 1057.32, "duration": 3.21}, {"text": "learning calculus if somebody explained", "start": 1058.789, "duration": 2.971}, {"text": "that to them before they started", "start": 1060.53, "duration": 2.37}, {"text": "learning it because then they'd", "start": 1061.76, "duration": 3.12}, {"text": "understand what it is they're doing", "start": 1062.9, "duration": 4.62}, {"text": "I remember watching my daughter learn", "start": 1064.88, "duration": 4.26}, {"text": "calculus and", "start": 1067.52, "duration": 3.57}, {"text": "and my husband what my husband kept", "start": 1069.14, "duration": 4.86}, {"text": "saying if you just would think about it", "start": 1071.09, "duration": 6.81}, {"text": "long enough to to try to understand what", "start": 1074.0, "duration": 6.06}, {"text": "the underlying principle is it would get", "start": 1077.9, "duration": 3.98}, {"text": "so much easier for you as you go forward", "start": 1080.06, "duration": 4.2}, {"text": "yeah no I just want to solve two", "start": 1081.88, "duration": 6.25}, {"text": "problems yeah and most times they teach", "start": 1084.26, "duration": 5.7}, {"text": "calculus like that right like they teach", "start": 1088.13, "duration": 4.95}, {"text": "it as a method like you know integral", "start": 1089.96, "duration": 4.41}, {"text": "calculus or differential calculus", "start": 1093.08, "duration": 3.45}, {"text": "there's a whole like tables of methods", "start": 1094.37, "duration": 5.46}, {"text": "for the algebraic manipulation of these", "start": 1096.53, "duration": 7.89}, {"text": "systems and it's it is very odd to learn", "start": 1099.83, "duration": 6.36}, {"text": "it without understanding the underlying", "start": 1104.42, "duration": 4.25}, {"text": "but some people don't don't like", "start": 1106.19, "duration": 6.99}, {"text": "understanding what it's underneath or", "start": 1108.67, "duration": 13.78}, {"text": "above yeah how about that yeah okay so", "start": 1113.18, "duration": 11.19}, {"text": "did that cover kind of what we were", "start": 1122.45, "duration": 6.0}, {"text": "talking about well so um right at the", "start": 1124.37, "duration": 6.47}, {"text": "end a you said something that made me I", "start": 1128.45, "duration": 4.89}, {"text": "had something I wanted to jump in there", "start": 1130.84, "duration": 4.81}, {"text": "with and then I lost it probably cuz I", "start": 1133.34, "duration": 3.45}, {"text": "was thinking about my daughter and", "start": 1135.65, "duration": 9.15}, {"text": "Chaves yeah yeah so one of the things", "start": 1136.79, "duration": 10.62}, {"text": "that that I've heard them talk about is", "start": 1144.8, "duration": 6.96}, {"text": "that it's you have the differential", "start": 1147.41, "duration": 8.79}, {"text": "equations which are based on time the", "start": 1151.76, "duration": 7.02}, {"text": "time difference right it's time to be", "start": 1156.2, "duration": 6.39}, {"text": "okay and then you are you breaking", "start": 1158.78, "duration": 6.81}, {"text": "everything down into these very infinite", "start": 1162.59, "duration": 8.31}, {"text": "s home bits you need to answer that no", "start": 1165.59, "duration": 8.7}, {"text": "I'm sorry all right but then you have to", "start": 1170.9, "duration": 5.22}, {"text": "put it back together again with with the", "start": 1174.29, "duration": 5.55}, {"text": "integral equations right and and they", "start": 1176.12, "duration": 5.67}, {"text": "talked about how it's that part is much", "start": 1179.84, "duration": 3.45}, {"text": "more difficult the first part of", "start": 1181.79, "duration": 3.48}, {"text": "breaking it down is the easy part and", "start": 1183.29, "duration": 3.84}, {"text": "then the integral part is much more", "start": 1185.27, "duration": 4.02}, {"text": "difficult and I thought well that's", "start": 1187.13, "duration": 3.75}, {"text": "interesting because that's kind of the", "start": 1189.29, "duration": 4.23}, {"text": "way everything is that's the way like", "start": 1190.88, "duration": 5.91}, {"text": "this you analyze a problem you can", "start": 1193.52, "duration": 5.37}, {"text": "analyze you can Adam eyes it down to", "start": 1196.79, "duration": 4.86}, {"text": "little bits and take it apart and think", "start": 1198.89, "duration": 3.93}, {"text": "about all this", "start": 1201.65, "duration": 2.55}, {"text": "action steps that you would need to take", "start": 1202.82, "duration": 2.849}, {"text": "and everything but then actually putting", "start": 1204.2, "duration": 2.969}, {"text": "it back together again requires", "start": 1205.669, "duration": 3.48}, {"text": "following through on all those action", "start": 1207.169, "duration": 4.89}, {"text": "steps and yeah it's way more difficult", "start": 1209.149, "duration": 6.24}, {"text": "process no absolutely and and when", "start": 1212.059, "duration": 4.771}, {"text": "you're integrating something back up", "start": 1215.389, "duration": 5.071}, {"text": "you're actually coming up with the the", "start": 1216.83, "duration": 6.479}, {"text": "curve and the most simplest example the", "start": 1220.46, "duration": 7.41}, {"text": "curve that fits all of the data", "start": 1223.309, "duration": 7.801}, {"text": "underlying it mm-hmm", "start": 1227.87, "duration": 6.12}, {"text": "and and so although there's rules for", "start": 1231.11, "duration": 5.419}, {"text": "most common equations and most common", "start": 1233.99, "duration": 6.87}, {"text": "you know formulations it can get very", "start": 1236.529, "duration": 12.461}, {"text": "complicated but integration is is it's", "start": 1240.86, "duration": 10.289}, {"text": "it's funny the word right because you", "start": 1248.99, "duration": 3.389}, {"text": "know if you're well if you're a well", "start": 1251.149, "duration": 4.11}, {"text": "integrated person mm-hmm it's a it's a", "start": 1252.379, "duration": 4.711}, {"text": "positive thing you quit various parts of", "start": 1255.259, "duration": 5.01}, {"text": "your life and personality together and", "start": 1257.09, "duration": 6.03}, {"text": "the same is true I think I think they", "start": 1260.269, "duration": 5.071}, {"text": "took the word and applied it to this", "start": 1263.12, "duration": 3.899}, {"text": "part of calculus for that very reason", "start": 1265.34, "duration": 3.089}, {"text": "that you're putting something back", "start": 1267.019, "duration": 4.681}, {"text": "together and I take your point in", "start": 1268.429, "duration": 6.421}, {"text": "general that it's um that the", "start": 1271.7, "duration": 5.28}, {"text": "reductionism that people seem to be", "start": 1274.85, "duration": 4.73}, {"text": "satisfied with in the pursuit of truth", "start": 1276.98, "duration": 6.27}, {"text": "doesn't really give us anything to to", "start": 1279.58, "duration": 6.79}, {"text": "live with to guide to it doesn't really", "start": 1283.25, "duration": 6.47}, {"text": "give us any larger answers mm-hmm and", "start": 1286.37, "duration": 6.84}, {"text": "it's part of your notion or a point that", "start": 1289.72, "duration": 5.799}, {"text": "that's that's actually a considerable", "start": 1293.21, "duration": 5.309}, {"text": "component in a meeting crisis yes", "start": 1295.519, "duration": 3.78}, {"text": "absolutely", "start": 1298.519, "duration": 6.181}, {"text": "yeah it's that atomization that these", "start": 1299.299, "duration": 7.921}, {"text": "these if they were actually looking at", "start": 1304.7, "duration": 4.439}, {"text": "it as a man that's what I don't", "start": 1307.22, "duration": 3.179}, {"text": "understand it seems like if they were", "start": 1309.139, "duration": 4.561}, {"text": "actually looking at it as a problem they", "start": 1310.399, "duration": 5.341}, {"text": "would understand that they have to put", "start": 1313.7, "duration": 3.359}, {"text": "it back together again they have to", "start": 1315.74, "duration": 4.529}, {"text": "reintegrate it right it's almost as", "start": 1317.059, "duration": 5.46}, {"text": "though they're not looking at it in the", "start": 1320.269, "duration": 3.78}, {"text": "same way that they would look at an", "start": 1322.519, "duration": 4.38}, {"text": "authentically scientific problem that", "start": 1324.049, "duration": 9.571}, {"text": "there's more of an agenda to to keep", "start": 1326.899, "duration": 9.631}, {"text": "drilling down you know I", "start": 1333.62, "duration": 5.64}, {"text": "maybe in a sense that drilling down is", "start": 1336.53, "duration": 4.86}, {"text": "continuing to look for meaning thinking", "start": 1339.26, "duration": 3.66}, {"text": "that if they can drill down far enough", "start": 1341.39, "duration": 4.89}, {"text": "they will find meaning underneath but", "start": 1342.92, "duration": 5.76}, {"text": "maybe the meaning is found in in just", "start": 1346.28, "duration": 6.29}, {"text": "reintegrating what what we know we have", "start": 1348.68, "duration": 6.54}, {"text": "yeah but no I mean it's very common when", "start": 1352.57, "duration": 4.96}, {"text": "we're doing analysis for a client and", "start": 1355.22, "duration": 4.23}, {"text": "they have a problem then we have to", "start": 1357.53, "duration": 5.4}, {"text": "drill down to to some kind of ground", "start": 1359.45, "duration": 5.88}, {"text": "where we can find something true but", "start": 1362.93, "duration": 4.5}, {"text": "then we have to do the work to go back", "start": 1365.33, "duration": 4.38}, {"text": "up the slope to say what does this", "start": 1367.43, "duration": 5.64}, {"text": "actually mean for your project etc so", "start": 1369.71, "duration": 6.66}, {"text": "that's that's our job to do that so I", "start": 1373.07, "duration": 4.8}, {"text": "think both things happen and both things", "start": 1376.37, "duration": 5.34}, {"text": "happen over time in science and I think", "start": 1377.87, "duration": 6.56}, {"text": "there's a legitimate and reachable", "start": 1381.71, "duration": 6.09}, {"text": "useful for reduction for drilling down", "start": 1384.43, "duration": 7.78}, {"text": "all those things it's it's well I have", "start": 1387.8, "duration": 6.21}, {"text": "this little mantra that's my little", "start": 1392.21, "duration": 4.97}, {"text": "mantra is the question is a gift yeah", "start": 1394.01, "duration": 7.02}, {"text": "and thankfully because we live in an", "start": 1397.18, "duration": 6.43}, {"text": "infinite universe we will never run out", "start": 1401.03, "duration": 5.94}, {"text": "of questions no no because if you don't", "start": 1403.61, "duration": 4.92}, {"text": "have a question if you don't have a", "start": 1406.97, "duration": 3.84}, {"text": "problem to solve you can't grow you", "start": 1408.53, "duration": 4.83}, {"text": "can't you can't keep moving ahead right", "start": 1410.81, "duration": 4.29}, {"text": "you need to have a problem to solve", "start": 1413.36, "duration": 4.77}, {"text": "so yeah that's right so and I think that", "start": 1415.1, "duration": 4.56}, {"text": "sometimes I think the scientific", "start": 1418.13, "duration": 6.51}, {"text": "community tends to drill down with the", "start": 1419.66, "duration": 7.32}, {"text": "confidence that someday maybe not today", "start": 1424.64, "duration": 5.28}, {"text": "maybe not they're the next generation or", "start": 1426.98, "duration": 4.37}, {"text": "the generation after that but eventually", "start": 1429.92, "duration": 4.83}, {"text": "by drilling down they'll be able someone", "start": 1431.35, "duration": 6.43}, {"text": "will they'll find the ground of truth in", "start": 1434.75, "duration": 4.65}, {"text": "some sense and someone will put it back", "start": 1437.78, "duration": 3.81}, {"text": "together and that's not always not I", "start": 1439.4, "duration": 4.41}, {"text": "mean sometimes it's true it's it's", "start": 1441.59, "duration": 4.26}, {"text": "normal I think there's a cheap", "start": 1443.81, "duration": 5.73}, {"text": "reductionism where people use this kind", "start": 1445.85, "duration": 7.89}, {"text": "of logic to say well that's not true", "start": 1449.54, "duration": 9.09}, {"text": "because it's just this or just the", "start": 1453.74, "duration": 7.65}, {"text": "terminology yeah yeah and that's", "start": 1458.63, "duration": 7.11}, {"text": "unfortunate because it's not yeah it's", "start": 1461.39, "duration": 7.65}, {"text": "not very useful in a conversation yeah I", "start": 1465.74, "duration": 4.71}, {"text": "mean there's really something very", "start": 1469.04, "duration": 3.27}, {"text": "heroic about the scientific endeavor", "start": 1470.45, "duration": 5.97}, {"text": "that that understands that sometimes", "start": 1472.31, "duration": 5.76}, {"text": "it's a hundred years before what you've", "start": 1476.42, "duration": 5.15}, {"text": "found even becomes useful to anybody", "start": 1478.07, "duration": 7.35}, {"text": "yeah you know because there are things", "start": 1481.57, "duration": 6.43}, {"text": "that people might find and no think", "start": 1485.42, "duration": 6.32}, {"text": "about even Michelangelo and da Vinci", "start": 1488.0, "duration": 6.36}, {"text": "they were they were uncovering things", "start": 1491.74, "duration": 4.57}, {"text": "that weren't useful in their time", "start": 1494.36, "duration": 3.69}, {"text": "because the climate of opportunity just", "start": 1496.31, "duration": 4.02}, {"text": "didn't exist at that point for some of", "start": 1498.05, "duration": 4.5}, {"text": "those things to come to fruition but", "start": 1500.33, "duration": 4.26}, {"text": "they kept pursuing it anyway they kept", "start": 1502.55, "duration": 5.01}, {"text": "moving ahead you know and yeah yeah and", "start": 1504.59, "duration": 4.77}, {"text": "it may not be fair but my take on on", "start": 1507.56, "duration": 4.11}, {"text": "John for baekje and his project is that", "start": 1509.36, "duration": 6.6}, {"text": "he's got a variety of grounds of", "start": 1511.67, "duration": 7.68}, {"text": "knowledge and busies he's done work and", "start": 1515.96, "duration": 5.79}, {"text": "studied in philosophy and psychology and", "start": 1519.35, "duration": 4.89}, {"text": "done this historical work and so he's", "start": 1521.75, "duration": 5.1}, {"text": "he's building something up from that", "start": 1524.24, "duration": 7.08}, {"text": "right right it is a ground-up process", "start": 1526.85, "duration": 6.9}, {"text": "that he's going through and it's I think", "start": 1531.32, "duration": 5.79}, {"text": "when people do that we we find it and if", "start": 1533.75, "duration": 5.79}, {"text": "when they do it well as he's doing we", "start": 1537.11, "duration": 4.8}, {"text": "find it attractive and profound and", "start": 1539.54, "duration": 5.61}, {"text": "interesting because that's that's the", "start": 1541.91, "duration": 8.55}, {"text": "nature of that's that's the nature of", "start": 1545.15, "duration": 8.72}, {"text": "how we we learn things", "start": 1550.46, "duration": 5.76}, {"text": "Karen can we pause for a second because", "start": 1553.87, "duration": 9.22}, {"text": "somebody to move my car oh okay I think", "start": 1556.22, "duration": 10.98}, {"text": "we were talking about rules I remember", "start": 1563.09, "duration": 6.75}, {"text": "you saying rules because I went back to", "start": 1567.2, "duration": 5.57}, {"text": "my notes and I and I was looking at this", "start": 1569.84, "duration": 5.49}, {"text": "this is an idea that one of the things", "start": 1572.77, "duration": 5.32}, {"text": "that came off of the discussion that", "start": 1575.33, "duration": 5.87}, {"text": "Paul Vander clay was having today about", "start": 1578.09, "duration": 6.75}, {"text": "the meaning crisis and the frame problem", "start": 1581.2, "duration": 8.29}, {"text": "the category problem and he was talking", "start": 1584.84, "duration": 9.59}, {"text": "to he was showing video clips of a", "start": 1589.49, "duration": 8.79}, {"text": "philosopher from Berkeley who was", "start": 1594.43, "duration": 7.12}, {"text": "talking about this stuff and he said you", "start": 1598.28, "duration": 6.0}, {"text": "can't have a list of rules to guide the", "start": 1601.55, "duration": 4.65}, {"text": "because it would require way too many", "start": 1604.28, "duration": 5.82}, {"text": "rules and right it requires way too many", "start": 1606.2, "duration": 7.29}, {"text": "rules is that we we have the frame", "start": 1610.1, "duration": 5.37}, {"text": "problem which is based on the category", "start": 1613.49, "duration": 5.37}, {"text": "problem and and all of that is based on", "start": 1615.47, "duration": 6.6}, {"text": "this idea that at every moment we", "start": 1618.86, "duration": 5.88}, {"text": "confront a set of infinite possibilities", "start": 1622.07, "duration": 7.05}, {"text": "in front of us and we have we without a", "start": 1624.74, "duration": 6.66}, {"text": "frame we have no idea what the next", "start": 1629.12, "duration": 4.679}, {"text": "thing is that we need to do because", "start": 1631.4, "duration": 5.009}, {"text": "we're confronted with this infinite slew", "start": 1633.799, "duration": 6.271}, {"text": "of things but if you try to establish a", "start": 1636.409, "duration": 7.111}, {"text": "set of hard rules to guide you on that", "start": 1640.07, "duration": 6.0}, {"text": "path you don't even know where to begin", "start": 1643.52, "duration": 4.649}, {"text": "to set up these rules and you would need", "start": 1646.07, "duration": 4.41}, {"text": "so many rules and the problem with rules", "start": 1648.169, "duration": 6.841}, {"text": "is you lose the flexibility and and this", "start": 1650.48, "duration": 6.89}, {"text": "is where you were talking earlier about", "start": 1655.01, "duration": 6.51}, {"text": "I think you said something about", "start": 1657.37, "duration": 9.309}, {"text": "religious systems what it made me think", "start": 1661.52, "duration": 6.87}, {"text": "about whatever it was you said it made", "start": 1666.679, "duration": 3.541}, {"text": "me think about this idea that every", "start": 1668.39, "duration": 3.93}, {"text": "system needs a certain every complex", "start": 1670.22, "duration": 3.51}, {"text": "system needs a certain amount of", "start": 1672.32, "duration": 4.2}, {"text": "randomness because if it doesn't have", "start": 1673.73, "duration": 4.98}, {"text": "the randomness that the system becomes", "start": 1676.52, "duration": 4.2}, {"text": "too inflexible and brittle and then it", "start": 1678.71, "duration": 4.469}, {"text": "just falls falls apart and so that's", "start": 1680.72, "duration": 3.66}, {"text": "what happens when you have too many", "start": 1683.179, "duration": 1.921}, {"text": "rules", "start": 1684.38, "duration": 5.88}, {"text": "and I think that applies to calculus and", "start": 1685.1, "duration": 7.23}, {"text": "to other aspects of engineering doesn't", "start": 1690.26, "duration": 4.58}, {"text": "it sure so the way I see that from a", "start": 1692.33, "duration": 5.04}, {"text": "engineering or calculus point of view is", "start": 1694.84, "duration": 5.469}, {"text": "that there's governing equations that", "start": 1697.37, "duration": 5.37}, {"text": "are like at the top of the hierarchy at", "start": 1700.309, "duration": 7.261}, {"text": "least within some some field when you", "start": 1702.74, "duration": 6.45}, {"text": "they're not rules they're they're", "start": 1707.57, "duration": 3.239}, {"text": "actually an extraordinarily flexible", "start": 1709.19, "duration": 4.65}, {"text": "equation that just captures basic", "start": 1710.809, "duration": 5.881}, {"text": "principles when you it's when you", "start": 1713.84, "duration": 5.04}, {"text": "instantiate those you can develop a set", "start": 1716.69, "duration": 4.5}, {"text": "of rules for a certain environment or", "start": 1718.88, "duration": 4.71}, {"text": "place or whatever I think that's a", "start": 1721.19, "duration": 6.51}, {"text": "really good analogy between core", "start": 1723.59, "duration": 9.36}, {"text": "principles and setting up rules if you", "start": 1727.7, "duration": 7.32}, {"text": "will and I guess the professor is", "start": 1732.95, "duration": 4.709}, {"text": "talking about ethics or morality or how", "start": 1735.02, "duration": 3.06}, {"text": "to live", "start": 1737.659, "duration": 3.451}, {"text": "the world that you can't have a Senate", "start": 1738.08, "duration": 6.18}, {"text": "rule he was talking about the problem", "start": 1741.11, "duration": 5.03}, {"text": "that they have with machine learning", "start": 1744.26, "duration": 5.22}, {"text": "mm-hmm teaching a computer to think to", "start": 1746.14, "duration": 6.129}, {"text": "get a computer even to be able to reason", "start": 1749.48, "duration": 5.91}, {"text": "as well as a four-year-old yeah it's an", "start": 1752.269, "duration": 5.461}, {"text": "almost insuperable problem because even", "start": 1755.39, "duration": 6.659}, {"text": "a four-year-old can assess things in a", "start": 1757.73, "duration": 7.35}, {"text": "way that we can't put the rules into", "start": 1762.049, "duration": 5.581}, {"text": "words certainly because we're not really", "start": 1765.08, "duration": 5.15}, {"text": "functioning on a rule we're functioning", "start": 1767.63, "duration": 6.029}, {"text": "based on a data set that we have that we", "start": 1770.23, "duration": 6.84}, {"text": "draw from that we somehow are able to", "start": 1773.659, "duration": 6.48}, {"text": "categorize things I mean it's really a", "start": 1777.07, "duration": 5.29}, {"text": "very mysterious thing how we can", "start": 1780.139, "duration": 5.91}, {"text": "categorize things yeah I mean part of it", "start": 1782.36, "duration": 6.659}, {"text": "is that we're I guess learning based on", "start": 1786.049, "duration": 5.821}, {"text": "not just our reaction with our", "start": 1789.019, "duration": 4.38}, {"text": "environment and those four things but", "start": 1791.87, "duration": 4.83}, {"text": "we're learning from another person as", "start": 1793.399, "duration": 9.66}, {"text": "well directly and I guess not to make", "start": 1796.7, "duration": 9.03}, {"text": "too great a leap but I guess my", "start": 1803.059, "duration": 5.61}, {"text": "perspective of what all this work that I", "start": 1805.73, "duration": 5.28}, {"text": "shouldn't say work all this like idle", "start": 1808.669, "duration": 6.801}, {"text": "thinking so far but I've been doing", "start": 1811.01, "duration": 4.46}, {"text": "really well so what was I gonna say oh", "start": 1816.789, "duration": 19.781}, {"text": "yeah so that that rules if you if you", "start": 1827.45, "duration": 10.709}, {"text": "follow rules up if you treat it as a", "start": 1836.57, "duration": 3.959}, {"text": "hierarchy that you follow rules up to", "start": 1838.159, "duration": 4.98}, {"text": "principles and that's not at the top of", "start": 1840.529, "duration": 4.711}, {"text": "the hierarchy that you follow principles", "start": 1843.139, "duration": 7.92}, {"text": "up to a personality and the and and and", "start": 1845.24, "duration": 8.789}, {"text": "so this is this asymptotic thing that I", "start": 1851.059, "duration": 5.011}, {"text": "was talking about with Paul and and I'm", "start": 1854.029, "duration": 3.63}, {"text": "still kind of wandering my way through a", "start": 1856.07, "duration": 7.29}, {"text": "little bit that I think in my opinion", "start": 1857.659, "duration": 9.0}, {"text": "obviously because I'm a Christian in my", "start": 1863.36, "duration": 6.0}, {"text": "opinion that at the back of everything", "start": 1866.659, "duration": 5.4}, {"text": "is a personality", "start": 1869.36, "duration": 5.189}, {"text": "that that's the nature of the world and", "start": 1872.059, "duration": 8.19}, {"text": "so it's not shocking that that we run", "start": 1874.549, "duration": 10.281}, {"text": "into the that rules don't work", "start": 1880.249, "duration": 6.66}, {"text": "universally that there's too many", "start": 1884.83, "duration": 5.219}, {"text": "options that even the best principles", "start": 1886.909, "duration": 6.75}, {"text": "eventually in some way are not workable", "start": 1890.049, "duration": 5.8}, {"text": "that it actually you have to keep going", "start": 1893.659, "duration": 3.661}, {"text": "up a hierarchy and what's about the", "start": 1895.849, "duration": 6.9}, {"text": "hierarchy from from principles you end", "start": 1897.32, "duration": 9.689}, {"text": "up at something infinite and Christian", "start": 1902.749, "duration": 6.93}, {"text": "theology is that like the you know John", "start": 1907.009, "duration": 4.77}, {"text": "one that the Word was God and the Word", "start": 1909.679, "duration": 4.021}, {"text": "was with God and everything was made", "start": 1911.779, "duration": 6.56}, {"text": "through him and what I found", "start": 1913.7, "duration": 8.01}, {"text": "actually I preached on this in Cuba two", "start": 1918.339, "duration": 7.9}, {"text": "weeks ago because basically like I said", "start": 1921.71, "duration": 6.179}, {"text": "it's always on my mind no I didn't", "start": 1926.239, "duration": 5.341}, {"text": "preach on calculus to be fair because", "start": 1927.889, "duration": 6.45}, {"text": "that would be really unfair to the", "start": 1931.58, "duration": 3.389}, {"text": "audience", "start": 1934.339, "duration": 3.361}, {"text": "uh-huh or to the church and entered the", "start": 1934.969, "duration": 6.991}, {"text": "translator but I think what John the", "start": 1937.7, "duration": 6.839}, {"text": "author of the Gospel of John was doing", "start": 1941.96, "duration": 6.269}, {"text": "in in in that and also in first John the", "start": 1944.539, "duration": 6.031}, {"text": "letter that he wrote to the churches in", "start": 1948.229, "duration": 5.221}, {"text": "general was that there's an ongoing", "start": 1950.57, "duration": 6.059}, {"text": "problem in those churches that they were", "start": 1953.45, "duration": 5.49}, {"text": "trying to make Christ into something", "start": 1956.629, "duration": 6.96}, {"text": "like if demigod or something right that", "start": 1958.94, "duration": 7.5}, {"text": "they were taking the existing principle", "start": 1963.589, "duration": 6.27}, {"text": "of the Greek logos and making Christ fit", "start": 1966.44, "duration": 7.439}, {"text": "into that and what John does is in a few", "start": 1969.859, "duration": 5.88}, {"text": "sentences of the beginning of the gospel", "start": 1973.879, "duration": 3.23}, {"text": "is he takes", "start": 1975.739, "duration": 6.51}, {"text": "Christ and fits the logos into Christ so", "start": 1977.109, "duration": 8.98}, {"text": "he flips that and says that the person", "start": 1982.249, "duration": 6.78}, {"text": "the person is above the principle and", "start": 1986.089, "duration": 5.67}, {"text": "the action hmmm everything else flows", "start": 1989.029, "duration": 7.89}, {"text": "from there mm-hmm and I guess if you", "start": 1991.759, "duration": 6.84}, {"text": "were to say okay if there was a world", "start": 1996.919, "duration": 6.931}, {"text": "that was made through a person then", "start": 1998.599, "duration": 8.541}, {"text": "would you not run into asymptotes", "start": 2003.85, "duration": 8.28}, {"text": "wherever you try to look or to get to", "start": 2007.14, "duration": 7.81}, {"text": "some ground and I think the answer is", "start": 2012.13, "duration": 8.7}, {"text": "yes well I think even this is gonna", "start": 2014.95, "duration": 8.91}, {"text": "sound really weird right but when you", "start": 2020.83, "duration": 5.33}, {"text": "look at the picture that the", "start": 2023.86, "duration": 7.05}, {"text": "astrophysicists draw or even they even", "start": 2026.16, "duration": 7.139}, {"text": "the quantum physicists draw of the", "start": 2030.91, "duration": 8.61}, {"text": "universe as it expanded there was the", "start": 2033.299, "duration": 8.711}, {"text": "the instantaneous expansion at the Big", "start": 2039.52, "duration": 4.56}, {"text": "Bang but then there's a constant", "start": 2042.01, "duration": 4.77}, {"text": "expansion and then the expansion is", "start": 2044.08, "duration": 5.339}, {"text": "accelerating now so it's almost like", "start": 2046.78, "duration": 6.649}, {"text": "it's see it's the asymptote reversed", "start": 2049.419, "duration": 6.271}, {"text": "everything is expanding out here but", "start": 2053.429, "duration": 4.421}, {"text": "it's expanding more and more as the", "start": 2055.69, "duration": 6.33}, {"text": "expanding faster as it goes out so I", "start": 2057.85, "duration": 7.529}, {"text": "just I see that I see that pattern", "start": 2062.02, "duration": 6.03}, {"text": "everywhere it's it's really very", "start": 2065.379, "duration": 5.071}, {"text": "remarkable when you start thinking about", "start": 2068.05, "duration": 11.97}, {"text": "it yeah yeah so um so one of the other", "start": 2070.45, "duration": 15.659}, {"text": "things that I ran across is this idea", "start": 2080.02, "duration": 8.94}, {"text": "that and this is something else Steven", "start": 2086.109, "duration": 4.411}, {"text": "Strogatz was talking about when he was", "start": 2088.96, "duration": 4.02}, {"text": "talking about this like 15 years ago", "start": 2090.52, "duration": 6.78}, {"text": "mm-hmm synchrony he said to synchronize", "start": 2092.98, "duration": 7.53}, {"text": "is the most pervasive drive in all of", "start": 2097.3, "duration": 7.35}, {"text": "nature well I have not heard that I've", "start": 2100.51, "duration": 6.599}, {"text": "heard that okay well let me throw", "start": 2104.65, "duration": 4.05}, {"text": "another quote at you you may have heard", "start": 2107.109, "duration": 6.361}, {"text": "that this comes from mathematics one of", "start": 2108.7, "duration": 6.8}, {"text": "the things that Stroh gets quoted was", "start": 2113.47, "duration": 4.59}, {"text": "something from Picasa where he said art", "start": 2115.5, "duration": 6.99}, {"text": "is a lie that makes us realize the truth", "start": 2118.06, "duration": 9.12}, {"text": "and he changed it a little bit and he", "start": 2122.49, "duration": 7.99}, {"text": "said calculus is a kind of lie that", "start": 2127.18, "duration": 7.679}, {"text": "helps us realize the truth well he's", "start": 2130.48, "duration": 6.359}, {"text": "just being he's just being clever there", "start": 2134.859, "duration": 3.571}, {"text": "right", "start": 2136.839, "duration": 3.151}, {"text": "well he is just being a little bit", "start": 2138.43, "duration": 4.35}, {"text": "clever but I when I if I look back at", "start": 2139.99, "duration": 4.98}, {"text": "that Picasso quote mm-hmm", "start": 2142.78, "duration": 4.47}, {"text": "art is a lie that makes us realize", "start": 2144.97, "duration": 6.81}, {"text": "truths I think about that I don't know", "start": 2147.25, "duration": 7.859}, {"text": "if you heard I don't want to repeat", "start": 2151.78, "duration": 4.5}, {"text": "things you've already heard but when I", "start": 2155.109, "duration": 4.051}, {"text": "did my interview with Paul a few months", "start": 2156.28, "duration": 5.059}, {"text": "ago I was telling him about this Russian", "start": 2159.16, "duration": 6.33}, {"text": "friend of mine who who came to the", "start": 2161.339, "duration": 8.651}, {"text": "States in the late 80s early 90s right", "start": 2165.49, "duration": 6.27}, {"text": "after the wall came down so it must been", "start": 2169.99, "duration": 5.43}, {"text": "very early 90s and I got to know her", "start": 2171.76, "duration": 5.849}, {"text": "then and she was telling me one time", "start": 2175.42, "duration": 5.73}, {"text": "about this old Russian proverb that a", "start": 2177.609, "duration": 8.671}, {"text": "truth once spoken becomes a lie and I", "start": 2181.15, "duration": 6.659}, {"text": "said well what on earth could that mean", "start": 2186.28, "duration": 5.549}, {"text": "that this sounded so strange to me but", "start": 2187.809, "duration": 6.06}, {"text": "the way she described it really made", "start": 2191.829, "duration": 4.26}, {"text": "sense to me and it's kind of the idea", "start": 2193.869, "duration": 8.281}, {"text": "that each of us is a bundle a matrix of", "start": 2196.089, "duration": 11.341}, {"text": "a huge data set based on our life our", "start": 2202.15, "duration": 9.63}, {"text": "life experiences our DNA all the books", "start": 2207.43, "duration": 6.8}, {"text": "we've read and songs we've heard and", "start": 2211.78, "duration": 4.86}, {"text": "things that we've done all the skills", "start": 2214.23, "duration": 4.599}, {"text": "we've learned everything makes us great", "start": 2216.64, "duration": 7.53}, {"text": "part so when we take in information it", "start": 2218.829, "duration": 7.53}, {"text": "comes in through that filter so whatever", "start": 2224.17, "duration": 3.87}, {"text": "information we take in it might have a", "start": 2226.359, "duration": 3.871}, {"text": "certain form but by the time it comes", "start": 2228.04, "duration": 5.069}, {"text": "through us and into our a perception", "start": 2230.23, "duration": 6.3}, {"text": "mass it becomes something else and we", "start": 2233.109, "duration": 6.0}, {"text": "speak out again even if it's that same", "start": 2236.53, "duration": 4.23}, {"text": "truth and we're speaking it to someone", "start": 2239.109, "duration": 6.171}, {"text": "else it is now informed with all of our", "start": 2240.76, "duration": 8.19}, {"text": "life in that way and now that word is", "start": 2245.28, "duration": 7.809}, {"text": "spoken out so I might have in my mind a", "start": 2248.95, "duration": 7.109}, {"text": "truth and I can see the truth so clearly", "start": 2253.089, "duration": 5.46}, {"text": "but once I start trying to articulate it", "start": 2256.059, "duration": 5.31}, {"text": "I'm going to run into problems trying to", "start": 2258.549, "duration": 5.76}, {"text": "articulate it so that it comes out truly", "start": 2261.369, "duration": 6.681}, {"text": "true clearly I'm having that problem", "start": 2264.309, "duration": 7.541}, {"text": "[Laughter]", "start": 2268.05, "duration": 3.8}, {"text": "nice but I thought I thought you're", "start": 2272.91, "duration": 4.75}, {"text": "gonna explain the proverb like this that", "start": 2275.65, "duration": 7.08}, {"text": "once once you have a truth then as soon", "start": 2277.66, "duration": 8.97}, {"text": "as time takes ahold of it it becomes at", "start": 2282.73, "duration": 6.359}, {"text": "least a little bit not as truth and it", "start": 2286.63, "duration": 6.12}, {"text": "continued that as well yeah yeah you", "start": 2289.089, "duration": 7.47}, {"text": "know it's time and narrative are both", "start": 2292.75, "duration": 8.329}, {"text": "affecting the truthiness of that truth", "start": 2296.559, "duration": 8.401}, {"text": "yes what so when Picasso says art is a", "start": 2301.079, "duration": 7.151}, {"text": "lie that makes us realize truth the way", "start": 2304.96, "duration": 7.2}, {"text": "I see that quote is and this happens", "start": 2308.23, "duration": 5.76}, {"text": "sometimes with some of my paintings I", "start": 2312.16, "duration": 3.959}, {"text": "don't know why I'm painting something", "start": 2313.99, "duration": 3.9}, {"text": "the way I paint it and I don't really", "start": 2316.119, "duration": 5.331}, {"text": "know what it means even after I paint it", "start": 2317.89, "duration": 7.169}, {"text": "and people will say to me well okay what", "start": 2321.45, "duration": 5.139}, {"text": "does your painting mean and I'll say to", "start": 2325.059, "duration": 3.81}, {"text": "them well I'd like to hear your", "start": 2326.589, "duration": 4.321}, {"text": "perspective on it first you know and", "start": 2328.869, "duration": 4.47}, {"text": "people will see things there that I", "start": 2330.91, "duration": 5.04}, {"text": "never saw but the minute they start", "start": 2333.339, "duration": 4.5}, {"text": "talking about it something in me goes", "start": 2335.95, "duration": 5.43}, {"text": "yes yes that's what I was trying to say", "start": 2337.839, "duration": 5.341}, {"text": "but I didn't even know that's what I was", "start": 2341.38, "duration": 6.14}, {"text": "trying to say so so in some way art", "start": 2343.18, "duration": 9.0}, {"text": "communicates deep too deep between", "start": 2347.52, "duration": 11.92}, {"text": "people and lets you get outside of the", "start": 2352.18, "duration": 9.75}, {"text": "need to articulate it into words and our", "start": 2359.44, "duration": 5.669}, {"text": "thought processes and all of the things", "start": 2361.93, "duration": 5.55}, {"text": "that we falter our way through and the", "start": 2365.109, "duration": 4.95}, {"text": "ravages of time and everything else but", "start": 2367.48, "duration": 6.15}, {"text": "we're just communicating heart to heart", "start": 2370.059, "duration": 5.581}, {"text": "or spirit to spirit or something like", "start": 2373.63, "duration": 4.11}, {"text": "that yeah absolutely", "start": 2375.64, "duration": 5.99}, {"text": "also I think that you know when Christ", "start": 2377.74, "duration": 7.26}, {"text": "describes himself as the way and the", "start": 2381.63, "duration": 5.949}, {"text": "truth and the life there's there's", "start": 2385.0, "duration": 4.29}, {"text": "something that's really indicative in", "start": 2387.579, "duration": 7.231}, {"text": "that proverb about why because if any", "start": 2389.29, "duration": 8.64}, {"text": "truth suffers look as you put it the", "start": 2394.81, "duration": 6.17}, {"text": "ravages of time but a truth that's miss", "start": 2397.93, "duration": 5.88}, {"text": "truth that's message in", "start": 2400.98, "duration": 6.76}, {"text": "person doesn't necessarily do so mm-hmm", "start": 2403.81, "duration": 7.65}, {"text": "well truth that's nested in him no no", "start": 2407.74, "duration": 5.25}, {"text": "that's what I mean yeah yeah it requires", "start": 2411.46, "duration": 4.11}, {"text": "it it requires a person that is that is", "start": 2412.99, "duration": 5.52}, {"text": "part of or the author of or however you", "start": 2415.57, "duration": 4.11}, {"text": "want it with that", "start": 2418.51, "duration": 4.83}, {"text": "I'm narrative well and and that that", "start": 2419.68, "duration": 6.18}, {"text": "really helps me flesh out another", "start": 2423.34, "duration": 8.7}, {"text": "thought and that is that I hear so many", "start": 2425.86, "duration": 8.16}, {"text": "of these people say well I just can't", "start": 2432.04, "duration": 4.92}, {"text": "believe in a being that's that's outside", "start": 2434.02, "duration": 5.01}, {"text": "the universe that could you know enter", "start": 2436.96, "duration": 5.82}, {"text": "in or affect our physical laws of nature", "start": 2439.03, "duration": 5.52}, {"text": "or whatever and the way they talk about", "start": 2442.78, "duration": 6.68}, {"text": "this being it's it's very almost", "start": 2444.55, "duration": 12.78}, {"text": "clinical or something or or magical did", "start": 2449.46, "duration": 10.74}, {"text": "you need to answer the door yep yeah", "start": 2457.33, "duration": 4.98}, {"text": "actually I think I've got a book like", "start": 2460.2, "duration": 8.65}, {"text": "this okay okay good yeah okay so but if", "start": 2462.31, "duration": 9.3}, {"text": "you think about that being the our", "start": 2468.85, "duration": 7.23}, {"text": "infinite Lord Jesus Christ I think about", "start": 2471.61, "duration": 6.72}, {"text": "how complex I am and how complex you are", "start": 2476.08, "duration": 6.0}, {"text": "and and how our light has been fleshed", "start": 2478.33, "duration": 6.06}, {"text": "out through the agape love of other", "start": 2482.08, "duration": 4.92}, {"text": "people towards us or what has built us", "start": 2484.39, "duration": 6.81}, {"text": "as human beings the being of Christ is", "start": 2487.0, "duration": 6.21}, {"text": "way more complex than that", "start": 2491.2, "duration": 4.71}, {"text": "and way more beautiful and filled out", "start": 2493.21, "duration": 7.28}, {"text": "and so I just don't think they're seeing", "start": 2495.91, "duration": 7.02}, {"text": "clearly they're not seeing themselves", "start": 2500.49, "duration": 5.65}, {"text": "clearly enough to even see how we could", "start": 2502.93, "duration": 8.1}, {"text": "have come from him yeah in this very", "start": 2506.14, "duration": 6.66}, {"text": "well but no you are but it's the most", "start": 2511.03, "duration": 3.36}, {"text": "common problem and we even have the same", "start": 2512.8, "duration": 4.44}, {"text": "problem right yeah I have this problem", "start": 2514.39, "duration": 4.65}, {"text": "yeah right so we have a we have a", "start": 2517.24, "duration": 3.72}, {"text": "problem that we only talk about God in", "start": 2519.04, "duration": 5.27}, {"text": "terms of will he only talk and", "start": 2520.96, "duration": 5.91}, {"text": "rationalize about God in terms of", "start": 2524.31, "duration": 5.41}, {"text": "analogy or an extension of a principle", "start": 2526.87, "duration": 5.16}, {"text": "or this sort of thing so of course all", "start": 2529.72, "duration": 8.099}, {"text": "that all that makes him simpler in our", "start": 2532.03, "duration": 9.809}, {"text": "then we ourselves are but our confidence", "start": 2537.819, "duration": 5.671}, {"text": "and our understanding of God is that", "start": 2541.839, "duration": 3.48}, {"text": "he's actually more complicated than we", "start": 2543.49, "duration": 2.22}, {"text": "are", "start": 2545.319, "duration": 2.881}, {"text": "I don't know complicated is the right", "start": 2545.71, "duration": 6.09}, {"text": "word but more calm complex these these", "start": 2548.2, "duration": 5.76}, {"text": "terms are fraught given some of your", "start": 2551.8, "duration": 7.47}, {"text": "audience yeah but that if he's beyond", "start": 2553.96, "duration": 8.58}, {"text": "what we can understand but what can we", "start": 2559.27, "duration": 5.789}, {"text": "do we have to try to understand I mean", "start": 2562.54, "duration": 5.309}, {"text": "that's again going up the via going up", "start": 2565.059, "duration": 5.191}, {"text": "the hill and understanding about", "start": 2567.849, "duration": 4.941}, {"text": "maintaining humility while we do so", "start": 2570.25, "duration": 7.53}, {"text": "knowing that it's infinite and that is I", "start": 2572.79, "duration": 6.73}, {"text": "think a really good picture of the", "start": 2577.78, "duration": 4.77}, {"text": "Christian walk or in fact the walk in in", "start": 2579.52, "duration": 7.89}, {"text": "any faith that's done well well and I I", "start": 2582.55, "duration": 6.93}, {"text": "even think a lot of scientists who don't", "start": 2587.41, "duration": 5.01}, {"text": "even accept the who don't even", "start": 2589.48, "duration": 5.31}, {"text": "acknowledge the existence of God I have", "start": 2592.42, "duration": 4.29}, {"text": "to have some sort of humility once they", "start": 2594.79, "duration": 4.769}, {"text": "start opening up all these packages and", "start": 2596.71, "duration": 5.339}, {"text": "they they open up they get down to the", "start": 2599.559, "duration": 4.651}, {"text": "cell level and they think oh wow you", "start": 2602.049, "duration": 3.871}, {"text": "know this is so complex and then they", "start": 2604.21, "duration": 3.48}, {"text": "get down to the mitochondrial level and", "start": 2605.92, "duration": 3.36}, {"text": "they're going oh my god there's another", "start": 2607.69, "duration": 3.149}, {"text": "whole world in there and then they get", "start": 2609.28, "duration": 3.089}, {"text": "you know whatever's inside there there's", "start": 2610.839, "duration": 4.111}, {"text": "another so there has to be a certain", "start": 2612.369, "duration": 4.68}, {"text": "amount of humility they're like man we", "start": 2614.95, "duration": 3.45}, {"text": "thought this what we knew what this was", "start": 2617.049, "duration": 4.921}, {"text": "all about yeah absolutely off the cliff", "start": 2618.4, "duration": 6.03}, {"text": "into it so and I've heard scientists", "start": 2621.97, "duration": 5.67}, {"text": "expressed wonder and and I love almost", "start": 2624.43, "duration": 6.06}, {"text": "of their work and what they're exploring", "start": 2627.64, "duration": 5.669}, {"text": "because it is it is wonderful it's", "start": 2630.49, "duration": 6.03}, {"text": "really wonderful but our our exploration", "start": 2633.309, "duration": 6.601}, {"text": "of God deserves to be even more", "start": 2636.52, "duration": 7.38}, {"text": "wonderful I I think yeah so do you have", "start": 2639.91, "duration": 6.09}, {"text": "your message on tape that you did in", "start": 2643.9, "duration": 6.149}, {"text": "Cuba so that we know no and if rather", "start": 2646.0, "duration": 5.52}, {"text": "clumsy because it's you know what see", "start": 2650.049, "duration": 3.391}, {"text": "you speaking in the interpreter that's", "start": 2651.52, "duration": 5.309}, {"text": "that and then the the interpreters wife", "start": 2653.44, "duration": 6.03}, {"text": "telson got it wrong and then you but", "start": 2656.829, "duration": 4.23}, {"text": "everyone's so generous that it's no", "start": 2659.47, "duration": 4.56}, {"text": "problem yeah yeah I remember that I", "start": 2661.059, "duration": 4.981}, {"text": "spent a month in Haiti one time and then", "start": 2664.03, "duration": 4.74}, {"text": "also I spent some time in Japan so oh", "start": 2666.04, "duration": 4.8}, {"text": "yes what in fact I", "start": 2668.77, "duration": 5.01}, {"text": "I actually acted as an interpreter for a", "start": 2670.84, "duration": 5.82}, {"text": "pastor there a few times trying to", "start": 2673.78, "duration": 5.52}, {"text": "interpret his Japanese back into English", "start": 2676.66, "duration": 6.69}, {"text": "and man that was so listen Chris this", "start": 2679.3, "duration": 6.06}, {"text": "has been a delight to be able to spend", "start": 2683.35, "duration": 4.77}, {"text": "time with you and I hope we get another", "start": 2685.36, "duration": 5.04}, {"text": "opportunity well I think we should", "start": 2688.12, "duration": 5.88}, {"text": "because I was really distracted yeah I'm", "start": 2690.4, "duration": 5.49}, {"text": "not entirely prepared of you drilling", "start": 2694.0, "duration": 4.29}, {"text": "down on the mathematics but that's well", "start": 2695.89, "duration": 5.58}, {"text": "and and you just ended up at the end of", "start": 2698.29, "duration": 5.94}, {"text": "a long day so let's do this again and", "start": 2701.47, "duration": 5.22}, {"text": "next time I would like to talk about", "start": 2704.23, "duration": 6.05}, {"text": "your idea about time and narrative okay", "start": 2706.69, "duration": 6.09}, {"text": "yeah I'd like that too thank you very", "start": 2710.28, "duration": 4.69}, {"text": "much Gary okay well that's great job on", "start": 2712.78, "duration": 3.81}, {"text": "your channel by the way oh thank you so", "start": 2714.97, "duration": 4.28}, {"text": "much okay", "start": 2716.59, "duration": 2.66}]}
+{
+ "video_id": "EV2DyZgxUhA",
+ "channel_id": "UCgp_r6WlBwDSJrP43Mz07GQ",
+ "channel_name": "The Meaning Code",
+ "title": "Chris on the Beauty of Calculus, Principles v. Rules, Local Governance",
+ "url": "https://www.youtube.com/watch?v=EV2DyZgxUhA",
+ "date": "2019-10-03",
+ "description": "Conversation with Chris about the principles of calculus and where that pattern shows up throughout our world.\nInfinite divisibility, the method of exhaustion\nReductionism v. the heroic nature of science exploration\nPicasso, \"Art is a lie that makes us realize truth.\"\nArtificial intelligence and the common sense knowledge problem.\nThe frame problem and the category problem.\nPutting it all back together. \nDifferentiating, then integrating.\nChris' conversation with Paul VanderKlay:\n  https://youtu.be/d3aFCtt6HgQ\nPaul VanderKlay's discussion of the frame problem:\n  https://youtu.be/W4kFnshkORY\nHubert Dreyfus on the Frame Problem https://youtu.be/SUZUbYCBtGI\nHubert Dreyfus on Socrates https://youtu.be/LG5nCkcZm-g",
+ "duration": 2720,
+ "transcript_parts": [
+  {
+   "text": "hi Chris yeah okay hi everybody out",
+   "start": 1.76,
+   "duration": 7.66
+  },
+  {
+   "text": "there today I am talking with Chris who",
+   "start": 5.879,
+   "duration": 7.821
+  },
+  {
+   "text": "has a company in Canada where he does",
+   "start": 9.42,
+   "duration": 17.55
+  },
+  {
+   "text": "Kinnear inconsistently about the beauty",
+   "start": 13.7,
+   "duration": 16.239
+  },
+  {
+   "text": "of calculus I've been thinking about it",
+   "start": 26.97,
+   "duration": 5.129
+  },
+  {
+   "text": "ever since and just wanting so much to",
+   "start": 29.939,
+   "duration": 4.081
+  },
+  {
+   "text": "talk to Chris and pick his brain about",
+   "start": 32.099,
+   "duration": 4.951
+  },
+  {
+   "text": "calculus and get some more ideas on that",
+   "start": 34.02,
+   "duration": 5.94
+  },
+  {
+   "text": "and then today I was listening to Paul",
+   "start": 37.05,
+   "duration": 6.57
+  },
+  {
+   "text": "van der clay talk about the frame",
+   "start": 39.96,
+   "duration": 7.56
+  },
+  {
+   "text": "problem and the category problem and how",
+   "start": 43.62,
+   "duration": 6.18
+  },
+  {
+   "text": "all of this relates to distributed",
+   "start": 47.52,
+   "duration": 5.82
+  },
+  {
+   "text": "cognition and I that's something I've",
+   "start": 49.8,
+   "duration": 5.579
+  },
+  {
+   "text": "thought about for a long time how",
+   "start": 53.34,
+   "duration": 5.19
+  },
+  {
+   "text": "calculus and the almost infinite",
+   "start": 55.379,
+   "duration": 6.901
+  },
+  {
+   "text": "divisibility is so similar to the way",
+   "start": 58.53,
+   "duration": 6.809
+  },
+  {
+   "text": "the universe lays out with the",
+   "start": 62.28,
+   "duration": 4.769
+  },
+  {
+   "text": "singularity at the beginning of the Big",
+   "start": 65.339,
+   "duration": 3.6
+  },
+  {
+   "text": "Bang and then now we wrote down two up",
+   "start": 67.049,
+   "duration": 4.201
+  },
+  {
+   "text": "quarks and down quarks we've divided the",
+   "start": 68.939,
+   "duration": 6.511
+  },
+  {
+   "text": "universe up into such small parts and or",
+   "start": 71.25,
+   "duration": 6.509
+  },
+  {
+   "text": "if you think about all the people on the",
+   "start": 75.45,
+   "duration": 6.45
+  },
+  {
+   "text": "planet and how our distributed wisdom is",
+   "start": 77.759,
+   "duration": 8.011
+  },
+  {
+   "text": "so much more effective in in governing",
+   "start": 81.9,
+   "duration": 5.52
+  },
+  {
+   "text": "ourselves and governing others than it",
+   "start": 85.77,
+   "duration": 3.87
+  },
+  {
+   "text": "is to try to get one person at the top",
+   "start": 87.42,
+   "duration": 4.86
+  },
+  {
+   "text": "to take care of all that because because",
+   "start": 89.64,
+   "duration": 4.049
+  },
+  {
+   "text": "we have a different head to our",
+   "start": 92.28,
+   "duration": 5.07
+  },
+  {
+   "text": "hierarchy so anyway I want to talk about",
+   "start": 93.689,
+   "duration": 8.101
+  },
+  {
+   "text": "those things and look forward to the",
+   "start": 97.35,
+   "duration": 7.89
+  },
+  {
+   "text": "conversation and Chris I wonder if you",
+   "start": 101.79,
+   "duration": 5.369
+  },
+  {
+   "text": "could just reiterate for us the story",
+   "start": 105.24,
+   "duration": 5.669
+  },
+  {
+   "text": "that you told Paul about your kind of",
+   "start": 107.159,
+   "duration": 7.111
+  },
+  {
+   "text": "aha moment when you realize the the",
+   "start": 110.909,
+   "duration": 6.06
+  },
+  {
+   "text": "beauty that resided within calculus and",
+   "start": 114.27,
+   "duration": 4.739
+  },
+  {
+   "text": "how that kind of remade your world for",
+   "start": 116.969,
+   "duration": 5.881
+  },
+  {
+   "text": "for your work life giving more import to",
+   "start": 119.009,
+   "duration": 11.581
+  },
+  {
+   "text": "your work life sure I can I can try so",
+   "start": 122.85,
+   "duration": 9.87
+  },
+  {
+   "text": "I've been obviously doing engineer for",
+   "start": 130.59,
+   "duration": 2.77
+  },
+  {
+   "text": "quite a",
+   "start": 132.72,
+   "duration": 2.14
+  },
+  {
+   "text": "engineering for quite a while you can",
+   "start": 133.36,
+   "duration": 5.82
+  },
+  {
+   "text": "see I have gray hair and I also have a",
+   "start": 134.86,
+   "duration": 6.18
+  },
+  {
+   "text": "theology degree and an interest in",
+   "start": 139.18,
+   "duration": 6.0
+  },
+  {
+   "text": "philosophy I had I had been reading I",
+   "start": 141.04,
+   "duration": 6.24
+  },
+  {
+   "text": "had been reading Chesterton a fair bit",
+   "start": 145.18,
+   "duration": 4.95
+  },
+  {
+   "text": "and orthodoxy specifically uh-huh and so",
+   "start": 147.28,
+   "duration": 5.37
+  },
+  {
+   "text": "this was stuck in my head probably",
+   "start": 150.13,
+   "duration": 6.24
+  },
+  {
+   "text": "because I'm just fairly pedantic and",
+   "start": 152.65,
+   "duration": 5.67
+  },
+  {
+   "text": "like to understand things thoroughly",
+   "start": 156.37,
+   "duration": 4.17
+  },
+  {
+   "text": "when I begin to understand them and chef",
+   "start": 158.32,
+   "duration": 5.67
+  },
+  {
+   "text": "Justin makes the point repeatedly that",
+   "start": 160.54,
+   "duration": 6.6
+  },
+  {
+   "text": "it's the it's in some sense is the",
+   "start": 163.99,
+   "duration": 7.37
+  },
+  {
+   "text": "paradoxes of Christianity that make it",
+   "start": 167.14,
+   "duration": 6.87
+  },
+  {
+   "text": "that make it fit the world that make it",
+   "start": 171.36,
+   "duration": 7.0
+  },
+  {
+   "text": "true that a simple rational explanation",
+   "start": 174.01,
+   "duration": 8.1
+  },
+  {
+   "text": "only extend so far and you can't model",
+   "start": 178.36,
+   "duration": 7.68
+  },
+  {
+   "text": "the world you can't explain what goes on",
+   "start": 182.11,
+   "duration": 5.85
+  },
+  {
+   "text": "in our world on almost any level with a",
+   "start": 186.04,
+   "duration": 4.08
+  },
+  {
+   "text": "simple rational explanation that it's",
+   "start": 187.96,
+   "duration": 3.84
+  },
+  {
+   "text": "actually the paradoxes that are at the",
+   "start": 190.12,
+   "duration": 3.39
+  },
+  {
+   "text": "heart of Christianity like the",
+   "start": 191.8,
+   "duration": 5.43
+  },
+  {
+   "text": "Incarnation and others that actually",
+   "start": 193.51,
+   "duration": 7.38
+  },
+  {
+   "text": "suit the way we live we breathe or the",
+   "start": 197.23,
+   "duration": 7.47
+  },
+  {
+   "text": "way we have our being and and that",
+   "start": 200.89,
+   "duration": 5.79
+  },
+  {
+   "text": "really stuck in my head because it rung",
+   "start": 204.7,
+   "duration": 4.44
+  },
+  {
+   "text": "true when I read it but I couldn't",
+   "start": 206.68,
+   "duration": 5.309
+  },
+  {
+   "text": "really map it on to anything and then I",
+   "start": 209.14,
+   "duration": 6.18
+  },
+  {
+   "text": "was thinking about this one late one",
+   "start": 211.989,
+   "duration": 7.5
+  },
+  {
+   "text": "night and I realized that calculus works",
+   "start": 215.32,
+   "duration": 7.08
+  },
+  {
+   "text": "in almost the same way that at the heart",
+   "start": 219.489,
+   "duration": 5.901
+  },
+  {
+   "text": "of calculus at the inception of calculus",
+   "start": 222.4,
+   "duration": 6.66
+  },
+  {
+   "text": "there was a paradox and that played it",
+   "start": 225.39,
+   "duration": 5.59
+  },
+  {
+   "text": "through history it's a history I went",
+   "start": 229.06,
+   "duration": 4.88
+  },
+  {
+   "text": "into some detail talking to Paul about",
+   "start": 230.98,
+   "duration": 6.03
+  },
+  {
+   "text": "but you know suffice it to say that at",
+   "start": 233.94,
+   "duration": 4.48
+  },
+  {
+   "text": "the heart of calculus there's this",
+   "start": 237.01,
+   "duration": 4.5
+  },
+  {
+   "text": "paradox that we that you actually accept",
+   "start": 238.42,
+   "duration": 7.34
+  },
+  {
+   "text": "that something can be divided by zero",
+   "start": 241.51,
+   "duration": 8.96
+  },
+  {
+   "text": "that it can be infinite but then it can",
+   "start": 245.76,
+   "duration": 9.31
+  },
+  {
+   "text": "be part of a larger equation and this",
+   "start": 250.47,
+   "duration": 6.43
+  },
+  {
+   "text": "was spotted went back and forth through",
+   "start": 255.07,
+   "duration": 5.88
+  },
+  {
+   "text": "the 16th and 17th century and eventually",
+   "start": 256.9,
+   "duration": 8.42
+  },
+  {
+   "text": "settled those that yeah it works and",
+   "start": 260.95,
+   "duration": 6.06
+  },
+  {
+   "text": "most of modern",
+   "start": 265.32,
+   "duration": 3.64
+  },
+  {
+   "text": "ecology is based on the fact that it",
+   "start": 267.01,
+   "duration": 6.42
+  },
+  {
+   "text": "actually works and has driven a lot of",
+   "start": 268.96,
+   "duration": 8.4
+  },
+  {
+   "text": "the development in modern world so when",
+   "start": 273.43,
+   "duration": 11.25
+  },
+  {
+   "text": "I saw that I went wow that is really you",
+   "start": 277.36,
+   "duration": 9.09
+  },
+  {
+   "text": "know when you see two things that are so",
+   "start": 284.68,
+   "duration": 4.71
+  },
+  {
+   "text": "similar you say well there's something",
+   "start": 286.45,
+   "duration": 5.55
+  },
+  {
+   "text": "there and because I'm a Christian it was",
+   "start": 289.39,
+   "duration": 4.38
+  },
+  {
+   "text": "extraordinarily exciting to think about",
+   "start": 292.0,
+   "duration": 4.59
+  },
+  {
+   "text": "there being something there and even",
+   "start": 293.77,
+   "duration": 6.09
+  },
+  {
+   "text": "further um you know we Paula died when",
+   "start": 296.59,
+   "duration": 4.59
+  },
+  {
+   "text": "we spoke we talked a lot about the",
+   "start": 299.86,
+   "duration": 4.64
+  },
+  {
+   "text": "asymptote which is this this momentary",
+   "start": 301.18,
+   "duration": 6.39
+  },
+  {
+   "text": "leap to infinity if you like but",
+   "start": 304.5,
+   "duration": 5.71
+  },
+  {
+   "text": "calculus is something further which is",
+   "start": 307.57,
+   "duration": 6.27
+  },
+  {
+   "text": "it incorporates a multitude of those it",
+   "start": 310.21,
+   "duration": 6.81
+  },
+  {
+   "text": "almost systemising that the asymptotic",
+   "start": 313.84,
+   "duration": 8.97
+  },
+  {
+   "text": "nature of the world so that you let me",
+   "start": 317.02,
+   "duration": 8.72
+  },
+  {
+   "text": "back up so almost any belief system",
+   "start": 322.81,
+   "duration": 6.45
+  },
+  {
+   "text": "involves an asymptote like a striving",
+   "start": 325.74,
+   "duration": 5.44
+  },
+  {
+   "text": "towards the infinite the unattainable",
+   "start": 329.26,
+   "duration": 5.49
+  },
+  {
+   "text": "it's in Buddhism it's it's in everything",
+   "start": 331.18,
+   "duration": 6.09
+  },
+  {
+   "text": "even in Judaism you know there's there's",
+   "start": 334.75,
+   "duration": 7.35
+  },
+  {
+   "text": "a God at the center of worship but it's",
+   "start": 337.27,
+   "duration": 9.26
+  },
+  {
+   "text": "not distributed but Christianity",
+   "start": 342.1,
+   "duration": 9.21
+  },
+  {
+   "text": "distributed this so that the you know",
+   "start": 346.53,
+   "duration": 8.44
+  },
+  {
+   "text": "that in Christian theology it's Christ",
+   "start": 351.31,
+   "duration": 9.6
+  },
+  {
+   "text": "lives in me and so what I thought was",
+   "start": 354.97,
+   "duration": 8.46
+  },
+  {
+   "text": "it's only the Christian world that could",
+   "start": 360.91,
+   "duration": 8.16
+  },
+  {
+   "text": "have accepted calculus and it max not",
+   "start": 363.43,
+   "duration": 9.63
+  },
+  {
+   "text": "just on to a theism but on to",
+   "start": 369.07,
+   "duration": 7.92
+  },
+  {
+   "text": "Christianity in particular so anyway so",
+   "start": 373.06,
+   "duration": 5.37
+  },
+  {
+   "text": "I've been trying to work through this in",
+   "start": 376.99,
+   "duration": 4.7
+  },
+  {
+   "text": "Y and also do real work mm-hmm",
+   "start": 378.43,
+   "duration": 9.78
+  },
+  {
+   "text": "for a couple years and you know I was I",
+   "start": 381.69,
+   "duration": 9.22
+  },
+  {
+   "text": "forget who it was I was listening to",
+   "start": 388.21,
+   "duration": 4.86
+  },
+  {
+   "text": "that said that once you have an idea",
+   "start": 390.91,
+   "duration": 5.19
+  },
+  {
+   "text": "that you want to write about or or or",
+   "start": 393.07,
+   "duration": 4.8
+  },
+  {
+   "text": "think through and talk about you start",
+   "start": 396.1,
+   "duration": 3.42
+  },
+  {
+   "text": "seeing it everywhere and so then you",
+   "start": 397.87,
+   "duration": 2.42
+  },
+  {
+   "text": "start seeing it",
+   "start": 399.52,
+   "duration": 3.29
+  },
+  {
+   "text": "and so I had seen this start seeing the",
+   "start": 400.29,
+   "duration": 4.92
+  },
+  {
+   "text": "same in almost everything and it seems",
+   "start": 402.81,
+   "duration": 7.86
+  },
+  {
+   "text": "to pop up again and again and again well",
+   "start": 405.21,
+   "duration": 8.25
+  },
+  {
+   "text": "where I first stumbled across that idea",
+   "start": 410.67,
+   "duration": 6.6
+  },
+  {
+   "text": "was outside of calculus and so I've seen",
+   "start": 413.46,
+   "duration": 8.69
+  },
+  {
+   "text": "it everywhere since then that was 1981",
+   "start": 417.27,
+   "duration": 9.78
+  },
+  {
+   "text": "1981 yeah I was at a economics",
+   "start": 422.15,
+   "duration": 10.26
+  },
+  {
+   "text": "conference on Austrian economics mmm-hmm",
+   "start": 427.05,
+   "duration": 8.85
+  },
+  {
+   "text": "Irving tanaan Hudson New York in this",
+   "start": 432.41,
+   "duration": 8.62
+  },
+  {
+   "text": "wonderful old vintage old vintage not a",
+   "start": 435.9,
+   "duration": 6.75
+  },
+  {
+   "text": "mansion exactly but it was an old",
+   "start": 441.03,
+   "duration": 3.27
+  },
+  {
+   "text": "vintage home with a lot of rooms",
+   "start": 442.65,
+   "duration": 4.65
+  },
+  {
+   "text": "yeah and it's a place called the",
+   "start": 444.3,
+   "duration": 4.92
+  },
+  {
+   "text": "foundation for economic education and",
+   "start": 447.3,
+   "duration": 3.36
+  },
+  {
+   "text": "they would invite people for a one-week",
+   "start": 449.22,
+   "duration": 3.21
+  },
+  {
+   "text": "seminar in the summer to come there and",
+   "start": 450.66,
+   "duration": 4.38
+  },
+  {
+   "text": "learn about Austrian economics and great",
+   "start": 452.43,
+   "duration": 4.38
+  },
+  {
+   "text": "was particularly interested in it",
+   "start": 455.04,
+   "duration": 3.45
+  },
+  {
+   "text": "because I was a legislator at the time",
+   "start": 456.81,
+   "duration": 5.4
+  },
+  {
+   "text": "and and I wanted to know more about how",
+   "start": 458.49,
+   "duration": 5.94
+  },
+  {
+   "text": "to do a good job for my constituents so",
+   "start": 462.21,
+   "duration": 6.57
+  },
+  {
+   "text": "I went to this conference and one of the",
+   "start": 464.43,
+   "duration": 7.56
+  },
+  {
+   "text": "professor's there was a guy by the name",
+   "start": 468.78,
+   "duration": 6.57
+  },
+  {
+   "text": "of Israel Kurtz nur I had reason to look",
+   "start": 471.99,
+   "duration": 5.13
+  },
+  {
+   "text": "him up lately and I believe he's still",
+   "start": 475.35,
+   "duration": 4.14
+  },
+  {
+   "text": "alive he was one of the most remarkable",
+   "start": 477.12,
+   "duration": 5.4
+  },
+  {
+   "text": "minds I've ever run across and he talked",
+   "start": 479.49,
+   "duration": 4.95
+  },
+  {
+   "text": "about one of these foundational",
+   "start": 482.52,
+   "duration": 3.9
+  },
+  {
+   "text": "principles of Austrian economics which",
+   "start": 484.44,
+   "duration": 6.96
+  },
+  {
+   "text": "is that and and I can't flush it out",
+   "start": 486.42,
+   "duration": 6.6
+  },
+  {
+   "text": "very well right now because I haven't",
+   "start": 491.4,
+   "duration": 3.27
+  },
+  {
+   "text": "read about this stuff for a long time",
+   "start": 493.02,
+   "duration": 3.27
+  },
+  {
+   "text": "but the way one of the places where it",
+   "start": 494.67,
+   "duration": 3.96
+  },
+  {
+   "text": "shows up really clearly is like in the",
+   "start": 496.29,
+   "duration": 5.67
+  },
+  {
+   "text": "stock market that the stock market works",
+   "start": 498.63,
+   "duration": 5.88
+  },
+  {
+   "text": "because it's based on the individual",
+   "start": 501.96,
+   "duration": 6.75
+  },
+  {
+   "text": "decisions of everybody mm-hmm on any one",
+   "start": 504.51,
+   "duration": 8.13
+  },
+  {
+   "text": "person not it gets a little bit nasty",
+   "start": 508.71,
+   "duration": 6.42
+  },
+  {
+   "text": "nowadays because some of these big hedge",
+   "start": 512.64,
+   "duration": 5.55
+  },
+  {
+   "text": "funds are these big conglomerate funds",
+   "start": 515.13,
+   "duration": 6.15
+  },
+  {
+   "text": "that are in there excuse the results",
+   "start": 518.19,
+   "duration": 6.51
+  },
+  {
+   "text": "somewhere but but but a market that's",
+   "start": 521.28,
+   "duration": 6.12
+  },
+  {
+   "text": "purely made up of individuals working on",
+   "start": 524.7,
+   "duration": 5.85
+  },
+  {
+   "text": "it from their own individual desires",
+   "start": 527.4,
+   "duration": 6.03
+  },
+  {
+   "text": "wants they they put their own resources",
+   "start": 530.55,
+   "duration": 3.539
+  },
+  {
+   "text": "they know",
+   "start": 533.43,
+   "duration": 2.61
+  },
+  {
+   "text": "capabilities they know how far they want",
+   "start": 534.089,
+   "duration": 4.35
+  },
+  {
+   "text": "to go with things what they want they",
+   "start": 536.04,
+   "duration": 3.479
+  },
+  {
+   "text": "know what they want to buy what they",
+   "start": 538.439,
+   "duration": 5.221
+  },
+  {
+   "text": "want to sell and that makes a market",
+   "start": 539.519,
+   "duration": 7.471
+  },
+  {
+   "text": "that is going to work beautifully and so",
+   "start": 543.66,
+   "duration": 5.159
+  },
+  {
+   "text": "he was talking about this whole thing",
+   "start": 546.99,
+   "duration": 4.289
+  },
+  {
+   "text": "about he didn't use this terminology but",
+   "start": 548.819,
+   "duration": 4.08
+  },
+  {
+   "text": "I see it in some of John Brubaker's",
+   "start": 551.279,
+   "duration": 3.42
+  },
+  {
+   "text": "videos it's like this distributed",
+   "start": 552.899,
+   "duration": 4.86
+  },
+  {
+   "text": "cognition right you use this collective",
+   "start": 554.699,
+   "duration": 6.81
+  },
+  {
+   "text": "wisdom of all the people and and that",
+   "start": 557.759,
+   "duration": 6.95
+  },
+  {
+   "text": "underneath that is also this idea that",
+   "start": 561.509,
+   "duration": 8.341
+  },
+  {
+   "text": "society is the most successful societies",
+   "start": 564.709,
+   "duration": 7.031
+  },
+  {
+   "text": "are the ones where they're based on an",
+   "start": 569.85,
+   "duration": 5.279
+  },
+  {
+   "text": "internal locus of control not an",
+   "start": 571.74,
+   "duration": 6.449
+  },
+  {
+   "text": "external locus of control you internally",
+   "start": 575.129,
+   "duration": 4.68
+  },
+  {
+   "text": "take responsibility for your own",
+   "start": 578.189,
+   "duration": 4.171
+  },
+  {
+   "text": "behavior your own consequences your own",
+   "start": 579.809,
+   "duration": 5.911
+  },
+  {
+   "text": "actions in some societies are built on",
+   "start": 582.36,
+   "duration": 7.62
+  },
+  {
+   "text": "external shame guilt retribution for",
+   "start": 585.72,
+   "duration": 8.52
+  },
+  {
+   "text": "control for dictators or something like",
+   "start": 589.98,
+   "duration": 6.329
+  },
+  {
+   "text": "that but a system built on an internal",
+   "start": 594.24,
+   "duration": 3.63
+  },
+  {
+   "text": "locus of control and personal",
+   "start": 596.309,
+   "duration": 3.421
+  },
+  {
+   "text": "responsibility and the sanctity of the",
+   "start": 597.87,
+   "duration": 5.12
+  },
+  {
+   "text": "individual yeah works better with this",
+   "start": 599.73,
+   "duration": 7.709
+  },
+  {
+   "text": "distributed cognition and local control",
+   "start": 602.99,
+   "duration": 8.05
+  },
+  {
+   "text": "you know small heap keep the control of",
+   "start": 607.439,
+   "duration": 6.15
+  },
+  {
+   "text": "things as local as possible strong",
+   "start": 611.04,
+   "duration": 5.58
+  },
+  {
+   "text": "families strong communities and drive",
+   "start": 613.589,
+   "duration": 5.34
+  },
+  {
+   "text": "the power down rather than driving the",
+   "start": 616.62,
+   "duration": 8.699
+  },
+  {
+   "text": "power up right and so that is very core",
+   "start": 618.929,
+   "duration": 9.241
+  },
+  {
+   "text": "principle in free-market economics and",
+   "start": 625.319,
+   "duration": 5.01
+  },
+  {
+   "text": "then when you start talking about",
+   "start": 628.17,
+   "duration": 4.259
+  },
+  {
+   "text": "calculus what you were talking about it",
+   "start": 630.329,
+   "duration": 6.63
+  },
+  {
+   "text": "they went bingo that's the same exact",
+   "start": 632.429,
+   "duration": 6.96
+  },
+  {
+   "text": "principle it's the same exact principle",
+   "start": 636.959,
+   "duration": 5.97
+  },
+  {
+   "text": "and when I heard Steven Strogatz talking",
+   "start": 639.389,
+   "duration": 5.901
+  },
+  {
+   "text": "about the beauty of calculus and he was",
+   "start": 642.929,
+   "duration": 6.39
+  },
+  {
+   "text": "explaining the basic fundamental",
+   "start": 645.29,
+   "duration": 7.57
+  },
+  {
+   "text": "principle of calculus is to divide your",
+   "start": 649.319,
+   "duration": 6.721
+  },
+  {
+   "text": "taking sections that are would be very",
+   "start": 652.86,
+   "duration": 4.979
+  },
+  {
+   "text": "difficult to calculate otherwise because",
+   "start": 656.04,
+   "duration": 3.419
+  },
+  {
+   "text": "they're odd shapes they've got curves",
+   "start": 657.839,
+   "duration": 4.381
+  },
+  {
+   "text": "and whatnot you know I'd them up into as",
+   "start": 659.459,
+   "duration": 5.37
+  },
+  {
+   "text": "many small pieces as possible back",
+   "start": 662.22,
+   "duration": 5.82
+  },
+  {
+   "text": "infinite infinite number of pieces yeah",
+   "start": 664.829,
+   "duration": 5.911
+  },
+  {
+   "text": "and here's the key you have to put it",
+   "start": 668.04,
+   "duration": 6.69
+  },
+  {
+   "text": "back together again yeah and what I",
+   "start": 670.74,
+   "duration": 5.76
+  },
+  {
+   "text": "notice happening with a lot of",
+   "start": 674.73,
+   "duration": 4.2
+  },
+  {
+   "text": "scientists today is that as they've",
+   "start": 676.5,
+   "duration": 4.889
+  },
+  {
+   "text": "uncovered another layer and another",
+   "start": 678.93,
+   "duration": 4.079
+  },
+  {
+   "text": "layer and another layer they've gone",
+   "start": 681.389,
+   "duration": 5.19
+  },
+  {
+   "text": "from me the organic layer down to the",
+   "start": 683.009,
+   "duration": 5.88
+  },
+  {
+   "text": "molecular layer down to the atomic layer",
+   "start": 686.579,
+   "duration": 6.031
+  },
+  {
+   "text": "down to the quark layer and then they",
+   "start": 688.889,
+   "duration": 4.62
+  },
+  {
+   "text": "just stop there",
+   "start": 692.61,
+   "duration": 2.58
+  },
+  {
+   "text": "they atomized it all the way down and",
+   "start": 693.509,
+   "duration": 4.711
+  },
+  {
+   "text": "they say well that's all there is but",
+   "start": 695.19,
+   "duration": 4.949
+  },
+  {
+   "text": "and you have to put it back together",
+   "start": 698.22,
+   "duration": 5.46
+  },
+  {
+   "text": "again to get the solution so it cursed",
+   "start": 700.139,
+   "duration": 5.791
+  },
+  {
+   "text": "to me said they haven't put it back",
+   "start": 703.68,
+   "duration": 4.909
+  },
+  {
+   "text": "together again yet to find the solution",
+   "start": 705.93,
+   "duration": 6.0
+  },
+  {
+   "text": "yeah no I think I agree with you 100%",
+   "start": 708.589,
+   "duration": 9.391
+  },
+  {
+   "text": "that's so true that well so first the",
+   "start": 711.93,
+   "duration": 8.909
+  },
+  {
+   "text": "methodology of you know dividing things",
+   "start": 717.98,
+   "duration": 4.99
+  },
+  {
+   "text": "again and again again in mathematics was",
+   "start": 720.839,
+   "duration": 5.641
+  },
+  {
+   "text": "called the method of exhaustion for very",
+   "start": 722.97,
+   "duration": 4.349
+  },
+  {
+   "text": "good reason",
+   "start": 726.48,
+   "duration": 4.76
+  },
+  {
+   "text": "so that if you go back to pre calculus",
+   "start": 727.319,
+   "duration": 6.541
+  },
+  {
+   "text": "that's the terminology was used I think",
+   "start": 731.24,
+   "duration": 4.5
+  },
+  {
+   "text": "it was used by the Greeks or the early",
+   "start": 733.86,
+   "duration": 4.61
+  },
+  {
+   "text": "mathematician so you just keep going",
+   "start": 735.74,
+   "duration": 5.07
+  },
+  {
+   "text": "can't go any further",
+   "start": 738.47,
+   "duration": 5.739
+  },
+  {
+   "text": "basically and then your answer is close",
+   "start": 740.81,
+   "duration": 11.11
+  },
+  {
+   "text": "enough that's right or as a South",
+   "start": 744.209,
+   "duration": 9.481
+  },
+  {
+   "text": "African engineer I worked with one said",
+   "start": 751.92,
+   "duration": 10.77
+  },
+  {
+   "text": "good enough for Canada but yeah but what",
+   "start": 753.69,
+   "duration": 11.699
+  },
+  {
+   "text": "calculus does is it says no you can you",
+   "start": 762.69,
+   "duration": 5.79
+  },
+  {
+   "text": "can extract not just an answer under",
+   "start": 765.389,
+   "duration": 5.851
+  },
+  {
+   "text": "this method of exhaustion but you can",
+   "start": 768.48,
+   "duration": 5.64
+  },
+  {
+   "text": "encapsulate that and extract a principle",
+   "start": 771.24,
+   "duration": 8.13
+  },
+  {
+   "text": "out of it oh okay right so it is it's",
+   "start": 774.12,
+   "duration": 6.39
+  },
+  {
+   "text": "exactly what you're saying",
+   "start": 779.37,
+   "duration": 4.319
+  },
+  {
+   "text": "it puts the atomization back together",
+   "start": 780.51,
+   "duration": 6.449
+  },
+  {
+   "text": "and we don't we don't see it when we're",
+   "start": 783.689,
+   "duration": 7.95
+  },
+  {
+   "text": "using it because it's been systemized so",
+   "start": 786.959,
+   "duration": 6.781
+  },
+  {
+   "text": "could you expand a little bit more on",
+   "start": 791.639,
+   "duration": 4.05
+  },
+  {
+   "text": "that when you say you could extract not",
+   "start": 793.74,
+   "duration": 6.27
+  },
+  {
+   "text": "just an answer but a principle yeah so",
+   "start": 795.689,
+   "duration": 5.791
+  },
+  {
+   "text": "you",
+   "start": 800.01,
+   "duration": 4.38
+  },
+  {
+   "text": "if you if you drill down like if you are",
+   "start": 801.48,
+   "duration": 5.75
+  },
+  {
+   "text": "mad and I'm thinking about how do I",
+   "start": 804.39,
+   "duration": 5.1
+  },
+  {
+   "text": "should have studied math a little bit",
+   "start": 807.23,
+   "duration": 5.02
+  },
+  {
+   "text": "before this conversation but this is",
+   "start": 809.49,
+   "duration": 5.82
+  },
+  {
+   "text": "well let me clarify yeah is when you",
+   "start": 812.25,
+   "duration": 5.16
+  },
+  {
+   "text": "said that the kid what came into my mind",
+   "start": 815.31,
+   "duration": 5.07
+  },
+  {
+   "text": "right away was when Steven Strogatz and",
+   "start": 817.41,
+   "duration": 6.06
+  },
+  {
+   "text": "his beauty of calculus message was",
+   "start": 820.38,
+   "duration": 6.2
+  },
+  {
+   "text": "talking about",
+   "start": 823.47,
+   "duration": 3.11
+  },
+  {
+   "text": "Maxwell's equations yeah and Maxwell had",
+   "start": 828.83,
+   "duration": 9.73
+  },
+  {
+   "text": "his equations he had them in algebra and",
+   "start": 833.81,
+   "duration": 8.23
+  },
+  {
+   "text": "he decided to look at them in calculus",
+   "start": 838.56,
+   "duration": 7.86
+  },
+  {
+   "text": "so he was reiterating them into calculus",
+   "start": 842.04,
+   "duration": 6.42
+  },
+  {
+   "text": "I guess you translate from algebra into",
+   "start": 846.42,
+   "duration": 4.86
+  },
+  {
+   "text": "calculus and as he looked at it in",
+   "start": 848.46,
+   "duration": 4.92
+  },
+  {
+   "text": "calculus and began manipulating the",
+   "start": 851.28,
+   "duration": 5.94
+  },
+  {
+   "text": "calculus all of a sudden he saw a new",
+   "start": 853.38,
+   "duration": 7.59
+  },
+  {
+   "text": "formula and and he said I've seen that",
+   "start": 857.22,
+   "duration": 5.91
+  },
+  {
+   "text": "formula before it's the speed of light",
+   "start": 860.97,
+   "duration": 6.48
+  },
+  {
+   "text": "and and all of a sudden then he realized",
+   "start": 863.13,
+   "duration": 6.81
+  },
+  {
+   "text": "that he was looking at an electrode that",
+   "start": 867.45,
+   "duration": 4.68
+  },
+  {
+   "text": "light was an electromagnetic wave and so",
+   "start": 869.94,
+   "duration": 4.38
+  },
+  {
+   "text": "he wasn't just looking at formulas about",
+   "start": 872.13,
+   "duration": 5.55
+  },
+  {
+   "text": "electric electricity and magnetism he",
+   "start": 874.32,
+   "duration": 5.39
+  },
+  {
+   "text": "was he had found something entirely new",
+   "start": 877.68,
+   "duration": 5.13
+  },
+  {
+   "text": "because he was using calculus as his",
+   "start": 879.71,
+   "duration": 5.83
+  },
+  {
+   "text": "language rather than algebra so is that",
+   "start": 882.81,
+   "duration": 4.35
+  },
+  {
+   "text": "the kind of thing you mean when you say",
+   "start": 885.54,
+   "duration": 5.43
+  },
+  {
+   "text": "not not just an answer but a principle",
+   "start": 887.16,
+   "duration": 7.44
+  },
+  {
+   "text": "yeah that's right so I think so I don't",
+   "start": 890.97,
+   "duration": 5.19
+  },
+  {
+   "text": "know math I haven't read back the",
+   "start": 894.6,
+   "duration": 4.65
+  },
+  {
+   "text": "history of Maxwell's developing recently",
+   "start": 896.16,
+   "duration": 5.79
+  },
+  {
+   "text": "I did go over in it so I maybe it was in",
+   "start": 899.25,
+   "duration": 6.18
+  },
+  {
+   "text": "Steven Strogatz book actually most",
+   "start": 901.95,
+   "duration": 6.36
+  },
+  {
+   "text": "recently but what happens is I think",
+   "start": 905.43,
+   "duration": 5.37
+  },
+  {
+   "text": "what he's talking about there is that",
+   "start": 908.31,
+   "duration": 4.38
+  },
+  {
+   "text": "when you come up with a governing",
+   "start": 910.8,
+   "duration": 7.68
+  },
+  {
+   "text": "equation for some set of phenomena in",
+   "start": 912.69,
+   "duration": 8.16
+  },
+  {
+   "text": "the universe and that's expressed in",
+   "start": 918.48,
+   "duration": 5.88
+  },
+  {
+   "text": "modern calculus terms out of that",
+   "start": 920.85,
+   "duration": 5.46
+  },
+  {
+   "text": "equation when you instantiate it when",
+   "start": 924.36,
+   "duration": 5.25
+  },
+  {
+   "text": "you when you some of the solutions to",
+   "start": 926.31,
+   "duration": 6.21
+  },
+  {
+   "text": "those equations are actual normal other",
+   "start": 929.61,
+   "duration": 5.58
+  },
+  {
+   "text": "great equations that allow you to",
+   "start": 932.52,
+   "duration": 8.759
+  },
+  {
+   "text": "solve a simplified version of that",
+   "start": 935.19,
+   "duration": 11.04
+  },
+  {
+   "text": "differential equation so and and there's",
+   "start": 941.279,
+   "duration": 6.3
+  },
+  {
+   "text": "a whole Ashlyn D there's a you know",
+   "start": 946.23,
+   "duration": 2.7
+  },
+  {
+   "text": "Einstein's theory of general relativity",
+   "start": 947.579,
+   "duration": 5.041
+  },
+  {
+   "text": "is expressed in in differential",
+   "start": 948.93,
+   "duration": 8.269
+  },
+  {
+   "text": "equations one solution or one that's one",
+   "start": 952.62,
+   "duration": 7.5
+  },
+  {
+   "text": "one theory that drops out of that is",
+   "start": 957.199,
+   "duration": 10.18
+  },
+  {
+   "text": "special relativity okay so the equations",
+   "start": 960.12,
+   "duration": 9.509
+  },
+  {
+   "text": "of motion are expressed in differential",
+   "start": 967.379,
+   "duration": 5.76
+  },
+  {
+   "text": "equations you can drop out of that the",
+   "start": 969.629,
+   "duration": 7.56
+  },
+  {
+   "text": "motion of a specific body and specific",
+   "start": 973.139,
+   "duration": 7.831
+  },
+  {
+   "text": "time in space are specific loads so",
+   "start": 977.189,
+   "duration": 6.21
+  },
+  {
+   "text": "that's kind of the echelon of how",
+   "start": 980.97,
+   "duration": 10.83
+  },
+  {
+   "text": "calculus works so they the equations",
+   "start": 983.399,
+   "duration": 10.141
+  },
+  {
+   "text": "that people eventually were able to",
+   "start": 991.8,
+   "duration": 3.36
+  },
+  {
+   "text": "formulate using the principles of",
+   "start": 993.54,
+   "duration": 4.26
+  },
+  {
+   "text": "calculus are the are what are described",
+   "start": 995.16,
+   "duration": 6.09
+  },
+  {
+   "text": "as governing equations so yeah by going",
+   "start": 997.8,
+   "duration": 6.24
+  },
+  {
+   "text": "down to the invisible and then accepting",
+   "start": 1001.25,
+   "duration": 4.41
+  },
+  {
+   "text": "that they're a little formulate these",
+   "start": 1004.04,
+   "duration": 3.899
+  },
+  {
+   "text": "governing equations for various",
+   "start": 1005.66,
+   "duration": 5.279
+  },
+  {
+   "text": "principles and Maxwell's equations of",
+   "start": 1007.939,
+   "duration": 4.471
+  },
+  {
+   "text": "the theory of relativity there's a few",
+   "start": 1010.939,
+   "duration": 5.82
+  },
+  {
+   "text": "others around that are are huge in our",
+   "start": 1012.41,
+   "duration": 8.039
+  },
+  {
+   "text": "in our world now all the stuff I've been",
+   "start": 1016.759,
+   "duration": 6.63
+  },
+  {
+   "text": "talking about the acceptance of the",
+   "start": 1020.449,
+   "duration": 5.73
+  },
+  {
+   "text": "infinite they're all very deep either in",
+   "start": 1023.389,
+   "duration": 6.69
+  },
+  {
+   "text": "the history or in the or the development",
+   "start": 1026.179,
+   "duration": 5.851
+  },
+  {
+   "text": "of those equations so when you use them",
+   "start": 1030.079,
+   "duration": 4.74
+  },
+  {
+   "text": "you don't come across that so you mean",
+   "start": 1032.03,
+   "duration": 5.269
+  },
+  {
+   "text": "it's sort of X that part is axiomatic",
+   "start": 1034.819,
+   "duration": 6.51
+  },
+  {
+   "text": "Thanks yeah it's just it's it's part of",
+   "start": 1037.299,
+   "duration": 5.591
+  },
+  {
+   "text": "the development of them it's not",
+   "start": 1041.329,
+   "duration": 3.63
+  },
+  {
+   "text": "something that you have to you know you",
+   "start": 1042.89,
+   "duration": 3.75
+  },
+  {
+   "text": "do something you run into but we're",
+   "start": 1044.959,
+   "duration": 5.281
+  },
+  {
+   "text": "using the equations so you don't you",
+   "start": 1046.64,
+   "duration": 5.279
+  },
+  {
+   "text": "know you don't necessarily think like",
+   "start": 1050.24,
+   "duration": 4.549
+  },
+  {
+   "text": "that as you're doing it yeah",
+   "start": 1051.919,
+   "duration": 5.401
+  },
+  {
+   "text": "you know it probably would make it a lot",
+   "start": 1054.789,
+   "duration": 4.0
+  },
+  {
+   "text": "easier for young people when they're",
+   "start": 1057.32,
+   "duration": 3.21
+  },
+  {
+   "text": "learning calculus if somebody explained",
+   "start": 1058.789,
+   "duration": 2.971
+  },
+  {
+   "text": "that to them before they started",
+   "start": 1060.53,
+   "duration": 2.37
+  },
+  {
+   "text": "learning it because then they'd",
+   "start": 1061.76,
+   "duration": 3.12
+  },
+  {
+   "text": "understand what it is they're doing",
+   "start": 1062.9,
+   "duration": 4.62
+  },
+  {
+   "text": "I remember watching my daughter learn",
+   "start": 1064.88,
+   "duration": 4.26
+  },
+  {
+   "text": "calculus and",
+   "start": 1067.52,
+   "duration": 3.57
+  },
+  {
+   "text": "and my husband what my husband kept",
+   "start": 1069.14,
+   "duration": 4.86
+  },
+  {
+   "text": "saying if you just would think about it",
+   "start": 1071.09,
+   "duration": 6.81
+  },
+  {
+   "text": "long enough to to try to understand what",
+   "start": 1074.0,
+   "duration": 6.06
+  },
+  {
+   "text": "the underlying principle is it would get",
+   "start": 1077.9,
+   "duration": 3.98
+  },
+  {
+   "text": "so much easier for you as you go forward",
+   "start": 1080.06,
+   "duration": 4.2
+  },
+  {
+   "text": "yeah no I just want to solve two",
+   "start": 1081.88,
+   "duration": 6.25
+  },
+  {
+   "text": "problems yeah and most times they teach",
+   "start": 1084.26,
+   "duration": 5.7
+  },
+  {
+   "text": "calculus like that right like they teach",
+   "start": 1088.13,
+   "duration": 4.95
+  },
+  {
+   "text": "it as a method like you know integral",
+   "start": 1089.96,
+   "duration": 4.41
+  },
+  {
+   "text": "calculus or differential calculus",
+   "start": 1093.08,
+   "duration": 3.45
+  },
+  {
+   "text": "there's a whole like tables of methods",
+   "start": 1094.37,
+   "duration": 5.46
+  },
+  {
+   "text": "for the algebraic manipulation of these",
+   "start": 1096.53,
+   "duration": 7.89
+  },
+  {
+   "text": "systems and it's it is very odd to learn",
+   "start": 1099.83,
+   "duration": 6.36
+  },
+  {
+   "text": "it without understanding the underlying",
+   "start": 1104.42,
+   "duration": 4.25
+  },
+  {
+   "text": "but some people don't don't like",
+   "start": 1106.19,
+   "duration": 6.99
+  },
+  {
+   "text": "understanding what it's underneath or",
+   "start": 1108.67,
+   "duration": 13.78
+  },
+  {
+   "text": "above yeah how about that yeah okay so",
+   "start": 1113.18,
+   "duration": 11.19
+  },
+  {
+   "text": "did that cover kind of what we were",
+   "start": 1122.45,
+   "duration": 6.0
+  },
+  {
+   "text": "talking about well so um right at the",
+   "start": 1124.37,
+   "duration": 6.47
+  },
+  {
+   "text": "end a you said something that made me I",
+   "start": 1128.45,
+   "duration": 4.89
+  },
+  {
+   "text": "had something I wanted to jump in there",
+   "start": 1130.84,
+   "duration": 4.81
+  },
+  {
+   "text": "with and then I lost it probably cuz I",
+   "start": 1133.34,
+   "duration": 3.45
+  },
+  {
+   "text": "was thinking about my daughter and",
+   "start": 1135.65,
+   "duration": 9.15
+  },
+  {
+   "text": "Chaves yeah yeah so one of the things",
+   "start": 1136.79,
+   "duration": 10.62
+  },
+  {
+   "text": "that that I've heard them talk about is",
+   "start": 1144.8,
+   "duration": 6.96
+  },
+  {
+   "text": "that it's you have the differential",
+   "start": 1147.41,
+   "duration": 8.79
+  },
+  {
+   "text": "equations which are based on time the",
+   "start": 1151.76,
+   "duration": 7.02
+  },
+  {
+   "text": "time difference right it's time to be",
+   "start": 1156.2,
+   "duration": 6.39
+  },
+  {
+   "text": "okay and then you are you breaking",
+   "start": 1158.78,
+   "duration": 6.81
+  },
+  {
+   "text": "everything down into these very infinite",
+   "start": 1162.59,
+   "duration": 8.31
+  },
+  {
+   "text": "s home bits you need to answer that no",
+   "start": 1165.59,
+   "duration": 8.7
+  },
+  {
+   "text": "I'm sorry all right but then you have to",
+   "start": 1170.9,
+   "duration": 5.22
+  },
+  {
+   "text": "put it back together again with with the",
+   "start": 1174.29,
+   "duration": 5.55
+  },
+  {
+   "text": "integral equations right and and they",
+   "start": 1176.12,
+   "duration": 5.67
+  },
+  {
+   "text": "talked about how it's that part is much",
+   "start": 1179.84,
+   "duration": 3.45
+  },
+  {
+   "text": "more difficult the first part of",
+   "start": 1181.79,
+   "duration": 3.48
+  },
+  {
+   "text": "breaking it down is the easy part and",
+   "start": 1183.29,
+   "duration": 3.84
+  },
+  {
+   "text": "then the integral part is much more",
+   "start": 1185.27,
+   "duration": 4.02
+  },
+  {
+   "text": "difficult and I thought well that's",
+   "start": 1187.13,
+   "duration": 3.75
+  },
+  {
+   "text": "interesting because that's kind of the",
+   "start": 1189.29,
+   "duration": 4.23
+  },
+  {
+   "text": "way everything is that's the way like",
+   "start": 1190.88,
+   "duration": 5.91
+  },
+  {
+   "text": "this you analyze a problem you can",
+   "start": 1193.52,
+   "duration": 5.37
+  },
+  {
+   "text": "analyze you can Adam eyes it down to",
+   "start": 1196.79,
+   "duration": 4.86
+  },
+  {
+   "text": "little bits and take it apart and think",
+   "start": 1198.89,
+   "duration": 3.93
+  },
+  {
+   "text": "about all this",
+   "start": 1201.65,
+   "duration": 2.55
+  },
+  {
+   "text": "action steps that you would need to take",
+   "start": 1202.82,
+   "duration": 2.849
+  },
+  {
+   "text": "and everything but then actually putting",
+   "start": 1204.2,
+   "duration": 2.969
+  },
+  {
+   "text": "it back together again requires",
+   "start": 1205.669,
+   "duration": 3.48
+  },
+  {
+   "text": "following through on all those action",
+   "start": 1207.169,
+   "duration": 4.89
+  },
+  {
+   "text": "steps and yeah it's way more difficult",
+   "start": 1209.149,
+   "duration": 6.24
+  },
+  {
+   "text": "process no absolutely and and when",
+   "start": 1212.059,
+   "duration": 4.771
+  },
+  {
+   "text": "you're integrating something back up",
+   "start": 1215.389,
+   "duration": 5.071
+  },
+  {
+   "text": "you're actually coming up with the the",
+   "start": 1216.83,
+   "duration": 6.479
+  },
+  {
+   "text": "curve and the most simplest example the",
+   "start": 1220.46,
+   "duration": 7.41
+  },
+  {
+   "text": "curve that fits all of the data",
+   "start": 1223.309,
+   "duration": 7.801
+  },
+  {
+   "text": "underlying it mm-hmm",
+   "start": 1227.87,
+   "duration": 6.12
+  },
+  {
+   "text": "and and so although there's rules for",
+   "start": 1231.11,
+   "duration": 5.419
+  },
+  {
+   "text": "most common equations and most common",
+   "start": 1233.99,
+   "duration": 6.87
+  },
+  {
+   "text": "you know formulations it can get very",
+   "start": 1236.529,
+   "duration": 12.461
+  },
+  {
+   "text": "complicated but integration is is it's",
+   "start": 1240.86,
+   "duration": 10.289
+  },
+  {
+   "text": "it's funny the word right because you",
+   "start": 1248.99,
+   "duration": 3.389
+  },
+  {
+   "text": "know if you're well if you're a well",
+   "start": 1251.149,
+   "duration": 4.11
+  },
+  {
+   "text": "integrated person mm-hmm it's a it's a",
+   "start": 1252.379,
+   "duration": 4.711
+  },
+  {
+   "text": "positive thing you quit various parts of",
+   "start": 1255.259,
+   "duration": 5.01
+  },
+  {
+   "text": "your life and personality together and",
+   "start": 1257.09,
+   "duration": 6.03
+  },
+  {
+   "text": "the same is true I think I think they",
+   "start": 1260.269,
+   "duration": 5.071
+  },
+  {
+   "text": "took the word and applied it to this",
+   "start": 1263.12,
+   "duration": 3.899
+  },
+  {
+   "text": "part of calculus for that very reason",
+   "start": 1265.34,
+   "duration": 3.089
+  },
+  {
+   "text": "that you're putting something back",
+   "start": 1267.019,
+   "duration": 4.681
+  },
+  {
+   "text": "together and I take your point in",
+   "start": 1268.429,
+   "duration": 6.421
+  },
+  {
+   "text": "general that it's um that the",
+   "start": 1271.7,
+   "duration": 5.28
+  },
+  {
+   "text": "reductionism that people seem to be",
+   "start": 1274.85,
+   "duration": 4.73
+  },
+  {
+   "text": "satisfied with in the pursuit of truth",
+   "start": 1276.98,
+   "duration": 6.27
+  },
+  {
+   "text": "doesn't really give us anything to to",
+   "start": 1279.58,
+   "duration": 6.79
+  },
+  {
+   "text": "live with to guide to it doesn't really",
+   "start": 1283.25,
+   "duration": 6.47
+  },
+  {
+   "text": "give us any larger answers mm-hmm and",
+   "start": 1286.37,
+   "duration": 6.84
+  },
+  {
+   "text": "it's part of your notion or a point that",
+   "start": 1289.72,
+   "duration": 5.799
+  },
+  {
+   "text": "that's that's actually a considerable",
+   "start": 1293.21,
+   "duration": 5.309
+  },
+  {
+   "text": "component in a meeting crisis yes",
+   "start": 1295.519,
+   "duration": 3.78
+  },
+  {
+   "text": "absolutely",
+   "start": 1298.519,
+   "duration": 6.181
+  },
+  {
+   "text": "yeah it's that atomization that these",
+   "start": 1299.299,
+   "duration": 7.921
+  },
+  {
+   "text": "these if they were actually looking at",
+   "start": 1304.7,
+   "duration": 4.439
+  },
+  {
+   "text": "it as a man that's what I don't",
+   "start": 1307.22,
+   "duration": 3.179
+  },
+  {
+   "text": "understand it seems like if they were",
+   "start": 1309.139,
+   "duration": 4.561
+  },
+  {
+   "text": "actually looking at it as a problem they",
+   "start": 1310.399,
+   "duration": 5.341
+  },
+  {
+   "text": "would understand that they have to put",
+   "start": 1313.7,
+   "duration": 3.359
+  },
+  {
+   "text": "it back together again they have to",
+   "start": 1315.74,
+   "duration": 4.529
+  },
+  {
+   "text": "reintegrate it right it's almost as",
+   "start": 1317.059,
+   "duration": 5.46
+  },
+  {
+   "text": "though they're not looking at it in the",
+   "start": 1320.269,
+   "duration": 3.78
+  },
+  {
+   "text": "same way that they would look at an",
+   "start": 1322.519,
+   "duration": 4.38
+  },
+  {
+   "text": "authentically scientific problem that",
+   "start": 1324.049,
+   "duration": 9.571
+  },
+  {
+   "text": "there's more of an agenda to to keep",
+   "start": 1326.899,
+   "duration": 9.631
+  },
+  {
+   "text": "drilling down you know I",
+   "start": 1333.62,
+   "duration": 5.64
+  },
+  {
+   "text": "maybe in a sense that drilling down is",
+   "start": 1336.53,
+   "duration": 4.86
+  },
+  {
+   "text": "continuing to look for meaning thinking",
+   "start": 1339.26,
+   "duration": 3.66
+  },
+  {
+   "text": "that if they can drill down far enough",
+   "start": 1341.39,
+   "duration": 4.89
+  },
+  {
+   "text": "they will find meaning underneath but",
+   "start": 1342.92,
+   "duration": 5.76
+  },
+  {
+   "text": "maybe the meaning is found in in just",
+   "start": 1346.28,
+   "duration": 6.29
+  },
+  {
+   "text": "reintegrating what what we know we have",
+   "start": 1348.68,
+   "duration": 6.54
+  },
+  {
+   "text": "yeah but no I mean it's very common when",
+   "start": 1352.57,
+   "duration": 4.96
+  },
+  {
+   "text": "we're doing analysis for a client and",
+   "start": 1355.22,
+   "duration": 4.23
+  },
+  {
+   "text": "they have a problem then we have to",
+   "start": 1357.53,
+   "duration": 5.4
+  },
+  {
+   "text": "drill down to to some kind of ground",
+   "start": 1359.45,
+   "duration": 5.88
+  },
+  {
+   "text": "where we can find something true but",
+   "start": 1362.93,
+   "duration": 4.5
+  },
+  {
+   "text": "then we have to do the work to go back",
+   "start": 1365.33,
+   "duration": 4.38
+  },
+  {
+   "text": "up the slope to say what does this",
+   "start": 1367.43,
+   "duration": 5.64
+  },
+  {
+   "text": "actually mean for your project etc so",
+   "start": 1369.71,
+   "duration": 6.66
+  },
+  {
+   "text": "that's that's our job to do that so I",
+   "start": 1373.07,
+   "duration": 4.8
+  },
+  {
+   "text": "think both things happen and both things",
+   "start": 1376.37,
+   "duration": 5.34
+  },
+  {
+   "text": "happen over time in science and I think",
+   "start": 1377.87,
+   "duration": 6.56
+  },
+  {
+   "text": "there's a legitimate and reachable",
+   "start": 1381.71,
+   "duration": 6.09
+  },
+  {
+   "text": "useful for reduction for drilling down",
+   "start": 1384.43,
+   "duration": 7.78
+  },
+  {
+   "text": "all those things it's it's well I have",
+   "start": 1387.8,
+   "duration": 6.21
+  },
+  {
+   "text": "this little mantra that's my little",
+   "start": 1392.21,
+   "duration": 4.97
+  },
+  {
+   "text": "mantra is the question is a gift yeah",
+   "start": 1394.01,
+   "duration": 7.02
+  },
+  {
+   "text": "and thankfully because we live in an",
+   "start": 1397.18,
+   "duration": 6.43
+  },
+  {
+   "text": "infinite universe we will never run out",
+   "start": 1401.03,
+   "duration": 5.94
+  },
+  {
+   "text": "of questions no no because if you don't",
+   "start": 1403.61,
+   "duration": 4.92
+  },
+  {
+   "text": "have a question if you don't have a",
+   "start": 1406.97,
+   "duration": 3.84
+  },
+  {
+   "text": "problem to solve you can't grow you",
+   "start": 1408.53,
+   "duration": 4.83
+  },
+  {
+   "text": "can't you can't keep moving ahead right",
+   "start": 1410.81,
+   "duration": 4.29
+  },
+  {
+   "text": "you need to have a problem to solve",
+   "start": 1413.36,
+   "duration": 4.77
+  },
+  {
+   "text": "so yeah that's right so and I think that",
+   "start": 1415.1,
+   "duration": 4.56
+  },
+  {
+   "text": "sometimes I think the scientific",
+   "start": 1418.13,
+   "duration": 6.51
+  },
+  {
+   "text": "community tends to drill down with the",
+   "start": 1419.66,
+   "duration": 7.32
+  },
+  {
+   "text": "confidence that someday maybe not today",
+   "start": 1424.64,
+   "duration": 5.28
+  },
+  {
+   "text": "maybe not they're the next generation or",
+   "start": 1426.98,
+   "duration": 4.37
+  },
+  {
+   "text": "the generation after that but eventually",
+   "start": 1429.92,
+   "duration": 4.83
+  },
+  {
+   "text": "by drilling down they'll be able someone",
+   "start": 1431.35,
+   "duration": 6.43
+  },
+  {
+   "text": "will they'll find the ground of truth in",
+   "start": 1434.75,
+   "duration": 4.65
+  },
+  {
+   "text": "some sense and someone will put it back",
+   "start": 1437.78,
+   "duration": 3.81
+  },
+  {
+   "text": "together and that's not always not I",
+   "start": 1439.4,
+   "duration": 4.41
+  },
+  {
+   "text": "mean sometimes it's true it's it's",
+   "start": 1441.59,
+   "duration": 4.26
+  },
+  {
+   "text": "normal I think there's a cheap",
+   "start": 1443.81,
+   "duration": 5.73
+  },
+  {
+   "text": "reductionism where people use this kind",
+   "start": 1445.85,
+   "duration": 7.89
+  },
+  {
+   "text": "of logic to say well that's not true",
+   "start": 1449.54,
+   "duration": 9.09
+  },
+  {
+   "text": "because it's just this or just the",
+   "start": 1453.74,
+   "duration": 7.65
+  },
+  {
+   "text": "terminology yeah yeah and that's",
+   "start": 1458.63,
+   "duration": 7.11
+  },
+  {
+   "text": "unfortunate because it's not yeah it's",
+   "start": 1461.39,
+   "duration": 7.65
+  },
+  {
+   "text": "not very useful in a conversation yeah I",
+   "start": 1465.74,
+   "duration": 4.71
+  },
+  {
+   "text": "mean there's really something very",
+   "start": 1469.04,
+   "duration": 3.27
+  },
+  {
+   "text": "heroic about the scientific endeavor",
+   "start": 1470.45,
+   "duration": 5.97
+  },
+  {
+   "text": "that that understands that sometimes",
+   "start": 1472.31,
+   "duration": 5.76
+  },
+  {
+   "text": "it's a hundred years before what you've",
+   "start": 1476.42,
+   "duration": 5.15
+  },
+  {
+   "text": "found even becomes useful to anybody",
+   "start": 1478.07,
+   "duration": 7.35
+  },
+  {
+   "text": "yeah you know because there are things",
+   "start": 1481.57,
+   "duration": 6.43
+  },
+  {
+   "text": "that people might find and no think",
+   "start": 1485.42,
+   "duration": 6.32
+  },
+  {
+   "text": "about even Michelangelo and da Vinci",
+   "start": 1488.0,
+   "duration": 6.36
+  },
+  {
+   "text": "they were they were uncovering things",
+   "start": 1491.74,
+   "duration": 4.57
+  },
+  {
+   "text": "that weren't useful in their time",
+   "start": 1494.36,
+   "duration": 3.69
+  },
+  {
+   "text": "because the climate of opportunity just",
+   "start": 1496.31,
+   "duration": 4.02
+  },
+  {
+   "text": "didn't exist at that point for some of",
+   "start": 1498.05,
+   "duration": 4.5
+  },
+  {
+   "text": "those things to come to fruition but",
+   "start": 1500.33,
+   "duration": 4.26
+  },
+  {
+   "text": "they kept pursuing it anyway they kept",
+   "start": 1502.55,
+   "duration": 5.01
+  },
+  {
+   "text": "moving ahead you know and yeah yeah and",
+   "start": 1504.59,
+   "duration": 4.77
+  },
+  {
+   "text": "it may not be fair but my take on on",
+   "start": 1507.56,
+   "duration": 4.11
+  },
+  {
+   "text": "John for baekje and his project is that",
+   "start": 1509.36,
+   "duration": 6.6
+  },
+  {
+   "text": "he's got a variety of grounds of",
+   "start": 1511.67,
+   "duration": 7.68
+  },
+  {
+   "text": "knowledge and busies he's done work and",
+   "start": 1515.96,
+   "duration": 5.79
+  },
+  {
+   "text": "studied in philosophy and psychology and",
+   "start": 1519.35,
+   "duration": 4.89
+  },
+  {
+   "text": "done this historical work and so he's",
+   "start": 1521.75,
+   "duration": 5.1
+  },
+  {
+   "text": "he's building something up from that",
+   "start": 1524.24,
+   "duration": 7.08
+  },
+  {
+   "text": "right right it is a ground-up process",
+   "start": 1526.85,
+   "duration": 6.9
+  },
+  {
+   "text": "that he's going through and it's I think",
+   "start": 1531.32,
+   "duration": 5.79
+  },
+  {
+   "text": "when people do that we we find it and if",
+   "start": 1533.75,
+   "duration": 5.79
+  },
+  {
+   "text": "when they do it well as he's doing we",
+   "start": 1537.11,
+   "duration": 4.8
+  },
+  {
+   "text": "find it attractive and profound and",
+   "start": 1539.54,
+   "duration": 5.61
+  },
+  {
+   "text": "interesting because that's that's the",
+   "start": 1541.91,
+   "duration": 8.55
+  },
+  {
+   "text": "nature of that's that's the nature of",
+   "start": 1545.15,
+   "duration": 8.72
+  },
+  {
+   "text": "how we we learn things",
+   "start": 1550.46,
+   "duration": 5.76
+  },
+  {
+   "text": "Karen can we pause for a second because",
+   "start": 1553.87,
+   "duration": 9.22
+  },
+  {
+   "text": "somebody to move my car oh okay I think",
+   "start": 1556.22,
+   "duration": 10.98
+  },
+  {
+   "text": "we were talking about rules I remember",
+   "start": 1563.09,
+   "duration": 6.75
+  },
+  {
+   "text": "you saying rules because I went back to",
+   "start": 1567.2,
+   "duration": 5.57
+  },
+  {
+   "text": "my notes and I and I was looking at this",
+   "start": 1569.84,
+   "duration": 5.49
+  },
+  {
+   "text": "this is an idea that one of the things",
+   "start": 1572.77,
+   "duration": 5.32
+  },
+  {
+   "text": "that came off of the discussion that",
+   "start": 1575.33,
+   "duration": 5.87
+  },
+  {
+   "text": "Paul Vander clay was having today about",
+   "start": 1578.09,
+   "duration": 6.75
+  },
+  {
+   "text": "the meaning crisis and the frame problem",
+   "start": 1581.2,
+   "duration": 8.29
+  },
+  {
+   "text": "the category problem and he was talking",
+   "start": 1584.84,
+   "duration": 9.59
+  },
+  {
+   "text": "to he was showing video clips of a",
+   "start": 1589.49,
+   "duration": 8.79
+  },
+  {
+   "text": "philosopher from Berkeley who was",
+   "start": 1594.43,
+   "duration": 7.12
+  },
+  {
+   "text": "talking about this stuff and he said you",
+   "start": 1598.28,
+   "duration": 6.0
+  },
+  {
+   "text": "can't have a list of rules to guide the",
+   "start": 1601.55,
+   "duration": 4.65
+  },
+  {
+   "text": "because it would require way too many",
+   "start": 1604.28,
+   "duration": 5.82
+  },
+  {
+   "text": "rules and right it requires way too many",
+   "start": 1606.2,
+   "duration": 7.29
+  },
+  {
+   "text": "rules is that we we have the frame",
+   "start": 1610.1,
+   "duration": 5.37
+  },
+  {
+   "text": "problem which is based on the category",
+   "start": 1613.49,
+   "duration": 5.37
+  },
+  {
+   "text": "problem and and all of that is based on",
+   "start": 1615.47,
+   "duration": 6.6
+  },
+  {
+   "text": "this idea that at every moment we",
+   "start": 1618.86,
+   "duration": 5.88
+  },
+  {
+   "text": "confront a set of infinite possibilities",
+   "start": 1622.07,
+   "duration": 7.05
+  },
+  {
+   "text": "in front of us and we have we without a",
+   "start": 1624.74,
+   "duration": 6.66
+  },
+  {
+   "text": "frame we have no idea what the next",
+   "start": 1629.12,
+   "duration": 4.679
+  },
+  {
+   "text": "thing is that we need to do because",
+   "start": 1631.4,
+   "duration": 5.009
+  },
+  {
+   "text": "we're confronted with this infinite slew",
+   "start": 1633.799,
+   "duration": 6.271
+  },
+  {
+   "text": "of things but if you try to establish a",
+   "start": 1636.409,
+   "duration": 7.111
+  },
+  {
+   "text": "set of hard rules to guide you on that",
+   "start": 1640.07,
+   "duration": 6.0
+  },
+  {
+   "text": "path you don't even know where to begin",
+   "start": 1643.52,
+   "duration": 4.649
+  },
+  {
+   "text": "to set up these rules and you would need",
+   "start": 1646.07,
+   "duration": 4.41
+  },
+  {
+   "text": "so many rules and the problem with rules",
+   "start": 1648.169,
+   "duration": 6.841
+  },
+  {
+   "text": "is you lose the flexibility and and this",
+   "start": 1650.48,
+   "duration": 6.89
+  },
+  {
+   "text": "is where you were talking earlier about",
+   "start": 1655.01,
+   "duration": 6.51
+  },
+  {
+   "text": "I think you said something about",
+   "start": 1657.37,
+   "duration": 9.309
+  },
+  {
+   "text": "religious systems what it made me think",
+   "start": 1661.52,
+   "duration": 6.87
+  },
+  {
+   "text": "about whatever it was you said it made",
+   "start": 1666.679,
+   "duration": 3.541
+  },
+  {
+   "text": "me think about this idea that every",
+   "start": 1668.39,
+   "duration": 3.93
+  },
+  {
+   "text": "system needs a certain every complex",
+   "start": 1670.22,
+   "duration": 3.51
+  },
+  {
+   "text": "system needs a certain amount of",
+   "start": 1672.32,
+   "duration": 4.2
+  },
+  {
+   "text": "randomness because if it doesn't have",
+   "start": 1673.73,
+   "duration": 4.98
+  },
+  {
+   "text": "the randomness that the system becomes",
+   "start": 1676.52,
+   "duration": 4.2
+  },
+  {
+   "text": "too inflexible and brittle and then it",
+   "start": 1678.71,
+   "duration": 4.469
+  },
+  {
+   "text": "just falls falls apart and so that's",
+   "start": 1680.72,
+   "duration": 3.66
+  },
+  {
+   "text": "what happens when you have too many",
+   "start": 1683.179,
+   "duration": 1.921
+  },
+  {
+   "text": "rules",
+   "start": 1684.38,
+   "duration": 5.88
+  },
+  {
+   "text": "and I think that applies to calculus and",
+   "start": 1685.1,
+   "duration": 7.23
+  },
+  {
+   "text": "to other aspects of engineering doesn't",
+   "start": 1690.26,
+   "duration": 4.58
+  },
+  {
+   "text": "it sure so the way I see that from a",
+   "start": 1692.33,
+   "duration": 5.04
+  },
+  {
+   "text": "engineering or calculus point of view is",
+   "start": 1694.84,
+   "duration": 5.469
+  },
+  {
+   "text": "that there's governing equations that",
+   "start": 1697.37,
+   "duration": 5.37
+  },
+  {
+   "text": "are like at the top of the hierarchy at",
+   "start": 1700.309,
+   "duration": 7.261
+  },
+  {
+   "text": "least within some some field when you",
+   "start": 1702.74,
+   "duration": 6.45
+  },
+  {
+   "text": "they're not rules they're they're",
+   "start": 1707.57,
+   "duration": 3.239
+  },
+  {
+   "text": "actually an extraordinarily flexible",
+   "start": 1709.19,
+   "duration": 4.65
+  },
+  {
+   "text": "equation that just captures basic",
+   "start": 1710.809,
+   "duration": 5.881
+  },
+  {
+   "text": "principles when you it's when you",
+   "start": 1713.84,
+   "duration": 5.04
+  },
+  {
+   "text": "instantiate those you can develop a set",
+   "start": 1716.69,
+   "duration": 4.5
+  },
+  {
+   "text": "of rules for a certain environment or",
+   "start": 1718.88,
+   "duration": 4.71
+  },
+  {
+   "text": "place or whatever I think that's a",
+   "start": 1721.19,
+   "duration": 6.51
+  },
+  {
+   "text": "really good analogy between core",
+   "start": 1723.59,
+   "duration": 9.36
+  },
+  {
+   "text": "principles and setting up rules if you",
+   "start": 1727.7,
+   "duration": 7.32
+  },
+  {
+   "text": "will and I guess the professor is",
+   "start": 1732.95,
+   "duration": 4.709
+  },
+  {
+   "text": "talking about ethics or morality or how",
+   "start": 1735.02,
+   "duration": 3.06
+  },
+  {
+   "text": "to live",
+   "start": 1737.659,
+   "duration": 3.451
+  },
+  {
+   "text": "the world that you can't have a Senate",
+   "start": 1738.08,
+   "duration": 6.18
+  },
+  {
+   "text": "rule he was talking about the problem",
+   "start": 1741.11,
+   "duration": 5.03
+  },
+  {
+   "text": "that they have with machine learning",
+   "start": 1744.26,
+   "duration": 5.22
+  },
+  {
+   "text": "mm-hmm teaching a computer to think to",
+   "start": 1746.14,
+   "duration": 6.129
+  },
+  {
+   "text": "get a computer even to be able to reason",
+   "start": 1749.48,
+   "duration": 5.91
+  },
+  {
+   "text": "as well as a four-year-old yeah it's an",
+   "start": 1752.269,
+   "duration": 5.461
+  },
+  {
+   "text": "almost insuperable problem because even",
+   "start": 1755.39,
+   "duration": 6.659
+  },
+  {
+   "text": "a four-year-old can assess things in a",
+   "start": 1757.73,
+   "duration": 7.35
+  },
+  {
+   "text": "way that we can't put the rules into",
+   "start": 1762.049,
+   "duration": 5.581
+  },
+  {
+   "text": "words certainly because we're not really",
+   "start": 1765.08,
+   "duration": 5.15
+  },
+  {
+   "text": "functioning on a rule we're functioning",
+   "start": 1767.63,
+   "duration": 6.029
+  },
+  {
+   "text": "based on a data set that we have that we",
+   "start": 1770.23,
+   "duration": 6.84
+  },
+  {
+   "text": "draw from that we somehow are able to",
+   "start": 1773.659,
+   "duration": 6.48
+  },
+  {
+   "text": "categorize things I mean it's really a",
+   "start": 1777.07,
+   "duration": 5.29
+  },
+  {
+   "text": "very mysterious thing how we can",
+   "start": 1780.139,
+   "duration": 5.91
+  },
+  {
+   "text": "categorize things yeah I mean part of it",
+   "start": 1782.36,
+   "duration": 6.659
+  },
+  {
+   "text": "is that we're I guess learning based on",
+   "start": 1786.049,
+   "duration": 5.821
+  },
+  {
+   "text": "not just our reaction with our",
+   "start": 1789.019,
+   "duration": 4.38
+  },
+  {
+   "text": "environment and those four things but",
+   "start": 1791.87,
+   "duration": 4.83
+  },
+  {
+   "text": "we're learning from another person as",
+   "start": 1793.399,
+   "duration": 9.66
+  },
+  {
+   "text": "well directly and I guess not to make",
+   "start": 1796.7,
+   "duration": 9.03
+  },
+  {
+   "text": "too great a leap but I guess my",
+   "start": 1803.059,
+   "duration": 5.61
+  },
+  {
+   "text": "perspective of what all this work that I",
+   "start": 1805.73,
+   "duration": 5.28
+  },
+  {
+   "text": "shouldn't say work all this like idle",
+   "start": 1808.669,
+   "duration": 6.801
+  },
+  {
+   "text": "thinking so far but I've been doing",
+   "start": 1811.01,
+   "duration": 4.46
+  },
+  {
+   "text": "really well so what was I gonna say oh",
+   "start": 1816.789,
+   "duration": 19.781
+  },
+  {
+   "text": "yeah so that that rules if you if you",
+   "start": 1827.45,
+   "duration": 10.709
+  },
+  {
+   "text": "follow rules up if you treat it as a",
+   "start": 1836.57,
+   "duration": 3.959
+  },
+  {
+   "text": "hierarchy that you follow rules up to",
+   "start": 1838.159,
+   "duration": 4.98
+  },
+  {
+   "text": "principles and that's not at the top of",
+   "start": 1840.529,
+   "duration": 4.711
+  },
+  {
+   "text": "the hierarchy that you follow principles",
+   "start": 1843.139,
+   "duration": 7.92
+  },
+  {
+   "text": "up to a personality and the and and and",
+   "start": 1845.24,
+   "duration": 8.789
+  },
+  {
+   "text": "so this is this asymptotic thing that I",
+   "start": 1851.059,
+   "duration": 5.011
+  },
+  {
+   "text": "was talking about with Paul and and I'm",
+   "start": 1854.029,
+   "duration": 3.63
+  },
+  {
+   "text": "still kind of wandering my way through a",
+   "start": 1856.07,
+   "duration": 7.29
+  },
+  {
+   "text": "little bit that I think in my opinion",
+   "start": 1857.659,
+   "duration": 9.0
+  },
+  {
+   "text": "obviously because I'm a Christian in my",
+   "start": 1863.36,
+   "duration": 6.0
+  },
+  {
+   "text": "opinion that at the back of everything",
+   "start": 1866.659,
+   "duration": 5.4
+  },
+  {
+   "text": "is a personality",
+   "start": 1869.36,
+   "duration": 5.189
+  },
+  {
+   "text": "that that's the nature of the world and",
+   "start": 1872.059,
+   "duration": 8.19
+  },
+  {
+   "text": "so it's not shocking that that we run",
+   "start": 1874.549,
+   "duration": 10.281
+  },
+  {
+   "text": "into the that rules don't work",
+   "start": 1880.249,
+   "duration": 6.66
+  },
+  {
+   "text": "universally that there's too many",
+   "start": 1884.83,
+   "duration": 5.219
+  },
+  {
+   "text": "options that even the best principles",
+   "start": 1886.909,
+   "duration": 6.75
+  },
+  {
+   "text": "eventually in some way are not workable",
+   "start": 1890.049,
+   "duration": 5.8
+  },
+  {
+   "text": "that it actually you have to keep going",
+   "start": 1893.659,
+   "duration": 3.661
+  },
+  {
+   "text": "up a hierarchy and what's about the",
+   "start": 1895.849,
+   "duration": 6.9
+  },
+  {
+   "text": "hierarchy from from principles you end",
+   "start": 1897.32,
+   "duration": 9.689
+  },
+  {
+   "text": "up at something infinite and Christian",
+   "start": 1902.749,
+   "duration": 6.93
+  },
+  {
+   "text": "theology is that like the you know John",
+   "start": 1907.009,
+   "duration": 4.77
+  },
+  {
+   "text": "one that the Word was God and the Word",
+   "start": 1909.679,
+   "duration": 4.021
+  },
+  {
+   "text": "was with God and everything was made",
+   "start": 1911.779,
+   "duration": 6.56
+  },
+  {
+   "text": "through him and what I found",
+   "start": 1913.7,
+   "duration": 8.01
+  },
+  {
+   "text": "actually I preached on this in Cuba two",
+   "start": 1918.339,
+   "duration": 7.9
+  },
+  {
+   "text": "weeks ago because basically like I said",
+   "start": 1921.71,
+   "duration": 6.179
+  },
+  {
+   "text": "it's always on my mind no I didn't",
+   "start": 1926.239,
+   "duration": 5.341
+  },
+  {
+   "text": "preach on calculus to be fair because",
+   "start": 1927.889,
+   "duration": 6.45
+  },
+  {
+   "text": "that would be really unfair to the",
+   "start": 1931.58,
+   "duration": 3.389
+  },
+  {
+   "text": "audience",
+   "start": 1934.339,
+   "duration": 3.361
+  },
+  {
+   "text": "uh-huh or to the church and entered the",
+   "start": 1934.969,
+   "duration": 6.991
+  },
+  {
+   "text": "translator but I think what John the",
+   "start": 1937.7,
+   "duration": 6.839
+  },
+  {
+   "text": "author of the Gospel of John was doing",
+   "start": 1941.96,
+   "duration": 6.269
+  },
+  {
+   "text": "in in in that and also in first John the",
+   "start": 1944.539,
+   "duration": 6.031
+  },
+  {
+   "text": "letter that he wrote to the churches in",
+   "start": 1948.229,
+   "duration": 5.221
+  },
+  {
+   "text": "general was that there's an ongoing",
+   "start": 1950.57,
+   "duration": 6.059
+  },
+  {
+   "text": "problem in those churches that they were",
+   "start": 1953.45,
+   "duration": 5.49
+  },
+  {
+   "text": "trying to make Christ into something",
+   "start": 1956.629,
+   "duration": 6.96
+  },
+  {
+   "text": "like if demigod or something right that",
+   "start": 1958.94,
+   "duration": 7.5
+  },
+  {
+   "text": "they were taking the existing principle",
+   "start": 1963.589,
+   "duration": 6.27
+  },
+  {
+   "text": "of the Greek logos and making Christ fit",
+   "start": 1966.44,
+   "duration": 7.439
+  },
+  {
+   "text": "into that and what John does is in a few",
+   "start": 1969.859,
+   "duration": 5.88
+  },
+  {
+   "text": "sentences of the beginning of the gospel",
+   "start": 1973.879,
+   "duration": 3.23
+  },
+  {
+   "text": "is he takes",
+   "start": 1975.739,
+   "duration": 6.51
+  },
+  {
+   "text": "Christ and fits the logos into Christ so",
+   "start": 1977.109,
+   "duration": 8.98
+  },
+  {
+   "text": "he flips that and says that the person",
+   "start": 1982.249,
+   "duration": 6.78
+  },
+  {
+   "text": "the person is above the principle and",
+   "start": 1986.089,
+   "duration": 5.67
+  },
+  {
+   "text": "the action hmmm everything else flows",
+   "start": 1989.029,
+   "duration": 7.89
+  },
+  {
+   "text": "from there mm-hmm and I guess if you",
+   "start": 1991.759,
+   "duration": 6.84
+  },
+  {
+   "text": "were to say okay if there was a world",
+   "start": 1996.919,
+   "duration": 6.931
+  },
+  {
+   "text": "that was made through a person then",
+   "start": 1998.599,
+   "duration": 8.541
+  },
+  {
+   "text": "would you not run into asymptotes",
+   "start": 2003.85,
+   "duration": 8.28
+  },
+  {
+   "text": "wherever you try to look or to get to",
+   "start": 2007.14,
+   "duration": 7.81
+  },
+  {
+   "text": "some ground and I think the answer is",
+   "start": 2012.13,
+   "duration": 8.7
+  },
+  {
+   "text": "yes well I think even this is gonna",
+   "start": 2014.95,
+   "duration": 8.91
+  },
+  {
+   "text": "sound really weird right but when you",
+   "start": 2020.83,
+   "duration": 5.33
+  },
+  {
+   "text": "look at the picture that the",
+   "start": 2023.86,
+   "duration": 7.05
+  },
+  {
+   "text": "astrophysicists draw or even they even",
+   "start": 2026.16,
+   "duration": 7.139
+  },
+  {
+   "text": "the quantum physicists draw of the",
+   "start": 2030.91,
+   "duration": 8.61
+  },
+  {
+   "text": "universe as it expanded there was the",
+   "start": 2033.299,
+   "duration": 8.711
+  },
+  {
+   "text": "the instantaneous expansion at the Big",
+   "start": 2039.52,
+   "duration": 4.56
+  },
+  {
+   "text": "Bang but then there's a constant",
+   "start": 2042.01,
+   "duration": 4.77
+  },
+  {
+   "text": "expansion and then the expansion is",
+   "start": 2044.08,
+   "duration": 5.339
+  },
+  {
+   "text": "accelerating now so it's almost like",
+   "start": 2046.78,
+   "duration": 6.649
+  },
+  {
+   "text": "it's see it's the asymptote reversed",
+   "start": 2049.419,
+   "duration": 6.271
+  },
+  {
+   "text": "everything is expanding out here but",
+   "start": 2053.429,
+   "duration": 4.421
+  },
+  {
+   "text": "it's expanding more and more as the",
+   "start": 2055.69,
+   "duration": 6.33
+  },
+  {
+   "text": "expanding faster as it goes out so I",
+   "start": 2057.85,
+   "duration": 7.529
+  },
+  {
+   "text": "just I see that I see that pattern",
+   "start": 2062.02,
+   "duration": 6.03
+  },
+  {
+   "text": "everywhere it's it's really very",
+   "start": 2065.379,
+   "duration": 5.071
+  },
+  {
+   "text": "remarkable when you start thinking about",
+   "start": 2068.05,
+   "duration": 11.97
+  },
+  {
+   "text": "it yeah yeah so um so one of the other",
+   "start": 2070.45,
+   "duration": 15.659
+  },
+  {
+   "text": "things that I ran across is this idea",
+   "start": 2080.02,
+   "duration": 8.94
+  },
+  {
+   "text": "that and this is something else Steven",
+   "start": 2086.109,
+   "duration": 4.411
+  },
+  {
+   "text": "Strogatz was talking about when he was",
+   "start": 2088.96,
+   "duration": 4.02
+  },
+  {
+   "text": "talking about this like 15 years ago",
+   "start": 2090.52,
+   "duration": 6.78
+  },
+  {
+   "text": "mm-hmm synchrony he said to synchronize",
+   "start": 2092.98,
+   "duration": 7.53
+  },
+  {
+   "text": "is the most pervasive drive in all of",
+   "start": 2097.3,
+   "duration": 7.35
+  },
+  {
+   "text": "nature well I have not heard that I've",
+   "start": 2100.51,
+   "duration": 6.599
+  },
+  {
+   "text": "heard that okay well let me throw",
+   "start": 2104.65,
+   "duration": 4.05
+  },
+  {
+   "text": "another quote at you you may have heard",
+   "start": 2107.109,
+   "duration": 6.361
+  },
+  {
+   "text": "that this comes from mathematics one of",
+   "start": 2108.7,
+   "duration": 6.8
+  },
+  {
+   "text": "the things that Stroh gets quoted was",
+   "start": 2113.47,
+   "duration": 4.59
+  },
+  {
+   "text": "something from Picasa where he said art",
+   "start": 2115.5,
+   "duration": 6.99
+  },
+  {
+   "text": "is a lie that makes us realize the truth",
+   "start": 2118.06,
+   "duration": 9.12
+  },
+  {
+   "text": "and he changed it a little bit and he",
+   "start": 2122.49,
+   "duration": 7.99
+  },
+  {
+   "text": "said calculus is a kind of lie that",
+   "start": 2127.18,
+   "duration": 7.679
+  },
+  {
+   "text": "helps us realize the truth well he's",
+   "start": 2130.48,
+   "duration": 6.359
+  },
+  {
+   "text": "just being he's just being clever there",
+   "start": 2134.859,
+   "duration": 3.571
+  },
+  {
+   "text": "right",
+   "start": 2136.839,
+   "duration": 3.151
+  },
+  {
+   "text": "well he is just being a little bit",
+   "start": 2138.43,
+   "duration": 4.35
+  },
+  {
+   "text": "clever but I when I if I look back at",
+   "start": 2139.99,
+   "duration": 4.98
+  },
+  {
+   "text": "that Picasso quote mm-hmm",
+   "start": 2142.78,
+   "duration": 4.47
+  },
+  {
+   "text": "art is a lie that makes us realize",
+   "start": 2144.97,
+   "duration": 6.81
+  },
+  {
+   "text": "truths I think about that I don't know",
+   "start": 2147.25,
+   "duration": 7.859
+  },
+  {
+   "text": "if you heard I don't want to repeat",
+   "start": 2151.78,
+   "duration": 4.5
+  },
+  {
+   "text": "things you've already heard but when I",
+   "start": 2155.109,
+   "duration": 4.051
+  },
+  {
+   "text": "did my interview with Paul a few months",
+   "start": 2156.28,
+   "duration": 5.059
+  },
+  {
+   "text": "ago I was telling him about this Russian",
+   "start": 2159.16,
+   "duration": 6.33
+  },
+  {
+   "text": "friend of mine who who came to the",
+   "start": 2161.339,
+   "duration": 8.651
+  },
+  {
+   "text": "States in the late 80s early 90s right",
+   "start": 2165.49,
+   "duration": 6.27
+  },
+  {
+   "text": "after the wall came down so it must been",
+   "start": 2169.99,
+   "duration": 5.43
+  },
+  {
+   "text": "very early 90s and I got to know her",
+   "start": 2171.76,
+   "duration": 5.849
+  },
+  {
+   "text": "then and she was telling me one time",
+   "start": 2175.42,
+   "duration": 5.73
+  },
+  {
+   "text": "about this old Russian proverb that a",
+   "start": 2177.609,
+   "duration": 8.671
+  },
+  {
+   "text": "truth once spoken becomes a lie and I",
+   "start": 2181.15,
+   "duration": 6.659
+  },
+  {
+   "text": "said well what on earth could that mean",
+   "start": 2186.28,
+   "duration": 5.549
+  },
+  {
+   "text": "that this sounded so strange to me but",
+   "start": 2187.809,
+   "duration": 6.06
+  },
+  {
+   "text": "the way she described it really made",
+   "start": 2191.829,
+   "duration": 4.26
+  },
+  {
+   "text": "sense to me and it's kind of the idea",
+   "start": 2193.869,
+   "duration": 8.281
+  },
+  {
+   "text": "that each of us is a bundle a matrix of",
+   "start": 2196.089,
+   "duration": 11.341
+  },
+  {
+   "text": "a huge data set based on our life our",
+   "start": 2202.15,
+   "duration": 9.63
+  },
+  {
+   "text": "life experiences our DNA all the books",
+   "start": 2207.43,
+   "duration": 6.8
+  },
+  {
+   "text": "we've read and songs we've heard and",
+   "start": 2211.78,
+   "duration": 4.86
+  },
+  {
+   "text": "things that we've done all the skills",
+   "start": 2214.23,
+   "duration": 4.599
+  },
+  {
+   "text": "we've learned everything makes us great",
+   "start": 2216.64,
+   "duration": 7.53
+  },
+  {
+   "text": "part so when we take in information it",
+   "start": 2218.829,
+   "duration": 7.53
+  },
+  {
+   "text": "comes in through that filter so whatever",
+   "start": 2224.17,
+   "duration": 3.87
+  },
+  {
+   "text": "information we take in it might have a",
+   "start": 2226.359,
+   "duration": 3.871
+  },
+  {
+   "text": "certain form but by the time it comes",
+   "start": 2228.04,
+   "duration": 5.069
+  },
+  {
+   "text": "through us and into our a perception",
+   "start": 2230.23,
+   "duration": 6.3
+  },
+  {
+   "text": "mass it becomes something else and we",
+   "start": 2233.109,
+   "duration": 6.0
+  },
+  {
+   "text": "speak out again even if it's that same",
+   "start": 2236.53,
+   "duration": 4.23
+  },
+  {
+   "text": "truth and we're speaking it to someone",
+   "start": 2239.109,
+   "duration": 6.171
+  },
+  {
+   "text": "else it is now informed with all of our",
+   "start": 2240.76,
+   "duration": 8.19
+  },
+  {
+   "text": "life in that way and now that word is",
+   "start": 2245.28,
+   "duration": 7.809
+  },
+  {
+   "text": "spoken out so I might have in my mind a",
+   "start": 2248.95,
+   "duration": 7.109
+  },
+  {
+   "text": "truth and I can see the truth so clearly",
+   "start": 2253.089,
+   "duration": 5.46
+  },
+  {
+   "text": "but once I start trying to articulate it",
+   "start": 2256.059,
+   "duration": 5.31
+  },
+  {
+   "text": "I'm going to run into problems trying to",
+   "start": 2258.549,
+   "duration": 5.76
+  },
+  {
+   "text": "articulate it so that it comes out truly",
+   "start": 2261.369,
+   "duration": 6.681
+  },
+  {
+   "text": "true clearly I'm having that problem",
+   "start": 2264.309,
+   "duration": 7.541
+  },
+  {
+   "text": "[Laughter]",
+   "start": 2268.05,
+   "duration": 3.8
+  },
+  {
+   "text": "nice but I thought I thought you're",
+   "start": 2272.91,
+   "duration": 4.75
+  },
+  {
+   "text": "gonna explain the proverb like this that",
+   "start": 2275.65,
+   "duration": 7.08
+  },
+  {
+   "text": "once once you have a truth then as soon",
+   "start": 2277.66,
+   "duration": 8.97
+  },
+  {
+   "text": "as time takes ahold of it it becomes at",
+   "start": 2282.73,
+   "duration": 6.359
+  },
+  {
+   "text": "least a little bit not as truth and it",
+   "start": 2286.63,
+   "duration": 6.12
+  },
+  {
+   "text": "continued that as well yeah yeah you",
+   "start": 2289.089,
+   "duration": 7.47
+  },
+  {
+   "text": "know it's time and narrative are both",
+   "start": 2292.75,
+   "duration": 8.329
+  },
+  {
+   "text": "affecting the truthiness of that truth",
+   "start": 2296.559,
+   "duration": 8.401
+  },
+  {
+   "text": "yes what so when Picasso says art is a",
+   "start": 2301.079,
+   "duration": 7.151
+  },
+  {
+   "text": "lie that makes us realize truth the way",
+   "start": 2304.96,
+   "duration": 7.2
+  },
+  {
+   "text": "I see that quote is and this happens",
+   "start": 2308.23,
+   "duration": 5.76
+  },
+  {
+   "text": "sometimes with some of my paintings I",
+   "start": 2312.16,
+   "duration": 3.959
+  },
+  {
+   "text": "don't know why I'm painting something",
+   "start": 2313.99,
+   "duration": 3.9
+  },
+  {
+   "text": "the way I paint it and I don't really",
+   "start": 2316.119,
+   "duration": 5.331
+  },
+  {
+   "text": "know what it means even after I paint it",
+   "start": 2317.89,
+   "duration": 7.169
+  },
+  {
+   "text": "and people will say to me well okay what",
+   "start": 2321.45,
+   "duration": 5.139
+  },
+  {
+   "text": "does your painting mean and I'll say to",
+   "start": 2325.059,
+   "duration": 3.81
+  },
+  {
+   "text": "them well I'd like to hear your",
+   "start": 2326.589,
+   "duration": 4.321
+  },
+  {
+   "text": "perspective on it first you know and",
+   "start": 2328.869,
+   "duration": 4.47
+  },
+  {
+   "text": "people will see things there that I",
+   "start": 2330.91,
+   "duration": 5.04
+  },
+  {
+   "text": "never saw but the minute they start",
+   "start": 2333.339,
+   "duration": 4.5
+  },
+  {
+   "text": "talking about it something in me goes",
+   "start": 2335.95,
+   "duration": 5.43
+  },
+  {
+   "text": "yes yes that's what I was trying to say",
+   "start": 2337.839,
+   "duration": 5.341
+  },
+  {
+   "text": "but I didn't even know that's what I was",
+   "start": 2341.38,
+   "duration": 6.14
+  },
+  {
+   "text": "trying to say so so in some way art",
+   "start": 2343.18,
+   "duration": 9.0
+  },
+  {
+   "text": "communicates deep too deep between",
+   "start": 2347.52,
+   "duration": 11.92
+  },
+  {
+   "text": "people and lets you get outside of the",
+   "start": 2352.18,
+   "duration": 9.75
+  },
+  {
+   "text": "need to articulate it into words and our",
+   "start": 2359.44,
+   "duration": 5.669
+  },
+  {
+   "text": "thought processes and all of the things",
+   "start": 2361.93,
+   "duration": 5.55
+  },
+  {
+   "text": "that we falter our way through and the",
+   "start": 2365.109,
+   "duration": 4.95
+  },
+  {
+   "text": "ravages of time and everything else but",
+   "start": 2367.48,
+   "duration": 6.15
+  },
+  {
+   "text": "we're just communicating heart to heart",
+   "start": 2370.059,
+   "duration": 5.581
+  },
+  {
+   "text": "or spirit to spirit or something like",
+   "start": 2373.63,
+   "duration": 4.11
+  },
+  {
+   "text": "that yeah absolutely",
+   "start": 2375.64,
+   "duration": 5.99
+  },
+  {
+   "text": "also I think that you know when Christ",
+   "start": 2377.74,
+   "duration": 7.26
+  },
+  {
+   "text": "describes himself as the way and the",
+   "start": 2381.63,
+   "duration": 5.949
+  },
+  {
+   "text": "truth and the life there's there's",
+   "start": 2385.0,
+   "duration": 4.29
+  },
+  {
+   "text": "something that's really indicative in",
+   "start": 2387.579,
+   "duration": 7.231
+  },
+  {
+   "text": "that proverb about why because if any",
+   "start": 2389.29,
+   "duration": 8.64
+  },
+  {
+   "text": "truth suffers look as you put it the",
+   "start": 2394.81,
+   "duration": 6.17
+  },
+  {
+   "text": "ravages of time but a truth that's miss",
+   "start": 2397.93,
+   "duration": 5.88
+  },
+  {
+   "text": "truth that's message in",
+   "start": 2400.98,
+   "duration": 6.76
+  },
+  {
+   "text": "person doesn't necessarily do so mm-hmm",
+   "start": 2403.81,
+   "duration": 7.65
+  },
+  {
+   "text": "well truth that's nested in him no no",
+   "start": 2407.74,
+   "duration": 5.25
+  },
+  {
+   "text": "that's what I mean yeah yeah it requires",
+   "start": 2411.46,
+   "duration": 4.11
+  },
+  {
+   "text": "it it requires a person that is that is",
+   "start": 2412.99,
+   "duration": 5.52
+  },
+  {
+   "text": "part of or the author of or however you",
+   "start": 2415.57,
+   "duration": 4.11
+  },
+  {
+   "text": "want it with that",
+   "start": 2418.51,
+   "duration": 4.83
+  },
+  {
+   "text": "I'm narrative well and and that that",
+   "start": 2419.68,
+   "duration": 6.18
+  },
+  {
+   "text": "really helps me flesh out another",
+   "start": 2423.34,
+   "duration": 8.7
+  },
+  {
+   "text": "thought and that is that I hear so many",
+   "start": 2425.86,
+   "duration": 8.16
+  },
+  {
+   "text": "of these people say well I just can't",
+   "start": 2432.04,
+   "duration": 4.92
+  },
+  {
+   "text": "believe in a being that's that's outside",
+   "start": 2434.02,
+   "duration": 5.01
+  },
+  {
+   "text": "the universe that could you know enter",
+   "start": 2436.96,
+   "duration": 5.82
+  },
+  {
+   "text": "in or affect our physical laws of nature",
+   "start": 2439.03,
+   "duration": 5.52
+  },
+  {
+   "text": "or whatever and the way they talk about",
+   "start": 2442.78,
+   "duration": 6.68
+  },
+  {
+   "text": "this being it's it's very almost",
+   "start": 2444.55,
+   "duration": 12.78
+  },
+  {
+   "text": "clinical or something or or magical did",
+   "start": 2449.46,
+   "duration": 10.74
+  },
+  {
+   "text": "you need to answer the door yep yeah",
+   "start": 2457.33,
+   "duration": 4.98
+  },
+  {
+   "text": "actually I think I've got a book like",
+   "start": 2460.2,
+   "duration": 8.65
+  },
+  {
+   "text": "this okay okay good yeah okay so but if",
+   "start": 2462.31,
+   "duration": 9.3
+  },
+  {
+   "text": "you think about that being the our",
+   "start": 2468.85,
+   "duration": 7.23
+  },
+  {
+   "text": "infinite Lord Jesus Christ I think about",
+   "start": 2471.61,
+   "duration": 6.72
+  },
+  {
+   "text": "how complex I am and how complex you are",
+   "start": 2476.08,
+   "duration": 6.0
+  },
+  {
+   "text": "and and how our light has been fleshed",
+   "start": 2478.33,
+   "duration": 6.06
+  },
+  {
+   "text": "out through the agape love of other",
+   "start": 2482.08,
+   "duration": 4.92
+  },
+  {
+   "text": "people towards us or what has built us",
+   "start": 2484.39,
+   "duration": 6.81
+  },
+  {
+   "text": "as human beings the being of Christ is",
+   "start": 2487.0,
+   "duration": 6.21
+  },
+  {
+   "text": "way more complex than that",
+   "start": 2491.2,
+   "duration": 4.71
+  },
+  {
+   "text": "and way more beautiful and filled out",
+   "start": 2493.21,
+   "duration": 7.28
+  },
+  {
+   "text": "and so I just don't think they're seeing",
+   "start": 2495.91,
+   "duration": 7.02
+  },
+  {
+   "text": "clearly they're not seeing themselves",
+   "start": 2500.49,
+   "duration": 5.65
+  },
+  {
+   "text": "clearly enough to even see how we could",
+   "start": 2502.93,
+   "duration": 8.1
+  },
+  {
+   "text": "have come from him yeah in this very",
+   "start": 2506.14,
+   "duration": 6.66
+  },
+  {
+   "text": "well but no you are but it's the most",
+   "start": 2511.03,
+   "duration": 3.36
+  },
+  {
+   "text": "common problem and we even have the same",
+   "start": 2512.8,
+   "duration": 4.44
+  },
+  {
+   "text": "problem right yeah I have this problem",
+   "start": 2514.39,
+   "duration": 4.65
+  },
+  {
+   "text": "yeah right so we have a we have a",
+   "start": 2517.24,
+   "duration": 3.72
+  },
+  {
+   "text": "problem that we only talk about God in",
+   "start": 2519.04,
+   "duration": 5.27
+  },
+  {
+   "text": "terms of will he only talk and",
+   "start": 2520.96,
+   "duration": 5.91
+  },
+  {
+   "text": "rationalize about God in terms of",
+   "start": 2524.31,
+   "duration": 5.41
+  },
+  {
+   "text": "analogy or an extension of a principle",
+   "start": 2526.87,
+   "duration": 5.16
+  },
+  {
+   "text": "or this sort of thing so of course all",
+   "start": 2529.72,
+   "duration": 8.099
+  },
+  {
+   "text": "that all that makes him simpler in our",
+   "start": 2532.03,
+   "duration": 9.809
+  },
+  {
+   "text": "then we ourselves are but our confidence",
+   "start": 2537.819,
+   "duration": 5.671
+  },
+  {
+   "text": "and our understanding of God is that",
+   "start": 2541.839,
+   "duration": 3.48
+  },
+  {
+   "text": "he's actually more complicated than we",
+   "start": 2543.49,
+   "duration": 2.22
+  },
+  {
+   "text": "are",
+   "start": 2545.319,
+   "duration": 2.881
+  },
+  {
+   "text": "I don't know complicated is the right",
+   "start": 2545.71,
+   "duration": 6.09
+  },
+  {
+   "text": "word but more calm complex these these",
+   "start": 2548.2,
+   "duration": 5.76
+  },
+  {
+   "text": "terms are fraught given some of your",
+   "start": 2551.8,
+   "duration": 7.47
+  },
+  {
+   "text": "audience yeah but that if he's beyond",
+   "start": 2553.96,
+   "duration": 8.58
+  },
+  {
+   "text": "what we can understand but what can we",
+   "start": 2559.27,
+   "duration": 5.789
+  },
+  {
+   "text": "do we have to try to understand I mean",
+   "start": 2562.54,
+   "duration": 5.309
+  },
+  {
+   "text": "that's again going up the via going up",
+   "start": 2565.059,
+   "duration": 5.191
+  },
+  {
+   "text": "the hill and understanding about",
+   "start": 2567.849,
+   "duration": 4.941
+  },
+  {
+   "text": "maintaining humility while we do so",
+   "start": 2570.25,
+   "duration": 7.53
+  },
+  {
+   "text": "knowing that it's infinite and that is I",
+   "start": 2572.79,
+   "duration": 6.73
+  },
+  {
+   "text": "think a really good picture of the",
+   "start": 2577.78,
+   "duration": 4.77
+  },
+  {
+   "text": "Christian walk or in fact the walk in in",
+   "start": 2579.52,
+   "duration": 7.89
+  },
+  {
+   "text": "any faith that's done well well and I I",
+   "start": 2582.55,
+   "duration": 6.93
+  },
+  {
+   "text": "even think a lot of scientists who don't",
+   "start": 2587.41,
+   "duration": 5.01
+  },
+  {
+   "text": "even accept the who don't even",
+   "start": 2589.48,
+   "duration": 5.31
+  },
+  {
+   "text": "acknowledge the existence of God I have",
+   "start": 2592.42,
+   "duration": 4.29
+  },
+  {
+   "text": "to have some sort of humility once they",
+   "start": 2594.79,
+   "duration": 4.769
+  },
+  {
+   "text": "start opening up all these packages and",
+   "start": 2596.71,
+   "duration": 5.339
+  },
+  {
+   "text": "they they open up they get down to the",
+   "start": 2599.559,
+   "duration": 4.651
+  },
+  {
+   "text": "cell level and they think oh wow you",
+   "start": 2602.049,
+   "duration": 3.871
+  },
+  {
+   "text": "know this is so complex and then they",
+   "start": 2604.21,
+   "duration": 3.48
+  },
+  {
+   "text": "get down to the mitochondrial level and",
+   "start": 2605.92,
+   "duration": 3.36
+  },
+  {
+   "text": "they're going oh my god there's another",
+   "start": 2607.69,
+   "duration": 3.149
+  },
+  {
+   "text": "whole world in there and then they get",
+   "start": 2609.28,
+   "duration": 3.089
+  },
+  {
+   "text": "you know whatever's inside there there's",
+   "start": 2610.839,
+   "duration": 4.111
+  },
+  {
+   "text": "another so there has to be a certain",
+   "start": 2612.369,
+   "duration": 4.68
+  },
+  {
+   "text": "amount of humility they're like man we",
+   "start": 2614.95,
+   "duration": 3.45
+  },
+  {
+   "text": "thought this what we knew what this was",
+   "start": 2617.049,
+   "duration": 4.921
+  },
+  {
+   "text": "all about yeah absolutely off the cliff",
+   "start": 2618.4,
+   "duration": 6.03
+  },
+  {
+   "text": "into it so and I've heard scientists",
+   "start": 2621.97,
+   "duration": 5.67
+  },
+  {
+   "text": "expressed wonder and and I love almost",
+   "start": 2624.43,
+   "duration": 6.06
+  },
+  {
+   "text": "of their work and what they're exploring",
+   "start": 2627.64,
+   "duration": 5.669
+  },
+  {
+   "text": "because it is it is wonderful it's",
+   "start": 2630.49,
+   "duration": 6.03
+  },
+  {
+   "text": "really wonderful but our our exploration",
+   "start": 2633.309,
+   "duration": 6.601
+  },
+  {
+   "text": "of God deserves to be even more",
+   "start": 2636.52,
+   "duration": 7.38
+  },
+  {
+   "text": "wonderful I I think yeah so do you have",
+   "start": 2639.91,
+   "duration": 6.09
+  },
+  {
+   "text": "your message on tape that you did in",
+   "start": 2643.9,
+   "duration": 6.149
+  },
+  {
+   "text": "Cuba so that we know no and if rather",
+   "start": 2646.0,
+   "duration": 5.52
+  },
+  {
+   "text": "clumsy because it's you know what see",
+   "start": 2650.049,
+   "duration": 3.391
+  },
+  {
+   "text": "you speaking in the interpreter that's",
+   "start": 2651.52,
+   "duration": 5.309
+  },
+  {
+   "text": "that and then the the interpreters wife",
+   "start": 2653.44,
+   "duration": 6.03
+  },
+  {
+   "text": "telson got it wrong and then you but",
+   "start": 2656.829,
+   "duration": 4.23
+  },
+  {
+   "text": "everyone's so generous that it's no",
+   "start": 2659.47,
+   "duration": 4.56
+  },
+  {
+   "text": "problem yeah yeah I remember that I",
+   "start": 2661.059,
+   "duration": 4.981
+  },
+  {
+   "text": "spent a month in Haiti one time and then",
+   "start": 2664.03,
+   "duration": 4.74
+  },
+  {
+   "text": "also I spent some time in Japan so oh",
+   "start": 2666.04,
+   "duration": 4.8
+  },
+  {
+   "text": "yes what in fact I",
+   "start": 2668.77,
+   "duration": 5.01
+  },
+  {
+   "text": "I actually acted as an interpreter for a",
+   "start": 2670.84,
+   "duration": 5.82
+  },
+  {
+   "text": "pastor there a few times trying to",
+   "start": 2673.78,
+   "duration": 5.52
+  },
+  {
+   "text": "interpret his Japanese back into English",
+   "start": 2676.66,
+   "duration": 6.69
+  },
+  {
+   "text": "and man that was so listen Chris this",
+   "start": 2679.3,
+   "duration": 6.06
+  },
+  {
+   "text": "has been a delight to be able to spend",
+   "start": 2683.35,
+   "duration": 4.77
+  },
+  {
+   "text": "time with you and I hope we get another",
+   "start": 2685.36,
+   "duration": 5.04
+  },
+  {
+   "text": "opportunity well I think we should",
+   "start": 2688.12,
+   "duration": 5.88
+  },
+  {
+   "text": "because I was really distracted yeah I'm",
+   "start": 2690.4,
+   "duration": 5.49
+  },
+  {
+   "text": "not entirely prepared of you drilling",
+   "start": 2694.0,
+   "duration": 4.29
+  },
+  {
+   "text": "down on the mathematics but that's well",
+   "start": 2695.89,
+   "duration": 5.58
+  },
+  {
+   "text": "and and you just ended up at the end of",
+   "start": 2698.29,
+   "duration": 5.94
+  },
+  {
+   "text": "a long day so let's do this again and",
+   "start": 2701.47,
+   "duration": 5.22
+  },
+  {
+   "text": "next time I would like to talk about",
+   "start": 2704.23,
+   "duration": 6.05
+  },
+  {
+   "text": "your idea about time and narrative okay",
+   "start": 2706.69,
+   "duration": 6.09
+  },
+  {
+   "text": "yeah I'd like that too thank you very",
+   "start": 2710.28,
+   "duration": 4.69
+  },
+  {
+   "text": "much Gary okay well that's great job on",
+   "start": 2712.78,
+   "duration": 3.81
+  },
+  {
+   "text": "your channel by the way oh thank you so",
+   "start": 2714.97,
+   "duration": 4.28
+  },
+  {
+   "text": "much okay",
+   "start": 2716.59,
+   "duration": 2.66
+  }
+ ]
+}
