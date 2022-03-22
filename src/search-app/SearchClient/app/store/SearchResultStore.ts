@@ -67,7 +67,12 @@ export class SearchResultStore {
         .then(action((data: SearchResultItemModel) => {
           
           let items = this.result.items.map(x => x.video_id === video_id ? data : x);
-          this.result = new SearchResultModel({items: items});
+          this.result = new SearchResultModel({
+            items: items,
+            totalResults: this.result.totalResults,
+            totalPages: this.result.totalPages,
+            currentPage: this.result.currentPage,
+          });
           
           // TODO: i can't figure out how to make just the transcriptData update properly. But that would be better, because updating the whole result forces the video to reload.
           // this.result.items.map(x => {
