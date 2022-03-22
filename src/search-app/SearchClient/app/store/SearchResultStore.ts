@@ -77,4 +77,8 @@ export class SearchResultStore {
           // });
         }));
   }
+
+  submitContactForm(address: string, body: string) {
+    searchAPI.submitContactForm(address, body);
+  }
 }

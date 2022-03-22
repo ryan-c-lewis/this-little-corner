@@ -56,6 +56,14 @@ namespace SearchServer
                     string jsonResult = JsonConvert.SerializeObject(result);
                     await context.Response.WriteAsync(jsonResult);
                 });
+                
+                endpoints.MapGet("/api/contact", async context =>
+                {
+                    string address = context.Request.Query["address"];
+                    string body = context.Request.Query["body"];
+                    DataTracker.Log($"CONTACT FROM '{address}': {body}");
+                    await context.Response.WriteAsync(string.Empty);
+                });
             });
         }
     }

@@ -48,5 +48,9 @@ export const searchAPI = {
 
   getFullTranscript: (video_id: string) => {
     return requests.get('/api/transcript?video_id=' + video_id);
+  },
+
+  submitContactForm: (address: string, body: string) => {
+    requests.get('/api/contact?address=' + address + '&body=' + body);
   }
 }

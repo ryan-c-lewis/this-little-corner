@@ -8,6 +8,8 @@ export class AppState {
     let view = query.get('view') ?? 'search';
     if (view === 'glossary')
       this.currentPageType = PageTypes.Glossary;
+    else if (view === 'contact')
+      this.currentPageType = PageTypes.Contact;
     else
       this.currentPageType = PageTypes.Search;
   }
@@ -23,6 +25,8 @@ export class AppState {
     let newSearch = '';
     if (this.currentPageType === PageTypes.Glossary)
       newSearch = '?view=glossary'
+    if (this.currentPageType === PageTypes.Contact)
+      newSearch = '?view=contact'
           
     const newUrl = protocol + '//' + host + pathname + newSearch;
     window.history.pushState({}, '', newUrl);
@@ -31,5 +35,6 @@ export class AppState {
 
 export enum PageTypes {
   Search,
-  Glossary
+  Glossary,
+  Contact
 }
