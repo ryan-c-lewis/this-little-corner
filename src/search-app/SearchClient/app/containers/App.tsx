@@ -6,6 +6,7 @@ import MenuBar from "../components/MenuBar";
 import GlossaryPage from "./GlossaryPage";
 import SearchPage from "./SearchPage";
 import ContactPage from "./ContactPage";
+import FAQPage from "./FAQPage";
 
 interface IRootProps {
   appState: AppState,
@@ -23,6 +24,8 @@ export default class Root extends React.Component<IRootProps, {}> {
           <MenuBar appState={appState}/>
           {this.props.appState.currentPageType === PageTypes.Contact
               ? <ContactPage appState={appState} searchResultStore={searchResultStore} /> : ""}
+          {this.props.appState.currentPageType === PageTypes.FAQ
+              ? <FAQPage appState={appState} /> : ""}
           {this.props.appState.currentPageType === PageTypes.Glossary
               ? <GlossaryPage appState={appState} /> : ""}
           {this.props.appState.currentPageType === PageTypes.Search

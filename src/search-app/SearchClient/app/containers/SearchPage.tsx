@@ -19,8 +19,6 @@ import SearchQueryInput from "../components/SearchQueryInput";
 import SortSelect from "../components/SortSelect";
 import {SearchRequestModel} from "../model/SearchRequestModel";
 import ChannelSelect from "../components/ChannelSelect";
-import {TranscriptPartGroupModel} from "../model/TranscriptPartGroupModel";
-import {ObservableArray} from "mobx/lib/types/observablearray";
 
 interface ISearchPageProps {
   appState: AppState,
@@ -36,12 +34,17 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
   
   componentWillMount() {
     const query = new URLSearchParams(window.location.search);
-    this.props.searchResultStore.init(new SearchRequestModel({
-      sort: query.get('sort') ?? 'newer',
-      channel: query.get('channel') ?? 'all',
-      query: query.get('q') ?? '',
-      pageSize: parseInt(query.get('size') ?? '10'),
-      page: parseInt(query.get('page') ?? '0')}));
+    if ((query.get('q') ?? '').length > 0) {
+      this.props.searchResultStore.init(new SearchRequestModel({
+        sort: query.get('sort') ?? 'newer',
+        channel: query.get('channel') ?? 'all',
+        query: query.get('q') ?? '',
+        pageSize: parseInt(query.get('size') ?? '10'),
+        page: parseInt(query.get('page') ?? '0')}));
+    } else {
+      this.props.searchResultStore.lastRequest = undefined;
+      this.props.searchResultStore.result = undefined;
+    }
   }
 
   handleSearch = (text: string) => {
@@ -181,11 +184,31 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
         <EuiPage>
           <EuiPageBody component="div">
             <EuiPageHeader>
-              <EuiFlexGroup justifyContent="spaceAround">
-                <SearchQueryInput appState={appState} onSave={this.handleSearch} />
+              <EuiFlexGroup>
+                <EuiFlexItem>
+                  <EuiFlexGroup justifyContent="spaceAround">
+                    <EuiFlexItem grow={false}>
+                      <div hidden={searchResultStore.lastRequest !== undefined}>
+                      </div>
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                  <EuiFlexGroup justifyContent="spaceAround">
+                    <EuiFlexItem grow={false}>
+                      <SearchQueryInput appState={appState} onSave={this.handleSearch} />
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                  <EuiFlexGroup justifyContent="spaceAround">
+                    <EuiFlexItem grow={false}>
+                      <div hidden={searchResultStore.lastRequest !== undefined}>
+                        <EuiSpacer />
+                        (Not sure where to start? Try searching for "meaning crisis" or go to the Glossary page.)
+                      </div>
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                </EuiFlexItem>
               </EuiFlexGroup>
             </EuiPageHeader>
-            <EuiPageContent>
+            <EuiPageContent hidden={searchResultStore.lastRequest === undefined}>
               <EuiPageContentBody>
                 <EuiFlexGroup justifyContent="spaceBetween">
                   <EuiFlexItem grow={false}>

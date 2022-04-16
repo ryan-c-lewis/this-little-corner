@@ -17,7 +17,10 @@ namespace SearchServer
 
         private ElasticManager()
         {
-            var pool = new SingleNodeConnectionPool(new Uri("http://localhost:9200"));
+            string elasticUri = Environment.MachineName.Contains("DESKTOP-SPEU90N")
+                ? "http://this-little-corner-elastic.ngrok.io/" // my local elastic is borked and i don't care why right now
+                : "http://localhost:9200";
+            var pool = new SingleNodeConnectionPool(new Uri(elasticUri));
             ConnectionSettings settings = new ConnectionSettings(pool)
                 .DefaultIndex("this_little_corner");
             _client = new ElasticClient(settings);

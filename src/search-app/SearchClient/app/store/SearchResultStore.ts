@@ -12,46 +12,60 @@ export class SearchResultStore {
   
   @observable result: SearchResultModel;
 
-  @observable isLoading: boolean = false;
-
   @action init(initialRequest: SearchRequestModel): Promise<any> {
     return this.search(initialRequest);
   }
 
+  getLastQuery() {
+    return this.lastRequest?.query ?? '';
+  }
+  getLastSort() {
+    return this.lastRequest?.sort ?? 'newer';
+  }
+  getLastChannel() {
+    return this.lastRequest?.channel ?? 'all';
+  }
+  getLastPage() {
+    return this.lastRequest?.page ?? 0;
+  }
+  getLastPageSize() {
+    return this.lastRequest?.pageSize ?? 10;
+  }
+
   @action goToPage(page: number): Promise<any> {
     return this.search(new SearchRequestModel({
-      query: this.lastRequest.query,
-      sort: this.lastRequest.sort,
-      channel: this.lastRequest.channel,
+      query: this.getLastQuery(),
+      sort: this.getLastSort(),
+      channel: this.getLastChannel(),
       page: page,
-      pageSize: this.lastRequest.pageSize}));
+      pageSize: this.getLastPageSize()}));
   }
 
   @action changeQuery(newValue: string): Promise<any> {
     return this.search(new SearchRequestModel({
       query: newValue,
-      sort: this.lastRequest.sort,
-      channel: this.lastRequest.channel,
+      sort: this.getLastSort(),
+      channel: this.getLastChannel(),
       page: 0,
-      pageSize: this.lastRequest.pageSize}));
+      pageSize: this.getLastPageSize()}));
   }
 
   @action changeSort(newValue: string): Promise<any> {
     return this.search(new SearchRequestModel({
-      query: this.lastRequest.query,
+      query: this.getLastQuery(),
       sort: newValue,
-      channel: this.lastRequest.channel,
+      channel: this.getLastChannel(),
       page: 0,
-      pageSize: this.lastRequest.pageSize}));
+      pageSize: this.getLastPageSize()}));
   }
 
   @action changeChannel(newValue: string): Promise<any> {
     return this.search(new SearchRequestModel({
-      query: this.lastRequest.query,
-      sort: this.lastRequest.sort,
+      query: this.getLastQuery(),
+      sort: this.getLastSort(),
       channel: newValue,
       page: 0,
-      pageSize: this.lastRequest.pageSize}));
+      pageSize: this.getLastPageSize()}));
   }
 
   @action search(request: SearchRequestModel): Promise<any> {
