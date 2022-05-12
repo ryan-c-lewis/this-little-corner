@@ -36,7 +36,7 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
     const query = new URLSearchParams(window.location.search);
     if ((query.get('q') ?? '').length > 0) {
       this.props.searchResultStore.init(new SearchRequestModel({
-        sort: query.get('sort') ?? 'newer',
+        sort: query.get('sort') ?? 'relevant',
         channel: query.get('channel') ?? 'all',
         query: query.get('q') ?? '',
         pageSize: parseInt(query.get('size') ?? '10'),
@@ -70,9 +70,10 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
       let total = searchResultStore.result.totalResults;
 
       if (query !== "")
-        return "Found " + total + " videos that discuss \"" + query + "\"";
-      else
-        return total + " videos to search through";
+        return "Results for \"" + query + "\"";
+      else if (total === 0)
+        return "No results";
+      return total + " videos to search through";
     }
     
     const ToTimestamp = (raw: number) => {

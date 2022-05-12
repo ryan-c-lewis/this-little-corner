@@ -48,9 +48,6 @@ export default class FAQPage extends React.Component<IFAQPageProps, {}> {
                         <b>Q: What is this site?</b><br/>
                         A: This site is primarily a search engine. There are a lot of interesting philosophical/theological/cultural dialogues happening between a certain group of YouTubers (centered around Paul Vander Klay, John Vervaeke, Jonathan Pageau, etc.) but it is hard to keep up with all the content in these videos. This site is an attempt to address that problem. YouTube automatically transcribes the words of all videos, and this search engine looks through the video transcripts for you.
                         <br/><br/>
-                        <b>Q: Why is my search not returning any results?</b><br/>
-                        A: Currently the search algorithm is very crude; it only looks for exact matches. So if you type "Jordan Peterson Noah's ark" you won't get any results, because it's going to look for literally the phrase "Jordan Peterson Noah's ark". You'll have to narrow down your search to one key word/phrase at a time.
-                        <br/><br/>
                         <b>Q: Why the name "This Little Corner"?</b><br/>
                         A: I don't know who started it, but people have been calling these YouTube channels (and their associated Discord servers) "This Little Corner of the Internet"
                         <br/><br/>

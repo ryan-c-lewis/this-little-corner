@@ -11,6 +11,10 @@ export default function(props: ISortSelectorProps) {
   
   const sortOptions = [
     {
+      value: 'relevant',
+      inputDisplay: 'Sort by Most Relevant',
+    },
+    {
       value: 'newer',
       inputDisplay: 'Sort by Newest',
     },

@@ -11,6 +11,6 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e28195bf_002Dbed2_002D41c0_002D8061_002D2eb7fb99ba41/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Blah #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::FAECA588-1EA2-4BCE-86B2-9BB11504022E::.NETStandard,Version=v2.1::Analysis.Class1.Blah&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4EC7EA4B-208C-4501-AAE1-256C37E05AA2::.NETCoreApp,Version=v6.0::SearchTests.SearchResultTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

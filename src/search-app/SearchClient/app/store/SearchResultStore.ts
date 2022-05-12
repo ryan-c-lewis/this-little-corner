@@ -20,7 +20,7 @@ export class SearchResultStore {
     return this.lastRequest?.query ?? '';
   }
   getLastSort() {
-    return this.lastRequest?.sort ?? 'newer';
+    return this.lastRequest?.sort ?? 'relevant';
   }
   getLastChannel() {
     return this.lastRequest?.channel ?? 'all';

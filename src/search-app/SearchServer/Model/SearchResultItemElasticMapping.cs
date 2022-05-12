@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace SearchServer.Model
 {
@@ -18,5 +19,7 @@ namespace SearchServer.Model
         
         // TODO this wants to be a separate class
         public TranscriptData transcriptData { get; set; }
+        [JsonIgnore]
+        public List<string> toHighlight { get; set; }
     }
 }
