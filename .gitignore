@@ -137,4 +137,4 @@ secrets.txt
 bin/
 obj/
 out/
-out.zip
+v*.zip

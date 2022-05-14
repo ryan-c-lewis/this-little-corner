@@ -112,7 +112,7 @@
     cursor: pointer;
     padding: 10px;
     border-bottom: 1px solid #eee;
-    width: 400px;
+    width: 500px;
     white-space: nowrap;
 }
 
@@ -139,6 +139,10 @@
     }
 
     .react-autosuggest__input {
+        width: 300px;
+    }
+
+    .react-autosuggest__suggestion {
         width: 300px;
     }
 }
