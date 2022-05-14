@@ -75,7 +75,7 @@ namespace SearchServer
                                 m =>
                                 {
                                     if (!query.Contains("\""))
-                                        return m.QueryString(qs => qs.Query("\"" + query + "\"").Boost(5)) || m.QueryString(qs => qs.Query(query));
+                                        return m.QueryString(qs => qs.Query("\"" + query + "\"").Boost(20)) || m.QueryString(qs => qs.Query(query));
                                     return m.QueryString(qs => qs.Query(query));
                                 },
                                 

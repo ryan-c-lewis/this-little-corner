@@ -15,6 +15,10 @@ export class SearchResultStore {
   @action init(initialRequest: SearchRequestModel): Promise<any> {
     return this.search(initialRequest);
   }
+  
+  searchHasHappened() {
+    return this.lastRequest !== undefined;
+  }
 
   getLastQuery() {
     return this.lastRequest?.query ?? '';

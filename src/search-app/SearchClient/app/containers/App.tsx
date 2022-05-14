@@ -21,7 +21,9 @@ export default class Root extends React.Component<IRootProps, {}> {
     return (
       <Provider appState={appState} searchResultStore={searchResultStore}>
         <div>
-          <MenuBar appState={appState}/>
+          {!(this.props.appState.currentPageType === PageTypes.Search && !searchResultStore.searchHasHappened())
+              ? <MenuBar appState={appState}/> : ""}
+          
           {this.props.appState.currentPageType === PageTypes.Contact
               ? <ContactPage appState={appState} searchResultStore={searchResultStore} /> : ""}
           {this.props.appState.currentPageType === PageTypes.FAQ

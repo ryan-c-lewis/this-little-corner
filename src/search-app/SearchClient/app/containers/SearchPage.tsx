@@ -184,32 +184,27 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
     return (
         <EuiPage>
           <EuiPageBody component="div">
-            <EuiPageHeader>
+            <EuiPageHeader className={"searchMain"}>
               <EuiFlexGroup>
                 <EuiFlexItem>
                   <EuiFlexGroup justifyContent="spaceAround">
                     <EuiFlexItem grow={false}>
-                      <div hidden={searchResultStore.lastRequest !== undefined}>
+                      <div hidden={searchResultStore.searchHasHappened()}>
+                        <div style={{'height': '50px'}}></div>
+                        <EuiTitle><h1>THIS LITTLE CORNER<br/>OF THE INTERNET</h1></EuiTitle>
+                        <div style={{'height': '20px'}}></div>
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
                   <EuiFlexGroup justifyContent="spaceAround">
                     <EuiFlexItem grow={false}>
-                      <SearchQueryInput appState={appState} onSave={this.handleSearch} />
-                    </EuiFlexItem>
-                  </EuiFlexGroup>
-                  <EuiFlexGroup justifyContent="spaceAround">
-                    <EuiFlexItem grow={false}>
-                      <div hidden={searchResultStore.lastRequest !== undefined}>
-                        <EuiSpacer />
-                        (Not sure where to start? Try searching for "meaning crisis" or go to the Glossary page.)
-                      </div>
+                      <SearchQueryInput appState={appState} searchResultStore={searchResultStore} onSave={this.handleSearch} />
                     </EuiFlexItem>
                   </EuiFlexGroup>
                 </EuiFlexItem>
               </EuiFlexGroup>
             </EuiPageHeader>
-            <EuiPageContent hidden={searchResultStore.lastRequest === undefined}>
+            <EuiPageContent hidden={!searchResultStore.searchHasHappened()}>
               <EuiPageContentBody>
                 <EuiFlexGroup justifyContent="spaceBetween">
                   <EuiFlexItem grow={false}>

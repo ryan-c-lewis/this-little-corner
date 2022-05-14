@@ -2,9 +2,13 @@ import * as React from 'react';
 import * as Autosuggest from "react-autosuggest";
 import { debounce } from 'throttle-debounce'
 import {AppState} from "../store/AppState";
+import {SearchResultStore} from "../store/SearchResultStore";
+import {Simulate} from "react-dom/test-utils";
+import pause = Simulate.pause;
 
 interface ISearchQueryInputProps {
   appState: AppState,
+  searchResultStore: SearchResultStore,
   onSave(text: string): Promise<any>,
 }
 
@@ -32,6 +36,47 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
         100,
         this.onSuggestionsFetchRequested
     )
+    
+    let getRandomTopic = () => {
+      let items = this.props.appState.topics;
+      return items[Math.floor(Math.random()*items.length)];
+    };
+
+    let searchBoxAnimationContext = 'pausing';
+    let interval = 30;
+    let pauseTime = 2000;
+    let pauseUntil = Date.now() + 3000;
+    let newWord = '';
+    let timer = setInterval(() => {
+      if (this.props.searchResultStore.searchHasHappened()) {
+        clearInterval(timer);
+        return;
+      }
+      
+      if (searchBoxAnimationContext === 'pausing') {
+        if (pauseUntil > Date.now()) {
+          // just wait
+        } else {
+          searchBoxAnimationContext = 'deleting';
+        }
+      } else if (searchBoxAnimationContext === 'deleting') {
+        let input = (document.querySelector("#searchBox input") as any);
+        if (input.placeholder.length > 0) {
+          input.placeholder = input.placeholder.slice(0, -1);
+        } else {
+          searchBoxAnimationContext = 'typing';
+          newWord = getRandomTopic();
+        }
+      } else if (searchBoxAnimationContext === 'typing') {
+        let input = (document.querySelector("#searchBox input") as any);
+        if (input.placeholder.length < newWord.length) {
+          input.placeholder = newWord.substr(0, input.placeholder.length + 1);
+        } else {
+          searchBoxAnimationContext = 'pausing';
+          pauseUntil = Date.now() + pauseTime;
+        }
+      }
+    }, interval);
   }
 
   renderSuggestion = suggestion => {
@@ -49,6 +94,7 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
   onSuggestionsFetchRequested = ({ value }) => {
     let options = new Set();
     let max = 10;
+    value = value.toString().toLowerCase();
     for (let i = 0; i < this.props.appState.topics.length; i++) {
       if (this.props.appState.topics[i].startsWith(value))
         options.add(this.props.appState.topics[i]);
@@ -88,7 +134,7 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
   }
   
   setEnablement = (enabled: boolean) => {
-    (document.getElementsByClassName('react-autosuggest__input')[0] as any).disabled = !enabled;
+    (document.querySelector("#searchBox input") as any).disabled = !enabled;
   }
 
   render() {
@@ -102,15 +148,17 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
     }
     
     return (
-      <Autosuggest
-          suggestions={suggestions}
-          onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
-          onSuggestionsClearRequested={this.onSuggestionsClearRequested}
-          onSuggestionSelected={this.onSuggestionSelected}
-          getSuggestionValue={suggestion => suggestion}
-          renderSuggestion={this.renderSuggestion}
-          inputProps={inputProps}
-      />
+      <div id={"searchBox"}>
+        <Autosuggest
+            suggestions={suggestions}
+            onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+            onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+            onSuggestionSelected={this.onSuggestionSelected}
+            getSuggestionValue={suggestion => suggestion}
+            renderSuggestion={this.renderSuggestion}
+            inputProps={inputProps}
+        />
+      </div>
     );
   }
 }

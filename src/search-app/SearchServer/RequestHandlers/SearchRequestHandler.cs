@@ -31,9 +31,27 @@ namespace SearchServer.RequestHandlers
                 foreach(string highlight in item.toHighlight)
                     GatherForQuery(item, highlight, groups);
 
-                groups = groups.OrderBy(x => x.transcriptParts.FirstOrDefault()?.start ?? 0).ToList();
+                groups = groups
+                    .OrderBy(x => x.transcriptParts.FirstOrDefault()?.start ?? 0)
+                    .ToList();
+                
+                var nonOverlappingGroups = new List<TranscriptPartGroup>();
+                foreach (TranscriptPartGroup group in groups)
+                {
+                    if (!nonOverlappingGroups.Any())
+                        nonOverlappingGroups.Add(group);
+                    else
+                    {
+                        TranscriptPart nextStart = group.transcriptParts.FirstOrDefault();
+                        TranscriptPart previousEnd = nonOverlappingGroups.LastOrDefault()?.transcriptParts.LastOrDefault();
+                        if (nextStart?.start > previousEnd?.start)
+                            nonOverlappingGroups.Add(group);
+                            
+                    }
+                }
+                
                 item.transcript_parts = new List<TranscriptPart>();
-                item.transcriptData = new TranscriptData {transcriptPartGroups = groups};
+                item.transcriptData = new TranscriptData {transcriptPartGroups = nonOverlappingGroups};
             }
 
             return result;

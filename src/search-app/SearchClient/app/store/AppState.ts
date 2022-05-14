@@ -33,7 +33,11 @@ export class AppState {
       newSearch = '?view=faq'
           
     const newUrl = protocol + '//' + host + pathname + newSearch;
-    window.history.pushState({}, '', newUrl);
+
+    if (this.currentPageType === PageTypes.Search)
+      window.location.replace(newUrl);
+    else
+      window.history.pushState({}, '', newUrl);
   }
 }
 
