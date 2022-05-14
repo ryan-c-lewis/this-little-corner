@@ -62,7 +62,10 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
       } else if (searchBoxAnimationContext === 'deleting') {
         let input = (document.querySelector("#searchBox input") as any);
         if (input.placeholder.length > 0) {
-          input.placeholder = input.placeholder.slice(0, -1);
+          let charactersToRemove = 1;
+          if (input.placeholder[input.placeholder.length - 1] === ' ')
+            charactersToRemove = 2;
+          input.placeholder = input.placeholder.slice(0, -charactersToRemove);
         } else {
           searchBoxAnimationContext = 'typing';
           newWord = getRandomTopic();
@@ -70,7 +73,10 @@ export default class SearchQueryInput extends React.Component<ISearchQueryInputP
       } else if (searchBoxAnimationContext === 'typing') {
         let input = (document.querySelector("#searchBox input") as any);
         if (input.placeholder.length < newWord.length) {
-          input.placeholder = newWord.substr(0, input.placeholder.length + 1);
+          let charactersToAdd = 1;
+          if (newWord[input.placeholder.length] === ' ')
+            charactersToAdd = 2;
+          input.placeholder = newWord.substr(0, input.placeholder.length + charactersToAdd);
         } else {
           searchBoxAnimationContext = 'pausing';
           pauseUntil = Date.now() + pauseTime;
