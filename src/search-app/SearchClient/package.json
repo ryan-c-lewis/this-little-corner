@@ -1,19 +1,21 @@
 {
   "name": "this-little-corner",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Website to organize Bridges of Meaning content",
   "license": "MIT",
   "repository": "https://github.com/ryan-c-lewis/this-little-corner",
   "scripts": {
     "start": "webpack-dev-server --mode=development --config webpack.config.js --hot --progress --color --devtool source-map",
     "build": "webpack --mode=development --config webpack.config.js --progress --profile --color",
-    "prod": "webpack --env NODE_ENV=production --config webpack.config.js --color"
+    "prod": "yarn generate-meta-tag && webpack --env NODE_ENV=production --config webpack.config.js --color",
+    "generate-meta-tag": "node ./node_modules/react-cache-buster/dist/generate-meta-tag.js"
   },
   "dependencies": {
     "@elastic/datemath": "^5.0.3",
     "@emotion/react": "^11.7.1",
     "enzyme": "^3.11.0",
     "moment": "^2.29.1",
+    "react-cache-buster": "^0.1.6",
     "react-lazy-load-image-component": "^1.5.1",
     "react-router": "^6.2.1",
     "throttle-debounce": "^3.0.1"

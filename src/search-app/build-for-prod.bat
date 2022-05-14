@@ -9,4 +9,5 @@ rmdir /s /q out
 mkdir out
 mkdir out\dist
 xcopy /s /y /exclude:files-to-exclude.txt "SearchClient\dist" out\dist
+xcopy /s /y "SearchClient\public" out\dist
 xcopy /s /y "SearchServer\bin\Release\net6.0" out
