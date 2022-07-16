@@ -17,12 +17,27 @@ namespace SearchServer
 
         private ElasticManager()
         {
-            string elasticUri = Environment.MachineName.Contains("DESKTOP-SPEU90N")
-                ? "http://this-little-corner-elastic.ngrok.io/" // my local elastic is borked and i don't care why right now
-                : "http://localhost:9200";
+            string elasticUri = System.Environment.GetEnvironmentVariable("ES_URI");
+            string elasticUsername = System.Environment.GetEnvironmentVariable("ES_USERNAME");
+            string elasticPassword = System.Environment.GetEnvironmentVariable("ES_PASSWORD");
+            string elasticTlsCrt = System.Environment.GetEnvironmentVariable("ES_TLS_CRT");
+
+            if (elasticUri == null)
+            {
+                elasticUri = "http://this-little-corner-elastic.ngrok.io/";
+            }
+
             var pool = new SingleNodeConnectionPool(new Uri(elasticUri));
             ConnectionSettings settings = new ConnectionSettings(pool)
                 .DefaultIndex("this_little_corner");
+
+            if (elasticUsername != null && elasticPassword != null && elasticTlsCrt != null)
+            {
+                settings = settings
+                    .BasicAuthentication(elasticUsername, elasticPassword)
+                    .ClientCertificate(elasticTlsCrt);
+            }
+
             _client = new ElasticClient(settings);
         }
 

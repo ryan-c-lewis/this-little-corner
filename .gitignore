@@ -138,3 +138,7 @@ bin/
 obj/
 out/
 v*.zip
+.DS_Store
+src/search-app/.vs
+package-lock.json
+http_ca.crt
