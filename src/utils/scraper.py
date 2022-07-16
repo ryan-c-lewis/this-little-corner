@@ -3,10 +3,19 @@ from youtubesearchpython import Playlist
 from elasticsearch import Elasticsearch
 import json
 import requests
+import os
 
 
-domain = 'this-little-corner-elastic.ngrok.io'
-port = 80
+domain = os.getenv('ES_HOST')
+port = os.getenv('ES_PORT')
+username = os.getenv('ES_USERNAME')
+password = os.getenv('ES_PASSWORD')
+cert = os.getenv('ES_TLS_CRT')
+yt_api_key = os.getenv('YOUTUBE_API_KEY')
+
+if not domain and not port:
+    domain = 'this-little-corner-elastic.ngrok.io'
+    port = 80
 
 
 def get_video_details(key, video_id):
@@ -22,7 +31,10 @@ def get_video_details(key, video_id):
     )
 
     response = requests.get('https://youtube.googleapis.com/youtube/v3/videos', headers=headers, params=params)
-    return json.loads(response.content)['items'][0]['snippet']
+    content = json.loads(response.content)
+    if 'items' not in content:
+        print('invalid response: will not index')
+    return content['items'][0]['snippet']
 
 
 
@@ -96,7 +108,10 @@ def already_exists(elastic_object, video_id):
 
 
 def connect_elasticsearch():
-    _es = Elasticsearch([{'host': domain, 'port': port}], timeout=5)
+    if domain and port and cert and username and password:
+        _es = Elasticsearch([{'host': domain, 'port': int(port), 'scheme': 'https'}], ca_certs=cert, request_timeout=5, basic_auth=(username, password))
+    else:
+        _es = Elasticsearch([{'host': domain, 'port': port}], timeout=5)
     if _es.ping():
         print('elasticsearch is connected')
         return _es
@@ -126,9 +141,12 @@ def convert_to_seconds(time_string):
 def index_channel(elastic, name, channel_id):
     print('Indexing ' + name)
 
-    text_file = open("secrets.txt", "r")
-    youtube_api_key = text_file.read()
-    text_file.close()
+    if yt_api_key is None:
+        text_file = open("secrets.txt", "r")
+        youtube_api_key = text_file.read()
+        text_file.close()
+    else:
+        youtube_api_key = yt_api_key
 
     # get all the videos for the channel
     playlist = Playlist(f'https://www.youtube.com/playlist?list=UU{channel_id[2:]}')
