@@ -24,7 +24,7 @@ namespace SearchServer
 
             if (elasticUri == null)
             {
-                elasticUri = "http://this-little-corner-elastic.ngrok.io/";
+                elasticUri = "http://this-little-corner.com:80/indexer";
             }
 
             var pool = new SingleNodeConnectionPool(new Uri(elasticUri));
