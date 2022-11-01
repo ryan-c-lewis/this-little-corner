@@ -5,7 +5,7 @@ import json
 import requests
 import os
 
-
+insecure_prod_hashtag_yolo = 'http://this-little-corner.com:80/indexer' # todo security i guess
 domain = os.getenv('ES_HOST')
 port = os.getenv('ES_PORT')
 username = os.getenv('ES_USERNAME')
@@ -111,7 +111,7 @@ def connect_elasticsearch():
     if domain and port and cert and username and password:
         _es = Elasticsearch([{'host': domain, 'port': int(port), 'scheme': 'https'}], ca_certs=cert, request_timeout=5, basic_auth=(username, password))
     else:
-        _es = Elasticsearch([{'host': domain, 'port': port}], timeout=5)
+        _es = Elasticsearch([insecure_prod_hashtag_yolo], timeout=5)
     if _es.ping():
         print('elasticsearch is connected')
         return _es
