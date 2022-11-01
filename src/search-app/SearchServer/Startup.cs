@@ -25,10 +25,11 @@ namespace SearchServer
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
+            app.UseMiddleware<ElasticProxy>();            
             app.UseRouting();
             app.UseCors(x => x.AllowAnyOrigin());
-            
+
             app.ServeFiles();
             
             app.UseEndpoints(endpoints =>
