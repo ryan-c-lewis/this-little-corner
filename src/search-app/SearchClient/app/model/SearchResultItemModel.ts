@@ -12,6 +12,7 @@ export class SearchResultItemModel {
   description: string;
   duration: number;
   transcriptData: TranscriptDataModel;
+  summary: string;
 
   public constructor(init?:Partial<SearchResultItemModel>) {
     Object.assign(this, init);

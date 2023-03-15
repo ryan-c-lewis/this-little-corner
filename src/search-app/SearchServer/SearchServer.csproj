@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.8.0" />
       <PackageReference Include="Elasticsearch.Net" Version="7.16.0" />
       <PackageReference Include="Google.Apis.Analytics.v3" Version="1.55.0.1679" />
       <PackageReference Include="Google.Apis.AnalyticsReporting.v4" Version="1.55.0.2484" />

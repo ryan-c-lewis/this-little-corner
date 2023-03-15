@@ -101,6 +101,21 @@ export class SearchResultStore {
         }));
   }
 
+  @action summarize(video_id: string) {
+    searchAPI.summarize(video_id)
+        .then(action((summary: string) => {
+          let item = this.result.items.filter(x => x.video_id === video_id)[0];
+          item.summary = summary;
+          let items = this.result.items.map(x => x.video_id === video_id ? item : x);
+          this.result = new SearchResultModel({
+            items: items,
+            totalResults: this.result.totalResults,
+            totalPages: this.result.totalPages,
+            currentPage: this.result.currentPage,
+          });
+        }));
+  }
+
   submitContactForm(address: string, body: string) {
     searchAPI.submitContactForm(address, body);
   }

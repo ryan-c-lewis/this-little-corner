@@ -67,8 +67,7 @@ namespace SearchServer.RequestHandlers
 
             foreach (var header in context.Request.Headers)
             {
-                requestMessage.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
-                // requestMessage.Content?.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
+                requestMessage.Content?.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
             }
         }
 

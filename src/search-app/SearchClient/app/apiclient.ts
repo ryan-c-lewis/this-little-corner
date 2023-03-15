@@ -50,6 +50,10 @@ export const searchAPI = {
     return requests.get('/api/transcript?video_id=' + video_id);
   },
 
+  summarize: (video_id: string) => {
+    return requests.get('/api/summarize?video_id=' + video_id);
+  },
+
   submitContactForm: (address: string, body: string) => {
     requests.get('/api/contact?address=' + address + '&body=' + body);
   }

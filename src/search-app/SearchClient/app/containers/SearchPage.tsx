@@ -60,6 +60,12 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
     this.props.searchResultStore.seeFullTranscript(video_id);
   }
 
+  summarize = (video_id: string) => {
+    document.getElementById("summarizeLink_" + video_id).hidden = true;
+    document.getElementById("summarizeLinkWait_" + video_id).hidden = false;
+    this.props.searchResultStore.summarize(video_id);
+  }
+
   render() {
     const { searchResultStore, appState } = this.props;
 
@@ -169,6 +175,13 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                         ))}
                         <div style={{'paddingBottom': 20}}>
                           <a onClick={() => this.seeFullTranscript(hit.video_id)}>(see full transcript)</a>
+                        </div>
+                        <div style={{'paddingBottom': 20}}>
+                          <a onClick={() => this.summarize(hit.video_id)} id={"summarizeLink_" + hit.video_id}>(summarize with GPT)</a>
+                          <div hidden={true} id={"summarizeLinkWait_" + hit.video_id}>(talking to ChatGPT for summary, may take a minute...)</div>
+                          <br />
+                          <br />
+                          {hit.summary}
                         </div>
                       </div>
                     </EuiFlexItem>

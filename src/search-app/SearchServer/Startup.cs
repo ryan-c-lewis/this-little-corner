@@ -58,6 +58,15 @@ namespace SearchServer
                     await context.Response.WriteAsync(jsonResult);
                 });
                 
+                endpoints.MapGet("/api/summarize", async context =>
+                {
+                    string videoId = context.Request.Query["video_id"];
+                    if (string.IsNullOrEmpty(videoId))
+                        throw new Exception("video_id not set");
+                    string result = new SummarizeRequestHandler().GetResponse(videoId);
+                    await context.Response.WriteAsync(result);
+                });
+                
                 endpoints.MapGet("/api/contact", async context =>
                 {
                     string address = context.Request.Query["address"];
