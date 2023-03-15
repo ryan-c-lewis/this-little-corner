@@ -6,7 +6,7 @@ from transformers import pipeline
 from deepmultilingualpunctuation import PunctuationModel
 
 # openai.com api key
-key = "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"
+key = "..."
 
 
 def punctuate(raw_text):
