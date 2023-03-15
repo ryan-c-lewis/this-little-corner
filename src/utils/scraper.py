@@ -103,7 +103,7 @@ def already_exists(elastic_object, video_id):
             }
     })
     if resp['hits']['total']['value'] > 0:
-        return True
+        return resp['hits']['hits'][0]['_source']['transcript_full'] != ''
     return False
 
 
@@ -211,7 +211,7 @@ if __name__ == '__main__':
         index_channel(es, 'Grizwald Grim', 'UCAqTQ5yLHHH44XWwWXLkvHQ')
         index_channel(es, 'Colton Kirby', 'UC6Tvr9mBXNaAxLGRA_sUSRA')
         index_channel(es, 'The Andromist', 'UCIAtCuzdvgNJvSYILnHtdWA')
-        index_channel(es, 'Bridges of Meaning Hub', 'UCiJmdXTb76i8eIPXdJyf8ZQ')
+        #index_channel(es, 'Bridges of Meaning Hub', 'UCiJmdXTb76i8eIPXdJyf8ZQ')
         index_channel(es, 'Michael Sartori', 'UC8SErJkYnDsYGh1HxoZkl-g')
         index_channel(es, 'The Information Addict', 'UCM9Z05vuQhMEwsV03u6DrLA')
         index_channel(es, 'Mary Kochan', 'UC2leFZRD0ZlQDQxpR2Zd8oA')

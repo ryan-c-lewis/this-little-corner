@@ -8,8 +8,6 @@ namespace SearchServer.RequestHandlers
 {
     public class ElasticProxy
     {
-        // TODO literally any security i guess
-        public static int EXTERNAL_PORT = 9203;
         public static int ELASTIC_PORT = 9200;
         
         private static readonly HttpClient _httpClient = new HttpClient();
@@ -69,7 +67,8 @@ namespace SearchServer.RequestHandlers
 
             foreach (var header in context.Request.Headers)
             {
-                requestMessage.Content?.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
+                requestMessage.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
+                // requestMessage.Content?.Headers.TryAddWithoutValidation(header.Key, header.Value.ToArray());
             }
         }
 
@@ -102,21 +101,9 @@ namespace SearchServer.RequestHandlers
 
         private Uri BuildTargetUri(HttpRequest request)
         {
-            Uri targetUri = null;
-
-            // attempt 1: different port. couldn't figure out the firewall issue
-            if (request.Host.Port == EXTERNAL_PORT)
-            {
-                targetUri = new Uri($"http://localhost:{ELASTIC_PORT}" + request.Path.Value);
-            }
-
-            // attempt 2: sub path
             if (request.Path.StartsWithSegments("/indexer", out var remainingPath))
-            {
-                targetUri = new Uri($"http://localhost:{ELASTIC_PORT}" + remainingPath);
-            }
-
-            return targetUri;
+                return new Uri($"http://localhost:{ELASTIC_PORT}" + remainingPath);
+            return null;
         }
     }
 }

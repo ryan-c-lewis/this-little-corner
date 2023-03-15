@@ -17,61 +17,20 @@ namespace SearchServer
 
         private ElasticManager()
         {
-            string elasticUri = System.Environment.GetEnvironmentVariable("ES_URI");
-            string elasticUsername = System.Environment.GetEnvironmentVariable("ES_USERNAME");
-            string elasticPassword = System.Environment.GetEnvironmentVariable("ES_PASSWORD");
-            string elasticTlsCrt = System.Environment.GetEnvironmentVariable("ES_TLS_CRT");
-
-            if (elasticUri == null)
-            {
-                elasticUri = "http://this-little-corner.com:80/indexer";
-            }
+            string elasticUri = Environment.GetEnvironmentVariable("ES_URI") ?? "http://localhost/indexer";
+            string elasticUsername = Environment.GetEnvironmentVariable("ES_USERNAME");
+            string elasticPassword = Environment.GetEnvironmentVariable("ES_PASSWORD");
+            string elasticTlsCrt = Environment.GetEnvironmentVariable("ES_TLS_CRT");
 
             var pool = new SingleNodeConnectionPool(new Uri(elasticUri));
-            ConnectionSettings settings = new ConnectionSettings(pool)
-                .DefaultIndex("this_little_corner");
+            ConnectionSettings settings = new ConnectionSettings(pool).DefaultIndex("this_little_corner");
 
-            if (elasticUsername != null && elasticPassword != null && elasticTlsCrt != null)
-            {
-                settings = settings
-                    .BasicAuthentication(elasticUsername, elasticPassword)
-                    .ClientCertificate(elasticTlsCrt);
-            }
+            if (elasticUsername != null && elasticPassword != null)
+                settings = settings.BasicAuthentication(elasticUsername, elasticPassword);
+            if (elasticTlsCrt != null)
+                settings = settings.ClientCertificate(elasticTlsCrt);
 
             _client = new ElasticClient(settings);
-        }
-
-        public SearchResult SearchForExactMatches(SearchRequest request)
-        {
-            string query = string.IsNullOrEmpty(request.Query)
-                ? ""
-                : "\"" + request.Query + "\"";
-            int startIndex = request.Page * request.PageSize;
-            
-            var response = _client.Search<SearchResultItemElasticMapping>(s => s
-                .Query(q => q
-                    .Bool(b => b
-                        .Must(
-                            m => m.QueryString(qs => qs.Query(query)),
-                            m =>
-                            {
-                                if (string.IsNullOrEmpty(request.Channel) || request.Channel == "all")
-                                    return m;
-                                return m.Match(x => x.Field("channel_id").Query(request.Channel));
-                            }
-                        )))
-                .From(startIndex)
-                .Size(request.PageSize)
-                .Sort(q => request.Sort == "older"
-                    ? q.Ascending(u => u.date)
-                    : q.Descending(u => u.date)));
-            return new SearchResult
-            {
-                items = response.Documents.ToList(),
-                totalResults = response.Total,
-                totalPages = (long)Math.Ceiling((double)response.Total / request.PageSize),
-                currentPage = (long)((double)startIndex / request.PageSize),
-            };
         }
         
         public SearchResult SearchForMostRelevant(SearchRequest request)
@@ -146,9 +105,5 @@ namespace SearchServer
                     .Match(m => m.Field(f => f.video_id).Query(videoId))));
             return response.Documents.Any() ? response.Documents.First() : null;
         }
-    }
-    
-    public static class ElasticManagerExtensions {
-    
     }
 }

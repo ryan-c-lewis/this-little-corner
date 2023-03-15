@@ -82,6 +82,7 @@ export default class GlossaryPage extends React.Component<IGlossaryAppProps, {}>
                 <Term title={"Emergence versus Emanation"} videos={['ZxKPl0IYzOA?start=2617', 'MhkCYrhzPQk?start=2934', 'N1byG4RqoTg?start=2630']} />
                 <Term title={"Explored Territory and Unexplored Territory (Known and Unknown, Order and Chaos)"} videos={['6Rd10PQVsGs?start=2137', 'EN2lyN7rM4E?start=4006']}/>
                 <Term title={"Garments of Skin"} videos={['-drIcL5bkpk?start=225', 'zXOdlIXDsr8?start=806', 'k4W0b-hmG1E']} />
+                <Term title={"Gentle Slope and Steep Slope"} videos={['-vzJ_Z26SdY?start=1289']} />
                 <Term title={"God #1 and God #2"} videos={['G19xovk0F0s?start=2587', 'U0VqRxNRyyI?start=266']} />
                 <Term title={"Having Mode versus Being Mode"} videos={['yy47YzvGniQ?start=2868', '0jArHxAnXoQ?start=4311']} />
                 <Term title={"Homo Duplex"} videos={['IXgdRQgZNJE?start=3136', 'FbTzqfU5ZbU?start=708']} />
