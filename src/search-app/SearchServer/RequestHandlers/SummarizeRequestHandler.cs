@@ -9,7 +9,8 @@ namespace SearchServer.RequestHandlers
         {
             DataTracker.Log("SUMMARIZE: " + videoId);
             SearchResultItemElasticMapping mapping = ElasticManager.Instance.SearchForOneVideo(videoId);
-            return new GptManager().Summarize(mapping.transcript_full);
+            return new GptManager().GenerateTimestamps(mapping);
+            //return new GptManager().Summarize(mapping.transcript_full);
         }
     }
 }
