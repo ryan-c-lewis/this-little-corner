@@ -77,6 +77,12 @@ namespace SearchServer
             
             double totalEnd = mapping.transcript_parts.Last().start;
             double chunkSeconds = 5 * 60;
+            int maxTokens = 50;
+            if (totalEnd > 2 * 60 * 60) // for super long videos, let's break it into fewer chunks
+            {
+                chunkSeconds = 15 * 60;
+                maxTokens = 100;
+            }
             double currentChunkStart = 0;
             double currentChunkEnd = currentChunkStart + chunkSeconds;
             while (currentChunkEnd < totalEnd)
@@ -87,7 +93,7 @@ namespace SearchServer
                         .Where(x => x.start >= currentChunkStart && x.start <= currentChunkEnd).ToList();
                     string chunkString = string.Join(" ", chunkParts.Select(x => x.text));
 
-                    string topic = AskChatGpt("Summarize the following in 10 words or less:\n\n" + chunkString, 50);
+                    string topic = AskChatGpt("Summarize the following in 10 words or less:\n\n" + chunkString, maxTokens);
                     string userFriendlyTimestamp = TimeSpan.FromSeconds(currentChunkStart).ToString(@"hh\:mm\:ss");
                     string toAppend = $"{userFriendlyTimestamp} - {topic}";
                     Console.WriteLine(toAppend);

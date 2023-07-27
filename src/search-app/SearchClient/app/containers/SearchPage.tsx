@@ -83,7 +83,7 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
       let total = searchResultStore.result.totalResults;
 
       if (query !== "")
-        return "Results for \"" + query + "\"";
+        return "Results for: " + query;
       else if (total === 0)
         return "No results";
       return total + " videos to search through";
@@ -243,6 +243,10 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                           Combine these things however you want:
                           <br/>
                           <i>title("mental health") chino conference</i>
+                          <br/><br/>
+                          Filter by multiple channels:
+                          <br/>
+                          <i>channel(peterson, pageau, pvk) "chat gpt"</i>
                         </p>
                       </div>
                     </EuiFlexItem>

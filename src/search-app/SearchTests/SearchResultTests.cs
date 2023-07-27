@@ -108,6 +108,15 @@ namespace SearchTests
             Assert.AreEqual("title", parts[2].Field);
             Assert.AreEqual("is exact", parts[2].Query);
             Assert.IsTrue(parts[2].Exact);
+            
+            parts = ElasticManager.GetParts("channel(peterson, pvk, pageau) other stuff").ToList();
+            Assert.AreEqual(2, parts.Count);
+            Assert.AreEqual("channel", parts[0].Field);
+            Assert.AreEqual("peterson, pvk, pageau", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            Assert.AreEqual(null, parts[1].Field);
+            Assert.AreEqual("other stuff", parts[1].Query);
+            Assert.IsFalse(parts[1].Exact);
         }
         
         [Test]

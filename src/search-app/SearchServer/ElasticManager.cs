@@ -121,49 +121,49 @@ namespace SearchServer
             var queries = new List<Func<QueryContainerDescriptor<SearchResultItemElasticMapping>, QueryContainer>>();
             foreach (QueryPart part in GetParts(query))
             {
-                /*
-                 * // m =>
-                                // {
-                                //     return m.QueryString(qs => qs.Query("hollywood").Fields(f => f.Field("title")));
-                                // },
-                                
-                                m =>
-                                {
-                                    if (!query.Contains("\""))
-                                        return m.QueryString(qs => qs.Query("\"" + query + "\"").Boost(20)) || m.QueryString(qs => qs.Query(query));
-                                    return m.QueryString(qs => qs.Query(query));
-                                },
-
-                                m =>
-                                {
-                                    if (string.IsNullOrEmpty(request.Channel) || request.Channel == "all")
-                                        return m;
-                                    return m.Match(x => x.Field("channel_id").Query(request.Channel));
-                                }
-                 */
-                queries.Add(m =>
-                {
-                    Func<FieldsDescriptor<SearchResultItemElasticMapping>, IPromise<Fields>> fields = f => f;
-                    if (!string.IsNullOrEmpty(part.Field))
-                        fields = f => f.Field(part.Field);
-                    
-                    if (part.Exact)
-                    {
-                        return m.QueryString(qs => qs.Query(part.Query).Fields(fields));
-                    }
-                    else
-                    {
-                        return m.QueryString(qs => qs.Query("\"" + part.Query + "\"").Fields(fields).Boost(20)) || m.QueryString(qs => qs.Query(part.Query).Fields(fields));
-                    }
-                });
-
-                if (!string.IsNullOrEmpty(request.Channel) && request.Channel != "all")
+                if (part.Field == "channel")
                 {
                     queries.Add(m =>
                     {
-                        return m.Match(x => x.Field("channel_id").Query(request.Channel));
+                        var channelQueries = new List<Func<QueryContainerDescriptor<SearchResultItemElasticMapping>, QueryContainer>>();
+                        foreach (string channel in part.Query.Split(','))
+                        {
+                            string channelId = GetChannelId(channel);
+                            if (channelId == null)
+                                continue;
+                            channelQueries.Add(c => c.Match(x => x.Field("channel_id").Query(channelId)));
+                        }
+                        if (!channelQueries.Any())
+                            return m;
+                        return m.Bool(b => b.Should(channelQueries));
                     });
                 }
+                else
+                {
+                    queries.Add(m =>
+                    {
+                        Func<FieldsDescriptor<SearchResultItemElasticMapping>, IPromise<Fields>> fields = f => f;
+                        if (!string.IsNullOrEmpty(part.Field))
+                            fields = f => f.Field(part.Field);
+                    
+                        if (part.Exact)
+                        {
+                            return m.QueryString(qs => qs.Query(part.Query).Fields(fields));
+                        }
+                        else
+                        {
+                            return m.QueryString(qs => qs.Query("\"" + part.Query + "\"").Fields(fields).Boost(20)) || m.QueryString(qs => qs.Query(part.Query).Fields(fields));
+                        }
+                    });
+                }
+            }
+
+            if (!string.IsNullOrEmpty(request.Channel) && request.Channel != "all")
+            {
+                queries.Add(m =>
+                {
+                    return m.Match(x => x.Field("channel_id").Query(request.Channel));
+                });
             }
             
             var response = _client.Search<SearchResultItemElasticMapping>(s =>
@@ -209,7 +209,59 @@ namespace SearchServer
             }
             return result;
         }
-        
+
+        private static string GetChannelId(string channel)
+        {
+            string channelClean = channel.ToLower();
+            if (channelClean.Contains("quality") || channelClean.Contains("sevilla"))
+                return "UC6vg0HkKKlgsWk-3HfV-vnw";
+            if (channelClean.Contains("andrea"))
+                return "UCeWWxwzgLYUbfjWowXhVdYw";
+            if (channelClean.Contains("bridges") || channelClean.Contains("hub"))
+                return "UCiJmdXTb76i8eIPXdJyf8ZQ";
+            if (channelClean.Contains("chad") || channelClean.Contains("alcoholic"))
+                return "UCuex29iuR-bNNMZZXTw4JpQ";
+            if (channelClean.Contains("colton"))
+                return "UC6Tvr9mBXNaAxLGRA_sUSRA";
+            if (channelClean.Contains("grail"))
+                return "UCsi_x8c12NW9FR7LL01QXKA";
+            if (channelClean.Contains("griz") || channelClean.Contains("grim"))
+                return "UCAqTQ5yLHHH44XWwWXLkvHQ";
+            if (channelClean.Contains("jacob") || channelClean.Contains("faturechi"))
+                return "UCprytROeCztMOMe8plyJRMg";
+            if (channelClean.Contains("vervaeke") || channelClean.Contains("john"))
+                return "UCpqDUjTsof-kTNpnyWper_Q";
+            if (channelClean.Contains("jordan") || channelClean.Contains("peterson") || channelClean.Contains("jbp"))
+                return "UCL_f53ZEJxp8TtlOkHwMV9Q";
+            if (channelClean.Contains("mary"))
+                return "UC2leFZRD0ZlQDQxpR2Zd8oA";
+            if (channelClean.Contains("martori") || channelClean.Contains("sartori"))
+                return "UC8SErJkYnDsYGh1HxoZkl-g";
+            if (channelClean.Contains("anleitner"))
+                return "UC2yCyOMUeem-cYwliC-tLJg";
+            if (channelClean.Contains("paul") || channelClean.Contains("van") || channelClean.Contains("pvk"))
+                return "UCGsDIP_K6J6VSTqlq-9IPlg";
+            if (channelClean.Contains("randos"))
+                return "UCEzWTLDYmL8soRdQec9Fsjw";
+            if (channelClean.Contains("rebel"))
+                return "UCFQ6Gptuq-sLflbJ4YY3Umw";
+            if (channelClean.Contains("andromist"))
+                return "UCIAtCuzdvgNJvSYILnHtdWA";
+            if (channelClean.Contains("chris"))
+                return "UClIDP7_Kzv_7tDQjTv9EhrA";
+            if (channelClean.Contains("toad"))
+                return "UC-QiBn6GsM3JZJAeAQpaGAA";
+            if (channelClean.Contains("information") || channelClean.Contains("addict"))
+                return "UCM9Z05vuQhMEwsV03u6DrLA";
+            if (channelClean.Contains("meaning") || channelClean.Contains("karen"))
+                return "UCgp_r6WlBwDSJrP43Mz07GQ";
+            if (channelClean.Contains("symbolic") || channelClean.Contains("pageau"))
+                return "UCtCTSf3UwRU14nYWr_xm-dQ";
+            if (channelClean.Contains("transfigured"))
+                return "UCg7Ed0lecvko58ibuX1XHng";
+            return null;
+        }
+
         public SearchResultItemElasticMapping SearchForOneVideo(string videoId)
         {
             var response = _client.Search<SearchResultItemElasticMapping>(s => s
