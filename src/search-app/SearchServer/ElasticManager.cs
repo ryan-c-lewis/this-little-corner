@@ -146,14 +146,7 @@ namespace SearchServer
                         if (!string.IsNullOrEmpty(part.Field))
                             fields = f => f.Field(part.Field);
                     
-                        if (part.Exact)
-                        {
-                            return m.QueryString(qs => qs.Query(part.Query).Fields(fields));
-                        }
-                        else
-                        {
-                            return m.QueryString(qs => qs.Query("\"" + part.Query + "\"").Fields(fields).Boost(20)) || m.QueryString(qs => qs.Query(part.Query).Fields(fields));
-                        }
+                        return m.QueryString(qs => qs.Query("\"" + part.Query + "\"").Fields(fields).Boost(20)) || m.QueryString(qs => qs.Query(part.Query).Fields(fields));
                     });
                 }
             }

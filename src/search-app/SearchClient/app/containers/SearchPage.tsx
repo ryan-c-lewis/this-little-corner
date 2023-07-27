@@ -228,25 +228,13 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                         <a onClick={() => this.toggleAdvancedSearch()}>Advanced Search</a>
                         <div style={{'height': '20px'}}></div>
                         <p style={{'alignContent': 'left'}} hidden={!this.advancedSearchIsShowing}>
-                          Use quotes for exact matches:
+                          Filter by title:
                           <br/>
-                          <i>"spirit of the age"</i>
-                          <br/><br/>
-                          Don't use quotes if you want to search each word separately:
-                          <br/>
-                          <i>vervaeke religion</i>
-                          <br/><br/>
-                          Search in titles:
-                          <br/>
-                          <i>title(kanye)</i>
-                          <br/><br/>
-                          Combine these things however you want:
-                          <br/>
-                          <i>title("mental health") chino conference</i>
+                          <i>title(kanye west) fool</i>
                           <br/><br/>
                           Filter by multiple channels:
                           <br/>
-                          <i>channel(peterson, pageau, pvk) "chat gpt"</i>
+                          <i>channel(peterson, pageau, pvk) chat gpt</i>
                         </p>
                       </div>
                     </EuiFlexItem>
