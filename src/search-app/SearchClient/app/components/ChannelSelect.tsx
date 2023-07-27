@@ -63,6 +63,10 @@ export default function(props: IChannelSelectorProps) {
       inputDisplay: 'Michael Sartori',
     },
     {
+      value: 'UCEPOn4cgvrrerg_-q_Ygw1A',
+      inputDisplay: 'More Christ'
+    },
+    {
       value: 'UC2yCyOMUeem-cYwliC-tLJg',
       inputDisplay: 'Paul Anleitner',
     },

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
+using SearchServer;
 using SearchServer.Model;
 using SearchServer.RequestHandlers;
 
@@ -40,6 +41,73 @@ namespace SearchTests
             Assert.Less(results.totalResults, 20);
             Assert.Greater(results.items.First().transcriptData.transcriptPartGroups.Count, 0);
             AssertNoDuplicateTranscriptParts(results.items.First());
+        }
+
+        [Test]
+        public void QueryParts()
+        {
+            List<ElasticManager.QueryPart> parts = ElasticManager.GetParts("one").ToList();
+            Assert.AreEqual(1, parts.Count);
+            Assert.AreEqual(null, parts[0].Field);
+            Assert.AreEqual("one", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            
+            parts = ElasticManager.GetParts("not exact").ToList();
+            Assert.AreEqual(1, parts.Count);
+            Assert.AreEqual(null, parts[0].Field);
+            Assert.AreEqual("not exact", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            
+            parts = ElasticManager.GetParts("not exact \"is exact\"").ToList();
+            Assert.AreEqual(2, parts.Count);
+            Assert.AreEqual(null, parts[0].Field);
+            Assert.AreEqual("not exact", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            Assert.AreEqual(null, parts[1].Field);
+            Assert.AreEqual("is exact", parts[1].Query);
+            Assert.IsTrue(parts[1].Exact);
+            
+            parts = ElasticManager.GetParts(" not exact \"is exact\" also not exact ").ToList();
+            Assert.AreEqual(3, parts.Count);
+            Assert.AreEqual(null, parts[0].Field);
+            Assert.AreEqual("not exact", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            Assert.AreEqual(null, parts[1].Field);
+            Assert.AreEqual("is exact", parts[1].Query);
+            Assert.IsTrue(parts[1].Exact);
+            Assert.AreEqual(null, parts[2].Field);
+            Assert.AreEqual("also not exact", parts[2].Query);
+            Assert.IsFalse(parts[2].Exact);
+            
+            parts = ElasticManager.GetParts("title(not exact)").ToList();
+            Assert.AreEqual(1, parts.Count);
+            Assert.AreEqual("title", parts[0].Field);
+            Assert.AreEqual("not exact", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            
+            parts = ElasticManager.GetParts("title( not exact \"is exact\" ) other stuff").ToList();
+            Assert.AreEqual(3, parts.Count);
+            Assert.AreEqual("title", parts[0].Field);
+            Assert.AreEqual("not exact", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            Assert.AreEqual("title", parts[1].Field);
+            Assert.AreEqual("is exact", parts[1].Query);
+            Assert.IsTrue(parts[1].Exact);
+            Assert.AreEqual(null, parts[2].Field);
+            Assert.AreEqual("other stuff", parts[2].Query);
+            Assert.IsFalse(parts[2].Exact);
+            
+            parts = ElasticManager.GetParts("description(my little pony) other stuff title(\"is exact\" )").ToList();
+            Assert.AreEqual(3, parts.Count);
+            Assert.AreEqual("description", parts[0].Field);
+            Assert.AreEqual("my little pony", parts[0].Query);
+            Assert.IsFalse(parts[0].Exact);
+            Assert.AreEqual(null, parts[1].Field);
+            Assert.AreEqual("other stuff", parts[1].Query);
+            Assert.IsFalse(parts[1].Exact);
+            Assert.AreEqual("title", parts[2].Field);
+            Assert.AreEqual("is exact", parts[2].Query);
+            Assert.IsTrue(parts[2].Exact);
         }
         
         [Test]

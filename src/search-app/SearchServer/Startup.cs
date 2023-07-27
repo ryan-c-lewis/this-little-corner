@@ -36,7 +36,7 @@ namespace SearchServer
             {
                 endpoints.MapGet("/api/search", async context =>
                 {
-                    string query = context.Request.Query["q"];
+                    string query = context.Request.Query["q"].ToString().Replace("“", "\"").Replace("”", "\"");
                     string sort = context.Request.Query["sort"];
                     string channel = context.Request.Query["channel"];
                     int.TryParse(context.Request.Query["page"], out int page);

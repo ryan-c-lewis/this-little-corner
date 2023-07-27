@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using Elasticsearch.Net;
 using Nest;
 using SearchServer.Model;
@@ -32,6 +33,83 @@ namespace SearchServer
 
             _client = new ElasticClient(settings);
         }
+
+        public class QueryPart
+        {
+            public string Field { get; set; }
+            public string Query { get; set; }
+            public bool Exact { get; set; }
+        }
+
+        public static IEnumerable<QueryPart> GetParts(string query)
+        {
+            var currentPart = new StringBuilder();
+            bool currentlyInQuotes = false;
+            string currentField = null;
+            foreach (char c in query)
+            {
+                if (c == '(')
+                {
+                    string currentPartClean = currentPart.ToString().Trim();
+                    if (currentPartClean.Contains(" "))
+                    {
+                        string queryMinusField = string.Join(" ", currentPartClean.Split(' ').Reverse().Skip(1).Reverse());
+                        yield return new QueryPart {Field = currentField, Query = queryMinusField.Trim(), Exact = false};
+                        currentField = currentPartClean.Split(' ').Last();
+                        currentPart = new StringBuilder();
+                    }
+                    else
+                    {
+                        currentField = currentPart.ToString().Trim();
+                        currentPart = new StringBuilder();
+                        continue;
+                    }
+                }
+                else if (c == ')')
+                {
+                    if (currentPart.ToString().Trim().Length > 0)
+                    {
+                        yield return new QueryPart {Field = currentField, Query = currentPart.ToString().Trim(), Exact = false};
+                        currentPart = new StringBuilder();
+                    }
+
+                    currentField = null;
+                }
+                else if (c == '"')
+                {
+                    if (currentlyInQuotes)
+                    {
+                        currentlyInQuotes = false;
+                        yield return new QueryPart { Field = currentField, Query = currentPart.ToString().Trim(), Exact = true};
+                        currentPart = new StringBuilder();
+                        continue;
+                    }
+                    else
+                    {
+                        currentlyInQuotes = true;
+                        if (currentPart.ToString().Trim().Length > 0)
+                        {
+                            yield return new QueryPart { Field = currentField, Query = currentPart.ToString().Trim(), Exact = false};
+                            currentPart = new StringBuilder();
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+                else
+                {
+                    currentPart.Append(c);
+                }
+            }
+
+            if (currentPart.ToString().Trim().Length > 0)
+            {
+                yield return new QueryPart {Field = currentField, Query = currentPart.ToString().Trim(), Exact = false};
+                currentPart = new StringBuilder();
+            }
+        }
         
         public SearchResult SearchForMostRelevant(SearchRequest request)
         {
@@ -39,27 +117,61 @@ namespace SearchServer
                 ? ""
                 : request.Query;
             int startIndex = request.Page * request.PageSize;
-            
-            var response = _client.Search<SearchResultItemElasticMapping>(s =>
+
+            var queries = new List<Func<QueryContainerDescriptor<SearchResultItemElasticMapping>, QueryContainer>>();
+            foreach (QueryPart part in GetParts(query))
             {
-                s
-                    .Query(q => q
-                        .Bool(b => b
-                            .Must(
+                /*
+                 * // m =>
+                                // {
+                                //     return m.QueryString(qs => qs.Query("hollywood").Fields(f => f.Field("title")));
+                                // },
+                                
                                 m =>
                                 {
                                     if (!query.Contains("\""))
                                         return m.QueryString(qs => qs.Query("\"" + query + "\"").Boost(20)) || m.QueryString(qs => qs.Query(query));
                                     return m.QueryString(qs => qs.Query(query));
                                 },
-                                
+
                                 m =>
                                 {
                                     if (string.IsNullOrEmpty(request.Channel) || request.Channel == "all")
                                         return m;
                                     return m.Match(x => x.Field("channel_id").Query(request.Channel));
                                 }
-                            )))
+                 */
+                queries.Add(m =>
+                {
+                    Func<FieldsDescriptor<SearchResultItemElasticMapping>, IPromise<Fields>> fields = f => f;
+                    if (!string.IsNullOrEmpty(part.Field))
+                        fields = f => f.Field(part.Field);
+                    
+                    if (part.Exact)
+                    {
+                        return m.QueryString(qs => qs.Query(part.Query).Fields(fields));
+                    }
+                    else
+                    {
+                        return m.QueryString(qs => qs.Query("\"" + part.Query + "\"").Fields(fields).Boost(20)) || m.QueryString(qs => qs.Query(part.Query).Fields(fields));
+                    }
+                });
+
+                if (!string.IsNullOrEmpty(request.Channel) && request.Channel != "all")
+                {
+                    queries.Add(m =>
+                    {
+                        return m.Match(x => x.Field("channel_id").Query(request.Channel));
+                    });
+                }
+            }
+            
+            var response = _client.Search<SearchResultItemElasticMapping>(s =>
+            {
+                s
+                    .Query(q => q
+                        .Bool(b => b
+                            .Must(queries)))
                     .From(startIndex)
                     .Size(request.PageSize)
                     .Highlight(h => h

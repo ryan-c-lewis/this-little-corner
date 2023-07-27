@@ -19,6 +19,7 @@ import SearchQueryInput from "../components/SearchQueryInput";
 import SortSelect from "../components/SortSelect";
 import {SearchRequestModel} from "../model/SearchRequestModel";
 import ChannelSelect from "../components/ChannelSelect";
+import {observable} from "mobx";
 
 interface ISearchPageProps {
   appState: AppState,
@@ -27,6 +28,8 @@ interface ISearchPageProps {
 
 @observer
 export default class SearchPage extends React.Component<ISearchPageProps, {}> {
+
+  @observable advancedSearchIsShowing: boolean;
 
   constructor(props, context) {
     super(props, context);
@@ -45,6 +48,10 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
       this.props.searchResultStore.lastRequest = undefined;
       this.props.searchResultStore.result = undefined;
     }
+  }
+
+  toggleAdvancedSearch = () => {
+    this.advancedSearchIsShowing = !this.advancedSearchIsShowing;
   }
 
   handleSearch = (text: string) => {
@@ -212,6 +219,32 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                   <EuiFlexGroup justifyContent="spaceAround">
                     <EuiFlexItem grow={false}>
                       <SearchQueryInput appState={appState} searchResultStore={searchResultStore} onSave={this.handleSearch} />
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                  <EuiFlexGroup justifyContent="spaceAround">
+                    <EuiFlexItem grow={false}>
+                      <div hidden={searchResultStore.searchHasHappened()}>
+                        <div style={{'height': '20px'}}></div>
+                        <a onClick={() => this.toggleAdvancedSearch()}>Advanced Search</a>
+                        <div style={{'height': '20px'}}></div>
+                        <p style={{'alignContent': 'left'}} hidden={!this.advancedSearchIsShowing}>
+                          Use quotes for exact matches:
+                          <br/>
+                          <i>"spirit of the age"</i>
+                          <br/><br/>
+                          Don't use quotes if you want to search each word separately:
+                          <br/>
+                          <i>vervaeke religion</i>
+                          <br/><br/>
+                          Search in titles:
+                          <br/>
+                          <i>title(kanye)</i>
+                          <br/><br/>
+                          Combine these things however you want:
+                          <br/>
+                          <i>title("mental health") chino conference</i>
+                        </p>
+                      </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
                 </EuiFlexItem>
