@@ -12,6 +12,7 @@
       <PackageReference Include="Google.Apis.YouTube.v3" Version="1.61.0.3113" />
       <PackageReference Include="NEST" Version="7.16.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RestSharp" Version="110.2.1-alpha.0.10" />
     </ItemGroup>
 
 </Project>

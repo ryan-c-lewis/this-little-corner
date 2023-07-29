@@ -9,3 +9,13 @@
     'OPENAI_API_KEY',
     '...',
     [System.EnvironmentVariableTarget]::Machine)
+    
+[System.Environment]::SetEnvironmentVariable(
+    'YOUTUBE_API_KEY',
+    '...',
+    [System.EnvironmentVariableTarget]::Machine)
+
+[System.Environment]::SetEnvironmentVariable(
+    'YOUTUBE_SERVICE_ACCOUNT_SECRETS_FILE',
+    'C:\whatever',
+    [System.EnvironmentVariableTarget]::Machine)
