@@ -14,8 +14,6 @@ namespace SearchServer
 {
     public class GptManager
     {
-        private const string API_KEY = "..."; // todo probably time to actually start doing big boy secret handling
-        
         private static DateTime TodayStartedOn = DateTime.Today;
         private static int RequestsToday = 0;
         private const int MAX_REQUESTS_PER_DAY = 300;
@@ -119,7 +117,7 @@ namespace SearchServer
                     Thread.Sleep(PreviousRequestTime + MinTimeBetweenCalls - DateTime.Now);
                 PreviousRequestTime = DateTime.Now;
                 
-                var openAiService = new OpenAIService(new OpenAiOptions { ApiKey =  API_KEY });
+                var openAiService = new OpenAIService(new OpenAiOptions { ApiKey =  new SecretsManager().GetSecret(SecretsManager.OPENAI_API_KEY) });
                 ChatCompletionCreateResponse completionResult = openAiService.ChatCompletion.CreateCompletion(
                     new ChatCompletionCreateRequest
                     {

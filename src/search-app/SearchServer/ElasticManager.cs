@@ -19,10 +19,10 @@ namespace SearchServer
 
         private ElasticManager()
         {
-            string elasticUri = Environment.GetEnvironmentVariable("ES_URI") ?? "http://localhost/indexer";
-            string elasticUsername = Environment.GetEnvironmentVariable("ES_USERNAME");
-            string elasticPassword = Environment.GetEnvironmentVariable("ES_PASSWORD");
-            string elasticTlsCrt = Environment.GetEnvironmentVariable("ES_TLS_CRT");
+            string elasticUri = new SecretsManager().GetSecret(SecretsManager.ELASTIC_URL);
+            string elasticUsername = new SecretsManager().GetSecret(SecretsManager.ELASTIC_USERNAME);
+            string elasticPassword = new SecretsManager().GetSecret(SecretsManager.ELASTIC_PASSWORD);
+            string elasticTlsCrt = new SecretsManager().GetSecret(SecretsManager.ELASTIC_CERT);
 
             var pool = new SingleNodeConnectionPool(new Uri(elasticUri));
             ConnectionSettings settings = new ConnectionSettings(pool).DefaultIndex("this_little_corner");
