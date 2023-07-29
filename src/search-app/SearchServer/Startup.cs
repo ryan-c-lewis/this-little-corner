@@ -34,6 +34,13 @@ namespace SearchServer
             
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGet("/api/channels", async context =>
+                {
+                    var result = new ChannelsRequestHandler().GetChannels();
+                    string jsonResult = JsonConvert.SerializeObject(result);
+                    await context.Response.WriteAsync(jsonResult);
+                });
+                
                 endpoints.MapGet("/api/search", async context =>
                 {
                     string query = context.Request.Query["q"].ToString().Replace("“", "\"").Replace("”", "\"");

@@ -46,6 +46,10 @@ export const searchAPI = {
       })
   },
 
+  getChannels: () => {
+    return requests.get('/api/channels');
+  },
+
   getFullTranscript: (video_id: string) => {
     return requests.get('/api/transcript?video_id=' + video_id);
   },

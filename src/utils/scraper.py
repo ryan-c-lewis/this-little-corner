@@ -18,6 +18,11 @@ if not domain and not port:
     port = 80
 
 
+def get_channels():
+    response = requests.get('http://this-little-corner.com/api/channels')
+    return json.loads(response.content)
+
+
 def get_video_details(key, video_id):
 
     headers = {
@@ -206,27 +211,5 @@ if __name__ == '__main__':
     es = connect_elasticsearch()
     if es is not None:
         create_index(es)
-        index_channel(es, 'More Christ', 'UCEPOn4cgvrrerg_-q_Ygw1A')
-        index_channel(es, 'The Common Toad', 'UC-QiBn6GsM3JZJAeAQpaGAA')
-        index_channel(es, 'A Quality Existence', 'UC6vg0HkKKlgsWk-3HfV-vnw')
-        index_channel(es, 'Grizwald Grim', 'UCAqTQ5yLHHH44XWwWXLkvHQ')
-        index_channel(es, 'Colton Kirby', 'UC6Tvr9mBXNaAxLGRA_sUSRA')
-        index_channel(es, 'The Andromist', 'UCIAtCuzdvgNJvSYILnHtdWA')
-        #index_channel(es, 'Bridges of Meaning Hub', 'UCiJmdXTb76i8eIPXdJyf8ZQ')
-        index_channel(es, 'Michael Sartori', 'UC8SErJkYnDsYGh1HxoZkl-g')
-        index_channel(es, 'The Information Addict', 'UCM9Z05vuQhMEwsV03u6DrLA')
-        index_channel(es, 'Mary Kochan', 'UC2leFZRD0ZlQDQxpR2Zd8oA')
-        index_channel(es, 'Grail Country', 'UCsi_x8c12NW9FR7LL01QXKA')
-        index_channel(es, 'Paul Anleitner', 'UC2yCyOMUeem-cYwliC-tLJg')
-        index_channel(es, 'Jacob', 'UCprytROeCztMOMe8plyJRMg')
-        index_channel(es, 'Chad the Alcoholic', 'UCuex29iuR-bNNMZZXTw4JpQ')
-        index_channel(es, 'The Chris Show', 'UClIDP7_Kzv_7tDQjTv9EhrA')
-        index_channel(es, 'Andrea with the Bangs', 'UCeWWxwzgLYUbfjWowXhVdYw')
-        index_channel(es, 'Rebel Wisdom', 'UCFQ6Gptuq-sLflbJ4YY3Umw')
-        index_channel(es, 'Transfigured', 'UCg7Ed0lecvko58ibuX1XHng')
-        index_channel(es, 'Paul VanderKlay', 'UCGsDIP_K6J6VSTqlq-9IPlg')
-        index_channel(es, 'Randos United', 'UCEzWTLDYmL8soRdQec9Fsjw')
-        index_channel(es, 'The Meaning Code', 'UCgp_r6WlBwDSJrP43Mz07GQ')
-        index_channel(es, 'The Symbolic World', 'UCtCTSf3UwRU14nYWr_xm-dQ')
-        index_channel(es, 'John Vervaeke', 'UCpqDUjTsof-kTNpnyWper_Q')
-        index_channel(es, 'Jordan Peterson', 'UCL_f53ZEJxp8TtlOkHwMV9Q')
+        for channel in get_channels():
+            index_channel(es, channel['Name'], channel['Id'])
