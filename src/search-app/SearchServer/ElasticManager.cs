@@ -204,11 +204,10 @@ namespace SearchServer
             return result;
         }
 
-        private static string GetChannelId(string channel)
+        private static string GetChannelId(string searchedChannel)
         {
-            string channelClean = channel.ToLower();
-            return new ChannelsRequestHandler().GetChannels()
-                .FirstOrDefault(x => x.SearchNames.Contains(channelClean))?.Id;
+            return new ChannelsRequestHandler().GetChannels().FirstOrDefault(channel =>
+                channel.SearchNames.Any(slangName => searchedChannel.ToLower().Contains(slangName)))?.Id;
         }
 
         public SearchResultItemElasticMapping SearchForOneVideo(string videoId)
