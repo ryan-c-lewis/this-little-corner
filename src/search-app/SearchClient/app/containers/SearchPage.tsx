@@ -48,6 +48,26 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
       this.props.searchResultStore.lastRequest = undefined;
       this.props.searchResultStore.result = undefined;
     }
+
+    const scriptTag: HTMLScriptElement = document.createElement("script");
+    scriptTag.src = "https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js";
+    document.head.appendChild(scriptTag);
+
+    scriptTag.onload = () => {
+      const myTags = [];
+      for (let n = 0; n < 15; n++) {
+        let items = this.props.appState.topics;
+        myTags.push(items[Math.floor(Math.random()*items.length)]);
+      }
+      // @ts-ignore
+      TagCloud('.word-sphere', myTags, {
+        radius: 175,
+        maxSpeed: 'normal',
+        initSpeed: 'normal',
+        direction: 135,
+        keep: false
+      });
+    };
   }
 
   toggleAdvancedSearch = () => {
@@ -236,6 +256,13 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                           <br/>
                           <i>channel(peterson, pageau, pvk) chat gpt</i>
                         </p>
+                      </div>
+                    </EuiFlexItem>
+                  </EuiFlexGroup>
+                  <EuiFlexGroup justifyContent="spaceAround">
+                    <EuiFlexItem grow={false}>
+                      <div hidden={searchResultStore.searchHasHappened()}>
+                        <span className={"word-sphere"}></span>
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
