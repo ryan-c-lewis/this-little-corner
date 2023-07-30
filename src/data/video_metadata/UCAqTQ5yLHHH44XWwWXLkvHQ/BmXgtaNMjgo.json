@@ -1,0 +1,1887 @@
+{
+ "video_id": "BmXgtaNMjgo",
+ "channel_id": "UCAqTQ5yLHHH44XWwWXLkvHQ",
+ "channel_name": "Grizwald Grim",
+ "title": "Lex Altman Longcut (loom-room extract)",
+ "url": "https://www.youtube.com/watch?v=BmXgtaNMjgo",
+ "date": "2023-03-27",
+ "description": "Virtually Not Alone Network Event\n\nA Pneumonic Extraction of  @lexfridman  367 with Sam Altman of Open AI \nFine Distillate:  /watch?v=XMPZjrieEMI\nFull Shebang:   /watch?v=L_Guz73e6fw\n\nShadow Cabal Energy Transfer:  \nhttps://donate.stripe.com/fZebJuciu1xe1P2fYY\n\nShadow Cabal Goose Hoodie:\n https://www.etsy.com/au/listing/1340501337/there-is-no-agency-unisex-zipper-hoodie\n\nHowdy Rascal Baseball Tee:\nhttps://www.etsy.com/au/listing/1401078187/howdy-rascal-raglan-baseball-tee-34\n\nGoose & Rascal Artistry:\nhttps://mudhutillustration.com/shop/\n\nCheck out the Channel's Community Tab!\nThere's a Discord for people who don't hate: https://discord.gg/FGBtG7rM\n\nhttps://grimgriz.substack.com/\nhere too:\nhttps://grimgriz.medium.com/",
+ "duration": 821,
+ "transcript_parts": [
+  {
+   "text": "we stand on the precipice of fundamental",
+   "start": 1.26,
+   "duration": 4.98
+  },
+  {
+   "text": "societal transformation where soon",
+   "start": 4.08,
+   "duration": 5.16
+  },
+  {
+   "text": "nobody knows when but many including me",
+   "start": 6.24,
+   "duration": 5.7
+  },
+  {
+   "text": "believe it's within our lifetime the",
+   "start": 9.24,
+   "duration": 4.5
+  },
+  {
+   "text": "collective intelligence of the human",
+   "start": 11.94,
+   "duration": 5.4
+  },
+  {
+   "text": "species begins to pale in comparison by",
+   "start": 13.74,
+   "duration": 6.02
+  },
+  {
+   "text": "many orders of magnitude to the general",
+   "start": 17.34,
+   "duration": 5.76
+  },
+  {
+   "text": "superintelligence in the AI systems we",
+   "start": 19.76,
+   "duration": 5.32
+  },
+  {
+   "text": "build and deploy",
+   "start": 23.1,
+   "duration": 4.14
+  },
+  {
+   "text": "at scale",
+   "start": 25.08,
+   "duration": 6.119
+  },
+  {
+   "text": "this is both exciting and terrifying we",
+   "start": 27.24,
+   "duration": 6.36
+  },
+  {
+   "text": "staff is how we take some human feedback",
+   "start": 31.199,
+   "duration": 5.04
+  },
+  {
+   "text": "the simplest version of this is show two",
+   "start": 33.6,
+   "duration": 5.16
+  },
+  {
+   "text": "outputs ask which one is better than the",
+   "start": 36.239,
+   "duration": 4.861
+  },
+  {
+   "text": "other uh which one the human Raiders",
+   "start": 38.76,
+   "duration": 4.68
+  },
+  {
+   "text": "prefer and then feed that back into the",
+   "start": 41.1,
+   "duration": 4.32
+  },
+  {
+   "text": "model with reinforcement learning and",
+   "start": 43.44,
+   "duration": 4.74
+  },
+  {
+   "text": "that process works remarkably well",
+   "start": 45.42,
+   "duration": 4.86
+  },
+  {
+   "text": "within my opinion remarkably little data",
+   "start": 48.18,
+   "duration": 5.039
+  },
+  {
+   "text": "to make the model you're more useful so",
+   "start": 50.28,
+   "duration": 6.299
+  },
+  {
+   "text": "rlhf is how we align the model to what",
+   "start": 53.219,
+   "duration": 6.541
+  },
+  {
+   "text": "humans want it to do so there's a giant",
+   "start": 56.579,
+   "duration": 5.64
+  },
+  {
+   "text": "language model that's trained in a giant",
+   "start": 59.76,
+   "duration": 4.259
+  },
+  {
+   "text": "data set to create this kind of",
+   "start": 62.219,
+   "duration": 3.481
+  },
+  {
+   "text": "background wisdom knowledge that's",
+   "start": 64.019,
+   "duration": 3.78
+  },
+  {
+   "text": "contained within the internet",
+   "start": 65.7,
+   "duration": 3.56
+  },
+  {
+   "text": "and then",
+   "start": 67.799,
+   "duration": 4.5
+  },
+  {
+   "text": "somehow adding a little bit of human",
+   "start": 69.26,
+   "duration": 4.96
+  },
+  {
+   "text": "guidance on top of it through this",
+   "start": 72.299,
+   "duration": 3.18
+  },
+  {
+   "text": "process",
+   "start": 74.22,
+   "duration": 4.98
+  },
+  {
+   "text": "makes it seem so much more awesome",
+   "start": 75.479,
+   "duration": 5.401
+  },
+  {
+   "text": "maybe just because it's much easier to",
+   "start": 79.2,
+   "duration": 3.18
+  },
+  {
+   "text": "use it's much easier to get what you",
+   "start": 80.88,
+   "duration": 3.18
+  },
+  {
+   "text": "want you get it right more often the",
+   "start": 82.38,
+   "duration": 3.72
+  },
+  {
+   "text": "first time and ease of use matters a lot",
+   "start": 84.06,
+   "duration": 4.02
+  },
+  {
+   "text": "even if the bass capability was there",
+   "start": 86.1,
+   "duration": 3.059
+  },
+  {
+   "text": "before",
+   "start": 88.08,
+   "duration": 4.38
+  },
+  {
+   "text": "into one organized black box that is",
+   "start": 89.159,
+   "duration": 4.981
+  },
+  {
+   "text": "human wisdom",
+   "start": 92.46,
+   "duration": 4.08
+  },
+  {
+   "text": "what is that human knowledge let's say",
+   "start": 94.14,
+   "duration": 4.439
+  },
+  {
+   "text": "human knowledge",
+   "start": 96.54,
+   "duration": 4.32
+  },
+  {
+   "text": "it's a good difference",
+   "start": 98.579,
+   "duration": 4.441
+  },
+  {
+   "text": "is there a difference between knowledge",
+   "start": 100.86,
+   "duration": 4.14
+  },
+  {
+   "text": "those are those facts and there's wisdom",
+   "start": 103.02,
+   "duration": 4.44
+  },
+  {
+   "text": "and I feel like gpt4 can be also full of",
+   "start": 105.0,
+   "duration": 4.56
+  },
+  {
+   "text": "wisdom what's the leap from Fast to",
+   "start": 107.46,
+   "duration": 3.6
+  },
+  {
+   "text": "wisdom you know a funny thing about the",
+   "start": 109.56,
+   "duration": 3.96
+  },
+  {
+   "text": "way we're training these models is",
+   "start": 111.06,
+   "duration": 5.76
+  },
+  {
+   "text": "I suspect too much of the like",
+   "start": 113.52,
+   "duration": 4.8
+  },
+  {
+   "text": "processing power for lack of a better",
+   "start": 116.82,
+   "duration": 4.56
+  },
+  {
+   "text": "word is going into",
+   "start": 118.32,
+   "duration": 4.979
+  },
+  {
+   "text": "using the model as a database instead of",
+   "start": 121.38,
+   "duration": 3.779
+  },
+  {
+   "text": "using the model as a reasoning engine",
+   "start": 123.299,
+   "duration": 3.481
+  },
+  {
+   "text": "yeah the thing that's really amazing",
+   "start": 125.159,
+   "duration": 3.6
+  },
+  {
+   "text": "about this system is that it for some",
+   "start": 126.78,
+   "duration": 3.6
+  },
+  {
+   "text": "definition of reasoning and we could of",
+   "start": 128.759,
+   "duration": 2.761
+  },
+  {
+   "text": "course quibble about it and there's",
+   "start": 130.38,
+   "duration": 2.64
+  },
+  {
+   "text": "plenty for which definitions this",
+   "start": 131.52,
+   "duration": 3.12
+  },
+  {
+   "text": "wouldn't be accurate but for some",
+   "start": 133.02,
+   "duration": 2.939
+  },
+  {
+   "text": "definition",
+   "start": 134.64,
+   "duration": 3.72
+  },
+  {
+   "text": "it can do some kind of reasoning and you",
+   "start": 135.959,
+   "duration": 4.5
+  },
+  {
+   "text": "know maybe like the scholars and and the",
+   "start": 138.36,
+   "duration": 3.239
+  },
+  {
+   "text": "experts and like the armchair",
+   "start": 140.459,
+   "duration": 3.241
+  },
+  {
+   "text": "quarterbacks on Twitter would say no it",
+   "start": 141.599,
+   "duration": 3.541
+  },
+  {
+   "text": "can't you're misusing the word you're",
+   "start": 143.7,
+   "duration": 3.179
+  },
+  {
+   "text": "you know whatever whatever but I think",
+   "start": 145.14,
+   "duration": 3.12
+  },
+  {
+   "text": "most people have who have used this",
+   "start": 146.879,
+   "duration": 2.901
+  },
+  {
+   "text": "system would say okay",
+   "start": 148.26,
+   "duration": 3.9
+  },
+  {
+   "text": "because we think it is important for the",
+   "start": 149.78,
+   "duration": 4.48
+  },
+  {
+   "text": "world to get access to this early to",
+   "start": 152.16,
+   "duration": 3.48
+  },
+  {
+   "text": "shape the way it's going to be developed",
+   "start": 154.26,
+   "duration": 3.72
+  },
+  {
+   "text": "to help us find the good things and the",
+   "start": 155.64,
+   "duration": 4.26
+  },
+  {
+   "text": "bad things and every time we put out a",
+   "start": 157.98,
+   "duration": 3.24
+  },
+  {
+   "text": "new model and we just really felt this",
+   "start": 159.9,
+   "duration": 3.66
+  },
+  {
+   "text": "with gpd4 this week the collective",
+   "start": 161.22,
+   "duration": 4.26
+  },
+  {
+   "text": "intelligence and ability of the outside",
+   "start": 163.56,
+   "duration": 4.86
+  },
+  {
+   "text": "world helps us discover things we cannot",
+   "start": 165.48,
+   "duration": 3.96
+  },
+  {
+   "text": "imagine we could have never done",
+   "start": 168.42,
+   "duration": 2.099
+  },
+  {
+   "text": "internally",
+   "start": 169.44,
+   "duration": 3.72
+  },
+  {
+   "text": "and both like great things that the",
+   "start": 170.519,
+   "duration": 4.08
+  },
+  {
+   "text": "model can do new capabilities and real",
+   "start": 173.16,
+   "duration": 4.02
+  },
+  {
+   "text": "weaknesses we have to fix these and",
+   "start": 174.599,
+   "duration": 4.5
+  },
+  {
+   "text": "there's no one set of human values or",
+   "start": 177.18,
+   "duration": 3.66
+  },
+  {
+   "text": "there's no one set of right answers to",
+   "start": 179.099,
+   "duration": 3.241
+  },
+  {
+   "text": "human civilization",
+   "start": 180.84,
+   "duration": 3.06
+  },
+  {
+   "text": "so I think what's going to have to",
+   "start": 182.34,
+   "duration": 5.58
+  },
+  {
+   "text": "happen is we will need to agree on as a",
+   "start": 183.9,
+   "duration": 6.0
+  },
+  {
+   "text": "society on very broad bounds we'll only",
+   "start": 187.92,
+   "duration": 3.899
+  },
+  {
+   "text": "be able to agree on a very broad bounds",
+   "start": 189.9,
+   "duration": 4.32
+  },
+  {
+   "text": "of what these systems can do and then",
+   "start": 191.819,
+   "duration": 4.081
+  },
+  {
+   "text": "within those maybe different countries",
+   "start": 194.22,
+   "duration": 4.439
+  },
+  {
+   "text": "have different rlh F Tunes certainly",
+   "start": 195.9,
+   "duration": 4.38
+  },
+  {
+   "text": "individual users have very different",
+   "start": 198.659,
+   "duration": 2.821
+  },
+  {
+   "text": "preferences",
+   "start": 200.28,
+   "duration": 3.239
+  },
+  {
+   "text": "we launched this thing with gpt4 called",
+   "start": 201.48,
+   "duration": 5.28
+  },
+  {
+   "text": "the system message which is not rlhf but",
+   "start": 203.519,
+   "duration": 6.481
+  },
+  {
+   "text": "is a way to let users have a good degree",
+   "start": 206.76,
+   "duration": 7.44
+  },
+  {
+   "text": "of steerability over what they want and",
+   "start": 210.0,
+   "duration": 6.0
+  },
+  {
+   "text": "I think things like that will be",
+   "start": 214.2,
+   "duration": 3.72
+  },
+  {
+   "text": "important can you describes this the",
+   "start": 216.0,
+   "duration": 4.5
+  },
+  {
+   "text": "message and in general how you were able",
+   "start": 217.92,
+   "duration": 5.399
+  },
+  {
+   "text": "to make gpt4 more steerable",
+   "start": 220.5,
+   "duration": 3.959
+  },
+  {
+   "text": "foreign",
+   "start": 223.319,
+   "duration": 3.361
+  },
+  {
+   "text": "based on the interaction that the user",
+   "start": 224.459,
+   "duration": 3.84
+  },
+  {
+   "text": "can have with it which is one of his big",
+   "start": 226.68,
+   "duration": 3.419
+  },
+  {
+   "text": "really powerful things so the system",
+   "start": 228.299,
+   "duration": 5.16
+  },
+  {
+   "text": "message is a way to say uh you know hey",
+   "start": 230.099,
+   "duration": 6.92
+  },
+  {
+   "text": "model please pretend like you or please",
+   "start": 233.459,
+   "duration": 7.5
+  },
+  {
+   "text": "uh you know hey model please pretend",
+   "start": 237.019,
+   "duration": 7.421
+  },
+  {
+   "text": "like you or please only answer this",
+   "start": 240.959,
+   "duration": 6.601
+  },
+  {
+   "text": "message as if you were Shakespeare doing",
+   "start": 244.44,
+   "duration": 6.6
+  },
+  {
+   "text": "thing X or please only respond uh with",
+   "start": 247.56,
+   "duration": 5.099
+  },
+  {
+   "text": "Json no matter what was one of the",
+   "start": 251.04,
+   "duration": 3.72
+  },
+  {
+   "text": "examples from our blog post but you",
+   "start": 252.659,
+   "duration": 3.661
+  },
+  {
+   "text": "could also say any number of other",
+   "start": 254.76,
+   "duration": 5.52
+  },
+  {
+   "text": "things to that and then we",
+   "start": 256.32,
+   "duration": 8.28
+  },
+  {
+   "text": "we we tune gpt4 in a way to really treat",
+   "start": 260.28,
+   "duration": 5.76
+  },
+  {
+   "text": "the system message with a lot of",
+   "start": 264.6,
+   "duration": 2.46
+  },
+  {
+   "text": "authority",
+   "start": 266.04,
+   "duration": 3.24
+  },
+  {
+   "text": "I'm sure there's jail they'll always not",
+   "start": 267.06,
+   "duration": 3.419
+  },
+  {
+   "text": "always hopefully but for a long time",
+   "start": 269.28,
+   "duration": 2.88
+  },
+  {
+   "text": "there will be more jailbreaks and we'll",
+   "start": 270.479,
+   "duration": 3.961
+  },
+  {
+   "text": "keep sort of learning about those but we",
+   "start": 272.16,
+   "duration": 3.72
+  },
+  {
+   "text": "program we develop whatever you want to",
+   "start": 274.44,
+   "duration": 4.56
+  },
+  {
+   "text": "call it the model in such a way to learn",
+   "start": 275.88,
+   "duration": 4.5
+  },
+  {
+   "text": "that it's supposed to really use that",
+   "start": 279.0,
+   "duration": 3.96
+  },
+  {
+   "text": "system message breakdown there is some",
+   "start": 280.38,
+   "duration": 4.259
+  },
+  {
+   "text": "kind of deeply because it's trained on",
+   "start": 282.96,
+   "duration": 4.14
+  },
+  {
+   "text": "human data there's um it feels like it's",
+   "start": 284.639,
+   "duration": 5.28
+  },
+  {
+   "text": "a way to learn about ourselves by",
+   "start": 287.1,
+   "duration": 5.52
+  },
+  {
+   "text": "interacting with it some of it as the",
+   "start": 289.919,
+   "duration": 4.081
+  },
+  {
+   "text": "smart and smarter guess the more it",
+   "start": 292.62,
+   "duration": 2.639
+  },
+  {
+   "text": "represents",
+   "start": 294.0,
+   "duration": 3.419
+  },
+  {
+   "text": "the more it feels like another human in",
+   "start": 295.259,
+   "duration": 4.141
+  },
+  {
+   "text": "terms of um",
+   "start": 297.419,
+   "duration": 4.261
+  },
+  {
+   "text": "the kind of way you would phrase a",
+   "start": 299.4,
+   "duration": 4.62
+  },
+  {
+   "text": "prompt to get the kind of thing you want",
+   "start": 301.68,
+   "duration": 3.48
+  },
+  {
+   "text": "back",
+   "start": 304.02,
+   "duration": 2.94
+  },
+  {
+   "text": "and that's interesting because that is",
+   "start": 305.16,
+   "duration": 3.78
+  },
+  {
+   "text": "the art form as you collaborate with it",
+   "start": 306.96,
+   "duration": 4.44
+  },
+  {
+   "text": "as an assistant this becomes more",
+   "start": 308.94,
+   "duration": 4.74
+  },
+  {
+   "text": "relevant for now this is relevant",
+   "start": 311.4,
+   "duration": 3.66
+  },
+  {
+   "text": "everywhere but it's also very relevant",
+   "start": 313.68,
+   "duration": 4.2
+  },
+  {
+   "text": "for programming for example",
+   "start": 315.06,
+   "duration": 4.919
+  },
+  {
+   "text": "the first versions of these systems were",
+   "start": 317.88,
+   "duration": 3.42
+  },
+  {
+   "text": "sort of you know one shot you sort of",
+   "start": 319.979,
+   "duration": 2.701
+  },
+  {
+   "text": "you said what you wanted it wrote some",
+   "start": 321.3,
+   "duration": 3.839
+  },
+  {
+   "text": "code and that was it now you can have",
+   "start": 322.68,
+   "duration": 3.9
+  },
+  {
+   "text": "this back and forth dialogue where you",
+   "start": 325.139,
+   "duration": 3.06
+  },
+  {
+   "text": "can say no no I meant this or no no fix",
+   "start": 326.58,
+   "duration": 3.66
+  },
+  {
+   "text": "this bug or no no do this and then of",
+   "start": 328.199,
+   "duration": 3.301
+  },
+  {
+   "text": "course the next version is the system",
+   "start": 330.24,
+   "duration": 2.22
+  },
+  {
+   "text": "can",
+   "start": 331.5,
+   "duration": 3.479
+  },
+  {
+   "text": "debug more on its own and kind of try to",
+   "start": 332.46,
+   "duration": 4.019
+  },
+  {
+   "text": "like catch mistakes as it's making them",
+   "start": 334.979,
+   "duration": 5.94
+  },
+  {
+   "text": "but this idea of dialogue interfaces",
+   "start": 336.479,
+   "duration": 7.921
+  },
+  {
+   "text": "and iterating with the computer as a",
+   "start": 340.919,
+   "duration": 5.041
+  },
+  {
+   "text": "creative",
+   "start": 344.4,
+   "duration": 3.84
+  },
+  {
+   "text": "partner tool",
+   "start": 345.96,
+   "duration": 4.26
+  },
+  {
+   "text": "I think that's a really big deal there's",
+   "start": 348.24,
+   "duration": 3.06
+  },
+  {
+   "text": "a little bit of sleight of hand",
+   "start": 350.22,
+   "duration": 3.419
+  },
+  {
+   "text": "sometimes when people talk about",
+   "start": 351.3,
+   "duration": 4.2
+  },
+  {
+   "text": "aligning",
+   "start": 353.639,
+   "duration": 6.0
+  },
+  {
+   "text": "an AI to human preferences and values",
+   "start": 355.5,
+   "duration": 5.82
+  },
+  {
+   "text": "there's there's like a hidden asterisk",
+   "start": 359.639,
+   "duration": 3.721
+  },
+  {
+   "text": "which is the the values and preferences",
+   "start": 361.32,
+   "duration": 4.439
+  },
+  {
+   "text": "that I approve of right",
+   "start": 363.36,
+   "duration": 4.339
+  },
+  {
+   "text": "and",
+   "start": 365.759,
+   "duration": 5.341
+  },
+  {
+   "text": "navigating that tension of",
+   "start": 367.699,
+   "duration": 5.681
+  },
+  {
+   "text": "who gets to decide what the real limits",
+   "start": 371.1,
+   "duration": 3.3
+  },
+  {
+   "text": "are",
+   "start": 373.38,
+   "duration": 3.78
+  },
+  {
+   "text": "and how do we build",
+   "start": 374.4,
+   "duration": 5.28
+  },
+  {
+   "text": "a technology that is going to is going",
+   "start": 377.16,
+   "duration": 3.9
+  },
+  {
+   "text": "to have a huge impact to be super",
+   "start": 379.68,
+   "duration": 2.82
+  },
+  {
+   "text": "powerful",
+   "start": 381.06,
+   "duration": 4.919
+  },
+  {
+   "text": "and get the right balance between",
+   "start": 382.5,
+   "duration": 6.479
+  },
+  {
+   "text": "letting people have the system the AI",
+   "start": 385.979,
+   "duration": 4.801
+  },
+  {
+   "text": "that is the AI they want which will",
+   "start": 388.979,
+   "duration": 3.72
+  },
+  {
+   "text": "offend a lot of other people and that's",
+   "start": 390.78,
+   "duration": 5.16
+  },
+  {
+   "text": "okay but still draw the lines",
+   "start": 392.699,
+   "duration": 4.921
+  },
+  {
+   "text": "that we all agree have to be drawn",
+   "start": 395.94,
+   "duration": 3.9
+  },
+  {
+   "text": "somewhere",
+   "start": 397.62,
+   "duration": 5.34
+  },
+  {
+   "text": "the the level of",
+   "start": 399.84,
+   "duration": 5.579
+  },
+  {
+   "text": "the increase in quality of life that AI",
+   "start": 402.96,
+   "duration": 6.54
+  },
+  {
+   "text": "can deliver is extraordinary",
+   "start": 405.419,
+   "duration": 6.9
+  },
+  {
+   "text": "we can make the world amazing and we can",
+   "start": 409.5,
+   "duration": 4.68
+  },
+  {
+   "text": "make people's lives amazing we can cure",
+   "start": 412.319,
+   "duration": 3.901
+  },
+  {
+   "text": "diseases we can increase material wealth",
+   "start": 414.18,
+   "duration": 4.019
+  },
+  {
+   "text": "we can like help people be happier more",
+   "start": 416.22,
+   "duration": 5.419
+  },
+  {
+   "text": "fulfilled all of these sorts of things",
+   "start": 418.199,
+   "duration": 3.44
+  },
+  {
+   "text": "and then people are like oh well no one",
+   "start": 421.68,
+   "duration": 3.239
+  },
+  {
+   "text": "is going to work but",
+   "start": 423.3,
+   "duration": 3.54
+  },
+  {
+   "text": "people want",
+   "start": 424.919,
+   "duration": 4.56
+  },
+  {
+   "text": "status people want drama people want new",
+   "start": 426.84,
+   "duration": 4.38
+  },
+  {
+   "text": "things people want to create people want",
+   "start": 429.479,
+   "duration": 4.021
+  },
+  {
+   "text": "to like feel useful",
+   "start": 431.22,
+   "duration": 4.08
+  },
+  {
+   "text": "um people want to do all these things",
+   "start": 433.5,
+   "duration": 3.6
+  },
+  {
+   "text": "and we're just going to find new and",
+   "start": 435.3,
+   "duration": 3.899
+  },
+  {
+   "text": "different ways to do them even in a",
+   "start": 437.1,
+   "duration": 4.439
+  },
+  {
+   "text": "vastly better like unimaginably good",
+   "start": 439.199,
+   "duration": 4.5
+  },
+  {
+   "text": "standard of living world",
+   "start": 441.539,
+   "duration": 3.72
+  },
+  {
+   "text": "um",
+   "start": 443.699,
+   "duration": 5.4
+  },
+  {
+   "text": "but you know my personal beliefs",
+   "start": 445.259,
+   "duration": 6.241
+  },
+  {
+   "text": "Consciousness is if",
+   "start": 449.099,
+   "duration": 5.641
+  },
+  {
+   "text": "something very strange is going on",
+   "start": 451.5,
+   "duration": 4.8
+  },
+  {
+   "text": "say that",
+   "start": 454.74,
+   "duration": 2.64
+  },
+  {
+   "text": "um do you think it's attached to",
+   "start": 456.3,
+   "duration": 3.6
+  },
+  {
+   "text": "particular medium of our of the human",
+   "start": 457.38,
+   "duration": 4.5
+  },
+  {
+   "text": "brain do you think an AI can be",
+   "start": 459.9,
+   "duration": 3.66
+  },
+  {
+   "text": "conscious",
+   "start": 461.88,
+   "duration": 4.56
+  },
+  {
+   "text": "I'm certainly willing to believe that",
+   "start": 463.56,
+   "duration": 4.68
+  },
+  {
+   "text": "Consciousness is somehow the fundamental",
+   "start": 466.44,
+   "duration": 3.06
+  },
+  {
+   "text": "substrate and we're all just in the",
+   "start": 468.24,
+   "duration": 2.88
+  },
+  {
+   "text": "dream or the simulation or whatever I",
+   "start": 469.5,
+   "duration": 4.56
+  },
+  {
+   "text": "think it's interesting how much sort of",
+   "start": 471.12,
+   "duration": 4.859
+  },
+  {
+   "text": "the Silicon Valley religion of the",
+   "start": 474.06,
+   "duration": 4.139
+  },
+  {
+   "text": "simulation has gotten close to like",
+   "start": 475.979,
+   "duration": 5.22
+  },
+  {
+   "text": "Brahman and how little space there is",
+   "start": 478.199,
+   "duration": 4.141
+  },
+  {
+   "text": "between them",
+   "start": 481.199,
+   "duration": 3.06
+  },
+  {
+   "text": "but from these very different directions",
+   "start": 482.34,
+   "duration": 3.9
+  },
+  {
+   "text": "so like maybe that's what's going on",
+   "start": 484.259,
+   "duration": 4.741
+  },
+  {
+   "text": "but if if it is like physical reality as",
+   "start": 486.24,
+   "duration": 4.079
+  },
+  {
+   "text": "we",
+   "start": 489.0,
+   "duration": 3.419
+  },
+  {
+   "text": "understand it and all of the rules of",
+   "start": 490.319,
+   "duration": 4.201
+  },
+  {
+   "text": "the game are what we think they are then",
+   "start": 492.419,
+   "duration": 3.84
+  },
+  {
+   "text": "then there's something I still think",
+   "start": 494.52,
+   "duration": 3.179
+  },
+  {
+   "text": "it's something very strange",
+   "start": 496.259,
+   "duration": 3.481
+  },
+  {
+   "text": "we know if like on Twitter we were",
+   "start": 497.699,
+   "duration": 4.68
+  },
+  {
+   "text": "mostly having we know it we know if like",
+   "start": 499.74,
+   "duration": 5.6
+  },
+  {
+   "text": "on Twitter we were mostly having like",
+   "start": 502.379,
+   "duration": 6.301
+  },
+  {
+   "text": "llms direct the",
+   "start": 505.34,
+   "duration": 5.74
+  },
+  {
+   "text": "whatever's flowing through that hive",
+   "start": 508.68,
+   "duration": 3.84
+  },
+  {
+   "text": "mind",
+   "start": 511.08,
+   "duration": 4.379
+  },
+  {
+   "text": "yeah on Twitter and then perhaps Beyond",
+   "start": 512.52,
+   "duration": 4.92
+  },
+  {
+   "text": "and then as on Twitter so everywhere",
+   "start": 515.459,
+   "duration": 3.661
+  },
+  {
+   "text": "else eventually",
+   "start": 517.44,
+   "duration": 4.8
+  },
+  {
+   "text": "yeah how would we know my statement is",
+   "start": 519.12,
+   "duration": 4.68
+  },
+  {
+   "text": "we wouldn't",
+   "start": 522.24,
+   "duration": 4.2
+  },
+  {
+   "text": "and that's a real Danger",
+   "start": 523.8,
+   "duration": 4.56
+  },
+  {
+   "text": "how do you prevent that danger I think",
+   "start": 526.44,
+   "duration": 5.399
+  },
+  {
+   "text": "there's a lot of things you can try",
+   "start": 528.36,
+   "duration": 6.96
+  },
+  {
+   "text": "um but at this point it is a certainty",
+   "start": 531.839,
+   "duration": 6.301
+  },
+  {
+   "text": "there are soon going to be a lot of",
+   "start": 535.32,
+   "duration": 5.22
+  },
+  {
+   "text": "capable open source llms with very few",
+   "start": 538.14,
+   "duration": 5.4
+  },
+  {
+   "text": "To None no safety controls on them",
+   "start": 540.54,
+   "duration": 6.06
+  },
+  {
+   "text": "and so",
+   "start": 543.54,
+   "duration": 4.859
+  },
+  {
+   "text": "you can try with regulatory approaches",
+   "start": 546.6,
+   "duration": 4.26
+  },
+  {
+   "text": "you can try with using more powerful AIS",
+   "start": 548.399,
+   "duration": 5.041
+  },
+  {
+   "text": "to detect this stuff happening I'd like",
+   "start": 550.86,
+   "duration": 4.02
+  },
+  {
+   "text": "us to start trying a lot of things very",
+   "start": 553.44,
+   "duration": 3.079
+  },
+  {
+   "text": "soon How would",
+   "start": 554.88,
+   "duration": 5.16
+  },
+  {
+   "text": "companies but already I think people are",
+   "start": 556.519,
+   "duration": 5.26
+  },
+  {
+   "text": "as they see",
+   "start": 560.04,
+   "duration": 3.72
+  },
+  {
+   "text": "the rate of progress",
+   "start": 561.779,
+   "duration": 4.141
+  },
+  {
+   "text": "already people are grappling with what's",
+   "start": 563.76,
+   "duration": 4.019
+  },
+  {
+   "text": "at stake here and I think the better",
+   "start": 565.92,
+   "duration": 4.14
+  },
+  {
+   "text": "angels are going to win out",
+   "start": 567.779,
+   "duration": 3.721
+  },
+  {
+   "text": "can you elaborate on that the better",
+   "start": 570.06,
+   "duration": 3.66
+  },
+  {
+   "text": "angios of individuals the individuals",
+   "start": 571.5,
+   "duration": 4.68
+  },
+  {
+   "text": "within the companies but you know the",
+   "start": 573.72,
+   "duration": 4.679
+  },
+  {
+   "text": "incentives of capitalism to create and",
+   "start": 576.18,
+   "duration": 4.92
+  },
+  {
+   "text": "capture unlimited value",
+   "start": 578.399,
+   "duration": 5.94
+  },
+  {
+   "text": "I'm a little afraid of but again no I",
+   "start": 581.1,
+   "duration": 4.5
+  },
+  {
+   "text": "think no one wants to destroy the world",
+   "start": 584.339,
+   "duration": 2.821
+  },
+  {
+   "text": "no one except saying like today I want",
+   "start": 585.6,
+   "duration": 3.72
+  },
+  {
+   "text": "to destroy the world so we've got the",
+   "start": 587.16,
+   "duration": 4.26
+  },
+  {
+   "text": "Malik problem on the other hand we've",
+   "start": 589.32,
+   "duration": 3.42
+  },
+  {
+   "text": "got people who are very aware of that",
+   "start": 591.42,
+   "duration": 2.88
+  },
+  {
+   "text": "and I think a lot of healthy",
+   "start": 592.74,
+   "duration": 3.48
+  },
+  {
+   "text": "conversation about how can we",
+   "start": 594.3,
+   "duration": 4.68
+  },
+  {
+   "text": "collaborate to minimize",
+   "start": 596.22,
+   "duration": 5.58
+  },
+  {
+   "text": "some of these very scary downsides",
+   "start": 598.98,
+   "duration": 5.94
+  },
+  {
+   "text": "I think people at open AI feel the",
+   "start": 601.8,
+   "duration": 4.62
+  },
+  {
+   "text": "weight of responsibility of what we're",
+   "start": 604.92,
+   "duration": 4.38
+  },
+  {
+   "text": "doing and yeah it would be nice if like",
+   "start": 606.42,
+   "duration": 4.859
+  },
+  {
+   "text": "you know journalists were nicer to us",
+   "start": 609.3,
+   "duration": 3.78
+  },
+  {
+   "text": "and Twitter trolls gave us more benefit",
+   "start": 611.279,
+   "duration": 4.381
+  },
+  {
+   "text": "of the doubt but like",
+   "start": 613.08,
+   "duration": 4.439
+  },
+  {
+   "text": "I think we have a lot of resolve in what",
+   "start": 615.66,
+   "duration": 3.54
+  },
+  {
+   "text": "we're doing and why",
+   "start": 617.519,
+   "duration": 4.621
+  },
+  {
+   "text": "and the importance of it",
+   "start": 619.2,
+   "duration": 4.86
+  },
+  {
+   "text": "but I really would love and I ask this",
+   "start": 622.14,
+   "duration": 3.12
+  },
+  {
+   "text": "like of a lot of people not just if",
+   "start": 624.06,
+   "duration": 2.76
+  },
+  {
+   "text": "cameras rolling like any feedback you've",
+   "start": 625.26,
+   "duration": 3.12
+  },
+  {
+   "text": "got for how we can be doing better we're",
+   "start": 626.82,
+   "duration": 3.54
+  },
+  {
+   "text": "in uncharted waters here talking to",
+   "start": 628.38,
+   "duration": 3.66
+  },
+  {
+   "text": "smart people is how we figure out what",
+   "start": 630.36,
+   "duration": 3.659
+  },
+  {
+   "text": "to do better",
+   "start": 632.04,
+   "duration": 4.979
+  },
+  {
+   "text": "he was visibly very hurt by that and",
+   "start": 634.019,
+   "duration": 4.5
+  },
+  {
+   "text": "said",
+   "start": 637.019,
+   "duration": 3.241
+  },
+  {
+   "text": "you know those guys are heroes of mine",
+   "start": 638.519,
+   "duration": 4.38
+  },
+  {
+   "text": "and I sucks and I wish they would see",
+   "start": 640.26,
+   "duration": 4.56
+  },
+  {
+   "text": "how hard we're trying",
+   "start": 642.899,
+   "duration": 3.721
+  },
+  {
+   "text": "um I definitely grew up with Elon as a",
+   "start": 644.82,
+   "duration": 3.12
+  },
+  {
+   "text": "hero of mine",
+   "start": 646.62,
+   "duration": 2.279
+  },
+  {
+   "text": "um",
+   "start": 647.94,
+   "duration": 2.88
+  },
+  {
+   "text": "You know despite him being a jerk on",
+   "start": 648.899,
+   "duration": 3.781
+  },
+  {
+   "text": "Twitter or whatever I'm happy he exists",
+   "start": 650.82,
+   "duration": 2.82
+  },
+  {
+   "text": "in the world",
+   "start": 652.68,
+   "duration": 2.399
+  },
+  {
+   "text": "but",
+   "start": 653.64,
+   "duration": 4.759
+  },
+  {
+   "text": "I wish he would",
+   "start": 655.079,
+   "duration": 3.32
+  },
+  {
+   "text": "do more to look at the hard work we're",
+   "start": 658.92,
+   "duration": 4.32
+  },
+  {
+   "text": "doing to get this stuff right",
+   "start": 661.26,
+   "duration": 4.319
+  },
+  {
+   "text": "a little bit more love",
+   "start": 663.24,
+   "duration": 4.62
+  },
+  {
+   "text": "what do you admire in the Name of Love a",
+   "start": 665.579,
+   "duration": 3.781
+  },
+  {
+   "text": "body almost",
+   "start": 667.86,
+   "duration": 5.24
+  },
+  {
+   "text": "I mean so much right like he has",
+   "start": 669.36,
+   "duration": 3.74
+  },
+  {
+   "text": "he has driven the world forward in",
+   "start": 673.38,
+   "duration": 4.74
+  },
+  {
+   "text": "important ways I think we will get to",
+   "start": 675.839,
+   "duration": 5.281
+  },
+  {
+   "text": "electric vehicles much faster than we",
+   "start": 678.12,
+   "duration": 4.44
+  },
+  {
+   "text": "would have if he didn't exist I think",
+   "start": 681.12,
+   "duration": 3.06
+  },
+  {
+   "text": "we'll get to space much faster than we",
+   "start": 682.56,
+   "duration": 3.48
+  },
+  {
+   "text": "would have if he didn't exist",
+   "start": 684.18,
+   "duration": 3.42
+  },
+  {
+   "text": "and",
+   "start": 686.04,
+   "duration": 3.479
+  },
+  {
+   "text": "as a sort of like",
+   "start": 687.6,
+   "duration": 4.32
+  },
+  {
+   "text": "citizen of the world I'm very",
+   "start": 689.519,
+   "duration": 3.781
+  },
+  {
+   "text": "appreciative of that",
+   "start": 691.92,
+   "duration": 3.479
+  },
+  {
+   "text": "these systems will",
+   "start": 693.3,
+   "duration": 3.3
+  },
+  {
+   "text": "make",
+   "start": 695.399,
+   "duration": 3.12
+  },
+  {
+   "text": "a lot of jobs just go away every",
+   "start": 696.6,
+   "duration": 4.32
+  },
+  {
+   "text": "technological Revolution does they will",
+   "start": 698.519,
+   "duration": 4.921
+  },
+  {
+   "text": "enhance many jobs and make them much",
+   "start": 700.92,
+   "duration": 4.919
+  },
+  {
+   "text": "better much more fun much higher paid",
+   "start": 703.44,
+   "duration": 4.44
+  },
+  {
+   "text": "and",
+   "start": 705.839,
+   "duration": 3.601
+  },
+  {
+   "text": "and they'll create new jobs that are",
+   "start": 707.88,
+   "duration": 3.12
+  },
+  {
+   "text": "difficult for us to imagine even if",
+   "start": 709.44,
+   "duration": 2.76
+  },
+  {
+   "text": "we're starting to see the first glimpses",
+   "start": 711.0,
+   "duration": 3.54
+  },
+  {
+   "text": "of them but",
+   "start": 712.2,
+   "duration": 4.5
+  },
+  {
+   "text": "um I heard someone last week talking",
+   "start": 714.54,
+   "duration": 6.6
+  },
+  {
+   "text": "about gbt4 saying that you know man uh",
+   "start": 716.7,
+   "duration": 7.199
+  },
+  {
+   "text": "the Dignity of work is just such a huge",
+   "start": 721.14,
+   "duration": 5.58
+  },
+  {
+   "text": "deal we've really got to worry like even",
+   "start": 723.899,
+   "duration": 4.141
+  },
+  {
+   "text": "people who think they don't like their",
+   "start": 726.72,
+   "duration": 3.42
+  },
+  {
+   "text": "jobs they really need them it's really",
+   "start": 728.04,
+   "duration": 4.5
+  },
+  {
+   "text": "important to them into society",
+   "start": 730.14,
+   "duration": 4.8
+  },
+  {
+   "text": "and also can you believe how awful it is",
+   "start": 732.54,
+   "duration": 3.72
+  },
+  {
+   "text": "that France is trying to raise the",
+   "start": 734.94,
+   "duration": 3.6
+  },
+  {
+   "text": "retirement age",
+   "start": 736.26,
+   "duration": 5.4
+  },
+  {
+   "text": "and I think we as a society are confused",
+   "start": 738.54,
+   "duration": 4.68
+  },
+  {
+   "text": "about whether we want to work more or",
+   "start": 741.66,
+   "duration": 3.0
+  },
+  {
+   "text": "work less",
+   "start": 743.22,
+   "duration": 3.299
+  },
+  {
+   "text": "and certainly about whether most people",
+   "start": 744.66,
+   "duration": 3.6
+  },
+  {
+   "text": "like their jobs and get value out of",
+   "start": 746.519,
+   "duration": 3.661
+  },
+  {
+   "text": "their jobs or not some people do I love",
+   "start": 748.26,
+   "duration": 3.96
+  },
+  {
+   "text": "my job I suspect you do too",
+   "start": 750.18,
+   "duration": 5.04
+  },
+  {
+   "text": "we believe in a very high bar for the",
+   "start": 752.22,
+   "duration": 4.26
+  },
+  {
+   "text": "people on the team",
+   "start": 755.22,
+   "duration": 3.9
+  },
+  {
+   "text": "we",
+   "start": 756.48,
+   "duration": 4.5
+  },
+  {
+   "text": "work hard",
+   "start": 759.12,
+   "duration": 3.659
+  },
+  {
+   "text": "which you know you're not even like",
+   "start": 760.98,
+   "duration": 4.2
+  },
+  {
+   "text": "supposed to say anymore or something",
+   "start": 762.779,
+   "duration": 7.021
+  },
+  {
+   "text": "um we give a huge amount of trust and",
+   "start": 765.18,
+   "duration": 6.779
+  },
+  {
+   "text": "autonomy and authority to individual",
+   "start": 769.8,
+   "duration": 3.24
+  },
+  {
+   "text": "people",
+   "start": 771.959,
+   "duration": 3.12
+  },
+  {
+   "text": "and we try to hold each other to very",
+   "start": 773.04,
+   "duration": 3.66
+  },
+  {
+   "text": "high standards",
+   "start": 775.079,
+   "duration": 4.2
+  },
+  {
+   "text": "and",
+   "start": 776.7,
+   "duration": 4.62
+  },
+  {
+   "text": "you know there's a process which we can",
+   "start": 779.279,
+   "duration": 3.0
+  },
+  {
+   "text": "talk about but it won't be that",
+   "start": 781.32,
+   "duration": 2.1
+  },
+  {
+   "text": "Illuminating",
+   "start": 782.279,
+   "duration": 3.541
+  },
+  {
+   "text": "I think it's those other things that",
+   "start": 783.42,
+   "duration": 4.979
+  },
+  {
+   "text": "make us able to ship at a high velocity",
+   "start": 785.82,
+   "duration": 4.62
+  },
+  {
+   "text": "like most people in the company weren't",
+   "start": 788.399,
+   "duration": 3.901
+  },
+  {
+   "text": "really excited to work super hard and",
+   "start": 790.44,
+   "duration": 3.48
+  },
+  {
+   "text": "collaborate well on gpd4 and thought",
+   "start": 792.3,
+   "duration": 3.9
+  },
+  {
+   "text": "other stuff was more important there'd",
+   "start": 793.92,
+   "duration": 3.84
+  },
+  {
+   "text": "be very little I or anybody else could",
+   "start": 796.2,
+   "duration": 3.24
+  },
+  {
+   "text": "do to make it happen",
+   "start": 797.76,
+   "duration": 3.06
+  },
+  {
+   "text": "but",
+   "start": 799.44,
+   "duration": 3.959
+  },
+  {
+   "text": "we spend a lot of time figuring out what",
+   "start": 800.82,
+   "duration": 4.86
+  },
+  {
+   "text": "to do getting on the same page about why",
+   "start": 803.399,
+   "duration": 3.481
+  },
+  {
+   "text": "we're doing something",
+   "start": 805.68,
+   "duration": 3.839
+  },
+  {
+   "text": "and then how to divide it up and all",
+   "start": 806.88,
+   "duration": 3.69
+  },
+  {
+   "text": "coordinate together",
+   "start": 809.519,
+   "duration": 13.27
+  },
+  {
+   "text": "[Music]",
+   "start": 810.57,
+   "duration": 12.219
+  }
+ ]
+}
