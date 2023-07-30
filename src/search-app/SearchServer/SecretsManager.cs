@@ -14,7 +14,7 @@ namespace SearchServer
 
         public string GetSecret(string name)
         {
-            return Environment.GetEnvironmentVariable(name);
+            return Environment.GetEnvironmentVariable(name, EnvironmentVariableTarget.Machine);
         }
     }
 }

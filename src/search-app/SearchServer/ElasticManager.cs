@@ -217,5 +217,10 @@ namespace SearchServer
                     .Match(m => m.Field(f => f.video_id).Query(videoId))));
             return response.Documents.Any() ? response.Documents.First() : null;
         }
+
+        public void Index(SearchResultItemElasticMapping mapping)
+        {
+            _client.IndexDocument(mapping);
+        }
     }
 }

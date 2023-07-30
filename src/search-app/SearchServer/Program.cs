@@ -6,12 +6,13 @@ namespace SearchServer
     {
         static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
+            //YoutubeManager.IndexEveryHour();
+            
+            IWebHost host = new WebHostBuilder()
                 .UseKestrel()
                 .UseUrls("http://*:80")
                 .UseStartup<Startup>()
                 .Build();
-
             host.Run();
         }
     }

@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework;
 
 namespace SearchServer
 {
@@ -7,7 +8,9 @@ namespace SearchServer
         public static void Log(string msg)
         {
             // TODO: send this to google analytics or whatever. for now I just want to see if/how people are using this
-            Console.WriteLine($"{DateTime.Now:s} - " + msg);
+            string output = $"{DateTime.Now:s} - {msg}";
+            Console.WriteLine(output);
+            TestContext.Progress.WriteLine(output);
         }
     }
 }
