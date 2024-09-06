@@ -15,7 +15,7 @@ namespace SearchServer
     public class YoutubeManager
     {
         private const int CONSECUTIVE_ALREADY_INDEXED_MAX = 5;
-        private const int CONSECUTIVE_ERROR_MAX = 5;
+        private const int CONSECUTIVE_ERROR_MAX = 30;
 
         private readonly bool _reindexAll;
         private readonly string _youtubeApiKey;
@@ -128,7 +128,15 @@ namespace SearchServer
                     return IndexResult.WasAlreadyIndexed;
 
                 using var youTubeTranscriptApi = new YouTubeTranscriptApi();
-                List<TranscriptItem> transcriptParts = youTubeTranscriptApi.GetTranscript(videoId).ToList();
+                List<TranscriptItem> transcriptParts;
+                try
+                {
+                    transcriptParts = youTubeTranscriptApi.GetTranscript(videoId).ToList();
+                }
+                catch (Exception e) when (e.Message.Contains("Subtitles are disabled for this video"))
+                {
+                    transcriptParts = new List<TranscriptItem>();
+                }
                 var mapping = new SearchResultItemElasticMapping
                 {
                     video_id = videoId,
@@ -138,10 +146,10 @@ namespace SearchServer
                     url = $"https://www.youtube.com/watch?v={videoId}",
                     date = playlistItem.Snippet.PublishedAtDateTimeOffset.Value.DateTime,
                     description = playlistItem.Snippet.Description,
-                    duration = transcriptParts.Last().Start + transcriptParts.Last().Duration,
+                    duration = transcriptParts.Any() ? transcriptParts.Last().Start + transcriptParts.Last().Duration : -1,
                     transcript_full = string.Join(" ", transcriptParts.Select(x => x.Text)),
                     transcript_parts = transcriptParts.Select(x => new TranscriptPart
-                        { duration = x.Duration, start = x.Start, text = x.Text }).ToList(),
+                        {duration = x.Duration, start = x.Start, text = x.Text}).ToList(),
                 };
 
                 ElasticManager.Instance.Index(mapping);

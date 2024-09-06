@@ -59,14 +59,6 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
         let items = this.props.appState.topics;
         myTags.push(items[Math.floor(Math.random()*items.length)]);
       }
-      // @ts-ignore
-      TagCloud('.word-sphere', myTags, {
-        radius: 175,
-        maxSpeed: 'normal',
-        initSpeed: 'normal',
-        direction: 135,
-        keep: false
-      });
     };
   }
 
@@ -256,13 +248,8 @@ export default class SearchPage extends React.Component<ISearchPageProps, {}> {
                           <br/>
                           <i>channel(peterson, pageau, pvk) chat gpt</i>
                         </p>
-                      </div>
-                    </EuiFlexItem>
-                  </EuiFlexGroup>
-                  <EuiFlexGroup justifyContent="spaceAround">
-                    <EuiFlexItem grow={false}>
-                      <div hidden={searchResultStore.searchHasHappened()}>
-                        <span className={"word-sphere"}></span>
+                        <div style={{'height': '20px'}}></div>
+                        <h2>I (Ryan) am no longer going to maintain this site as of January 2025. It will go offline and no longer be available. The site is open source, and I am happy to hand off the domain if somebody else is wanting to continue maintaining it. I will NOT be involved in helping with that, aside from answering MINIMAL questions (i.e. I am not going to teach you how to set up a server, teach you how to read code, or anything like that.) There's no beef or drama, and it's not because I hate TLC or anything like that. I just want to free up resources and be more focused on my personal life. Reach out to me on Discord if you plan to maintain it.</h2>
                       </div>
                     </EuiFlexItem>
                   </EuiFlexGroup>
